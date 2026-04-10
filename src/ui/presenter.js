@@ -12,6 +12,7 @@ import {
 } from "./modules/pdf-render.js";
 import { createTimer } from "./modules/timer.js";
 import { createNotesEditor } from "./modules/notes-editor.js";
+import { wireImportExport } from "./modules/import-export.js";
 
 export { initAudience } from "./audience.js";
 
@@ -71,45 +72,16 @@ export async function initPresenter() {
   }
 
   // ---- Import / export ----
-  const exportBtn = document.getElementById("export-notes");
-  const loadBtn = document.getElementById("load-notes");
-  const loadInput = document.getElementById("load-notes-input");
-  const actionStatus = document.getElementById("notes-action-status");
-
-  function setActionStatus(text, level) {
-    actionStatus.classList.remove("ok", "error");
-    if (level) actionStatus.classList.add(level);
-    actionStatus.textContent = text || "";
-    if (text) {
-      setTimeout(() => {
-        if (actionStatus.textContent === text) setActionStatus("");
-      }, 3000);
-    }
-  }
-
-  exportBtn.addEventListener("click", async () => {
-    try {
-      await editor.flushPending();
-      const res = await fetch("/notes.json");
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const text = await res.text();
-      const blob = new Blob([text], { type: "application/json" });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      const stamp = new Date().toISOString().replace(/[:.]/g, "-").slice(0, 19);
-      a.href = url;
-      a.download = `speaker-notes-${stamp}.json`;
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-      URL.revokeObjectURL(url);
-      setActionStatus("Exported", "ok");
-    } catch (err) {
-      setActionStatus(`Export failed: ${err.message || err}`, "error");
-    }
+  wireImportExport({
+    exportBtn: document.getElementById("export-notes"),
+    loadBtn: document.getElementById("load-notes"),
+    loadInput: document.getElementById("load-notes-input"),
+    statusEl: document.getElementById("notes-action-status"),
+    config,
+    notesCache: notes,
+    flushPending: editor.flushPending,
+    onLoaded: () => editor.loadForSlide(currentSlide),
   });
-
-  loadBtn.addEventListener("click", () => loadInput.click());
 
   // ---- Audio recording ----
   const recordStartBtn = document.getElementById("record-start");
@@ -471,46 +443,6 @@ export async function initPresenter() {
   recordDialogAbandon.addEventListener("click", closeRecordingDialog);
 
   updateRecordUI("idle");
-
-  loadInput.addEventListener("change", async () => {
-    const file = loadInput.files && loadInput.files[0];
-    if (!file) return;
-    try {
-      const text = await file.text();
-      let parsed;
-      try {
-        parsed = JSON.parse(text);
-      } catch {
-        throw new Error("file is not valid JSON");
-      }
-      if (!parsed || typeof parsed !== "object" || !parsed.notes) {
-        throw new Error("missing 'notes' field");
-      }
-      // Flush any in-flight edit for the current slide so it isn't overwritten
-      // by the old in-memory state after reload.
-      await editor.flushPending();
-      const res = await fetch("/api/notes-file", {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: text,
-      });
-      if (!res.ok) {
-        const errBody = await res.json().catch(() => ({}));
-        throw new Error(errBody.error || `HTTP ${res.status}`);
-      }
-      // Refresh local cache and reload the current slide's note into the editor.
-      const refreshed = await loadNotes(config.notesUrl);
-      const newNotes = (refreshed && refreshed.notes) || {};
-      for (const key of Object.keys(notes)) delete notes[key];
-      for (const [k, v] of Object.entries(newNotes)) notes[k] = v;
-      editor.loadForSlide(currentSlide);
-      setActionStatus(`Loaded (${Object.keys(newNotes).length} slides)`, "ok");
-    } catch (err) {
-      setActionStatus(`Load failed: ${err.message || err}`, "error");
-    } finally {
-      loadInput.value = "";
-    }
-  });
 
   function toggleFreeze() {
     frozen = !frozen;
