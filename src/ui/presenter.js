@@ -14,6 +14,7 @@ import { createTimer } from "./modules/timer.js";
 import { createNotesEditor } from "./modules/notes-editor.js";
 import { wireImportExport } from "./modules/import-export.js";
 import { createRecordingDialog } from "./modules/recording-dialog.js";
+import { createRecorder } from "./modules/recording.js";
 
 export { initAudience } from "./audience.js";
 
@@ -56,7 +57,7 @@ export async function initPresenter() {
     currentSlide = target;
     counter.textContent = `${currentSlide} / ${total}`;
     editor.loadForSlide(currentSlide);
-    if (slideChanged) noteSlideChangeForRecording(currentSlide);
+    if (slideChanged) recorder.onSlideChanged(currentSlide);
     await Promise.all([
       renderPage(pdf, currentSlide, currentCanvas),
       currentSlide < total
@@ -85,13 +86,6 @@ export async function initPresenter() {
   });
 
   // ---- Audio recording ----
-  const recordStartBtn = document.getElementById("record-start");
-  const recordPauseBtn = document.getElementById("record-pause");
-  const recordStopBtn = document.getElementById("record-stop");
-  const recordElapsedEl = document.getElementById("record-elapsed");
-  const recordLabelEl = document.getElementById("record-label");
-  const recordIndicator = document.getElementById("record-indicator");
-
   const dialog = createRecordingDialog({
     dialogEl: document.getElementById("record-dialog"),
     fileEl: document.getElementById("record-dialog-file"),
@@ -104,257 +98,17 @@ export async function initPresenter() {
     abandonBtn: document.getElementById("record-dialog-abandon"),
   });
 
-  let mediaRecorder = null;
-  let recordedChunks = [];
-  let recordingStartSlide = null;
-  let recordingStartedAtIso = null;
-  let recordingElapsedMs = 0;
-  let recordingLastTickAt = 0;
-  let recordingTickHandle = null;
-  let pendingRecording = null;
-  // Segment timeline: each item is {slide, fromMs, toMs?}.
-  // The last entry is the open segment (no toMs until closed).
-  let recordingSegments = [];
-
-  function currentElapsedMsPrecise() {
-    if (recordingTickHandle !== null) {
-      return recordingElapsedMs + (Date.now() - recordingLastTickAt);
-    }
-    return recordingElapsedMs;
-  }
-
-  function noteSlideChangeForRecording(newSlide) {
-    // Only track slide changes while actively recording — paused time is
-    // excluded so paused-nav doesn't pollute the timeline.
-    if (!mediaRecorder || mediaRecorder.state !== "recording") return;
-    const open = recordingSegments[recordingSegments.length - 1];
-    if (!open || open.slide === newSlide) return;
-    const at = currentElapsedMsPrecise();
-    open.toMs = at;
-    recordingSegments.push({ slide: newSlide, fromMs: at });
-  }
-
-  function closeOpenSegment(at) {
-    const open = recordingSegments[recordingSegments.length - 1];
-    if (open && open.toMs === undefined) open.toMs = at;
-  }
-
-  function formatTimeMs(ms) {
-    const total = Math.max(0, Math.floor(ms / 1000));
-    const m = Math.floor(total / 60);
-    const s = total % 60;
-    return `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
-  }
-
-  function buildRecordingMetadata(rec) {
-    return {
-      audio: rec.filename,
-      pdf: config.pdfName || null,
-      startedAt: recordingStartedAtIso,
-      durationMs: rec.durationMs,
-      duration: formatTimeMs(rec.durationMs),
-      mimeType: rec.blob.type || "",
-      segments: rec.segments.map((seg) => ({
-        slide: seg.slide,
-        fromMs: seg.fromMs,
-        toMs: seg.toMs,
-        from: formatTimeMs(seg.fromMs),
-        to: formatTimeMs(seg.toMs),
-      })),
-    };
-  }
-
-  function pickRecorderMime() {
-    if (typeof MediaRecorder === "undefined") return null;
-    const candidates = [
-      "audio/webm;codecs=opus",
-      "audio/webm",
-      "audio/ogg;codecs=opus",
-      "audio/mp4",
-      "audio/mpeg",
-    ];
-    for (const c of candidates) {
-      try {
-        if (MediaRecorder.isTypeSupported(c)) return c;
-      } catch {
-        /* ignore */
-      }
-    }
-    return null;
-  }
-
-  function formatRecordElapsed(ms) {
-    const totalSec = Math.max(0, Math.floor(ms / 1000));
-    const m = Math.floor(totalSec / 60);
-    const s = totalSec % 60;
-    return `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
-  }
-
-  function pdfBaseName() {
-    const name = config.pdfName || "slides.pdf";
-    return name.replace(/\.pdf$/i, "");
-  }
-
-  function timestampNow() {
-    const d = new Date();
-    const p = (n) => String(n).padStart(2, "0");
-    return (
-      d.getFullYear().toString() +
-      p(d.getMonth() + 1) +
-      p(d.getDate()) +
-      p(d.getHours()) +
-      p(d.getMinutes()) +
-      p(d.getSeconds())
-    );
-  }
-
-  function buildRecordingFilename(startSlide, endSlide) {
-    // Honour the user-requested .mp3 naming convention regardless of the
-    // actual container produced by MediaRecorder — browsers cannot emit MP3
-    // natively. See README for details on transcoding if needed.
-    return `${pdfBaseName()}_${startSlide}_to_${endSlide}_at_${timestampNow()}.mp3`;
-  }
-
-  function updateRecordUI(state) {
-    // state: 'idle' | 'recording' | 'paused'
-    if (state === "recording") {
-      recordStartBtn.disabled = true;
-      recordPauseBtn.disabled = false;
-      recordPauseBtn.textContent = "Pause";
-      recordStopBtn.disabled = false;
-      recordIndicator.classList.add("active");
-      recordIndicator.classList.remove("paused");
-      recordLabelEl.textContent = "Recording";
-    } else if (state === "paused") {
-      recordStartBtn.disabled = true;
-      recordPauseBtn.disabled = false;
-      recordPauseBtn.textContent = "Resume";
-      recordStopBtn.disabled = false;
-      recordIndicator.classList.remove("active");
-      recordIndicator.classList.add("paused");
-      recordLabelEl.textContent = "Paused";
-    } else {
-      recordStartBtn.disabled = false;
-      recordPauseBtn.disabled = true;
-      recordPauseBtn.textContent = "Pause";
-      recordStopBtn.disabled = true;
-      recordIndicator.classList.remove("active", "paused");
-      recordLabelEl.textContent = "Audio";
-      recordElapsedEl.textContent = "00:00";
-    }
-  }
-
-  function startRecordingTicker() {
-    recordingLastTickAt = Date.now();
-    if (recordingTickHandle !== null) return;
-    recordingTickHandle = setInterval(() => {
-      const now = Date.now();
-      recordingElapsedMs += now - recordingLastTickAt;
-      recordingLastTickAt = now;
-      recordElapsedEl.textContent = formatRecordElapsed(recordingElapsedMs);
-    }, 250);
-  }
-
-  function stopRecordingTicker() {
-    if (recordingTickHandle !== null) {
-      clearInterval(recordingTickHandle);
-      recordingTickHandle = null;
-    }
-  }
-
-  async function startRecording() {
-    if (mediaRecorder) return;
-    let stream;
-    try {
-      stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-    } catch (err) {
-      recordLabelEl.textContent = "Mic denied";
-      console.error("Microphone access denied:", err);
-      return;
-    }
-    const mime = pickRecorderMime();
-    try {
-      mediaRecorder = mime
-        ? new MediaRecorder(stream, { mimeType: mime })
-        : new MediaRecorder(stream);
-    } catch (err) {
-      stream.getTracks().forEach((t) => t.stop());
-      recordLabelEl.textContent = "Unsupported";
-      console.error("MediaRecorder init failed:", err);
-      return;
-    }
-    recordedChunks = [];
-    recordingElapsedMs = 0;
-    recordingStartSlide = currentSlide;
-    recordingStartedAtIso = new Date().toISOString();
-    recordingSegments = [{ slide: currentSlide, fromMs: 0 }];
-
-    mediaRecorder.addEventListener("dataavailable", (ev) => {
-      if (ev.data && ev.data.size > 0) recordedChunks.push(ev.data);
-    });
-    mediaRecorder.addEventListener("stop", () => {
-      stream.getTracks().forEach((t) => t.stop());
-      const finalMs = currentElapsedMsPrecise();
-      stopRecordingTicker();
-      closeOpenSegment(finalMs);
-      const endSlide = currentSlide;
-      const blob = new Blob(recordedChunks, {
-        type: mediaRecorder.mimeType || mime || "audio/webm",
-      });
-      const filename = buildRecordingFilename(recordingStartSlide, endSlide);
-      pendingRecording = {
-        blob,
-        startSlide: recordingStartSlide,
-        endSlide,
-        durationMs: finalMs,
-        filename,
-        metaFilename: filename.replace(/\.[^./\\]+$/, "") + ".meta.json",
-        segments: recordingSegments.slice(),
-      };
-      pendingRecording.metadata = buildRecordingMetadata(pendingRecording);
-      mediaRecorder = null;
-      recordedChunks = [];
-      recordingSegments = [];
-      updateRecordUI("idle");
-      dialog.open(pendingRecording);
-    });
-
-    mediaRecorder.start(1000);
-    updateRecordUI("recording");
-    startRecordingTicker();
-  }
-
-  function togglePauseRecording() {
-    if (!mediaRecorder) return;
-    if (mediaRecorder.state === "recording") {
-      // Close the open segment at the pause boundary so toMs reflects audio
-      // time up to the pause; we'll re-open a fresh segment on resume.
-      const at = currentElapsedMsPrecise();
-      closeOpenSegment(at);
-      mediaRecorder.pause();
-      stopRecordingTicker();
-      updateRecordUI("paused");
-    } else if (mediaRecorder.state === "paused") {
-      mediaRecorder.resume();
-      startRecordingTicker();
-      // Re-open a segment on whichever slide is currently on screen — if the
-      // presenter navigated during the pause, this captures the new slide.
-      const at = currentElapsedMsPrecise();
-      recordingSegments.push({ slide: currentSlide, fromMs: at });
-      updateRecordUI("recording");
-    }
-  }
-
-  function stopRecording() {
-    if (!mediaRecorder) return;
-    if (mediaRecorder.state !== "inactive") mediaRecorder.stop();
-  }
-
-  recordStartBtn.addEventListener("click", () => void startRecording());
-  recordPauseBtn.addEventListener("click", togglePauseRecording);
-  recordStopBtn.addEventListener("click", stopRecording);
-
-  updateRecordUI("idle");
+  const recorder = createRecorder({
+    config,
+    getCurrentSlide: () => currentSlide,
+    dialog,
+    startBtn: document.getElementById("record-start"),
+    pauseBtn: document.getElementById("record-pause"),
+    stopBtn: document.getElementById("record-stop"),
+    elapsedEl: document.getElementById("record-elapsed"),
+    labelEl: document.getElementById("record-label"),
+    indicatorEl: document.getElementById("record-indicator"),
+  });
 
   function toggleFreeze() {
     frozen = !frozen;
