@@ -1,29 +1,45 @@
 {
   "name": "pdf-presenter",
   "version": "1.0.0",
-  "description": "Lightweight CLI that serves PDF slides in the browser with a full presenter mode (speaker notes, next slide preview, timer).",
+  "description": "Lightweight CLI that serves PDF slides in the browser with a full presenter mode (speaker notes, next slide preview, timer, audio recording).",
   "type": "module",
   "bin": {
     "pdf-presenter": "./dist/pdf-presenter.js"
   },
   "files": [
     "dist/",
-    "src/ui/"
+    "src/ui/",
+    "README.md",
+    "README-zhtw.md",
+    "LICENSE"
   ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm run typecheck && pnpm run build",
     "test": "vitest run",
     "test:watch": "vitest"
   },
   "keywords": [
     "pdf",
     "presenter",
-    "slides",
     "presentation",
+    "slides",
+    "slideshow",
+    "speaker-notes",
     "cli"
   ],
+  "author": "Hsiehting Lin <hsieh.ting.lin@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/htlin222/pdf-presenter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htlin222/pdf-presenter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/htlin222/pdf-presenter/issues"
+  },
   "engines": {
     "node": ">=18"
   },
