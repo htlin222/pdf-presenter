@@ -4,18 +4,9 @@ import { readFile, writeFile, rename, mkdir } from "node:fs/promises";
 import { basename, extname, join, dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createRequire } from "node:module";
+import type { ServerConfig, StartedServer, NotesDoc } from "./server/types.js";
 
-export interface ServerConfig {
-  pdfPath: string;
-  notesPath: string;
-  port: number;
-  timerMinutes?: number;
-}
-
-export interface StartedServer {
-  port: number;
-  stop: () => Promise<void>;
-}
+export type { ServerConfig, StartedServer } from "./server/types.js";
 
 const MIME: Record<string, string> = {
   ".html": "text/html; charset=utf-8",
@@ -100,16 +91,6 @@ function streamFile(
 
 function contentTypeFor(filePath: string): string {
   return MIME[extname(filePath).toLowerCase()] ?? "application/octet-stream";
-}
-
-interface NotesDoc {
-  meta: {
-    pdf?: string;
-    totalSlides?: number;
-    generatedAt?: string;
-    generator?: string;
-  };
-  notes: Record<string, { hint?: string; note?: string }>;
 }
 
 const MAX_JSON_BODY = 1_000_000; // 1 MB cap on edit payloads
