@@ -47,8 +47,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Upgrade npm to latest (best OIDC Trusted Publisher support)
-        run: npm install -g npm@latest
+      - name: Show npm version (needs >= 9.5 for Trusted Publisher OIDC)
+        run: npm --version
 
       - name: Type-check
         run: pnpm exec tsc --noEmit
