@@ -2,7 +2,7 @@ import { createServer, IncomingMessage, ServerResponse } from "node:http";
 import { existsSync } from "node:fs";
 import { writeFile, mkdir } from "node:fs/promises";
 import { join, dirname, resolve } from "node:path";
-import type { ServerConfig, StartedServer, NotesDoc } from "./server/types.js";
+import type { ServerConfig, StartedServer } from "./server/types.js";
 import {
   MIME,
   EMPTY_NOTES,
@@ -16,10 +16,8 @@ import {
 } from "./server/http-utils.js";
 import { resolveUiDir, resolvePdfjsDir } from "./server/paths.js";
 import { renderHtml } from "./server/html-render.js";
-import {
-  validateNotesDoc,
-  createNotesUpdater,
-} from "./server/notes-store.js";
+import { createNotesUpdater } from "./server/notes-store.js";
+import { handleNotesRoutes } from "./server/routes/notes.js";
 
 export type { ServerConfig, StartedServer } from "./server/types.js";
 
@@ -152,92 +150,13 @@ export async function startServer(config: ServerConfig): Promise<StartedServer> 
         return;
       }
 
-      if (pathname === "/api/notes-file" && (method === "PUT" || method === "POST")) {
-        const body = (await readJsonBody(req)) as Partial<NotesDoc>;
-        const validation = validateNotesDoc(body);
-        if (!validation.ok) {
-          send(
-            res,
-            400,
-            JSON.stringify({ error: validation.error }),
-            MIME[".json"],
-          );
-          return;
-        }
-        const incoming = validation.doc;
-        await updateNotes(() => ({
-          meta: {
-            ...incoming.meta,
-            generator: incoming.meta.generator ?? "pdf-presenter",
-            lastEditedAt: new Date().toISOString(),
-          } as NotesDoc["meta"] & { lastEditedAt?: string },
-          notes: incoming.notes,
-        }));
-        send(
-          res,
-          200,
-          JSON.stringify({
-            ok: true,
-            slideCount: Object.keys(incoming.notes).length,
-          }),
-          MIME[".json"],
-        );
+      if (
+        (await handleNotesRoutes(req, res, url, {
+          notesPath: config.notesPath,
+          updateNotes,
+        })) === "handled"
+      )
         return;
-      }
-
-      if (pathname === "/api/notes" && (method === "PUT" || method === "POST")) {
-        const body = (await readJsonBody(req)) as {
-          slide?: unknown;
-          note?: unknown;
-        };
-        const slideRaw = body.slide;
-        const note = body.note;
-        const slideNum =
-          typeof slideRaw === "number"
-            ? slideRaw
-            : typeof slideRaw === "string"
-              ? Number.parseInt(slideRaw, 10)
-              : NaN;
-        if (!Number.isInteger(slideNum) || slideNum < 1) {
-          send(
-            res,
-            400,
-            JSON.stringify({ error: "slide must be a positive integer" }),
-            MIME[".json"],
-          );
-          return;
-        }
-        if (typeof note !== "string") {
-          send(
-            res,
-            400,
-            JSON.stringify({ error: "note must be a string" }),
-            MIME[".json"],
-          );
-          return;
-        }
-        const key = String(slideNum);
-        await updateNotes((doc) => {
-          const existing = doc.notes[key] ?? {};
-          const nextNotes: NotesDoc["notes"] = {
-            ...doc.notes,
-            [key]: { hint: existing.hint ?? "", note },
-          };
-          const nextMeta: NotesDoc["meta"] = {
-            generator: "pdf-presenter",
-            ...doc.meta,
-            lastEditedAt: new Date().toISOString(),
-          } as NotesDoc["meta"] & { lastEditedAt?: string };
-          return { meta: nextMeta, notes: nextNotes };
-        });
-        send(
-          res,
-          200,
-          JSON.stringify({ ok: true, slide: slideNum }),
-          MIME[".json"],
-        );
-        return;
-      }
 
       if (pathname === "/" || pathname === "/audience") {
         send(res, 200, audienceHtml, MIME[".html"]);
