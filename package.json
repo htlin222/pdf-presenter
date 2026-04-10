@@ -1,6 +1,6 @@
 {
   "name": "pdf-presenter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight CLI that serves PDF slides in the browser with a full presenter mode (speaker notes, next slide preview, timer, audio recording).",
   "type": "module",
   "bin": {

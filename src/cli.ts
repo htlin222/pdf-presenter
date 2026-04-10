@@ -5,6 +5,7 @@ import open from "open";
 import { generateNotesTemplate } from "./generate-notes.js";
 import { startServer } from "./server.js";
 import { findAvailablePort, notesPathFor, resolvePdfPath } from "./utils.js";
+import pkg from "../package.json" with { type: "json" };
 
 interface ServeOptions {
   port: string;
@@ -16,7 +17,7 @@ interface ServeOptions {
   force?: boolean;
 }
 
-const VERSION = "1.0.0";
+const VERSION: string = pkg.version;
 
 export async function runCli(argv: string[]): Promise<void> {
   const program = new Command();

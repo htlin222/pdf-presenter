@@ -1,6 +1,28 @@
 # pdf-presenter
 
-> 輕量級 CLI 工具，用瀏覽器播放 PDF 投影片，並提供完整的主講者模式 —— 包含講者備註、下一張預覽、計時器。不需要轉換 Markdown，也不需要原生相依套件。指向 PDF，就能開始。
+<p align="center">
+  <a href="https://www.npmjs.com/package/pdf-presenter"><img alt="npm version" src="https://img.shields.io/npm/v/pdf-presenter?color=cb3837&logo=npm&logoColor=white&label=npm"></a>
+  <a href="https://www.npmjs.com/package/pdf-presenter"><img alt="npm downloads" src="https://img.shields.io/npm/dm/pdf-presenter?color=cb3837&logo=npm&logoColor=white"></a>
+  <a href="https://github.com/htlin222/pdf-presenter/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/npm/l/pdf-presenter?color=blue"></a>
+  <a href="https://nodejs.org"><img alt="node" src="https://img.shields.io/node/v/pdf-presenter?color=5fa04e&logo=node.js&logoColor=white"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/htlin222/pdf-presenter/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/htlin222/pdf-presenter/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://github.com/htlin222/pdf-presenter/actions/workflows/publish.yml"><img alt="Publish" src="https://github.com/htlin222/pdf-presenter/actions/workflows/publish.yml/badge.svg"></a>
+  <a href="https://github.com/htlin222/pdf-presenter/releases"><img alt="release" src="https://img.shields.io/github/v/release/htlin222/pdf-presenter?color=6f42c1&logo=github&logoColor=white"></a>
+  <a href="https://www.npmjs.com/package/pdf-presenter"><img alt="provenance" src="https://img.shields.io/badge/npm-provenance%20verified-2ea44f?logo=npm&logoColor=white"></a>
+</p>
+
+<p align="center">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5.x-3178c6?logo=typescript&logoColor=white">
+  <img alt="pnpm" src="https://img.shields.io/badge/pnpm-10-f69220?logo=pnpm&logoColor=white">
+  <img alt="tsup" src="https://img.shields.io/badge/bundler-tsup-ff4f64">
+  <img alt="pdf.js" src="https://img.shields.io/badge/pdf.js-4.x-e31e24">
+  <a href="https://github.com/htlin222/pdf-presenter/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/htlin222/pdf-presenter?style=social"></a>
+</p>
+
+> 輕量級 CLI 工具，用瀏覽器播放 PDF 投影片，並提供完整的主講者模式 —— 包含講者備註、下一張預覽、可暫停的計時器、帶有逐張時間軸的錄音，以及可調整的面板。不需要轉換 Markdown，也不需要原生相依套件。指向 PDF，就能開始。
 
 [English version →](./README.md)
 
