@@ -1,30 +1,23 @@
 import { createServer, IncomingMessage, ServerResponse } from "node:http";
-import { createReadStream, existsSync, statSync } from "node:fs";
+import { existsSync } from "node:fs";
 import { readFile, writeFile, rename, mkdir } from "node:fs/promises";
-import { basename, extname, join, dirname, resolve } from "node:path";
+import { basename, join, dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createRequire } from "node:module";
 import type { ServerConfig, StartedServer, NotesDoc } from "./server/types.js";
+import {
+  MIME,
+  EMPTY_NOTES,
+  send,
+  notFound,
+  streamFile,
+  contentTypeFor,
+  isSafeFilename,
+  readJsonBody,
+  readBinaryBody,
+} from "./server/http-utils.js";
 
 export type { ServerConfig, StartedServer } from "./server/types.js";
-
-const MIME: Record<string, string> = {
-  ".html": "text/html; charset=utf-8",
-  ".js": "application/javascript; charset=utf-8",
-  ".mjs": "application/javascript; charset=utf-8",
-  ".css": "text/css; charset=utf-8",
-  ".json": "application/json; charset=utf-8",
-  ".svg": "image/svg+xml",
-  ".png": "image/png",
-  ".jpg": "image/jpeg",
-  ".woff2": "font/woff2",
-};
-
-const EMPTY_NOTES = JSON.stringify(
-  { meta: { totalSlides: 0, generator: "pdf-presenter" }, notes: {} },
-  null,
-  2,
-);
 
 function resolveUiDir(): string {
   // When bundled, this file becomes dist/pdf-presenter.js.
@@ -45,105 +38,6 @@ function resolvePdfjsDir(): string {
   const require = createRequire(import.meta.url);
   const pkgJson = require.resolve("pdfjs-dist/package.json");
   return dirname(pkgJson);
-}
-
-function send(
-  res: ServerResponse,
-  status: number,
-  body: string | Buffer,
-  contentType = "text/plain; charset=utf-8",
-  extraHeaders: Record<string, string> = {},
-): void {
-  res.writeHead(status, {
-    "Content-Type": contentType,
-    "Cache-Control": "no-store",
-    ...extraHeaders,
-  });
-  res.end(body);
-}
-
-function notFound(res: ServerResponse): void {
-  send(res, 404, "Not Found");
-}
-
-function streamFile(
-  res: ServerResponse,
-  filePath: string,
-  contentType: string,
-): void {
-  try {
-    const st = statSync(filePath);
-    res.writeHead(200, {
-      "Content-Type": contentType,
-      "Content-Length": String(st.size),
-      "Cache-Control": "no-store",
-    });
-    const stream = createReadStream(filePath);
-    stream.on("error", () => {
-      if (!res.headersSent) notFound(res);
-      else res.end();
-    });
-    stream.pipe(res);
-  } catch {
-    notFound(res);
-  }
-}
-
-function contentTypeFor(filePath: string): string {
-  return MIME[extname(filePath).toLowerCase()] ?? "application/octet-stream";
-}
-
-const MAX_JSON_BODY = 1_000_000; // 1 MB cap on edit payloads
-const MAX_RECORDING_BODY = 500 * 1024 * 1024; // 500 MB cap on audio uploads
-
-function isSafeFilename(name: string): boolean {
-  if (name.length === 0 || name.length > 255) return false;
-  if (name.includes("/") || name.includes("\\") || name.includes("\0")) return false;
-  if (name === "." || name === "..") return false;
-  return true;
-}
-
-async function readBinaryBody(req: IncomingMessage): Promise<Buffer> {
-  return new Promise((resolveP, rejectP) => {
-    let size = 0;
-    const chunks: Buffer[] = [];
-    req.on("data", (chunk: Buffer) => {
-      size += chunk.length;
-      if (size > MAX_RECORDING_BODY) {
-        rejectP(new Error("recording exceeds 500 MB limit"));
-        req.destroy();
-        return;
-      }
-      chunks.push(chunk);
-    });
-    req.on("end", () => resolveP(Buffer.concat(chunks)));
-    req.on("error", rejectP);
-  });
-}
-
-async function readJsonBody(req: IncomingMessage): Promise<unknown> {
-  return new Promise((resolveP, rejectP) => {
-    let size = 0;
-    const chunks: Buffer[] = [];
-    req.on("data", (chunk: Buffer) => {
-      size += chunk.length;
-      if (size > MAX_JSON_BODY) {
-        rejectP(new Error("Request body too large"));
-        req.destroy();
-        return;
-      }
-      chunks.push(chunk);
-    });
-    req.on("end", () => {
-      try {
-        const raw = Buffer.concat(chunks).toString("utf8");
-        resolveP(raw.length === 0 ? {} : JSON.parse(raw));
-      } catch (err) {
-        rejectP(err);
-      }
-    });
-    req.on("error", rejectP);
-  });
 }
 
 function validateNotesDoc(
