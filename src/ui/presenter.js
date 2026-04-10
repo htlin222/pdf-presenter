@@ -13,6 +13,7 @@ import {
 import { createTimer } from "./modules/timer.js";
 import { createNotesEditor } from "./modules/notes-editor.js";
 import { wireImportExport } from "./modules/import-export.js";
+import { createRecordingDialog } from "./modules/recording-dialog.js";
 
 export { initAudience } from "./audience.js";
 
@@ -90,15 +91,18 @@ export async function initPresenter() {
   const recordElapsedEl = document.getElementById("record-elapsed");
   const recordLabelEl = document.getElementById("record-label");
   const recordIndicator = document.getElementById("record-indicator");
-  const recordDialog = document.getElementById("record-dialog");
-  const recordDialogFile = document.getElementById("record-dialog-file");
-  const recordDialogRange = document.getElementById("record-dialog-range");
-  const recordDialogDuration = document.getElementById("record-dialog-duration");
-  const recordDialogSize = document.getElementById("record-dialog-size");
-  const recordDialogSegments = document.getElementById("record-dialog-segments");
-  const recordDialogError = document.getElementById("record-dialog-error");
-  const recordDialogSave = document.getElementById("record-dialog-save");
-  const recordDialogAbandon = document.getElementById("record-dialog-abandon");
+
+  const dialog = createRecordingDialog({
+    dialogEl: document.getElementById("record-dialog"),
+    fileEl: document.getElementById("record-dialog-file"),
+    rangeEl: document.getElementById("record-dialog-range"),
+    durationEl: document.getElementById("record-dialog-duration"),
+    sizeEl: document.getElementById("record-dialog-size"),
+    segmentsEl: document.getElementById("record-dialog-segments"),
+    errorEl: document.getElementById("record-dialog-error"),
+    saveBtn: document.getElementById("record-dialog-save"),
+    abandonBtn: document.getElementById("record-dialog-abandon"),
+  });
 
   let mediaRecorder = null;
   let recordedChunks = [];
@@ -184,12 +188,6 @@ export async function initPresenter() {
     const m = Math.floor(totalSec / 60);
     const s = totalSec % 60;
     return `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
-  }
-
-  function formatBytes(n) {
-    if (n < 1024) return `${n} B`;
-    if (n < 1024 * 1024) return `${(n / 1024).toFixed(1)} KB`;
-    return `${(n / 1024 / 1024).toFixed(1)} MB`;
   }
 
   function pdfBaseName() {
@@ -313,11 +311,12 @@ export async function initPresenter() {
         metaFilename: filename.replace(/\.[^./\\]+$/, "") + ".meta.json",
         segments: recordingSegments.slice(),
       };
+      pendingRecording.metadata = buildRecordingMetadata(pendingRecording);
       mediaRecorder = null;
       recordedChunks = [];
       recordingSegments = [];
       updateRecordUI("idle");
-      openRecordingDialog(pendingRecording);
+      dialog.open(pendingRecording);
     });
 
     mediaRecorder.start(1000);
@@ -351,96 +350,9 @@ export async function initPresenter() {
     if (mediaRecorder.state !== "inactive") mediaRecorder.stop();
   }
 
-  function openRecordingDialog(rec) {
-    recordDialogFile.textContent = rec.filename;
-    recordDialogRange.textContent =
-      rec.startSlide === rec.endSlide
-        ? `slide ${rec.startSlide}`
-        : `slides ${rec.startSlide} → ${rec.endSlide}`;
-    recordDialogDuration.textContent = formatRecordElapsed(rec.durationMs);
-    recordDialogSize.textContent = formatBytes(rec.blob.size);
-    renderSegmentList(rec.segments);
-    recordDialogError.classList.add("hidden");
-    recordDialogError.textContent = "";
-    recordDialogSave.disabled = false;
-    recordDialogAbandon.disabled = false;
-    recordDialog.classList.remove("hidden");
-  }
-
-  function renderSegmentList(segments) {
-    recordDialogSegments.innerHTML = "";
-    for (const seg of segments) {
-      const li = document.createElement("li");
-      const slide = document.createElement("span");
-      slide.className = "seg-slide";
-      slide.textContent = `p.${seg.slide}`;
-      const range = document.createElement("span");
-      range.className = "seg-range";
-      range.textContent = `${formatTimeMs(seg.fromMs)} – ${formatTimeMs(seg.toMs)}`;
-      const dur = document.createElement("span");
-      dur.className = "seg-dur";
-      dur.textContent = formatTimeMs(seg.toMs - seg.fromMs);
-      li.appendChild(slide);
-      li.appendChild(range);
-      li.appendChild(dur);
-      recordDialogSegments.appendChild(li);
-    }
-  }
-
-  function closeRecordingDialog() {
-    recordDialog.classList.add("hidden");
-    pendingRecording = null;
-  }
-
-  async function saveRecording() {
-    if (!pendingRecording) return;
-    recordDialogSave.disabled = true;
-    recordDialogAbandon.disabled = true;
-    recordDialogError.classList.add("hidden");
-    try {
-      const audioRes = await fetch(
-        `/api/recording?filename=${encodeURIComponent(pendingRecording.filename)}`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": pendingRecording.blob.type || "application/octet-stream",
-          },
-          body: pendingRecording.blob,
-        },
-      );
-      if (!audioRes.ok) {
-        const errBody = await audioRes.json().catch(() => ({}));
-        throw new Error(errBody.error || `audio upload failed: HTTP ${audioRes.status}`);
-      }
-      const metadata = buildRecordingMetadata(pendingRecording);
-      const metaRes = await fetch(
-        `/api/recording-meta?filename=${encodeURIComponent(pendingRecording.metaFilename)}`,
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(metadata),
-        },
-      );
-      if (!metaRes.ok) {
-        const errBody = await metaRes.json().catch(() => ({}));
-        throw new Error(
-          `audio saved; metadata upload failed: ${errBody.error || `HTTP ${metaRes.status}`}`,
-        );
-      }
-      closeRecordingDialog();
-    } catch (err) {
-      recordDialogError.textContent = `Save failed: ${err.message || err}`;
-      recordDialogError.classList.remove("hidden");
-      recordDialogSave.disabled = false;
-      recordDialogAbandon.disabled = false;
-    }
-  }
-
   recordStartBtn.addEventListener("click", () => void startRecording());
   recordPauseBtn.addEventListener("click", togglePauseRecording);
   recordStopBtn.addEventListener("click", stopRecording);
-  recordDialogSave.addEventListener("click", () => void saveRecording());
-  recordDialogAbandon.addEventListener("click", closeRecordingDialog);
 
   updateRecordUI("idle");
 
