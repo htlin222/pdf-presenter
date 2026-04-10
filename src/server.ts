@@ -1,20 +1,12 @@
 import { createServer, IncomingMessage, ServerResponse } from "node:http";
-import { existsSync } from "node:fs";
-import { resolve } from "node:path";
 import type { ServerConfig, StartedServer } from "./server/types.js";
-import {
-  MIME,
-  EMPTY_NOTES,
-  send,
-  notFound,
-  streamFile,
-  contentTypeFor,
-} from "./server/http-utils.js";
+import { send, notFound } from "./server/http-utils.js";
 import { resolveUiDir, resolvePdfjsDir } from "./server/paths.js";
 import { renderHtml } from "./server/html-render.js";
 import { createNotesUpdater } from "./server/notes-store.js";
 import { handleNotesRoutes } from "./server/routes/notes.js";
 import { handleRecordingRoutes } from "./server/routes/recording.js";
+import { handleStaticRoutes } from "./server/routes/static.js";
 
 export type { ServerConfig, StartedServer } from "./server/types.js";
 
@@ -32,9 +24,8 @@ export async function startServer(config: ServerConfig): Promise<StartedServer> 
     res: ServerResponse,
   ): Promise<void> => {
     const url = new URL(req.url ?? "/", `http://localhost:${config.port}`);
-    const pathname = url.pathname;
-
     try {
+      // Ordering: recording (most specific prefixes) → notes → static catch-all.
       if (
         (await handleRecordingRoutes(req, res, url, {
           pdfPath: config.pdfPath,
@@ -50,58 +41,23 @@ export async function startServer(config: ServerConfig): Promise<StartedServer> 
       )
         return;
 
-      if (pathname === "/" || pathname === "/audience") {
-        send(res, 200, audienceHtml, MIME[".html"]);
+      if (
+        (await handleStaticRoutes(req, res, url, {
+          audienceHtml,
+          presenterHtml,
+          pdfPath: config.pdfPath,
+          notesPath: config.notesPath,
+          uiDir,
+          pdfjsDir,
+        })) === "handled"
+      )
         return;
-      }
-      if (pathname === "/presenter") {
-        send(res, 200, presenterHtml, MIME[".html"]);
-        return;
-      }
-      if (pathname === "/slides.pdf") {
-        streamFile(res, config.pdfPath, "application/pdf");
-        return;
-      }
-      if (pathname === "/notes.json") {
-        if (existsSync(config.notesPath)) {
-          streamFile(res, config.notesPath, MIME[".json"]);
-        } else {
-          send(res, 200, EMPTY_NOTES, MIME[".json"]);
-        }
-        return;
-      }
-      if (pathname.startsWith("/assets/pdfjs/")) {
-        const rel = pathname.slice("/assets/pdfjs/".length);
-        const safe = resolve(pdfjsDir, rel);
-        if (!safe.startsWith(pdfjsDir + "/") && safe !== pdfjsDir) {
-          send(res, 403, "Forbidden");
-          return;
-        }
-        if (!existsSync(safe)) {
-          notFound(res);
-          return;
-        }
-        streamFile(res, safe, contentTypeFor(safe));
-        return;
-      }
-      if (pathname.startsWith("/assets/")) {
-        const rel = pathname.slice("/assets/".length);
-        const safe = resolve(uiDir, rel);
-        if (!safe.startsWith(uiDir + "/") && safe !== uiDir) {
-          send(res, 403, "Forbidden");
-          return;
-        }
-        if (!existsSync(safe)) {
-          notFound(res);
-          return;
-        }
-        streamFile(res, safe, contentTypeFor(safe));
-        return;
-      }
+
       notFound(res);
     } catch (err) {
       const msg = err instanceof Error ? err.message : String(err);
-      send(res, 500, `Internal Server Error: ${msg}`);
+      if (!res.headersSent) send(res, 500, `Internal Server Error: ${msg}`);
+      else res.end();
     }
   };
 
