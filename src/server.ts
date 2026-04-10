@@ -1,7 +1,6 @@
 import { createServer, IncomingMessage, ServerResponse } from "node:http";
 import { existsSync } from "node:fs";
-import { writeFile, mkdir } from "node:fs/promises";
-import { join, dirname, resolve } from "node:path";
+import { resolve } from "node:path";
 import type { ServerConfig, StartedServer } from "./server/types.js";
 import {
   MIME,
@@ -10,14 +9,12 @@ import {
   notFound,
   streamFile,
   contentTypeFor,
-  isSafeFilename,
-  readJsonBody,
-  readBinaryBody,
 } from "./server/http-utils.js";
 import { resolveUiDir, resolvePdfjsDir } from "./server/paths.js";
 import { renderHtml } from "./server/html-render.js";
 import { createNotesUpdater } from "./server/notes-store.js";
 import { handleNotesRoutes } from "./server/routes/notes.js";
+import { handleRecordingRoutes } from "./server/routes/recording.js";
 
 export type { ServerConfig, StartedServer } from "./server/types.js";
 
@@ -36,119 +33,14 @@ export async function startServer(config: ServerConfig): Promise<StartedServer> 
   ): Promise<void> => {
     const url = new URL(req.url ?? "/", `http://localhost:${config.port}`);
     const pathname = url.pathname;
-    const method = req.method ?? "GET";
 
     try {
-      if (pathname === "/api/recording-meta" && method === "POST") {
-        const filenameParam = url.searchParams.get("filename");
-        if (!filenameParam) {
-          send(
-            res,
-            400,
-            JSON.stringify({ error: "filename query param required" }),
-            MIME[".json"],
-          );
-          return;
-        }
-        if (!isSafeFilename(filenameParam)) {
-          send(
-            res,
-            400,
-            JSON.stringify({ error: "invalid filename" }),
-            MIME[".json"],
-          );
-          return;
-        }
-        let body: unknown;
-        try {
-          body = await readJsonBody(req);
-        } catch (err) {
-          const msg = err instanceof Error ? err.message : String(err);
-          send(res, 400, JSON.stringify({ error: msg }), MIME[".json"]);
-          return;
-        }
-        if (!body || typeof body !== "object") {
-          send(
-            res,
-            400,
-            JSON.stringify({ error: "body must be a JSON object" }),
-            MIME[".json"],
-          );
-          return;
-        }
-        const pdfDir = dirname(config.pdfPath);
-        const outDir = join(pdfDir, "recordings");
-        await mkdir(outDir, { recursive: true });
-        const outPath = join(outDir, filenameParam);
-        const text = JSON.stringify(body, null, 2) + "\n";
-        await writeFile(outPath, text, "utf8");
-        send(
-          res,
-          200,
-          JSON.stringify({
-            ok: true,
-            path: outPath,
-            bytes: Buffer.byteLength(text),
-          }),
-          MIME[".json"],
-        );
+      if (
+        (await handleRecordingRoutes(req, res, url, {
+          pdfPath: config.pdfPath,
+        })) === "handled"
+      )
         return;
-      }
-
-      if (pathname === "/api/recording" && method === "POST") {
-        const filenameParam = url.searchParams.get("filename");
-        if (!filenameParam) {
-          send(
-            res,
-            400,
-            JSON.stringify({ error: "filename query param required" }),
-            MIME[".json"],
-          );
-          return;
-        }
-        if (!isSafeFilename(filenameParam)) {
-          send(
-            res,
-            400,
-            JSON.stringify({ error: "invalid filename" }),
-            MIME[".json"],
-          );
-          return;
-        }
-        let bytes: Buffer;
-        try {
-          bytes = await readBinaryBody(req);
-        } catch (err) {
-          const msg = err instanceof Error ? err.message : String(err);
-          send(res, 413, JSON.stringify({ error: msg }), MIME[".json"]);
-          return;
-        }
-        if (bytes.length === 0) {
-          send(
-            res,
-            400,
-            JSON.stringify({ error: "empty recording body" }),
-            MIME[".json"],
-          );
-          return;
-        }
-        const pdfDir = dirname(config.pdfPath);
-        const outDir = join(pdfDir, "recordings");
-        await mkdir(outDir, { recursive: true });
-        const outPath = join(outDir, filenameParam);
-        await writeFile(outPath, bytes);
-        send(
-          res,
-          200,
-          JSON.stringify({
-            ok: true,
-            path: outPath,
-            bytes: bytes.length,
-          }),
-          MIME[".json"],
-        );
-        return;
-      }
 
       if (
         (await handleNotesRoutes(req, res, url, {
