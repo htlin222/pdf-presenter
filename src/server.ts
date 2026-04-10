@@ -2,8 +2,6 @@ import { createServer, IncomingMessage, ServerResponse } from "node:http";
 import { existsSync } from "node:fs";
 import { readFile, writeFile, rename, mkdir } from "node:fs/promises";
 import { basename, join, dirname, resolve } from "node:path";
-import { fileURLToPath } from "node:url";
-import { createRequire } from "node:module";
 import type { ServerConfig, StartedServer, NotesDoc } from "./server/types.js";
 import {
   MIME,
@@ -16,29 +14,9 @@ import {
   readJsonBody,
   readBinaryBody,
 } from "./server/http-utils.js";
+import { resolveUiDir, resolvePdfjsDir } from "./server/paths.js";
 
 export type { ServerConfig, StartedServer } from "./server/types.js";
-
-function resolveUiDir(): string {
-  // When bundled, this file becomes dist/pdf-presenter.js.
-  // When running via tsx (dev/tests), this file is src/server.ts.
-  // In both cases, ../src/ui and ./ui resolve relative to siblings.
-  const here = dirname(fileURLToPath(import.meta.url));
-  const candidates = [
-    resolve(here, "../src/ui"), // published layout: dist/ → ../src/ui
-    resolve(here, "./ui"), // dev: src/ → ./ui
-  ];
-  for (const c of candidates) {
-    if (existsSync(c)) return c;
-  }
-  throw new Error(`Could not locate UI assets (looked in: ${candidates.join(", ")})`);
-}
-
-function resolvePdfjsDir(): string {
-  const require = createRequire(import.meta.url);
-  const pkgJson = require.resolve("pdfjs-dist/package.json");
-  return dirname(pkgJson);
-}
 
 function validateNotesDoc(
   raw: unknown,
@@ -147,8 +125,8 @@ async function renderHtml(
 }
 
 export async function startServer(config: ServerConfig): Promise<StartedServer> {
-  const uiDir = resolveUiDir();
-  const pdfjsDir = resolvePdfjsDir();
+  const uiDir = resolveUiDir(import.meta.url);
+  const pdfjsDir = resolvePdfjsDir(import.meta.url);
 
   const audienceHtml = await renderHtml(uiDir, "audience.html", config);
   const presenterHtml = await renderHtml(uiDir, "presenter.html", config);
