@@ -9,33 +9,57 @@
   </head>
   <body class="presenter">
     <div class="layout">
-      <section class="current">
-        <header class="panel-title">Current</header>
-        <div class="canvas-wrap">
-          <canvas id="current-canvas"></canvas>
-        </div>
-      </section>
-      <section class="next">
-        <header class="panel-title">Next</header>
-        <div class="canvas-wrap">
-          <canvas id="next-canvas"></canvas>
-        </div>
-      </section>
-      <section class="notes">
-        <header class="panel-title">
-          <span>Speaker Notes</span>
-          <span id="notes-status" class="notes-status" aria-live="polite"></span>
-          <span id="notes-hint" class="notes-hint"></span>
-        </header>
-        <textarea
-          id="notes-body"
-          class="notes-body"
-          spellcheck="false"
-          autocomplete="off"
-          placeholder="Type notes for this slide… (saved automatically)"
-        ></textarea>
-      </section>
-      <section class="meta">
+      <div class="col col-left">
+        <section class="current">
+          <header class="panel-title">Current</header>
+          <div class="canvas-wrap">
+            <canvas id="current-canvas"></canvas>
+          </div>
+        </section>
+        <div
+          class="divider-row"
+          id="divider-row-left"
+          role="separator"
+          aria-orientation="horizontal"
+          aria-label="Resize left column rows"
+        ></div>
+        <section class="notes">
+          <header class="panel-title">
+            <span>Speaker Notes</span>
+            <span id="notes-status" class="notes-status" aria-live="polite"></span>
+            <span id="notes-hint" class="notes-hint"></span>
+          </header>
+          <textarea
+            id="notes-body"
+            class="notes-body"
+            spellcheck="false"
+            autocomplete="off"
+            placeholder="Type notes for this slide… (saved automatically)"
+          ></textarea>
+        </section>
+      </div>
+      <div
+        class="divider-col"
+        id="divider-col"
+        role="separator"
+        aria-orientation="vertical"
+        aria-label="Resize columns"
+      ></div>
+      <div class="col col-right">
+        <section class="next">
+          <header class="panel-title">Next</header>
+          <div class="canvas-wrap">
+            <canvas id="next-canvas"></canvas>
+          </div>
+        </section>
+        <div
+          class="divider-row"
+          id="divider-row-right"
+          role="separator"
+          aria-orientation="horizontal"
+          aria-label="Resize right column rows"
+        ></div>
+        <section class="meta">
         <div class="timer-row">
           <button
             type="button"
@@ -83,20 +107,7 @@
           <span>R</span> reset timer
         </div>
       </section>
-      <div
-        class="divider-col"
-        id="divider-col"
-        role="separator"
-        aria-orientation="vertical"
-        aria-label="Resize columns"
-      ></div>
-      <div
-        class="divider-row"
-        id="divider-row"
-        role="separator"
-        aria-orientation="horizontal"
-        aria-label="Resize rows"
-      ></div>
+      </div>
     </div>
 
     <div id="record-dialog" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="record-dialog-title">

@@ -88,33 +88,49 @@ body.presenter {
   width: 100vw;
   padding: 12px;
   grid-template-columns: var(--col-left, 66%) 10px 1fr;
-  grid-template-rows: var(--row-top, 60%) 10px 1fr;
-  /* no gap — the 10px divider tracks are the visual separator */
+  grid-template-rows: 1fr;
+  /* no gap — the 10px divider column is the visual separator */
+}
+
+/* Each column is its own nested grid so the horizontal split is independent
+   of the other column.  The row split is driven by a CSS var scoped to the
+   column element, which resizable-layout.js writes on mouse-drag. */
+.col {
+  display: grid;
+  min-width: 0;
+  min-height: 0;
+}
+.col-left {
+  grid-column: 1;
+  grid-template-rows: var(--row-top-left, 60%) 10px 1fr;
+}
+.col-right {
+  grid-column: 3;
+  grid-template-rows: var(--row-top-right, 60%) 10px 1fr;
 }
 
 .current {
-  grid-column: 1;
   grid-row: 1;
 }
 .next {
-  grid-column: 3;
   grid-row: 1;
 }
 .notes {
-  grid-column: 1;
   grid-row: 3;
 }
 .meta {
-  grid-column: 3;
   grid-row: 3;
 }
 
 /* Draggable split handles. Visual is a small green grip centered in the
    10px divider track; the track itself extends across the full row/column
-   so the hit area is the entire line, not just the grip. */
+   so the hit area is the entire line, not just the grip. The col divider
+   sits in the OUTER grid, the row dividers sit INSIDE their respective
+   .col-left / .col-right nested grids — they never overlap, so no
+   z-index gymnastics are needed. */
 .divider-col {
   grid-column: 2;
-  grid-row: 1 / -1;
+  grid-row: 1;
   cursor: col-resize;
   position: relative;
   background: transparent;
@@ -138,12 +154,10 @@ body.presenter {
 }
 
 .divider-row {
-  grid-column: 1 / -1;
   grid-row: 2;
   cursor: row-resize;
   position: relative;
   background: transparent;
-  z-index: 1; /* wins pointer events over divider-col at the intersection */
 }
 .divider-row::before {
   content: "";

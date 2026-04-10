@@ -1,9 +1,14 @@
-// Draggable vertical and horizontal split handles for the presenter layout.
-// Drives two CSS custom properties on layoutEl:
-//   --col-left : percentage width of the left column (current + notes)
-//   --row-top  : percentage height of the top row (current + next)
-// Both are clamped to [MIN_PCT, MAX_PCT] so neither panel can fully collapse.
-// Persisted to localStorage so the user's split survives refreshes.
+// Draggable split handles for the presenter layout.
+//
+// Three independent splits:
+//   --col-left       : on layoutEl        — width of the left column
+//   --row-top-left   : on leftColEl       — height of the current-slide row
+//                                            inside the left column
+//   --row-top-right  : on rightColEl      — height of the next-slide row
+//                                            inside the right column
+//
+// Each is clamped to [MIN_PCT, MAX_PCT] so no pane can fully collapse,
+// and persisted to localStorage so the split survives refreshes.
 
 const STORAGE_KEY = "pdf-presenter-layout";
 const MIN_PCT = 20;
@@ -21,10 +26,17 @@ function loadPersisted() {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return null;
     const parsed = JSON.parse(raw);
+    if (!parsed || typeof parsed !== "object") return null;
     const col = clampPct(Number(parsed.colLeftPct));
-    const row = clampPct(Number(parsed.rowTopPct));
-    if (col === null || row === null) return null;
-    return { colLeftPct: col, rowTopPct: row };
+    // Migrate an older single `rowTopPct` value into both left and right.
+    const legacyRow = clampPct(Number(parsed.rowTopPct));
+    const left = clampPct(Number(parsed.rowTopLeftPct));
+    const right = clampPct(Number(parsed.rowTopRightPct));
+    return {
+      colLeftPct: col ?? DEFAULT_COL_LEFT_PCT,
+      rowTopLeftPct: left ?? legacyRow ?? DEFAULT_ROW_TOP_PCT,
+      rowTopRightPct: right ?? legacyRow ?? DEFAULT_ROW_TOP_PCT,
+    };
   } catch {
     return null;
   }
@@ -33,73 +45,102 @@ function loadPersisted() {
 export function createResizableLayout({
   layoutEl,
   colDividerEl,
-  rowDividerEl,
+  leftColEl,
+  rowDividerLeftEl,
+  rightColEl,
+  rowDividerRightEl,
   onResize,
 }) {
   const persisted = loadPersisted();
   let colLeftPct = persisted?.colLeftPct ?? DEFAULT_COL_LEFT_PCT;
-  let rowTopPct = persisted?.rowTopPct ?? DEFAULT_ROW_TOP_PCT;
+  let rowTopLeftPct = persisted?.rowTopLeftPct ?? DEFAULT_ROW_TOP_PCT;
+  let rowTopRightPct = persisted?.rowTopRightPct ?? DEFAULT_ROW_TOP_PCT;
 
   function apply() {
     layoutEl.style.setProperty("--col-left", `${colLeftPct}%`);
-    layoutEl.style.setProperty("--row-top", `${rowTopPct}%`);
+    leftColEl.style.setProperty("--row-top-left", `${rowTopLeftPct}%`);
+    rightColEl.style.setProperty("--row-top-right", `${rowTopRightPct}%`);
   }
 
   function persist() {
     try {
       localStorage.setItem(
         STORAGE_KEY,
-        JSON.stringify({ colLeftPct, rowTopPct }),
+        JSON.stringify({ colLeftPct, rowTopLeftPct, rowTopRightPct }),
       );
     } catch {
       /* storage disabled / quota — ignore */
     }
   }
 
-  function beginDrag(ev, axis) {
-    ev.preventDefault();
-    const rect = layoutEl.getBoundingClientRect();
-    const startCol = colLeftPct;
-    const startRow = rowTopPct;
-    const startX = ev.clientX;
-    const startY = ev.clientY;
-    const divider = axis === "col" ? colDividerEl : rowDividerEl;
-    divider.classList.add("dragging");
-    const prevBodyCursor = document.body.style.cursor;
-    const prevBodyUserSelect = document.body.style.userSelect;
-    document.body.style.cursor = axis === "col" ? "col-resize" : "row-resize";
-    document.body.style.userSelect = "none";
+  // Axis-agnostic drag: picks clientX/rect.width for "col", clientY/rect.height
+  // for "row". `containerEl` is the element whose bounding box we measure —
+  // for the col divider that's the whole layout, for a row divider that's
+  // its own column container.
+  function attachDrag({ dividerEl, containerEl, axis, get, set }) {
+    dividerEl.addEventListener("mousedown", (ev) => {
+      ev.preventDefault();
+      const rect = containerEl.getBoundingClientRect();
+      const startValue = get();
+      const startX = ev.clientX;
+      const startY = ev.clientY;
+      dividerEl.classList.add("dragging");
+      const prevCursor = document.body.style.cursor;
+      const prevSelect = document.body.style.userSelect;
+      document.body.style.cursor = axis === "col" ? "col-resize" : "row-resize";
+      document.body.style.userSelect = "none";
 
-    function onMove(mev) {
-      if (axis === "col") {
-        const dx = mev.clientX - startX;
-        const next = clampPct(startCol + (dx / rect.width) * 100);
-        if (next !== null) colLeftPct = next;
-      } else {
-        const dy = mev.clientY - startY;
-        const next = clampPct(startRow + (dy / rect.height) * 100);
-        if (next !== null) rowTopPct = next;
+      function onMove(mev) {
+        const next =
+          axis === "col"
+            ? clampPct(startValue + ((mev.clientX - startX) / rect.width) * 100)
+            : clampPct(startValue + ((mev.clientY - startY) / rect.height) * 100);
+        if (next !== null) {
+          set(next);
+          apply();
+        }
       }
-      apply();
-    }
-
-    function onUp() {
-      window.removeEventListener("mousemove", onMove);
-      window.removeEventListener("mouseup", onUp);
-      divider.classList.remove("dragging");
-      document.body.style.cursor = prevBodyCursor;
-      document.body.style.userSelect = prevBodyUserSelect;
-      persist();
-      // Re-render the canvases at the new parent size for crisp pixels.
-      if (typeof onResize === "function") onResize();
-    }
-
-    window.addEventListener("mousemove", onMove);
-    window.addEventListener("mouseup", onUp);
+      function onUp() {
+        window.removeEventListener("mousemove", onMove);
+        window.removeEventListener("mouseup", onUp);
+        dividerEl.classList.remove("dragging");
+        document.body.style.cursor = prevCursor;
+        document.body.style.userSelect = prevSelect;
+        persist();
+        if (typeof onResize === "function") onResize();
+      }
+      window.addEventListener("mousemove", onMove);
+      window.addEventListener("mouseup", onUp);
+    });
   }
 
-  colDividerEl.addEventListener("mousedown", (ev) => beginDrag(ev, "col"));
-  rowDividerEl.addEventListener("mousedown", (ev) => beginDrag(ev, "row"));
+  attachDrag({
+    dividerEl: colDividerEl,
+    containerEl: layoutEl,
+    axis: "col",
+    get: () => colLeftPct,
+    set: (v) => {
+      colLeftPct = v;
+    },
+  });
+  attachDrag({
+    dividerEl: rowDividerLeftEl,
+    containerEl: leftColEl,
+    axis: "row",
+    get: () => rowTopLeftPct,
+    set: (v) => {
+      rowTopLeftPct = v;
+    },
+  });
+  attachDrag({
+    dividerEl: rowDividerRightEl,
+    containerEl: rightColEl,
+    axis: "row",
+    get: () => rowTopRightPct,
+    set: (v) => {
+      rowTopRightPct = v;
+    },
+  });
 
   apply();
 }

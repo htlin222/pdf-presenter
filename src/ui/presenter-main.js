@@ -158,7 +158,10 @@ export async function initPresenter() {
   createResizableLayout({
     layoutEl: document.querySelector(".layout"),
     colDividerEl: document.getElementById("divider-col"),
-    rowDividerEl: document.getElementById("divider-row"),
+    leftColEl: document.querySelector(".col-left"),
+    rowDividerLeftEl: document.getElementById("divider-row-left"),
+    rightColEl: document.querySelector(".col-right"),
+    rowDividerRightEl: document.getElementById("divider-row-right"),
     onResize: () => show(currentSlide),
   });
 
