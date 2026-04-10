@@ -40,14 +40,18 @@ jobs:
         # Trusted Publisher flow. Leaving registry-url off means no .npmrc
         # is created, and `npm publish` detects the GitHub Actions OIDC
         # environment and authenticates via the trusted publisher.
+        #
+        # Node 24 is required here because npm CLI gained Trusted Publisher
+        # OIDC authentication (publish without any token) in 11.5.1, and
+        # Node 22 still ships with 10.9.x.
         with:
-          node-version: 22
+          node-version: 24
           cache: pnpm
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Show npm version (needs >= 9.5 for Trusted Publisher OIDC)
+      - name: Show npm version (needs >= 11.5 for Trusted Publisher OIDC)
         run: npm --version
 
       - name: Type-check
