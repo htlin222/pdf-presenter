@@ -10,6 +10,7 @@ import {
   renderPage,
   clampSlide,
 } from "./modules/pdf-render.js";
+import { createTimer } from "./modules/timer.js";
 
 export { initAudience } from "./audience.js";
 
@@ -641,7 +642,7 @@ export async function initPresenter() {
     } else if (ev.key === "b" || ev.key === "B") {
       toggleBlack();
     } else if (ev.key === "r" || ev.key === "R") {
-      resetTimer();
+      timer.reset();
     }
   });
 
@@ -653,68 +654,7 @@ export async function initPresenter() {
     typeof config.timerMinutes === "number" && config.timerMinutes > 0
       ? config.timerMinutes * 60 * 1000
       : null;
-  let startedAt = Date.now();
-  let timerPausedAt = null; // ms timestamp when paused, null while running
-
-  function timerElapsed() {
-    const base = timerPausedAt !== null ? timerPausedAt : Date.now();
-    return base - startedAt;
-  }
-
-  function resetTimer() {
-    startedAt = Date.now();
-    // Reset leaves pause state untouched — a reset while paused
-    // starts the next run-cycle from 00:00 but still paused.
-    if (timerPausedAt !== null) timerPausedAt = startedAt;
-    tickTimer();
-  }
-
-  function toggleTimerPause() {
-    if (timerPausedAt === null) {
-      timerPausedAt = Date.now();
-    } else {
-      // Shift startedAt forward by the pause duration so elapsed
-      // continues from where we left off.
-      startedAt += Date.now() - timerPausedAt;
-      timerPausedAt = null;
-    }
-    tickTimer();
-  }
-
-  function formatMs(ms) {
-    const totalSec = Math.max(0, Math.floor(ms / 1000));
-    const m = Math.floor(totalSec / 60);
-    const s = totalSec % 60;
-    return `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
-  }
-
-  function tickTimer() {
-    const elapsed = timerElapsed();
-    if (countdownMs !== null) {
-      const remaining = countdownMs - elapsed;
-      timerEl.textContent = formatMs(remaining >= 0 ? remaining : -remaining);
-      timerEl.classList.remove("warn", "danger");
-      if (remaining <= 60 * 1000) timerEl.classList.add("danger");
-      else if (remaining <= 5 * 60 * 1000) timerEl.classList.add("warn");
-    } else {
-      timerEl.textContent = formatMs(elapsed);
-    }
-    timerEl.classList.toggle("paused", timerPausedAt !== null);
-  }
-
-  timerEl.addEventListener("click", (ev) => {
-    ev.preventDefault();
-    toggleTimerPause();
-    timerEl.blur();
-  });
-  timerResetBtn.addEventListener("click", (ev) => {
-    ev.preventDefault();
-    resetTimer();
-    timerResetBtn.blur();
-  });
-
-  setInterval(tickTimer, 250);
-  tickTimer();
+  const timer = createTimer({ timerEl, resetBtnEl: timerResetBtn, countdownMs });
 
   await show(1);
 }
