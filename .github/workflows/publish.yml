@@ -10,9 +10,12 @@ on:
         required: true
         type: string
 
+# Trusted publisher authentication: npm uses the GitHub OIDC token, so
+# no NPM_TOKEN secret is needed. The package is configured on npmjs.com
+# with "Trusted Publisher" pointing at htlin222/pdf-presenter → publish.yml.
 permissions:
   contents: read
-  id-token: write # needed for npm provenance
+  id-token: write
 
 jobs:
   publish:
@@ -44,7 +47,5 @@ jobs:
       - name: Build
         run: pnpm build
 
-      - name: Publish to npm
+      - name: Publish to npm (OIDC via Trusted Publisher)
         run: npm publish --provenance --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
