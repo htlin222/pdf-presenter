@@ -15,6 +15,7 @@ import { createNotesEditor } from "./modules/notes-editor.js";
 import { wireImportExport } from "./modules/import-export.js";
 import { createRecordingDialog } from "./modules/recording-dialog.js";
 import { createRecorder } from "./modules/recording.js";
+import { createResizableLayout } from "./modules/resizable-layout.js";
 
 export async function initPresenter() {
   const config = readConfig();
@@ -152,6 +153,14 @@ export async function initPresenter() {
       ? config.timerMinutes * 60 * 1000
       : null;
   const timer = createTimer({ timerEl, resetBtnEl: timerResetBtn, countdownMs });
+
+  // ---- Resizable layout dividers ----
+  createResizableLayout({
+    layoutEl: document.querySelector(".layout"),
+    colDividerEl: document.getElementById("divider-col"),
+    rowDividerEl: document.getElementById("divider-row"),
+    onResize: () => show(currentSlide),
+  });
 
   await show(1);
 }
