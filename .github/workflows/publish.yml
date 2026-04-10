@@ -33,19 +33,33 @@ jobs:
 
       - name: Setup Node
         uses: actions/setup-node@v4
+        # NOTE: intentionally NOT passing `registry-url`. If we did, setup-node
+        # would drop an .npmrc with `//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}`
+        # into the workspace. With no NODE_AUTH_TOKEN env var set, that line
+        # expands to an empty bearer token and short-circuits the OIDC
+        # Trusted Publisher flow. Leaving registry-url off means no .npmrc
+        # is created, and `npm publish` detects the GitHub Actions OIDC
+        # environment and authenticates via the trusted publisher.
         with:
           node-version: 22
           cache: pnpm
-          registry-url: "https://registry.npmjs.org"
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      - name: Upgrade npm to latest (best OIDC Trusted Publisher support)
+        run: npm install -g npm@latest
 
       - name: Type-check
         run: pnpm exec tsc --noEmit
 
       - name: Build
         run: pnpm build
+
+      - name: Scrub any stray .npmrc that might have an empty authToken
+        run: |
+          rm -f .npmrc ~/.npmrc
+          npm config get registry
 
       - name: Publish to npm (OIDC via Trusted Publisher)
         run: npm publish --provenance --access public
