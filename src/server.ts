@@ -1,7 +1,7 @@
 import { createServer, IncomingMessage, ServerResponse } from "node:http";
 import { existsSync } from "node:fs";
 import { readFile, writeFile, rename, mkdir } from "node:fs/promises";
-import { basename, join, dirname, resolve } from "node:path";
+import { join, dirname, resolve } from "node:path";
 import type { ServerConfig, StartedServer, NotesDoc } from "./server/types.js";
 import {
   MIME,
@@ -15,6 +15,7 @@ import {
   readBinaryBody,
 } from "./server/http-utils.js";
 import { resolveUiDir, resolvePdfjsDir } from "./server/paths.js";
+import { renderHtml } from "./server/html-render.js";
 
 export type { ServerConfig, StartedServer } from "./server/types.js";
 
@@ -104,24 +105,6 @@ function createNotesUpdater(notesPath: string) {
     chain = next.catch(() => undefined);
     return next;
   };
-}
-
-async function renderHtml(
-  uiDir: string,
-  file: "audience.html" | "presenter.html",
-  config: ServerConfig,
-): Promise<string> {
-  const raw = await readFile(join(uiDir, file), "utf8");
-  const meta = {
-    pdfUrl: "/slides.pdf",
-    notesUrl: "/notes.json",
-    pdfName: basename(config.pdfPath),
-    timerMinutes: config.timerMinutes ?? null,
-  };
-  return raw.replace(
-    "<!--PDF_PRESENTER_CONFIG-->",
-    `<script id="pdf-presenter-config" type="application/json">${JSON.stringify(meta)}</script>`,
-  );
 }
 
 export async function startServer(config: ServerConfig): Promise<StartedServer> {
