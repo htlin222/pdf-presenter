@@ -11,6 +11,7 @@ import {
   clampSlide,
 } from "./modules/pdf-render.js";
 import { createTimer } from "./modules/timer.js";
+import { createNotesEditor } from "./modules/notes-editor.js";
 
 export { initAudience } from "./audience.js";
 
@@ -38,20 +39,21 @@ export async function initPresenter() {
   let frozen = false;
   let blackedOut = false;
 
-  // --- Notes editing state ---
-  const SAVE_DEBOUNCE_MS = 600;
-  let saveTimer = null;
-  let pendingSlide = null; // slide whose note is waiting to be flushed
-  let inflightSave = Promise.resolve();
-  let suppressInput = false; // true while we programmatically set textarea value
+  const editor = createNotesEditor({
+    notesBody,
+    statusEl: notesStatus,
+    hintEl: notesHint,
+    notesCache: notes,
+    getCurrentSlide: () => currentSlide,
+  });
 
   async function show(n) {
     const target = clampSlide(n, total);
     const slideChanged = target !== currentSlide;
-    await flushPendingSave();
+    await editor.flushPending();
     currentSlide = target;
     counter.textContent = `${currentSlide} / ${total}`;
-    loadNoteIntoEditor(currentSlide);
+    editor.loadForSlide(currentSlide);
     if (slideChanged) noteSlideChangeForRecording(currentSlide);
     await Promise.all([
       renderPage(pdf, currentSlide, currentCanvas),
@@ -67,81 +69,6 @@ export async function initPresenter() {
     ctx.setTransform(1, 0, 0, 1, 0, 0);
     ctx.clearRect(0, 0, nextCanvas.width, nextCanvas.height);
   }
-
-  function loadNoteIntoEditor(n) {
-    const entry = notes[String(n)] || { hint: "", note: "" };
-    suppressInput = true;
-    notesBody.value = entry.note || "";
-    suppressInput = false;
-    notesHint.textContent = entry.hint ? `hint: ${entry.hint}` : "";
-    setStatus("");
-  }
-
-  function setStatus(state) {
-    notesStatus.classList.remove("saving", "saved", "error");
-    if (state === "saving") {
-      notesStatus.classList.add("saving");
-      notesStatus.textContent = "Saving…";
-    } else if (state === "saved") {
-      notesStatus.classList.add("saved");
-      notesStatus.textContent = "Saved";
-    } else if (state === "error") {
-      notesStatus.classList.add("error");
-      notesStatus.textContent = "Save failed";
-    } else {
-      notesStatus.textContent = "";
-    }
-  }
-
-  function scheduleSave() {
-    if (suppressInput) return;
-    pendingSlide = currentSlide;
-    // Mirror into local cache so re-entering this slide shows the draft.
-    const key = String(pendingSlide);
-    const existing = notes[key] || { hint: "", note: "" };
-    notes[key] = { hint: existing.hint || "", note: notesBody.value };
-    setStatus("saving");
-    if (saveTimer) clearTimeout(saveTimer);
-    saveTimer = setTimeout(() => {
-      saveTimer = null;
-      void persistPending();
-    }, SAVE_DEBOUNCE_MS);
-  }
-
-  async function persistPending() {
-    if (pendingSlide === null) return;
-    const slide = pendingSlide;
-    pendingSlide = null;
-    const note = notes[String(slide)]?.note ?? "";
-    inflightSave = inflightSave.then(async () => {
-      try {
-        const res = await fetch("/api/notes", {
-          method: "PUT",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ slide, note }),
-        });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        // Only clear the indicator if nothing new was queued meanwhile.
-        if (pendingSlide === null && !saveTimer) setStatus("saved");
-      } catch {
-        setStatus("error");
-      }
-    });
-    await inflightSave;
-  }
-
-  async function flushPendingSave() {
-    if (saveTimer) {
-      clearTimeout(saveTimer);
-      saveTimer = null;
-      await persistPending();
-    } else {
-      await inflightSave;
-    }
-  }
-
-  notesBody.addEventListener("input", scheduleSave);
-  notesBody.addEventListener("blur", () => void flushPendingSave());
 
   // ---- Import / export ----
   const exportBtn = document.getElementById("export-notes");
@@ -162,7 +89,7 @@ export async function initPresenter() {
 
   exportBtn.addEventListener("click", async () => {
     try {
-      await flushPendingSave();
+      await editor.flushPending();
       const res = await fetch("/notes.json");
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const text = await res.text();
@@ -561,7 +488,7 @@ export async function initPresenter() {
       }
       // Flush any in-flight edit for the current slide so it isn't overwritten
       // by the old in-memory state after reload.
-      await flushPendingSave();
+      await editor.flushPending();
       const res = await fetch("/api/notes-file", {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
@@ -576,34 +503,12 @@ export async function initPresenter() {
       const newNotes = (refreshed && refreshed.notes) || {};
       for (const key of Object.keys(notes)) delete notes[key];
       for (const [k, v] of Object.entries(newNotes)) notes[k] = v;
-      loadNoteIntoEditor(currentSlide);
+      editor.loadForSlide(currentSlide);
       setActionStatus(`Loaded (${Object.keys(newNotes).length} slides)`, "ok");
     } catch (err) {
       setActionStatus(`Load failed: ${err.message || err}`, "error");
     } finally {
       loadInput.value = "";
-    }
-  });
-
-  window.addEventListener("beforeunload", () => {
-    if (saveTimer) {
-      clearTimeout(saveTimer);
-      // Best-effort sync send via sendBeacon.
-      const slide = pendingSlide;
-      if (slide !== null) {
-        const payload = JSON.stringify({
-          slide,
-          note: notes[String(slide)]?.note ?? "",
-        });
-        try {
-          navigator.sendBeacon(
-            "/api/notes",
-            new Blob([payload], { type: "application/json" }),
-          );
-        } catch {
-          /* ignore */
-        }
-      }
     }
   });
 
@@ -620,7 +525,7 @@ export async function initPresenter() {
   window.addEventListener("keydown", (ev) => {
     // When the notes editor is focused, let keys behave normally — but give
     // Escape as an explicit way to leave the editor and return to slide nav.
-    if (document.activeElement === notesBody) {
+    if (editor.isFocused()) {
       if (ev.key === "Escape") {
         ev.preventDefault();
         notesBody.blur();
