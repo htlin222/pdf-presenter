@@ -1,0 +1,42 @@
+{
+  "name": "pdf-presenter",
+  "version": "1.0.0",
+  "description": "Lightweight CLI that serves PDF slides in the browser with a full presenter mode (speaker notes, next slide preview, timer).",
+  "type": "module",
+  "bin": {
+    "pdf-presenter": "./dist/pdf-presenter.js"
+  },
+  "files": [
+    "dist/",
+    "src/ui/"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "pdf",
+    "presenter",
+    "slides",
+    "presentation",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "get-port": "^7.1.0",
+    "open": "^10.1.0",
+    "pdfjs-dist": "^4.7.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}

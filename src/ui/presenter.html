@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>pdf-presenter — Presenter</title>
+    <link rel="stylesheet" href="/assets/presenter.css" />
+    <!--PDF_PRESENTER_CONFIG-->
+  </head>
+  <body class="presenter">
+    <div class="layout">
+      <section class="current">
+        <header class="panel-title">Current</header>
+        <div class="canvas-wrap">
+          <canvas id="current-canvas"></canvas>
+        </div>
+      </section>
+      <section class="next">
+        <header class="panel-title">Next</header>
+        <div class="canvas-wrap">
+          <canvas id="next-canvas"></canvas>
+        </div>
+      </section>
+      <section class="notes">
+        <header class="panel-title">
+          <span>Speaker Notes</span>
+          <span id="notes-status" class="notes-status" aria-live="polite"></span>
+          <span id="notes-hint" class="notes-hint"></span>
+        </header>
+        <textarea
+          id="notes-body"
+          class="notes-body"
+          spellcheck="false"
+          autocomplete="off"
+          placeholder="Type notes for this slide… (saved automatically)"
+        ></textarea>
+      </section>
+      <section class="meta">
+        <div class="timer-row">
+          <button
+            type="button"
+            id="timer"
+            class="timer"
+            title="Click to pause / resume (R to reset)"
+            aria-label="Timer — click to pause or resume"
+          >00:00</button>
+          <button
+            type="button"
+            id="timer-reset"
+            class="timer-reset"
+            title="Reset timer (R)"
+            aria-label="Reset timer"
+          >↺</button>
+        </div>
+        <div class="counter" id="counter">– / –</div>
+        <div class="notes-actions">
+          <button type="button" id="export-notes" class="btn">Export speaker note</button>
+          <button type="button" id="load-notes" class="btn">Load speaker note</button>
+          <input
+            type="file"
+            id="load-notes-input"
+            accept="application/json,.json"
+            hidden
+          />
+          <div id="notes-action-status" class="notes-action-status" aria-live="polite"></div>
+        </div>
+        <div class="record-panel">
+          <div class="record-header">
+            <span class="record-indicator" id="record-indicator" aria-hidden="true"></span>
+            <span class="record-label" id="record-label">Audio</span>
+            <span class="record-elapsed" id="record-elapsed">00:00</span>
+          </div>
+          <div class="record-buttons">
+            <button type="button" id="record-start" class="btn btn-record">● Start</button>
+            <button type="button" id="record-pause" class="btn" disabled>Pause</button>
+            <button type="button" id="record-stop" class="btn" disabled>Stop</button>
+          </div>
+        </div>
+        <div class="hints">
+          <span>← →</span> nav
+          <span>F</span> freeze
+          <span>B</span> black
+          <span>R</span> reset timer
+        </div>
+      </section>
+    </div>
+
+    <div id="record-dialog" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="record-dialog-title">
+      <div class="modal-card">
+        <h2 id="record-dialog-title" class="modal-title">Save recording?</h2>
+        <dl class="modal-info">
+          <dt>File</dt>
+          <dd id="record-dialog-file">—</dd>
+          <dt>Slides</dt>
+          <dd id="record-dialog-range">—</dd>
+          <dt>Duration</dt>
+          <dd id="record-dialog-duration">—</dd>
+          <dt>Size</dt>
+          <dd id="record-dialog-size">—</dd>
+          <dt>Segments</dt>
+          <dd>
+            <ul id="record-dialog-segments" class="segment-list"></ul>
+          </dd>
+        </dl>
+        <div id="record-dialog-error" class="modal-error hidden"></div>
+        <div class="modal-actions">
+          <button type="button" id="record-dialog-abandon" class="btn">Abandon</button>
+          <button type="button" id="record-dialog-save" class="btn btn-primary">Save</button>
+        </div>
+      </div>
+    </div>
+    <script type="module">
+      import { initPresenter } from "/assets/presenter.js";
+      initPresenter();
+    </script>
+  </body>
+</html>

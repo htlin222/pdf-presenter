@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>pdf-presenter — Audience</title>
+    <link rel="stylesheet" href="/assets/presenter.css" />
+    <!--PDF_PRESENTER_CONFIG-->
+  </head>
+  <body class="audience">
+    <div id="stage" class="stage">
+      <canvas id="slide-canvas"></canvas>
+      <div id="black-overlay" class="overlay hidden"></div>
+      <div id="freeze-indicator" class="freeze-indicator hidden">FROZEN</div>
+      <div id="status" class="status"></div>
+    </div>
+    <script type="module">
+      import { initAudience } from "/assets/presenter.js";
+      initAudience();
+    </script>
+  </body>
+</html>

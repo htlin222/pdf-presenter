@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "pdf": "clinical-features-and-management-of-histiocytic-neoplasms-in-the-era-of-targeted-therapies.pdf",
+    "totalSlides": 32,
+    "generatedAt": "2026-04-10T15:33:27.400Z",
+    "generator": "pdf-presenter"
+  },
+  "notes": {
+    "1": {
+      "hint": "American Society of Hematology | Clinical Features and Management of Histiocytic",
+      "note": "各位好，歡迎來到今天的 ASH Highlights 演講。我是 Gaurav Goyal，來自 University of Alabama at Birmingham。今天非常榮幸能在這裡跟大家分享的題目是「Clinical Features and Management of Histiocytic Neoplasms in the Era of Targeted Therapies」。\n\n在接下來的時間裡，我會帶大家從臨床案例出發，一起走過 histiocytic neoplasms 這群疾病的診斷流程、分子分型、以及目前最新的 targeted therapy 進展。這是一群相對罕見、而且非常容易被誤診的疾病，但是在過去十年之間，因為 MAPK pathway 的發現，我們對它們的理解和治療已經徹底翻轉。希望今天的內容可以幫助大家在自己的臨床工作中更快的辨識並處理這類病人。"
+    },
+    "2": {
+      "hint": "American Society of Hematology | Disclosures In compliance with ACCME policy, AS",
+      "note": "依照 ACCME policy 的規定，我先做一下 disclosure。我目前是 Recordati 的 consultant，同時有來自 Recordati 的 honoraria；此外我也擔任 Electra、PharmaEssentia、Seagen、以及 Sobi 的 advisory committee member。\n\n在今天的演講裡並不會討論任何 off-label 的藥物使用，所以不需要特別列出藥名。接下來我們就直接進入正題。"
+    },
+    "3": {
+      "hint": "American Society of Hematology | Learning Objectives • Recognize and differentia",
+      "note": "在進入內容之前，先跟大家同步一下今天的 learning objectives。我希望在演講結束之後，大家可以做到三件事情。\n\n第一，能夠辨識並區分 Erdheim-Chester disease、也就是 ECD、Langerhans cell histiocytosis、也就是 LCH、以及 Rosai-Dorfman disease、也就是 RDD 這三個最主要的成人 histiocytic neoplasm 的臨床表現。這三個疾病彼此之間有一些重疊，但各自的 hallmark phenotype 是不一樣的。\n\n第二，能夠對懷疑或已經確診 histiocytic neoplasm 的病人，採取合適的 diagnostic workup，包含影像、病理、以及最重要的 molecular testing。\n\n第三，能夠理解成人 ECD、LCH 和 RDD 的 management principles，特別是在 targeted therapy 時代的變化。"
+    },
+    "4": {
+      "hint": "C A S E F R O M T H E C L I N I C 1987 • Breast cancer s/p radical mastectomy an",
+      "note": "我想從一個 clinic 的實際案例開始。這位病人的病史其實拉得非常長。\n\n1987 年，她被診斷出 breast cancer，接受了 radical mastectomy 加上 adjuvant chemotherapy，之後的狀態一直都很穩定。\n\n直到 2020 年，她開始出現走路困難以及膝蓋疼痛。我們安排了 MRI 和 bone scan，發現有明顯的 osteosclerotic lesions，而且不是只侷限在膝蓋，連同 long bones 都有受影響。大家看右邊的 bone scan 就可以看到很典型的 symmetric long bone uptake，尤其是下肢的 metadiaphyseal region。\n\n同年我們做了 tibia 的 biopsy，結果令人意外——報告寫 fragments of lamellar bone with reactive changes，並且 no evidence of carcinoma。也就是說，初次 biopsy 並沒有找到 breast cancer 的復發，但是也沒有給出明確的診斷。"
+    },
+    "5": {
+      "hint": "American Society of Hematology | American Society of Hematology | What is the mo",
+      "note": "看到這裡，請大家一起來思考一下：以這個病人的影像和初步病理，最可能的診斷是什麼？\n\n選項有五個。第一，Langerhans cell histiocytosis。第二，Erdheim-Chester disease。第三，Rosai-Dorfman disease。第四，non-neoplastic entity，也就是一個非腫瘤性的疾病，比如說 osteomyelitis 或者代謝性骨病。第五，我們還需要更多資訊才能判斷。\n\n我會給大家幾秒鐘思考一下，等一下我會告訴大家答案，但這裡我想強調的是：單靠影像和 reactive changes 的 biopsy 其實是沒辦法確診的，這正是 histiocytic neoplasm 容易被誤診的原因。"
+    },
+    "6": {
+      "hint": "F U R T H E R W O R K U P A N D D I A G N O S I S Erdheim-Chester disease",
+      "note": "答案揭曉——這是一個 Erdheim-Chester disease，簡稱 ECD。\n\n我們接下來為她做了更完整的 workup。大家看左邊第一張影像，是 whole body FDG-PET 掃描，可以看到很典型的 symmetric long bone uptake，特別是下肢。第二張是 brain MRI，看到 pons 的地方有一個紅箭頭指向的 lesion，是 ECD 很有特徵性的 brainstem involvement。第三張是 abdomen CT，可以看到腎臟周圍的 perinephric infiltration，也就是所謂的 hairy kidney sign，還有 retroperitoneal fibrosis。第四張是 aorta 的影像，有 periaortic sheathing，也就是所謂的 coated aorta。\n\n右邊兩張是病理的影像，上面是 H&E stain，下面是 IHC。可以看到典型的 foamy histiocytes，也就是 xanthomatous histiocytes，搭配背景的 fibrosis。IHC 染色 CD68 呈現強陽性。\n\n所有這些放在一起，加上後面會提到的 molecular testing，就確定了 ECD 這個診斷。"
+    },
+    "7": {
+      "hint": "American Society of Hematology | What are histiocytic disorders • Rare (5-6 case",
+      "note": "既然我們確定了這是 ECD，那就讓我們退一步，來看一下什麼是 histiocytic disorders。\n\n首先這是一群 rare disease，發生率大約是每年每百萬人有 5 到 6 個 case，所以你在 general practice 裡面不會常常看到，這也是為什麼常常被誤診。\n\n這群疾病的本質是 abnormal histiocytes 在各個器官異常增生。這些 histiocytes 還會分泌 pro-inflammatory cytokines，造成全身的發炎反應。\n\nHistiocytic disorder 不只發生在 pediatric 病人身上，也會影響 adult population，而且在成人這邊的診斷和治療經驗相對來說累積得比較慢。\n\n最重要的是——這群疾病 often misdiagnosed，常常要靠 pattern recognition，也就是把臨床、影像、病理、以及分子結果放在一起看，才能做出正確的診斷。這點我之後會再強調。"
+    },
+    "8": {
+      "hint": "Hemophagocytic lymphohistiocytosis • Primary (genetic) • Secondary (malignancy,",
+      "note": "Histiocytic disorders 其實可以大致分成兩大類。\n\n第一類是 hyper-inflammatory，主要就是 hemophagocytic lymphohistiocytosis，也就是 HLH。HLH 又分成 primary，也就是 genetic 型的，以及 secondary 型的，後者常常跟 malignancy 或 infection 有關。\n\n第二類是 neoplastic histiocytosis，這是我們今天的重點。它又可以細分成 chronic、也就是 slow growing 的這群，和 aggressive、也就是 fast growing 的那群。\n\n在 chronic slow growing 這邊，就是我們今天會重點討論的 Langerhans cell histiocytosis、Rosai-Dorfman disease、Erdheim-Chester disease，以及 xanthogranuloma family disorders，也就是 JXG 或 AXG。\n\n在 aggressive fast growing 這邊則包含 histiocytic sarcoma、Langerhans cell sarcoma 和 interdigitating dendritic cell sarcoma。這些相對罕見，治療策略也完全不同，通常需要 aggressive chemotherapy。\n\n我在紅框標出來的就是今天的主角——chronic neoplastic histiocytoses。"
+    },
+    "9": {
+      "hint": "D I V E R S E P H E N O T Y P E S O F H I S T I O C Y T I C N E O P L A S M S Er",
+      "note": "這張圖我覺得非常實用，它把 LCH、ECD、和 RDD 三個疾病常見侵犯的器官分別畫出來。這是我們 2019 年發表在 Mayo Clinic Proceedings 上的 review。\n\n左邊是 Langerhans cell histiocytosis。LCH 常見的 endocrine 受侵犯高達 50 到 70%，尤其是 diabetes insipidus；nervous system 大約 5%；bones 大約 50%；skin 大約 15 到 30%；respiratory 大約 30 到 50%，常常在上肺葉出現特徵性的 nodules 進展為 cyst。\n\n中間是 Erdheim-Chester disease。ECD 的特徵是 bones 幾乎 85% 都會受侵犯，尤其 long bones 的 metadiaphyseal region；retroperitoneum 40 到 50% 有 hairy kidney；peri-aortic 受侵犯；cardiac 大概 40 到 70%；CNS 大概 40%；以及 orbital、endocrine 和 respiratory 的受侵犯。\n\n右邊是 Rosai-Dorfman disease。RDD 最經典的表現是 massive、painless lymphadenopathy，尤其是 cervical 的；另外也可以有 extranodal 的侵犯，包含 skin、bones、retroperitoneum 和 CNS。RDD 還有 associated autoimmune conditions，這一點是跟 LCH 和 ECD 不太一樣的地方。\n\n這三個疾病的 pattern 差異很大，熟悉這些 phenotypes 是診斷的第一步。"
+    },
+    "10": {
+      "hint": "M A P K P A T H W AY M U T A T I O N S I N H I S T I O C Y T I C N E O P L A S M",
+      "note": "接下來是我認為改變了整個 field 的一件事——MAPK pathway mutations 的發現。\n\n左邊這張圖幫大家複習一下 MAPK pathway。從 cell surface 的 receptor tyrosine kinase、比如 EGFR，訊號傳到 RAS、RAF、MEK，也就是 MAP2K、最後到 ERK，然後進到細胞核啟動 cell proliferation 相關的基因。在 histiocytic neoplasms 裡面，這整條 pathway 都有可能出現 activating mutation，導致 constitutive activation。\n\n右邊這張圖是 Hershkovitz-Rokah 等人在 2025 年 Haematologica 上整理的 somatic alterations 分布，依照不同疾病分成 ECD、LCH、RDD、JXG、ICH、MHN。大家可以看到最 dominant 的 alteration 就是 BRAF V600E，在 ECD 裡面大概佔了 50%，LCH 也很常見。除了 BRAF V600E 之外，還有 ARAF、KRAS、MAP2K1/2、NRAS、PI3KCA、CSF1R 等，以及各種 fusion、包含 BRAF fusions、NTRK1 fusions、RET fusions。另外 RDD 這邊可以看到一個比較特殊的 ETV3::NCOA2 fusion。\n\n重點是——大部分 histiocytic neoplasms 都有一個可以鎖定的 molecular target，這就是 targeted therapy era 的基礎。"
+    },
+    "11": {
+      "hint": "Blood (2025) 146 (Supplement 1): 192. • 1044 patients from 11 countries, spannin",
+      "note": "這是 2025 年 ASH 上發表的一個重要研究——來自 ECDGA network 的國際 cohort，總共收了 1044 位 ECD 病人，橫跨 11 個國家、三十年的資料。這是目前 ECD 最大的 cohort。\n\n左邊的圖是 first disease manifestation，也就是第一個被發現的症狀。大家看最常見的是 bone、佔 22%；接下來是 retroperitoneal、15%；endocrine 13%；neurologic 12%；skin 9%；lung 7%。所以雖然 ECD 是 systemic disease，但第一次 presentation 最多還是骨頭。\n\n中間的圖是 disease involvement、也就是整個病程中累積受侵犯的部位，這個就跟 first presentation 有很大差別了。Long bones 高達 80%，這是 ECD 的 hallmark；retroperitoneum 63%；periaortic 46%；CNS 38%；facial/orbit 36%；heart 35%；skin 29%；pituitary 27%；lung 27%。也就是說只要病程夠長，大部分 ECD 病人最後幾乎都會變成 multi-system disease。\n\n右邊的 pie chart 是 mutation distribution。BRAF V600E 佔 60%；MAP2K1 9%；KRAS、NRAS、其他 BRAF 各自有一小部分；沒有找到 mutation 的大約 24%。所以在 ECD 這邊，BRAF V600E 真的是最主要的 driver。"
+    },
+    "12": {
+      "hint": "W O R K U P O F H I S T I O C Y T I C N E O P L A S M S Adapted from Goyal G et",
+      "note": "我們接下來看 histiocytic neoplasm 應該怎麼做 workup。我把它分成四個區塊。\n\n第一，biopsy。可以用 needle biopsy 或 surgical biopsy，重點是一定要有夠的檢體做 microscopy review 跟 immunohistochemistry，而且如果可能的話，盡量請 expert pathologist 幫忙 review，因為這些疾病非常容易被誤診。一定要做 BRAF V600E testing，並且做 next generation sequencing 來尋找 MAPK-ERK pathway 的 mutations，必要的時候加做 fusion assay。\n\n第二，radiologic testing。最基本是全身 head to toes 的 PET-CT；如果懷疑 ECD，一定要加 brain MRI 跟 heart MRI；如果是 pulmonary LCH，則要加 high resolution chest CT。\n\n第三，laboratory。包含 CBC、electrolytes、liver function、kidney function、inflammatory markers，如 CRP、ESR，以及 blood-based BRAF 跟其他 mutation testing，這對沒辦法 re-biopsy 的病人很有幫助。\n\n第四，特定情境下要加的檢查。如果懷疑 diabetes insipidus 要做 urine 和 serum osmolality；其他 pituitary hormone 包含 growth hormone 也就是 IGF-1、FSH/LH、ACTH、prolactin；gonadal hormones 包含 testosterone 和 estradiol；adrenal 用 AM cortisol；懷疑 IgG4-related disease 要做 IgG4；懷疑 RDD 的話要做 autoimmune panel。\n\n全套做完才算完整的 staging。"
+    },
+    "13": {
+      "hint": "H I S T O P A T H O L O G I C F E A T U R E S Adapted from Hershkovitz-Rokah, O,",
+      "note": "這張 table 整理了三個主要 histiocytic neoplasm 的 histopathologic features，我會強調幾個關鍵的 marker。\n\n首先 CD68，這是 macrophage lineage 的 marker，三個疾病都會陽性，所以它沒辦法區分彼此。\n\nCD163 在 ECD 跟 RDD 陽性，LCH 比較不一定。\n\nS100 在 LCH 通常陽性或弱陽性；ECD 則是陰性或弱陽性；RDD 則是強陽性，這是 RDD 的一個 key marker。\n\nCD1a 跟 Langerin 是 LCH 的 hallmark——只有 LCH 會陽性，ECD 跟 RDD 都是陰性。所以看到 CD1a 跟 Langerin 陽性，基本上就可以確定是 LCH。\n\nFactor XIIIa 則是 ECD 的 marker，這在 LCH 是陰性，在 RDD 則不一定。\n\nBRAF V600E 可以用 IHC 去染，LCH 跟 ECD 大約一半會陽性，RDD 則幾乎都是陰性。\n\nOCT2 跟 emperipolesis 是 RDD 的 hallmark——emperipolesis 就是在 histiocyte 的 cytoplasm 裡面可以看到完整的 lymphocyte，這個是 RDD 非常有特色的現象。\n\n最後，其他的 feature 包含：LCH 背景常有 eosinophils；ECD 有 xanthomatous feature 加上 fibrosis；RDD 則是大量的 intracytoplasmic lymphocytes，也就是 emperipolesis。\n\n記住這幾個 key immunostains，你就可以在 pathology review 的時候快速判斷這是哪一種 histiocytosis。"
+    },
+    "14": {
+      "hint": "H O W T O D I A G N O S E H I S T I O C Y T O S I S ? Pathology Radiograp hic Cl",
+      "note": "這張概念圖我希望大家記住——histiocytosis 的診斷從來不是單靠 pathology 就可以的。\n\n中間這個 pathology 是基礎，但是它一定要結合另外三個面向：radiographic findings、clinical presentation、以及 molecular testing。\n\n左下的 molecular 就是我們前面提到的 MAPK pathway mutations；左上是 radiographic，可以看到 lung 的 cystic change、skull 的 punched-out lesion、long bone 的 metadiaphyseal sclerotic lesion、PET-CT 的 symmetric uptake、retroperitoneal hairy kidney、brain 的 pons 或 cerebellar lesions；右邊是 clinical，包含 bone pain、diabetes insipidus、exophthalmos、skin nodules、xanthelasma、rash、ataxia、cough、lymph nodes、memory difficulties 等等。\n\n只有把這四個面向——pathology、radiographic、clinical 和 molecular——放在一起看，才能做出正確的診斷。這就是我前面提到的 pattern recognition。"
+    },
+    "15": {
+      "hint": "American Society of Hematology | American Society of Hematology | Back to the ca",
+      "note": "讓我們回到一開始的那位病人。\n\n我們對她做了 NGS，結果發現 BRAF V600E，variant allele frequency 是 8%。所以現在我們確定她是一個 BRAF V600E positive 的 ECD。\n\n接下來的問題是——對她來說最好的治療選擇是什麼？\n\n選項有五個。第一，observation，先觀察。第二，interferon alpha，這是以前 ECD 的 standard of care。第三，vemurafenib，這是 BRAF inhibitor，也是目前唯一獲得 FDA approval 用於 ECD 的藥物。第四，cladribine，一個 purine analog chemotherapy。第五，cytarabine，另一個 chemotherapy。\n\n等一下我會帶大家看目前的 treatment landscape，然後再回來討論這位病人的選擇。"
+    },
+    "16": {
+      "hint": "T R E A T M E N T O P T I O N S Targeted therapies • BRAF-inhibitor (vemurafenib",
+      "note": "這張圖是目前成人 histiocytic neoplasm 的 treatment landscape overview。\n\n左邊最綠的那一欄是 targeted therapies，這是現在的重點。包含 BRAF inhibitor，像是 vemurafenib 跟 dabrafenib；MEK inhibitor，像是 cobimetinib、trametinib、selumetinib；以及其他 targeted agent 包含 pexidartinib，這是 CSF1R inhibitor、crizotinib 用在 ALK fusion、sepercatinib 用在 RET fusion。\n\n右邊是 conventional agents，分成四類。\n\nImmunotherapy 包含 interferon-alpha、peginterferon-alpha、以及 rituximab。\n\nChemotherapy 包含 cladribine、cytarabine、methotrexate、vinblastine 加 prednisone、hydroxyurea、lenalidomide、thalidomide。\n\nAnti-cytokine agent 包含 anakinra，是 IL-1 inhibitor、canakinumab、tocilizumab 是 IL-6 inhibitor、infliximab 是 TNF inhibitor。這些在 RDD 或 ECD 出現明顯 inflammatory component 的時候特別有用。\n\n其他包括 sirolimus、corticosteroids、bisphosphonates 和 radiation。\n\n最下面有一個非常重要的 caveat——這些藥裡面只有 vemurafenib 和 cobimetinib 是 FDA approved 在 histiocytic neoplasm 的 indication，其他所有都是 off-label。所以在選藥跟 insurance coverage 上常常會有障礙。"
+    },
+    "17": {
+      "hint": "T A R G E T E D T H E R A P I E S : B R A F - A N D M E K - I N H I B I T O R S",
+      "note": "這兩個 clinical trial 的結果，是 targeted therapy era 最重要的 landmark。\n\n左邊是 Diamond 等人在 2018 年發表在 JAMA Oncology 的 study。他們收了 26 位 BRAF V600E positive 的病人，其中 22 位是 ECD、4 位是 LCH，給他們用 vemurafenib。下面那張 bar chart 是每個病人的 best percentage change in SUV max，可以看到幾乎每個 bar 都往下掉，代表 FDG-PET 都有改善。整體 100% 的 overall response rate。基於這個結果，FDA 在 2017 年 11 月 approve 了 vemurafenib 用在 ECD，這是第一個針對 histiocytic neoplasm 的 approval。\n\n右邊是同一個 group 在 2019 年 Nature 上發表的 cobimetinib study，這次是 MEK inhibitor。收了 18 位病人，12 位 ECD、2 位 RDD、2 位 mixed ECD/RDD、2 位 LCH，其中 8 位是 BRAF wild type。他們用 cobimetinib，overall response rate 是 89%。右邊的 bar chart 可以看到不同 mutation 的 response pattern，包含 ARAF、BRAF、RAF1、MEK1、MEK2 以及 KRAS、NRAS。重要的是 FDA 在 2022 年 11 月 approve 了 cobimetinib 用在所有 histiocytic neoplasms，不管有沒有 BRAF V600E，這是一個很大的突破。\n\n所以目前在 histiocytic neoplasm 裡面，vemurafenib 和 cobimetinib 是我們手邊 FDA-approved 的兩個主要武器。"
+    },
+    "18": {
+      "hint": "Blood (2025) 146 (Supplement 1): 192. Targeted inhibitors more efficacious in EC",
+      "note": "回到前面提過的 ECDGA 國際 cohort，這張 slide 告訴我們 targeted therapy 在 ECD 到底有多有效。\n\n左邊是不同治療的 response rate 分布，分成 response、stable 和 progression 三個顏色。\n\n傳統的 IFNa 大約只有 28% response、45% stable、27% progression。\n\n而 BRAFi 的 response 達到 68%、stable 19%、progression 13%。MEKi 是 62% response。BRAFi 加 MEKi 甚至達到 74%。這三個 targeted therapy 的 group 都比 conventional agents 好很多。\n\n相對之下，CT（也就是 conventional chemotherapy）18% response；steroids 23%；anti-IL1、anti-IL6、anti-TNF 都不超過 50%；mTORi 53%；其他各種藥物 21%。\n\n整體來看——targeted inhibitors 在 ECD 明顯比 non-targeted agents 更有效。\n\n右邊上面的 KM curve 是 ECD 整體的 overall survival，可以看到 5 年的 survival probability 大約是 83%。這在 ECD 的歷史上是非常大的進步，因為在 targeted therapy 出現之前，ECD 的 prognosis 是非常差的。\n\n右邊下面的 table 列出 age-adjusted multivariate Cox model 的 predictors of survival。hazard ratio 最高的是 neurodegenerative disease，HR 4.161；associated hematologic malignancy pre-ECD，HR 2.967；elevated CRP at diagnosis，HR 3.830；no response to any treatment line，HR 2.831；以及 age at diagnosis 也是顯著的 predictor。這些都是我們在臨床上判斷 ECD 病人 risk 的重要依據。"
+    },
+    "19": {
+      "hint": "R O L E O F C H E M O T H E R A P Y I N A D U L T L C H • 63 adults with LCH • 3",
+      "note": "雖然 targeted therapy 很厲害，但是在 adult LCH 這邊，chemotherapy 還是有它不可取代的位置。這是另一個 2025 年 ASH 發表的 multi-institutional retrospective study。\n\n他們收了 63 位 adult LCH 病人，來自 3 個 center，而且都是有 MAPK pathway alteration 的 frontline 治療。\n\n左邊的 bar 是不同 chemotherapy regimen 的使用。最常用的是 cytarabine，43 位；其次是 methotrexate 加 cytarabine，13 位；再來 cladribine 5 位；etoposide 1 位；methotrexate 1 位。所以 cytarabine 是目前 adult LCH 的主力 chemotherapy。\n\n中間的 stacked bar 是 mutation distribution。79% 是 BRAF gain-of-function mutations，也就是 BRAF V600E 等 activating mutation；19% 是 MAP2K 的 mutation；2% 是 BRAF fusions。\n\n右邊上面的 bar chart 是 response rate。Overall response rate 達到 88.9%，partial response 63.5%，complete response 25.4%。這個 response rate 其實跟 targeted therapy 差不多甚至更好。\n\n右邊下面的 KM curve 是 progression-free survival，median PFS 是 2.61 年，但在 multisystem disease 的病人明顯比較差，3 年 PFS 只有 42%，單一 system 的病人則高很多。\n\n結論很清楚——chemotherapy 在 LCH 非常有效，尤其是 cytarabine。所以 LCH 不一定要用 targeted therapy，chemotherapy 是一個很好的第一線選擇。"
+    },
+    "20": {
+      "hint": "G E N E R A L T R E A T M E N T A P P R O A C H CONFIRM DIAGNOSIS AND STAGE Path",
+      "note": "把前面所有的東西整合起來，這就是目前 histiocytic neoplasm 的 general treatment approach。\n\n第一步一定是 confirm diagnosis and stage——pathology review、imaging 包含 PET/CT 跟必要時 brain MRI、還有 molecular testing 包含 BRAF V600E 和 MAPK alterations 或 fusions。\n\n確診之後依照 disease extent 分三組。\n\n第一組是 asymptomatic single-system 而且不是 critical organ 的病人。這種情況可以 observe with close follow-up，不一定需要馬上治療。如果是 pulmonary LCH，最重要的是 smoking cessation，因為戒菸本身就可以讓病灶大幅改善甚至 resolution。\n\n第二組是 symptomatic single-site disease，也就是只有一個地方有症狀。這時候可以考慮 limited surgery 或其他 local therapy，這個策略特別適用在 RDD 跟 LCH。\n\n第三組是 multifocal 或 multisystem disease，或者有 critical organ involvement。這組是最需要全身性治療的。首先要強烈考慮 clinical trial enrollment。如果沒有 trial，則依照疾病分：ECD 這邊 targeted therapy 是 preferred——有 BRAF V600E 就用 BRAFi、其他 RAS/RAF/MEK 的 mutation 就用 MEKi 或 matched inhibitor；如果 targeted therapy 拿不到才考慮 interferon、cladribine。LCH 這邊則可以選 systemic chemotherapy、cladribine 或 cytarabine、或是 targeted therapy，兩條路都可以。RDD 這邊主要是 immunosuppressant 像是 lenalidomide 或 sirolimus，或者 MEK inhibitor，尤其是有 RAS/MEK mutation 的時候。\n\n下面有一個小字——還有一些 specific inhibitors 可以用在 non-MAPK/ERK mutations 或 kinase fusions，包含 ALK、RET、NTRK、CSF1R 等等。這就是為什麼 NGS 非常重要。"
+    },
+    "21": {
+      "hint": "C L I N I C A L C A S E : T R E A T M E N T Vemurafenib for BRAF-V600E ECD Ataxi",
+      "note": "回到我們的 case。這位病人是 BRAF V600E positive ECD，根據剛剛的 algorithm，我們給她 vemurafenib。\n\n左邊的 PET 是治療前的 baseline，可以看到全身多處 uptake，尤其是 long bones 的部分非常明顯。\n\n經過 vemurafenib 治療之後，右邊的 PET 影像可以看到大部分的 uptake 都退掉了，bone 的 uptake 也大幅改善。\n\n臨床上，她的 ataxia 明顯進步，原本需要坐 wheelchair，治療後完全不需要輔具就可以走路。\n\n這個 case 就是一個非常典型 targeted therapy 在 ECD 發揮作用的例子。"
+    },
+    "22": {
+      "hint": "A D V E R S E E F F E C T S O F B R A F - A N D M E K - I N H I B I T O R S Imag",
+      "note": "不過 targeted therapy 不是沒有代價的。我想花一點時間討論 BRAF inhibitor 和 MEK inhibitor 的 side effects，因為這會直接影響到 long-term management。\n\n首先這些 side effects 的 range 非常廣，從輕微的 nuisance 到嚴重的 incapacitating 都有。而且我們要區分 dose-limiting toxicity，也就是可以靠減量 manage 的，跟 treatment-limiting，也就是必須停藥的。\n\n最常見的 side effects 包括：rash，還有 secondary skin cancer，這個部分病人一定要定期做 dermatologic exam；joint pain；fatigue；diarrhea；leg swelling；以及 laboratory value abnormalities，像是 LFT 或 creatinine 的上升。\n\n比較少見但是嚴重的有兩個——retinopathy，尤其是 MEK inhibitor 要 monitor，所以病人要定期做 retinal exam；以及 LVEF reduction，所以需要定期做 echo。\n\n在 histiocytic neoplasm 這個 setting，我們通常 start at a lower dose than FDA approved doses，大概是 50% 或甚至更低。為什麼？因為 histiocytic neoplasm 的病人通常疾病進展比較慢，不需要 melanoma 那麼 aggressive 的劑量就可以有效，而且低劑量可以大幅減少 toxicity。\n\n另外，personalized dosing schedules 和 drug holidays 也是 feasible 的——有些病人可能吃幾週停幾週，或者在 side effects 出現時暫停幾天，再繼續。這種個別化的策略對維持 long-term compliance 非常重要。"
+    },
+    "23": {
+      "hint": "C L I N I C A L C A S E : C O N T I N U E D Vemurafenib for BRAF-V600E ECD Ataxi",
+      "note": "繼續回到這位病人的故事。她用 vemurafenib 治療之後 ataxia 改善、不需要 wheelchair，PET 也明顯改善。\n\n但是，四年後她開始出現新的問題——fatigue、反覆跌倒、cognition 下降、還有新發作的 atrial fibrillation。這些不是 ECD 復發，而是 targeted therapy 長期使用造成的累積 toxicity 和老化相關的問題。\n\n在跟她討論之後，我們決定 stop treatment，也就是停掉 vemurafenib。\n\n右邊的 PET 是停藥一段時間之後的影像，大家看紅色箭頭，可以看到下肢的 bone 有一些新的 uptake，代表疾病有輕微的 re-activation。\n\n這就引出了一個臨床上非常重要的問題——targeted therapy 到底要用多久？可以停嗎？停了會不會復發？"
+    },
+    "24": {
+      "hint": "Blood (2025) 146 (Supplement 1): 726. Multi-center retrospective study from 5 US",
+      "note": "這正是 2025 年 ASH 上另一篇非常重要的研究所要回答的問題。這是一個來自 5 個 US center 的 multi-center retrospective study，總共 32 位病人。\n\n收案條件很嚴格。病人必須有 LCH、ECD、RDD 或 mixed histiocytosis 的診斷；必須有接受過 targeted therapy，不管是 first line 還是後面的 line；必須達到 best response 是 partial response 或 complete response；而且必須要至少 12 個月以上的 durable response。然後 targeted therapy 因為各種原因被停掉，原因包含 toxicity、patient preference、cost prohibition 或其他 medical condition。\n\n左邊的 table 是 baseline characteristics。Median age 56 歲，range 12 到 84；男女各半；74% 是 Caucasian。Histological subtype 以 ECD 為主，59%；其次是 RDD 16%；mixed histiocytosis 16%；LCH 9%。\n\n右邊的 table 是 disease sites 跟 mutation status。Bone 受侵犯 78%；CNS 34%；cardiovascular 34%；skin 31%；lymph nodes 22%；kidney 19%。Mutation 方面，BRAF V600E 44%；MAP2K1/2 19%；NRAS 3%；其他 12%。"
+    },
+    "25": {
+      "hint": "T R E A T M E N T S A N D O T H E R C H A R A C T E R I S T I C S Dual inhibitor",
+      "note": "這張 slide 繼續這個 discontinuation study 的治療細節。\n\n左邊的 pie chart 是病人用的 targeted therapy 類別。MEK inhibitor 佔 59%，19 位，其中 trametinib 3 位、cobimetinib 16 位。BRAF inhibitor 28%，7 位，dabrafenib 1 位、vemurafenib 6 位。Dual inhibitor 13%，4 位，dabrafenib 加 trametinib 3 位、vemurafenib 加 cobimetinib 1 位。\n\n右邊 table 是治療的結果。Best response——complete response 65%，partial response 36%，加起來可以超過 100% 是因為部分病人先 PR 後來轉 CR。Median duration of treatment 是 35 個月，range 13 到 83 個月，所以這些病人都用了相當長的一段時間。\n\n從 best response 到停藥的 median time 是 23 個月，range 12 到 46 個月。細分下來，12 到 24 個月就停的有 44%，24 到 36 個月 22%，36 個月以上 34%。\n\n最重要的是停藥的原因。Patient preference 50%——也就是病人自己想停；toxicity 30%；其他嚴重 medical condition 16%；cost 4%。所以其實一半的病人是因為自己想停而停，不是因為治療失敗或毒性。"
+    },
+    "26": {
+      "hint": "P R O G R E S S I O N - F R E E S U R V I V A L A F T E R D I S C O N T I N U A",
+      "note": "這張圖是這個 discontinuation study 最重要的結果——停藥後的 progression-free survival。\n\n左邊的 KM curve 是整個 cohort。在停藥之後，15 位病人，也就是 47% 出現了 disease progression；其中 6 位、19% 是在六個月以內就 progression。Median follow-up 是 37 個月，median PFS 是 42 個月，95% CI 13 到 NR。2-year PFS 是 59%，95% CI 44 到 80%。\n\n所以差不多一半的病人停藥後可以持續 disease control 超過 3 年以上，這其實是鼓舞人心的結果。\n\n右邊上面的 KM curve 是依照用藥類別分組。MEKi containing 的 median PFS 是 51 個月，BRAFi alone 只有 10 個月。HR 0.27，p = 0.022。也就是說用 MEK inhibitor 的病人停藥後比較能維持 remission。\n\n右邊下面的 KM curve 是依照 mutation status 分。BRAF V600E 的 median PFS 只有 13.3 個月，wild type 則是 not reached。HR 4.04，p = 0.018。所以 BRAF V600E 的病人停藥後復發風險明顯比較高。\n\n另外一個重要的結果——15 位復發的病人當中，13 位 rechallenge targeted therapy，其中 7 位還 switch class，也就是從 BRAFi 換 MEKi 或反過來。結果全部都可以 recapture response，2 位 CR、5 位 PR。所以即使復發，rechallenge 還是有效。\n\n重點是——BRAF V600E 的病人和其他有 high-risk feature 的病人可能不太適合 discontinuation，一停就容易復發。而 BRAF wild type 或者沒有其他 high-risk feature 的病人，discontinuation 是一個合理的選項。"
+    },
+    "27": {
+      "hint": "Blood (2025) 146 (Supplement 1): 1495. Bulk ddPCR on CD34+ marrow cells Targeted",
+      "note": "這是另一篇同樣在 2025 年 ASH 發表的研究，提供一個很有趣的 mechanistic insight。題目是 clonal persistence of BRAF V600E under MEK inhibition in histiocytosis。\n\n研究者收了一些 histiocytosis 病人的 bone marrow，做 bulk ddPCR 檢測 CD34+ marrow cells 裡面的 BRAF V600E variant allele frequency。LCH 3 位、ECD 4 位。\n\n左邊的 bar 比較 treatment naive 跟 MEK/BRAF inhibitor treated 的病人，BRAF V600E VAF 在 CD34+ cells 裡面的差異——p 值 0.7020，沒有顯著差異。也就是說即使用了 targeted therapy，marrow 裡面 CD34 cells 的 BRAF V600E 量並沒有被清掉。\n\n右邊是 single-cell analysis 的 UMAP，可以看到 naive 和 exposed 的 hematopoietic population 分布差不多，包含 monocytes、pDC、MEP/erythroid、HSPC、CD10 B-cell、CD1c B-cell、CD4 T、CD8 T、NK 等。\n\n下面的 take-home message 是——targeted therapy 可以 induce clinical response，但是並不能 clear BRAF V600E 的 hematopoietic clones。這就解釋了為什麼停藥之後這麼多病人會復發，尤其是 BRAF V600E 的病人。因為 clone 其實一直都還在骨髓裡面。\n\n所以 targeted therapy 目前看起來更像是一種 disease control，而不是 cure。"
+    },
+    "28": {
+      "hint": "C L I N I C A L C A S E : C O N C L U S I O N 4 years later Fatigue Falls Reduce",
+      "note": "回到我們病人的最後結局。\n\n前面提到，她在 vemurafenib 治療四年後出現 fatigue、反覆 fall、cognition 下降、atrial fibrillation，所以我們停了藥。停藥之後可以看到下肢的 bone 有一些新的 uptake，提示 disease reactivation。\n\n基於我們剛剛看到的資料——BRAF V600E 的病人停藥後比較容易復發——我們的決定是 resume vemurafenib。\n\n三個月之後再做 PET，可以看到這些 reactivation 的 lesion 都退掉了。這個 rechallenge 也對應了前面 discontinuation study 的結果——即使是 BRAF V600E 的病人，rechallenge 還是可以 recapture response。\n\n這個 case 完整體現了 targeted therapy 的整個 journey——從 initial response，到 long-term toxicity 帶來的 discontinuation，到復發之後 rechallenge 的 response。這會是未來我們治療 histiocytic neoplasm 病人會反覆面對的情境。"
+    },
+    "29": {
+      "hint": "K E Y T A K E ‑ A W AY S Histiocytic neoplasms are of diverse phenotypes (ECD, L",
+      "note": "最後幫大家 summarize 今天的 key take-aways。\n\n第一，histiocytic neoplasms 是一群 diverse 的疾病，包含 ECD、LCH、RDD、以及 malignant histiocytic neoplasm。雖然有共通的分子機轉，但臨床表現非常不一樣，需要 pattern recognition。\n\n第二，adequate staging 跟 molecular assessment 是 vital 的。沒有完整的 workup 就沒辦法做出正確的 treatment decision。尤其 NGS 現在幾乎是 must-do。\n\n第三，targeted therapy 非常 promising，已經徹底改變這些疾病的 outcome。但是 challenges remain——包含 prolonged treatment 的需求、long-term side effects、以及 cost。\n\n第四，discontinuation of targeted therapy 在某些情境下是 feasible 的，特別是 low-risk disease，像是 BRAF wild type 或者沒有其他 high-risk feature 的病人。但是對 BRAF V600E 的病人要非常謹慎。\n\n第五——這一點我想再次強調——multi-disciplinary collaboration 是 key。histiocytic neoplasm 的診斷和治療需要 hematology、oncology、pathology、radiology、neurology、endocrinology、dermatology、pulmonology 等各科的配合。單打獨鬥是做不起來的。"
+    },
+    "30": {
+      "hint": "R E S O U R C E : H I S T I O - C A R E N E T W O R K Curehistio.org Referral Ed",
+      "note": "這裡跟大家介紹一個重要的 resource——HISTIO-CARE Network。\n\n這是一個 US 的多中心合作網路，目前的成員包含 Mayo Clinic 的 Minnesota 跟 Arizona 兩個 campus、University of Michigan 的 Rogel Cancer Center、University of Alabama at Birmingham 的 O'Neal Comprehensive Cancer Center，還有 Moffitt Cancer Center。\n\n右邊的照片是我們 monthly multi-disciplinary case conference 的截圖，各中心的 hematologist、oncologist、pathologist 定期開會 review 困難的 case。\n\n這個 network 提供三個服務：第一是 referral，如果你有 histiocytic neoplasm 的病人需要 second opinion 或轉診，可以透過我們的 network 得到協助。第二是 education，包括 CME 和 teaching sessions。第三是 research collaboration，聯合不同 center 的病人做 multi-center studies，就像剛剛那些 2025 ASH 發表的研究。\n\n網站是 Curehistio.org，歡迎大家上去看更多資訊。"
+    },
+    "31": {
+      "hint": "P A R T N E R S H I P S T O A D V A N C E O U T C O M E S",
+      "note": "除了 HISTIO-CARE Network 之外，還有很多 international partnership 正在推動這個 field 的進展。\n\n中間是 Histiocyte Society，這是最早成立、國際性的 histiocytic disorder 學會。它有 executive board，下面有 committees 和 steering committees。Committees 包含 education committee、scientific committee、young investigator committee。Steering committees 則依疾病分——HLH steering committee、LCH steering committee、non-LCH steering committee。Working groups 包含 adult LCH working group、HLH in adults working group、LCH-IV working group、以及 international rare disease registry working group。\n\n左邊是 patient advocacy group，最重要的兩個是 Histiocytosis Association 和 Erdheim-Chester Disease Global Alliance。這些組織在支持病人和家屬方面非常重要。\n\n右邊是幾個 consortium——NACHO 是 North American Consortium for Histiocytosis，主要是 pediatric 為主；ECHO 是 European Consortium for Histiocytosis；最下面就是我們剛提到的 HISTIO-CARE Network。\n\n這些 organization 之間互相合作，共同推動 histiocytic neoplasm 的 research 和 patient care。"
+    },
+    "32": {
+      "hint": "H I S T I O C Y T I C D I S O R D E R S U R V I V O R S T U D Y Phone: 1-866-",
+      "note": "最後我想跟大家介紹一個我們正在進行的 study——Histiocytic Disorder Survivor Study。\n\n這個 study 的 goal 是 define long-term outcomes in people with histiocytic disorders。因為過去 histiocytic neoplasm 的病人存活時間普遍不長，我們對 long-term survivor 的 quality of life、secondary complication、以及 late effects 其實知道的很有限。隨著 targeted therapy 讓更多病人可以長期存活，這些問題就變得很重要。\n\nStudy 的 involvement 很簡單——病人需要回答一份 survey，大概 45 到 60 分鐘，可以線上做也可以紙本完成。\n\n誰可以參加？成人或兒童的 ECD、LCH、RDD 或 JXG 病人；已過世病人的 family member；English-speaking；18 歲以上的病人需要自己完成 survey。\n\n這個 study 是由 Blood Cancer United、American Cancer Society、Histiocytosis Association、以及 ECD Global Alliance 共同支持的。\n\n右下角是一個 QR code 可以直接連到 study 頁面，或者可以打電話 1-866-438-1640，或者 email histio@uabmc.edu，網址是 https://curehistio.org/long-term-follow-up-study。\n\n非常歡迎大家幫忙 refer 合適的病人參加這個 study。\n\n以上就是今天的 presentation，非常謝謝大家的聆聽，我們可以開始 Q&A。"
+    }
+  }
+}
