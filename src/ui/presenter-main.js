@@ -16,6 +16,8 @@ import { wireImportExport } from "./modules/import-export.js";
 import { createRecordingDialog } from "./modules/recording-dialog.js";
 import { createRecorder } from "./modules/recording.js";
 import { createResizableLayout } from "./modules/resizable-layout.js";
+import { createGridView } from "./modules/grid-view.js";
+import { createCursorSync } from "./modules/cursor-sync.js";
 
 export async function initPresenter() {
   const config = readConfig();
@@ -31,6 +33,14 @@ export async function initPresenter() {
   const notesHint = document.getElementById("notes-hint");
   const counter = document.getElementById("counter");
   const timerEl = document.getElementById("timer");
+  const pdfNameEl = document.getElementById("pdf-name");
+  const gridBtn = document.getElementById("grid-btn");
+  const cursorSyncBtn = document.getElementById("cursor-sync-btn");
+
+  if (pdfNameEl && config.pdfName) {
+    pdfNameEl.textContent = config.pdfName;
+    pdfNameEl.title = config.pdfName;
+  }
 
   const channel = new BroadcastChannel(CHANNEL_NAME);
   let currentSlide = 1;
@@ -125,6 +135,8 @@ export async function initPresenter() {
       }
       return;
     }
+    // Grid view owns the keyboard while open (arrows / Enter / Esc).
+    if (gridView.isOpen()) return;
     if (ev.key === "ArrowRight" || ev.key === "PageDown" || ev.key === " ") {
       ev.preventDefault();
       show(currentSlide + 1);
@@ -141,6 +153,13 @@ export async function initPresenter() {
       toggleBlack();
     } else if (ev.key === "r" || ev.key === "R") {
       timer.reset();
+    } else if (ev.key === "g" || ev.key === "G") {
+      ev.preventDefault();
+      gridView.open();
+    } else if (ev.key === "l" || ev.key === "L") {
+      ev.preventDefault();
+      cursorSync.toggle();
+      updateCursorSyncBtn();
     }
   });
 
@@ -153,6 +172,32 @@ export async function initPresenter() {
       ? config.timerMinutes * 60 * 1000
       : null;
   const timer = createTimer({ timerEl, resetBtnEl: timerResetBtn, countdownMs });
+
+  // ---- Grid view ----
+  const gridView = createGridView({
+    pdf,
+    total,
+    getCurrentSlide: () => currentSlide,
+    onSelect: (n) => show(n),
+  });
+  if (gridBtn) gridBtn.addEventListener("click", () => gridView.open());
+
+  // ---- Cursor sync ----
+  const cursorSync = createCursorSync({ canvas: currentCanvas, channel });
+  function updateCursorSyncBtn() {
+    if (!cursorSyncBtn) return;
+    const on = cursorSync.isEnabled();
+    cursorSyncBtn.textContent = `◉ Cursor sync: ${on ? "on" : "off"}`;
+    cursorSyncBtn.setAttribute("aria-pressed", String(on));
+    cursorSyncBtn.classList.toggle("active", on);
+  }
+  if (cursorSyncBtn) {
+    cursorSyncBtn.addEventListener("click", () => {
+      cursorSync.toggle();
+      updateCursorSyncBtn();
+    });
+  }
+  updateCursorSyncBtn();
 
   // ---- Resizable layout dividers ----
   createResizableLayout({

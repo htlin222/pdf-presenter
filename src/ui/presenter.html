@@ -77,6 +77,24 @@
           >↺</button>
         </div>
         <div class="counter" id="counter">– / –</div>
+        <div class="pdf-name" id="pdf-name" title=""></div>
+        <div class="view-row">
+          <button
+            type="button"
+            id="grid-btn"
+            class="btn"
+            title="Show slide grid (G)"
+            aria-label="Show slide grid"
+          >⊞ Grid</button>
+          <button
+            type="button"
+            id="cursor-sync-btn"
+            class="btn"
+            title="Toggle cursor sync (L)"
+            aria-label="Toggle cursor sync"
+            aria-pressed="false"
+          >◉ Cursor sync: off</button>
+        </div>
         <div class="notes-actions">
           <button type="button" id="export-notes" class="btn">Export speaker note</button>
           <button type="button" id="load-notes" class="btn">Load speaker note</button>
@@ -102,6 +120,8 @@
         </div>
         <div class="hints">
           <span>← →</span> nav
+          <span>G</span> grid
+          <span>L</span> cursor sync
           <span>F</span> freeze
           <span>B</span> black
           <span>R</span> reset timer

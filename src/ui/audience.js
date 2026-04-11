@@ -13,6 +13,7 @@ export async function initAudience() {
   const pdf = await loadDocument(config.pdfUrl);
   const total = pdf.numPages;
   const canvas = document.getElementById("slide-canvas");
+  const laserDot = document.getElementById("laser-dot");
   const blackOverlay = document.getElementById("black-overlay");
   const freezeIndicator = document.getElementById("freeze-indicator");
   const status = document.getElementById("status");
@@ -44,6 +45,20 @@ export async function initAudience() {
     blackOverlay.classList.toggle("hidden", !on);
   }
 
+  function setCursor(msg) {
+    if (!laserDot) return;
+    if (msg.hidden) {
+      laserDot.classList.add("hidden");
+      return;
+    }
+    const rect = canvas.getBoundingClientRect();
+    const x = rect.left + msg.x * rect.width;
+    const y = rect.top + msg.y * rect.height;
+    laserDot.style.left = `${x}px`;
+    laserDot.style.top = `${y}px`;
+    laserDot.classList.remove("hidden");
+  }
+
   channel.addEventListener("message", (ev) => {
     const msg = ev.data;
     if (!msg || typeof msg !== "object") return;
@@ -56,6 +71,9 @@ export async function initAudience() {
         break;
       case "black":
         setBlack(!!msg.value);
+        break;
+      case "cursor":
+        setCursor(msg);
         break;
       case "hello":
         channel.postMessage({ type: "audience-ready" });
