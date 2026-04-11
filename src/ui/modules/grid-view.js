@@ -2,17 +2,39 @@
 // Thumbnails are rendered lazily on first open and cached for the session.
 // Keyboard: arrow keys move selection, Enter picks, Esc closes.
 
-const THUMB_WIDTH = 220; // css px; canvas backing store is scaled by DPR
+// Render at 2x the min-column width so tiles stay crisp when the grid
+// auto-expands columns wider than the minimum. Display size is driven
+// by CSS (width:100%, height:auto), so the canvas keeps its natural ratio.
+const THUMB_RENDER_WIDTH = 480;
 const CONTAINER_ID = "grid-overlay";
 
 export function createGridView({ pdf, total, getCurrentSlide, onSelect }) {
   let overlayEl = null;
   let gridEl = null;
   let tileEls = []; // index 0 => slide 1
-  const thumbCache = new Map(); // pageNumber -> HTMLCanvasElement
+  const thumbCache = new Map(); // pageNumber -> HTMLImageElement
   let selected = 1;
   let open = false;
   let renderToken = 0;
+  let aspectsLoaded = false;
+
+  // Pre-compute each page's aspect ratio and pin it onto the tile BEFORE
+  // any images load. Without this, CSS Grid with definite-height container
+  // recomputes row heights as images decode, shrinking tiles to squeeze all
+  // rows into view. Fetching page viewports is cheap — no rendering, just
+  // metadata from pdf.js.
+  async function pinAspects() {
+    if (aspectsLoaded) return;
+    aspectsLoaded = true;
+    const pagePromises = [];
+    for (let i = 1; i <= total; i++) pagePromises.push(pdf.getPage(i));
+    const pages = await Promise.all(pagePromises);
+    for (let i = 0; i < pages.length; i++) {
+      const vp = pages[i].getViewport({ scale: 1 });
+      const wrap = tileEls[i].querySelector(".grid-thumb");
+      wrap.style.aspectRatio = `${vp.width} / ${vp.height}`;
+    }
+  }
 
   function build() {
     overlayEl = document.createElement("div");
@@ -43,6 +65,12 @@ export function createGridView({ pdf, total, getCurrentSlide, onSelect }) {
       tile.className = "grid-tile";
       tile.dataset.slide = String(i);
 
+      // Wrap content in a plain block div so the <button> itself never acts
+      // as a flex/grid container — button UA styles collapse flex children
+      // with percentage-width replaced elements in some browsers.
+      const inner = document.createElement("div");
+      inner.className = "grid-tile-inner";
+
       const canvasWrap = document.createElement("div");
       canvasWrap.className = "grid-thumb";
 
@@ -50,8 +78,9 @@ export function createGridView({ pdf, total, getCurrentSlide, onSelect }) {
       label.className = "grid-label";
       label.textContent = String(i);
 
-      tile.appendChild(canvasWrap);
-      tile.appendChild(label);
+      inner.appendChild(canvasWrap);
+      inner.appendChild(label);
+      tile.appendChild(inner);
       tile.addEventListener("click", () => pick(i));
       tile.addEventListener("mouseenter", () => setSelected(i, false));
       gridEl.appendChild(tile);
@@ -69,20 +98,22 @@ export function createGridView({ pdf, total, getCurrentSlide, onSelect }) {
   async function renderThumb(pageNumber) {
     if (thumbCache.has(pageNumber)) return thumbCache.get(pageNumber);
     const page = await pdf.getPage(pageNumber);
-    const dpr = Math.min(window.devicePixelRatio || 1, 2);
     const unscaled = page.getViewport({ scale: 1 });
-    const scale = THUMB_WIDTH / unscaled.width;
+    const scale = THUMB_RENDER_WIDTH / unscaled.width;
     const viewport = page.getViewport({ scale });
     const canvas = document.createElement("canvas");
-    canvas.width = Math.floor(viewport.width * dpr);
-    canvas.height = Math.floor(viewport.height * dpr);
-    canvas.style.width = `${Math.floor(viewport.width)}px`;
-    canvas.style.height = `${Math.floor(viewport.height)}px`;
+    canvas.width = Math.floor(viewport.width);
+    canvas.height = Math.floor(viewport.height);
     const ctx = canvas.getContext("2d");
-    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     await page.render({ canvasContext: ctx, viewport }).promise;
-    thumbCache.set(pageNumber, canvas);
-    return canvas;
+    // <img> is a proper replaced element — width:100% / height:auto always
+    // yields the image's natural aspect ratio.
+    const img = new Image(canvas.width, canvas.height);
+    img.src = canvas.toDataURL("image/png");
+    img.decoding = "async";
+    img.alt = `Slide ${pageNumber}`;
+    thumbCache.set(pageNumber, img);
+    return img;
   }
 
   async function fillTiles() {
@@ -168,7 +199,10 @@ export function createGridView({ pdf, total, getCurrentSlide, onSelect }) {
     open = true;
     overlayEl.classList.remove("hidden");
     setSelected(getCurrentSlide(), true);
-    fillTiles();
+    // Fire and forget — pins each tile's box geometry to its slide aspect,
+    // then kicks off rendering. fillTiles runs in parallel; it's safe because
+    // the tiles already exist and we only update wrap.style.aspectRatio.
+    pinAspects().then(fillTiles);
     window.addEventListener("keydown", onKey, true);
   }
 

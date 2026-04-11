@@ -752,6 +752,10 @@ button.timer:focus-visible {
   overflow-y: auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  /* max-content on implicit rows prevents the grid from recomputing row
+     heights against the container when images decode — rows stay at the
+     size their aspect-ratio-pinned .grid-thumb asks for. */
+  grid-auto-rows: max-content;
   gap: 14px;
   align-content: start;
   padding: 4px 4px 12px;
@@ -759,16 +763,22 @@ button.timer:focus-visible {
 
 .grid-tile {
   appearance: none;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   background: #15181d;
   border: 2px solid #23272e;
   border-radius: 6px;
-  padding: 0;
   cursor: pointer;
-  display: flex;
-  flex-direction: column;
   overflow: hidden;
-  transition: border-color 0.1s ease, transform 0.1s ease;
+  text-align: left;
   font-family: inherit;
+  transition: border-color 0.1s ease, transform 0.1s ease;
+}
+
+.grid-tile-inner {
+  display: block;
 }
 
 .grid-tile:hover {
@@ -782,18 +792,20 @@ button.timer:focus-visible {
 }
 
 .grid-thumb {
+  display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  /* aspect-ratio is set inline by grid-view.js pinAspects() per slide,
+     with a sane fallback so the box has some height before pages load. */
+  aspect-ratio: 16 / 9;
   background: #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
 }
 
+.grid-thumb img,
 .grid-thumb canvas {
-  max-width: 100%;
-  max-height: 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .grid-label {
