@@ -24,12 +24,17 @@
 
 > Lightweight CLI that serves a PDF as browser slides with a full presenter mode — speaker notes, next-slide preview, pause-able timer, audio recording with per-slide timeline metadata, and resizable panes. No markdown conversion, no native dependencies. Point it at a PDF and go.
 
+<p align="center">
+  <img src="assets/presenter-preview.png" alt="Presenter view — current slide, speaker notes, next slide preview, and timer" width="720" />
+</p>
+
 [繁體中文版 →](./README-zhtw.md)
 
 ```bash
 npx pdf-presenter slides.pdf           # serve & open browser
 npx pdf-presenter -gn slides.pdf       # generate a notes template
 npx pdf-presenter slides.pdf -t 20     # 20-minute countdown
+npx pdf-presenter ./slides/            # browse a directory of PDFs
 ```
 
 ---
