@@ -84,6 +84,33 @@ export async function initAudience() {
   // Derive presenter URL from current location (works for both single and directory mode)
   const presenterUrl = window.location.pathname.replace(/\/?$/, "") + "/presenter";
 
+  // Toolbar: show only when cursor is near top-right corner, hide otherwise
+  const toolbar = document.getElementById("audience-toolbar");
+  let hideTimer = null;
+  function showToolbar() {
+    if (!toolbar) return;
+    toolbar.classList.add("visible");
+    clearTimeout(hideTimer);
+    hideTimer = setTimeout(() => {
+      if (!toolbar.matches(":hover")) toolbar.classList.remove("visible");
+    }, 1500);
+  }
+  function hideToolbar() {
+    if (!toolbar) return;
+    toolbar.classList.remove("visible");
+    clearTimeout(hideTimer);
+  }
+  window.addEventListener("mousemove", (ev) => {
+    if (ev.clientX > window.innerWidth - 250 && ev.clientY < 80) {
+      showToolbar();
+    } else if (toolbar && !toolbar.matches(":hover")) {
+      hideToolbar();
+    }
+  });
+  if (toolbar) {
+    toolbar.addEventListener("mouseleave", hideToolbar);
+  }
+
   // Toolbar buttons
   document.getElementById("fullscreen-btn")?.addEventListener("click", () => {
     if (document.fullscreenElement) {
