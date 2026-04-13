@@ -73,6 +73,40 @@ body.audience {
   font-variant-numeric: tabular-nums;
 }
 
+.audience-toolbar {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  gap: 6px;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.stage:hover .audience-toolbar {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.toolbar-btn {
+  appearance: none;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  padding: 6px 14px;
+  font-size: 12px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.toolbar-btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
 /* ==========================================================================
    Presenter view
    ========================================================================== */
@@ -361,6 +395,26 @@ button.timer:focus-visible {
 
 .timer-reset:active {
   background: #161a20;
+}
+
+.timer-action {
+  appearance: none;
+  margin-left: auto;
+  background: #1d222a;
+  color: #9aa3b0;
+  border: 1px solid #2d333b;
+  border-radius: 4px;
+  font-size: 11px;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.1s ease, border-color 0.1s ease, color 0.1s ease;
+}
+
+.timer-action:hover {
+  background: #252b35;
+  border-color: #3a4049;
+  color: #d0d4dc;
 }
 
 .meta > .counter {

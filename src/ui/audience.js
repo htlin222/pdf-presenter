@@ -81,6 +81,21 @@ export async function initAudience() {
     }
   });
 
+  // Derive presenter URL from current location (works for both single and directory mode)
+  const presenterUrl = window.location.pathname.replace(/\/?$/, "") + "/presenter";
+
+  // Toolbar buttons
+  document.getElementById("fullscreen-btn")?.addEventListener("click", () => {
+    if (document.fullscreenElement) {
+      document.exitFullscreen();
+    } else {
+      document.documentElement.requestFullscreen();
+    }
+  });
+  document.getElementById("presenter-btn")?.addEventListener("click", () => {
+    window.open(presenterUrl, "_blank");
+  });
+
   // Keyboard nav (audience can also advance on its own if standalone).
   window.addEventListener("keydown", (ev) => {
     if (ev.key === "ArrowRight" || ev.key === "PageDown" || ev.key === " ") {
@@ -90,7 +105,7 @@ export async function initAudience() {
       show(currentSlide - 1);
       channel.postMessage({ type: "slide", slide: clampSlide(currentSlide, total) });
     } else if (ev.key === "p" || ev.key === "P") {
-      window.open("/presenter", "pdf-presenter-presenter");
+      window.open(presenterUrl, "pdf-presenter-presenter");
     }
   });
 

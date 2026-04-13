@@ -51,6 +51,12 @@ export async function initPresenter() {
     }
   }
 
+  // "Audience" button — open audience view in new tab
+  document.getElementById("open-audience")?.addEventListener("click", () => {
+    const base = window.location.href.replace(/\/presenter\/?$/, "/");
+    window.open(base, "_blank");
+  });
+
   const channel = new BroadcastChannel(CHANNEL_NAME);
   let currentSlide = 1;
   let frozen = false;
