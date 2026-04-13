@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "pdf": "integrating-approved-immunotherapies-into-treatment-approaches-for-adult-b-precursor-acute-lymphoblastic-leukemia.pdf",
+    "totalSlides": 36,
+    "generatedAt": "2026-04-12T19:14:44.436Z",
+    "generator": "pdf-presenter"
+  },
+  "notes": {
+    "1": {
+      "hint": "American Society of Hematology | Integrating Approved Immunotherapies into Treat",
+      "note": "各位好，我是 Adele Fielding，來自英國 University of York 的 Hull York Medical School，Centre for Blood Research。今天非常榮幸能在 ASH 的 Highlights 課程中跟大家分享這個主題。\n\n我們今天要談的是如何將已核准的 immunotherapy 整合到成人 B-precursor acute lymphoblastic leukemia 的治療策略中。這是一個近年來變化非常大的領域，尤其是 blinatumomab 的加入，讓我們對這個疾病的治療有了全新的思維。接下來讓我們一起來看看最新的數據和臨床思考。"
+    },
+    "2": {
+      "hint": "American Society of Hematology | Disclosures In compliance with ACCME policy, AS",
+      "note": "首先按照規定，我需要揭露我的利益衝突。我擔任 Amgen 的 Board Advisory Committee 成員。另外今天的演講中會涉及一些 off-label drug use 的討論，包括 inotuzumab、CAR-T 細胞治療以及 blinatumomab 在部分適應症上的使用。"
+    },
+    "3": {
+      "hint": "American Society of Hematology | American Society of Hematology | Learning Objec",
+      "note": "今天的學習目標有三個重點。第一，我們要了解目前在成人 ALL 治療中使用的 prognostic 和 predictive factors。第二，我們要探討加入 blinatumomab 到 de novo ALL 治療後所產生的新的臨床抉擇困境，包括哪些決策改變了、我們如何跟病人溝通這些新的未知數。\n\n第三，我們要回顧最新的實證資料，看看這些數據如何開始幫助我們解決在真實 B-ALL 病人身上面臨的這些複雜決策問題。這些都是非常實際的臨床問題。"
+    },
+    "4": {
+      "hint": "American Society of Hematology | American Society of Hematology | Case study 38",
+      "note": "讓我們用一個案例來帶入今天的討論。這是一位38歲的女性病人，診斷為 B-precursor ALL，初始 WCC 為 70 x 10^9/L，遺傳學特徵是 low hyplodiploidy，CNS negative。她有一些共病，包括糖尿病和肥胖，而且因為肥胖的關係，要取得足夠的骨髓檢體比較困難。\n\n她在 induction 化療後達到 CR，但是 induction 過程中出現了 asparaginase 相關的肝毒性、VTE 和 sepsis 等併發症。好消息是她有一個完全吻合的 sibling donor。\n\n所以第一個問題來了：對於這位病人，你會選擇什麼樣的 consolidation 方案？選項包括 myeloablative alloSCT、non-myeloablative alloSCT、等 MRD 結果再決定是否做 alloSCT，或者不管 MRD 結果直接繼續 consolidation therapy。大家可以先想一想。"
+    },
+    "5": {
+      "hint": "American Society of Hematology | Risk factors for poor outcome in Ph neg adult A",
+      "note": "在回答這個問題之前，我們先複習一下 Ph-negative 成人 ALL 中影響預後的風險因子。大家看左邊這張圖，這是 Patel 等人在 Hemasphere 2024 發表的資料，可以看到年齡是一個重要的因素，不管化療強度如何，年紀大的病人預後都比較差。UKALL-14 的數據顯示，60歲以上的病人跟較年輕的成人相比，存活曲線明顯分開。\n\n左下方是 Marks 等人在 Lancet Haematology 的資料，顯示 MRD positive 的病人即使做了 reduced-intensity conditioning 的 alloSCT，預後仍然不好。\n\n右邊這張圖非常重要，來自 Moorman 等人 2021 年的 Leukaemia 期刊，是 UKALL14 在25到65歲病人中的遺傳學分析。可以看到不同的遺傳學亞型有明顯不同的預後。Standard risk 如 ZNF38r 和 HeH 預後最好，TK activating fusions 次之，high risk 的 KMT2Ar 更差，而 very high risk 包括 HoH、complex karyotype 和 JAK-STAT 突變的病人預後最差。這些遺傳學資訊對我們的治療決策非常關鍵。"
+    },
+    "6": {
+      "hint": "American Society of Hematology | American Society of Hematology | Blinatumomab i",
+      "note": "接下來談 blinatumomab，這個藥物可以說是 de novo ALL 治療的一個 step change。大家看這張機轉圖，blinatumomab 是一個 BiTE 抗體，它同時結合 T 細胞上的 CD3 和腫瘤細胞上的 CD19。CD19 在所有 B-ALL 診斷時都會表達，所以幾乎所有 B-ALL 病人都是潛在的治療對象。\n\n它的作用機轉是透過同時橋接 T 細胞和 B-ALL 細胞，觸發 BiTE-activated 的 CD4 和 CD8+ T 細胞擴增，進而殺死腫瘤細胞。重要的是，這個效果需要藥物持續存在且目標細胞還在的情況下才會持續。\n\n目前 blinatumomab 是以 continuous IV infusion 的方式給藥，這在臨床上是一個執行上的挑戰，但它帶來的療效確實是革命性的。"
+    },
+    "7": {
+      "hint": "American Society of Hematology | American Society of Hematology | Recent RCTs: s",
+      "note": "那 blinatumomab 的證據有多強呢？大家看這張投影片，這裡呈現了兩個重要的 randomized controlled trials 的結果。左邊是 Gupta 等人發表在 NEJM 2025 的 AALL1731 試驗的數據，雖然這是兒童的研究，但對成人有重要的啟示。可以看到在 overall cohort、standard risk average relapse risk 和 standard risk higher relapse risk 三個群組中，加入 blinatumomab 都有一致的改善趨勢。\n\n右邊是非常重要的 Litzow 等人在 NEJM 2024 發表的 E1910 試驗結果。這個試驗收了488位病人，其中224位 MRD negative 的病人進入隨機分組。大家可以看到 overall survival 曲線非常漂亮地分開了，blinatumomab 加化療組明顯優於單純化療組，hazard ratio 為 0.41，95% CI 0.23-0.73，P=0.002。這是具有里程碑意義的結果。"
+    },
+    "8": {
+      "hint": "American Society of Hematology | Dosing depends on circumstances: Frank relapse:",
+      "note": "現在 blinatumomab 的 CIV 給藥方式在 BCR::ABL1 negative ALL 中已經有三種不同情境的核准適應症，而且劑量和療程會根據臨床情境有所不同。\n\n第一種是 frank relapse，也就是明確復發的情況，需要一週的 run-in dose 然後給五個 cycle。第二種是 MRD positive 的情況，不管是 de novo 還是 re-emergence，不需要 run-in dose，給四個 cycle。第三種是 MRD negative 用在 consolidation，這是 de novo 的情況，同樣不需要 run-in dose，四個 cycle，而且是加上化療一起使用。\n\n這些不同的用法讓我們在臨床上有更多的靈活度，但也帶來了新的問題。"
+    },
+    "9": {
+      "hint": "American Society of Hematology | What are the potential benefits of SC blin comp",
+      "note": "現在既然幾乎所有人都可以接受 blinatumomab 治療了，接下來就出現了很多 open questions 需要回答。\n\n首先，subcutaneous blinatumomab 跟 CIV blinatumomab 比起來有什麼潛在好處？這對病人的便利性非常重要。第二，提早開始使用 blinatumomab 是否有好處？第三，在沒有 targeted agent 的情況下，我們可以省略多少化療？這些問題目前有 Golden Gate、Audax、UKALL15 等 RCT 正在進行中。\n\n此外還有很關鍵的問題：optimal CNS-directed prophylaxis 非常重要，不能忽略。然後最下面這幾個問題特別值得注意：在 blinatumomab 時代，誰還算是 high-risk ALL？誰應該做 allograft？blinatumomab 怎麼跟其他治療最佳組合？今年 ASH 2025 的數據正好可以幫助回答這些問題。"
+    },
+    "10": {
+      "hint": "American Society of Hematology | 25-11927 Predictors of Relapse and Post-Relapse",
+      "note": "接下來我要介紹三個在 ASH 2025 發表的重要研究，它們都在回答一個核心問題：blinatumomab 是否改變了我們對 prognostic 和 predictive factors 的理解？\n\n第一篇是 Arora 等人的 Abstract 11927，探討在前線 blinatumomab-based therapy 之後復發的預測因子和復發後的結果，這是針對 Ph-negative B-ALL 的研究。\n\n第二篇是 Gupta 等人的 Abstract 9139，這是 AALL1731 試驗的更新結果，專門看 blinatumomab 是否能減輕傳統不良預後因子在 standard risk 兒童 B-ALL 中的影響。\n\n第三篇是 Zhong 等人的 Abstract 7266，分析了 ECOG-ACRIN E1910 試驗中 genomic determinants 對治療結果的影響，並且發現了一個新的基因組亞型。讓我們逐一來看這些重要數據。"
+    },
+    "11": {
+      "hint": "American Society of Hematology | Highlights of ASH® Arora et al Abstract 11927",
+      "note": "首先來看 Arora 等人的研究。大家看這張流程圖，這是從 MD Anderson 等中心收集的數據。他們收了213位在前線 blinatumomab 治療後達到 CR1 的 Ph-negative B-ALL 病人，其中61位（29%）是在 induction 階段使用，152位（71%）是在 consolidation/maintenance 階段使用。\n\n在中位追蹤37個月後，結果如何呢？復發的只有24位病人，佔11%，這是一個非常低的復發率。在 CR1 中死亡的有29位（14%），而75%的病人，也就是160位，在 CR1 中仍然存活。\n\n那24位復發的病人後續怎樣呢？在中位追蹤28個月後，8位存活，16位死亡。所以 blinatumomab 治療後一旦復發，預後是相當不好的，這點值得我們關注。"
+    },
+    "12": {
+      "hint": "American Society of Hematology | Highlights of ASH® Arora et al Abstract 11927",
+      "note": "接下來看 Arora 等人分析了哪些因子會預測前線 blinatumomab 治療後的復發。大家看這張表格，這是 competing risk regression 的單變量分析結果。\n\n左邊可以看到，年齡大於60歲、性別、種族這些因素其實都不顯著。但是有兩個因子非常突出：BMI 大於30 kg/m^2，sHR 是3.11，P=0.010；白血球大於50 x 10^9/L，sHR 是3.15，P=0.009。骨髓中 blast 超過50%也有趨勢，sHR 4.57。\n\n右邊看遺傳學方面，以 diploid 為參考，HoTr 的 sHR 是3.74，KMT2Ar 是3.83，雖然因為個案數少所以 P 值只是 borderline。TP53 mutation 的 sHR 是2.00，P=0.097。值得注意的是，是否使用高強度化療或是否在前線加入 inotuzumab 並不影響復發風險。"
+    },
+    "13": {
+      "hint": "American Society of Hematology | Highlights of ASH® Arora et al Abstract 11927",
+      "note": "再來看多變量分析的結果。大家看這張表格，在 competing risk regression 的多變量分析中，有三個獨立的預測因子脫穎而出。\n\nBMI 大於30 kg/m^2，sHR 2.98，95% CI 1.13-7.81，P=0.027。WBC 大於50 x 10^9/L，sHR 3.64，95% CI 1.41-9.36，P=0.007。TP53 mutation，sHR 2.71，95% CI 1.11-6.66，P=0.029。\n\n值得注意的是，cytogenetics 被排除在多變量分析之外，因為每個遺傳學亞型的 event 數太少，導致模型無法收斂。這告訴我們，即使在 blinatumomab 時代，WBC count、BMI 和 TP53 mutation 仍然是重要的預後因子。特別是 BMI 這個因子過去比較少被討論，但在免疫治療的時代可能變得更加重要。"
+    },
+    "14": {
+      "hint": "American Society of Hematology | 569 B-ALL cases Zhong et al abstract number 25-",
+      "note": "接下來看 Zhong 等人利用 ECOG-ACRIN E1910 試驗的樣本所做的基因組學分析。這個研究非常重要，因為他們對569例 B-ALL 進行了全面的基因組亞型分類。\n\n大家看這張 bar chart，展示了各種 B-ALL subtypes 的頻率分布。在 chromosomal alteration 這一類中，low hypodiploid 佔約15%，是最常見的。在 TF rearrangement 類別中，KMT2A-R 佔約11%最多，其次是 DUX4-R。在 kinase driven 這一類，特別值得注意的是紅框標出來的：Ph+ 佔最大比例（113例），Ph-like CRLF2 有68例，Ph-like non-CRLF2 有32例。\n\n還有一群 other TF alteration，包括 PAX5alt、CEBPalt、PAX5 P80R 等。這個全面的基因組分型讓我們可以更精確地了解每個亞型對 blinatumomab 的反應。"
+    },
+    "15": {
+      "hint": "American Society of Hematology | Zhong et al abstract number 25-7266 Highlights",
+      "note": "這張投影片展示了不同基因組亞型與 induction therapy 反應之間的關聯，P 值為0.002，有統計學意義。\n\n大家看這個 stacked bar chart，分成三層：最上面是 induction chemotherapy failed 的64位病人，中間是 MRD positive 的63位，最下面箭頭指的是 MRD negative 的194位。\n\n紅框標出來的部分非常重要。在 induction 失敗和 MRD positive 的群組中，Ph-like CRLF2、Ph-like non-CRLF2 和 KMT2A-R 佔了很大的比例，顯示這些亞型對化療的反應較差。相反地，在 MRD negative 這一組中，可以看到 PAX5alt、PAX5 P80R、PAX5::ETV6 和 TCF3::PBX1 佔了較大的比例，這些亞型對化療的反應較好。\n\n這意味著基因組亞型可以預測病人對 induction therapy 的反應，進而幫助我們做出更精準的治療決策。"
+    },
+    "16": {
+      "hint": "American Society of Hematology | Blinatumomab improves outcome in high-risk subt",
+      "note": "這張投影片是 Zhong 等人研究中最令人興奮的結果之一。標題說得很清楚：blinatumomab 在 high-risk subtypes 中改善了預後。\n\n最左邊的大圖是所有 MRD negative 病人的 relapse-free survival，blinatumomab 組（紅色）明顯優於 chemotherapy 組（藍色），P=0.0096。然後右邊是按照不同基因組亞型分開來看的結果。\n\n特別值得注意的是 hyperdiploid 亞型，P=0.01，blinatumomab 的效果非常顯著。Ph-like CRLF2 雖然因為個案數少沒達到統計學意義（P=0.16），但趨勢是一致的。下面幾個亞型如 DUX4-R 和 ZNF384-R，P 值都是1，看起來這些本來預後就好的亞型，加不加 blinatumomab 差別不大。而 low hypodiploid 這個通常被認為是 very high risk 的亞型，P=0.6，個案數太少無法下定論。\n\n整體來說，blinatumomab 對那些傳統上被認為是 high risk 的基因組亞型似乎有特別大的幫助。"
+    },
+    "17": {
+      "hint": "American Society of Hematology | 1. Compared outcomes of specific subgroups betw",
+      "note": "現在讓我們來看 Gupta 等人的 AALL1731 分析，這是一個非常巧妙的研究設計。他們用了兩種分析方法。\n\n第一種是比較特定亞組在兩個隨機分組之間的結果，也就是看 blinatumomab 加化療 versus 單純化療在不同亞組中的療效差異。大家看上面這三張 Kaplan-Meier 曲線，是 Gupta, Rau 等人發表在 NEJM 2025 的數據，可以看到 overall cohort、average relapse risk 和 higher relapse risk 組別中，blinatumomab 組都有優勢。\n\n第二種方法更有意思，他們比較了某個 prognosticator 在化療組裡的預後價值 versus 在化療加 blinatumomab 組裡的預後價值。換句話說，blinatumomab 是否改變了傳統預後因子的意義？這個問題非常有深度。"
+    },
+    "18": {
+      "hint": "American Society of Hematology | HR 5.9 P<0.001 HR 2.6 P=0.21 Gupta et al, abstr",
+      "note": "大家看這張表格，展示了 blinatumomab 對特定亞組的4年 DFS 影響。\n\n在 cytogenetics 方面，favorable 組從化療的91.4%提升到 blinatumomab 加化療的97.3%，P=0.02。Neutral 組從86.1%提升到94.1%，P=0.001。紅框標出的 unfavorable 組，從77.1%提升到91.7%，P=0.06。所以不管遺傳學風險高低，blinatumomab 都帶來了改善。\n\n看 day 29 bone marrow MRD，MRD 小於0.01%的病人從89.7%提升到95.9%，P=0.003。MRD 大於等於0.01%的病人從82.3%提升到92.8%，P=0.002。\n\n最下面紅圈標出來的是 end of consolidation MRD 的數據，特別引人注目：MRD 大於等於0.01%的病人，化療組只有30.8%的4年 DFS，但加了 blinatumomab 後提升到81.8%。雖然個案數少，但 HR 5.9，P<0.001 vs HR 2.6，P=0.21，提示 blinatumomab 可能大幅減輕 persistent MRD 的不良預後影響。"
+    },
+    "19": {
+      "hint": "American Society of Hematology | Gupta et al, abstract number 25-9139 Highlights",
+      "note": "這張表格展示了 prognostic value 的變化，是非常精彩的分析。左邊是化療組，右邊是 blinatumomab 加化療組。\n\n在化療組中，unfavorable cytogenetics 是一個很強的不良預後因子，HR 3.49，P=0.002。但在 blinatumomab 加化療組中，unfavorable cytogenetics 雖然仍然有影響（HR 4.09，P=0.04），但整體來看 cytogenetics 的 overall P 值從0.007變成了0.10，不再顯著。這表示 blinatumomab 在一定程度上削弱了 unfavorable cytogenetics 的預後影響力。\n\n另外看 day 29 bone marrow MRD，在化療組中 MRD 大於等於0.01%的 HR 是1.85，P=0.008，是很強的預後因子。但在 blinatumomab 加化療組中，HR 是1.87，P=0.08，不再統計學顯著。Hypodiploid 在化療組中 HR 3.69，P=0.005，但在加了 blinatumomab 後 HR 3.17，P=0.11。\n\n這些數據告訴我們，blinatumomab 正在改變我們對傳統預後因子的認知，某些過去被認為 high risk 的因子，在 blinatumomab 時代可能不再那麼重要。"
+    },
+    "20": {
+      "hint": "American Society of Hematology | American Society of Hematology | Case study 38",
+      "note": "好，讓我們回到我們的案例。這位38歲女性病人，B-precursor ALL，WCC 70 x 10^9/L，low hypodiploidy，CNS negative，有糖尿病和肥胖的共病，induction 有很多併發症但達到了 CR，有完全吻合的 sibling donor。\n\n現在我們多了一個重要資訊：她的 MRD by Ig/TCR 在 sensitivity 10^-4 下是 negative 的。\n\n所以問題來了，AR Q2：現在知道 MRD 是 negative 的，你的 consolidation 選擇會改變嗎？選項包括 myeloablative alloSCT、non-myeloablative alloSCT、繼續 blinatumomab 加化療的 consolidation therapy，或者先給 blinatumomab 再做 alloSCT。\n\n從剛才看到的數據，我們知道 low hypodiploidy 是 very high risk，但 blinatumomab 可能削弱這個不良預後因子的影響。然而她的 WBC 很高，BMI 也高，根據 Arora 的數據這些仍然是復發的風險因子。所以這真的是一個需要仔細權衡的決定。"
+    },
+    "21": {
+      "hint": "American Society of Hematology | 25-2780 Blinatumomab consolidation in high-risk",
+      "note": "接下來我們要探討另一個關鍵問題：blinatumomab 是否改變了我們對誰需要做 allogeneic SCT 的理解？\n\n這裡介紹兩個重要的研究。第一個是 Boissel 等人的 Abstract 2780，來自法國 GRAALL-2014/B trial 的 QUEST substudy，這是一個非常重要的前瞻性研究，專門探討在 high-risk Philadelphia chromosome-negative B-ALL 成人中 blinatumomab consolidation 的最終結果。\n\n第二個是 Chiaretti 等人的 Abstract 7887，來自義大利 GIMEMA ALL2820 第三期試驗，比較了在新診斷成人 Ph+ ALL 中 ponatinib 加 blinatumomab 與 imatinib 加化療的療效。這兩個試驗分別從 Ph-negative 和 Ph-positive ALL 的角度來回答 alloSCT 的問題。"
+    },
+    "22": {
+      "hint": "American Society of Hematology | American Society of Hematology | Long-term outc",
+      "note": "先來看 Boissel 等人的 GRAALL-2014/B trial QUEST substudy 的長期結果。從2018年7月開始，94位 high-risk B-ALL、CNS negative、有 EOI MRD 大於等於10^-4 或 KMT2A-r 或 IKZF1 deletion 的病人接受了 blinatumomab consolidation。對照組是2018年7月之前的90位具有相似 high-risk features 但沒有接受前線 blinatumomab 的病人。\n\n大家看這三張存活曲線。左邊是 disease-free survival，blinatumomab 組70%（95% CI 60-78%），化療組48%（95% CI 38-56%），HR 0.48，P=0.001。中間是 cumulative incidence of relapse，blinatumomab 明顯降低了復發率，SHR 0.41，P=0.001。右邊是 overall survival，blinatumomab 組也有顯著優勢，HR 0.54，P=0.03。\n\n所以加入 blinatumomab 與 relapse 減少59%和 DFS events 減少52%相關。這些都是非常有說服力的數據。"
+    },
+    "23": {
+      "hint": "American Society of Hematology | American Society of Hematology | Subgroup analy",
+      "note": "這張投影片展示了 QUEST versus control 的 subgroup analysis，左邊是 disease-free survival，右邊是 cumulative incidence of relapse。\n\n非常重要的發現是，blinatumomab 的好處在所有亞組中都是一致的。不管是年齡小於45歲還是大於等於45歲、男性還是女性、WBC 高還是低、predicted response unfavorable 還是 favorable，所有的 HR 都在1的左邊，也就是都傾向 blinatumomab 組。\n\n特別值得注意的是，在 high-risk criteria 中，IKZF1 deletion 的病人 DFS HR 是0.26，relapse SHR 是0.24，效果非常顯著。Ph-like ALL 的 DFS HR 是0.34，relapse SHR 是0.24。VHR 病人的 DFS HR 是0.54，relapse SHR 是0.41。\n\n下方結論指出，不僅各年齡層、性別和 WBC 水平都有獲益，連 Ph-like ALL 的病人和符合 alloHSCT 標準的病人，blinatumomab 都能顯著降低復發風險和改善 DFS。"
+    },
+    "24": {
+      "hint": "American Society of Hematology | American Society of Hematology | Patients eligi",
+      "note": "現在來看一個特別關鍵的分析：符合 alloHSCT 條件的 VHR 病人。\n\n左邊的圖顯示 VHR 病人的 disease-free survival，blinatumomab 組（紅色虛線）明顯優於化療組（黑色實線），HR 0.54，95% CI 0.31-0.95。\n\n但右邊這張圖更加精彩，是按照實際是否接受 alloHSCT 來進一步分析的 time-dependent analysis。最上面紅色的線是接受了 blinatumomab 但沒有做 alloHSCT 的病人，存活率最好。接下來是 blinatumomab 加 alloHSCT 的病人，然後是化療加 alloHSCT，最下面是化療沒有做 alloHSCT 的病人。\n\n重點來了：在做了 alloHSCT 的病人中，blinatumomab 的額外好處有限，HR 0.76。但在沒有做 alloHSCT 的病人中，blinatumomab 的好處非常顯著，HR 0.18。這暗示著，對於某些 VHR 病人，如果接受了 blinatumomab，可能可以不需要做 alloHSCT。這是一個非常重要的發現，雖然個案數還少，需要更多數據確認。"
+    },
+    "25": {
+      "hint": "American Society of Hematology | GIMEMA ALL2820 Phase III Trial BM: primary endp",
+      "note": "接下來看 Ph+ ALL 的部分。GIMEMA ALL2820 是一個非常重要的 phase III 試驗，標題寫得很清楚：針對新診斷成人 Ph+ ALL，年齡18歲以上無上限，比較 ponatinib 加 steroids 然後接 blinatumomab 與傳統化療加 imatinib。\n\n大家看這個試驗設計圖。實驗組方面，18-65歲的病人接受 ponatinib 45 mg/day 前22天然後降到30 mg/day 到第70天，接著兩個 cycle 的 blinatumomab 加 ponatinib。65歲以上的病人同樣接受 ponatinib 30 mg/day 加兩個 cycle 的 blinatumomab。注意，實驗組完全不用傳統化療。\n\n對照組則是傳統的化療加 imatinib 方案。如果 control arm 的病人沒有達到 CHR 或 MRD positive，可以 crossover 到實驗組。\n\n試驗在2025年1月停止收案，最後一位病人在2025年6月達到 primary endpoint。特別重要的是 CNS prophylaxis 被加強了，要做15次 triple medicated lumbar punctures。隨機比例是2:1。"
+    },
+    "26": {
+      "hint": "American Society of Hematology | GIMEMA ALL2820. Patients' features (n=236) High",
+      "note": "來看病人的基本特徵。總共收了236位病人，實驗組158位，對照組78位。\n\n中位年齡實驗組56.5歲，對照組55歲，都蠻高的。65歲以上的病人佔了相當比例，實驗組28%，對照組27%。性別分佈大致平衡。WBC 中位數實驗組10.5，對照組13.4 x 10^9/L。\n\n值得注意的是 CNS positive 的比例不低，實驗組9.9%，對照組15%。p190 transcript 佔了多數，實驗組70%，對照組64%。IKZF1 plus 的比例也值得注意，實驗組34%，對照組26%。\n\n整體來說兩組的基線特徵大致平衡，這是一個以年齡較大的真實世界病人群為主的試驗。"
+    },
+    "27": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "大家看這個 hematologic response 的數據，非常令人振奮。在 end of induction，也就是 day +70 的時候，實驗組（ponatinib 加 blinatumomab）的 CHR 率是94.3%，而對照組（化療加 imatinib）只有79.4%，P=0.004，差異顯著。\n\n更重要的是安全性方面的數據。Death rate 在實驗組只有2.5%，而對照組高達10.2%。Refractory 的比例對照組有1.3%，實驗組是0。Off-treatment 的比例實驗組2.8%，對照組8.9%。\n\n這意味著 chemo-free 的 ponatinib 加 blinatumomab 方案不僅療效更好，而且安全性也明顯優於傳統化療加 imatinib。對於 Ph+ ALL 的治療格局，這是一個可能改變 paradigm 的結果。"
+    },
+    "28": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "最後來看 GIMEMA ALL2820 的 EFS 和 OS 結果。大家看左邊的 EFS 曲線，藍色是實驗組，黃色是對照組。在中位追蹤23.4個月後，實驗組的 EFS 是90%（95% CI 86-95%），對照組是74%（95% CI 65-85%），P=0.0015，差異非常顯著。\n\n值得注意的是，實驗組只有15位病人做了 alloSCT，對照組有30位。即使做了較少的 alloSCT，實驗組的 EFS 仍然明顯優於對照組。\n\n這個結果對 Ph+ ALL 的治療有重大意義。傳統上我們認為 Ph+ ALL 需要 TKI 加化療再加 alloSCT，但這個試驗顯示用 ponatinib 加 blinatumomab 這種 chemo-free 方案，可能可以讓很多 Ph+ ALL 病人免於化療和移植的毒性，同時獲得更好的療效。"
+    },
+    "29": {
+      "hint": "American Society of Hematology | Highlights of ASH® 25-13587 CD19-CAR T cell the",
+      "note": "接下來我們把視野放遠一點，看看未來可能的方向。這一部分要討論的是把目前只核准用於 relapsed ALL 的治療方式提前到前線使用。\n\n第一個研究是 Aldoss 等人的 Abstract 13587，探討 CD19-CAR T cell therapy 作為年長 B-ALL 病人在 CR1 時的 definitive consolidation 是否安全且能持久地維持 MRD negative 的狀態。\n\n第二個研究是 Gu 等人的 Abstract 3841，是一個前瞻性 phase 2 study，在新診斷成人 Ph+ B-ALL 的 front-line consolidation 階段給予 single CAR-T infusion，看是否能誘導深度且持久的緩解。\n\n這兩個研究雖然都是 single-arm phase 2，個案數也還不多，但代表了一個重要的趨勢：把 CAR-T 從 salvage setting 推向 frontline。"
+    },
+    "30": {
+      "hint": "American Society of Hematology | A single arm phase 2 study of CART in consolida",
+      "note": "先來看 Aldoss 等人在 City of Hope 做的研究。這是一個 single-arm phase 2 study，使用 CAR-T 作為 consolidation。\n\n研究設計方面，先有6位病人的 safety lead-in，使用 RP2D 200 million CAR-T 細胞。如果 DLT 小於等於六分之一，就擴展到另外12位病人。Ph+ 的病人允許在 CAR-T 後第60天開始 TKI maintenance。要求至少做4次 IT chemo 作為 pre-LD，因為 post CAR-T 的 IT chemo 是被禁止的。\n\n收案條件是 CD19+ B-ALL、年齡55歲以上、ECOG 小於2、已達 CR1、而且沒有立即做 HCT 的計劃。排除條件包括 relapsed disease、CNS pathology、active infection 等。\n\n主要目標是 safety 和 RP2D，次要目標包括 feasibility、EFS、OS、QOL、T cell persistence 和 immunogenicity。這是一個很有前瞻性的研究設計。"
+    },
+    "31": {
+      "hint": "American Society of Hematology | Highlights of ASH® Aldoss et al Abstract number",
+      "note": "來看病人特徵。總共收了18位病人，中位年齡64歲，範圍55-79歲，所以這確實是一群比較年長的病人。男性11位，女性7位。\n\n從診斷 ALL 到接受 leukapheresis 的中位時間是4.7個月。中位做了7次 pre-LD IT chemo。所有18位病人在 pre-LD 時 MRD 都是 negative 的，這很重要，代表他們是在 MRD negative 的狀態下接受 CAR-T consolidation。\n\n在遺傳學方面很多元，包括 Ph+ 6位、NOS 5位、hypodiploidy/TP53m 2位、Ph-like 2位、KMT2Ar 1位、ZNF384::EP300 1位、TCF3::PBX1 1位。Prior blinatumomab 有15位，佔83%。Prior inotuzumab 有2位。所以大部分病人已經用過 blinatumomab，這是值得注意的。"
+    },
+    "32": {
+      "hint": "Survival outcomes No DLT was observed Grade 1 CRS= 13 (72%) Grade ≥2 CRS= 0 Any",
+      "note": "來看結果。首先安全性方面非常好，沒有觀察到任何 DLT。Grade 1 CRS 有13位，佔72%，但 grade 2 以上的 CRS 是0。ICANS 也是0。這對於一個在 consolidation setting 使用 CAR-T 的研究來說，安全性 profile 是非常令人放心的。\n\n大家看左邊的 overall survival 曲線，所有18位病人都存活，OS 是100%，追蹤到30個月左右。右邊的 event-free survival 也非常好，雖然在後期有些微下降但整體維持在很高的水平。\n\n這個初步結果顯示，在年長 B-ALL 病人中，使用 CAR-T 作為 CR1 的 consolidation 是安全可行的，而且初步療效非常有希望。當然個案數只有18位，追蹤時間也還不長，我們需要更多的數據和更長的追蹤來確認。"
+    },
+    "33": {
+      "hint": "American Society of Hematology | Another single arm phase 2 study of CART in con",
+      "note": "第二個 CAR-T consolidation 研究來自中國的 Gu 等人，是 Institute of Hematology and Blood Diseases Hospital、Chinese Academy of Medical Sciences 和 Peking Union Medical College 的團隊。\n\n這個研究是針對新診斷成人 Ph+ B-ALL，年齡18歲以上。大家看治療流程圖，病人先接受 VOVP 方案的 induction，包括 venetoclax 100 mg D1 然後漸增到400 mg、olverembatinib 40 mg QOD、VCR 和 prednisone。\n\n然後進入 consolidation 階段，繼續 VOVP/OVP 加上 CAR-T infusion。他們使用的是 murine-derived 2nd generation CD19-directed CAR T cells，4-1BB co-stimulatory domain，劑量 1-2 x 10^6 cells/kg，在 first CR 時給予。\n\nMaintenance 階段使用 olverembatinib 30 mg 隔天加上 MM regimen，每月交替 VPV regimen。同時進行11次 prophylactic triple intrathecal injections。整體設計非常精密。"
+    },
+    "34": {
+      "hint": "American Society of Hematology | Highlights of ASH® N(%)/Median[range] Age (medi",
+      "note": "來看病人特徵和結果。總共35位病人，中位年齡39歲（20-60歲），比 Aldoss 的研究年輕很多。男性51.4%，女性48.6%。WBC 中位數30 x 10^9/L，其中有25.7%的病人 WBC 大於70 x 10^9/L。BCR-ABL transcript 方面 P190 佔88.6%最多。IKZF1 plus 有22.8%。\n\n結果方面非常亮眼。大家看右邊的圖表，中位追蹤10.9個月，1-year leukemia-free survival estimate 是100%。而且安全性很好，沒有 CRS 超過 grade 2 的，也沒有 ICANS。\n\n雖然追蹤時間還短，但100%的1-year LFS 是非常令人印象深刻的。這個 chemo-free 加上 CAR-T 的策略在 Ph+ B-ALL 中似乎非常有前景。"
+    },
+    "35": {
+      "hint": "American Society of Hematology | American Society of Hematology | Case study 38",
+      "note": "好，讓我們最後回到我們的案例。再複習一下，38歲女性，B-precursor ALL，WCC 70 x 10^9/L，low hypodiploidy，CNS negative，有糖尿病和肥胖的共病，induction 有很多併發症但達到 CR，有完全吻合的 sibling donor，MRD by Ig/TCR 是 negative 的。\n\n現在第三個問題：如果你可以自由取得任何你想要的治療，你的 preferred consolidation option 會是什麼？選項包括：alloSCT、先 blinatumomab 再 alloSCT、blinatumomab 然後接 CART、或者直接 CART。\n\n經過今天的討論，我想各位可以理解這不是一個簡單的決定。這位病人有 low hypodiploidy 這個 very high risk 因子，WBC 高、BMI 高都是 blinatumomab 時代仍然不利的因素。但 GRAALL 的數據顯示 VHR 病人如果接受 blinatumomab 且無法做移植，仍可獲得很大的好處。而 CAR-T 在 consolidation 的早期數據也非常令人期待。我相信每位醫師可能會有不同的考量。"
+    },
+    "36": {
+      "hint": "American Society of Hematology | Highlights of ASH® Conclusions Blinatumomab has",
+      "note": "最後做個總結。第一，blinatumomab 在 de novo Ph-negative adult ALL 中已經有了廣泛的 regulatory approval，有潛力徹底改變治療格局。\n\n第二，具有 high-risk genetics 甚至 persistent MRD 的病人，現在可以有明顯改善的預後，這在過去是不可想像的。\n\n第三，但新的問題也隨之而來：要決定可以省略多少化療、誰應該做 alloSCT，變得更加困難了。\n\n第四，在 de novo Ph-positive ALL 中，如果 blinatumomab 搭配第二代或第三代 TKI，systemic chemotherapy 是可以被省略的，GIMEMA ALL2820 的數據已經很有說服力了。在 Ph+ ALL 中，部分病人也可以免於 alloSCT。\n\n第五，不管在哪種情境下，adequate CNS-directed prophylaxis 都是至關重要的，千萬不能忽略。\n\n最後，IO 和 CART 正在被用於 chemo-free approaches 的臨床試驗中，雖然追蹤時間很短但結果很有希望。但目前這些方法還不在 licensed indication 的範圍內，也還無法廣泛取得。感謝各位的聆聽。"
+    }
+  }
+}

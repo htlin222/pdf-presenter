@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "pdf": "novel-treatment-strategies-in-aggressive-lymphoma.pdf",
+    "totalSlides": 59,
+    "generatedAt": "2026-04-12T19:14:45.646Z",
+    "generator": "pdf-presenter"
+  },
+  "notes": {
+    "1": {
+      "hint": "American Society of Hematology | Novel Treatment Strategies in Aggressive Lympho",
+      "note": "各位好，歡迎來到今天的 Highlights of ASH 專題演講。我是今天的講者之一，今天這個 session 的主題是 Novel Treatment Strategies in Aggressive Lymphoma，也就是侵襲性淋巴瘤的新治療策略。\n\n今天的演講由兩位講者共同主持，分別是來自美國 Wake Forest University School of Medicine 的 Steven Park 醫師，以及來自香港大學的 Eric Tse 醫師。我們將會一起帶大家回顧今年 ASH 年會中，關於侵襲性淋巴瘤治療的重要研究進展。"
+    },
+    "2": {
+      "hint": "American Society of Hematology | Disclosures In compliance with ACCME policy, AS",
+      "note": "在開始之前，依照 ACCME 的規定，我們需要先揭露利益衝突。Steven Park 醫師有 ADC Therapeutics 的 consultancy，Epizyme 和 Rafael Pharmaceutical 的 advisory board membership，以及 BMS 和 Seattle Genetics 的研究經費。Eric Tse 醫師則沒有需要揭露的利益衝突。本次演講不涉及 off-label drug use。"
+    },
+    "3": {
+      "hint": "American Society of Hematology | American Society of Hematology | Learning Objec",
+      "note": "今天的演講有三個學習目標。第一，辨識目前 aggressive B-cell lymphoma 的實證治療策略。第二，評估新興的治療方法以及最新的臨床試驗數據。第三，將新的證據整合到臨床決策中，以優化侵襲性 B-cell lymphoma 病人的治療結果。\n\n希望在今天的演講結束後，大家能對這個領域的最新發展有更清楚的了解。"
+    },
+    "4": {
+      "hint": "American Society of Hematology | • Sun J et al. Distribution of lymphoid neoplas",
+      "note": "我們先來看一下淋巴瘤的流行病學。大家看這張圖，這是不同國家淋巴瘤亞型的分布比例，包括中國、日本、韓國和美國的資料。\n\n可以看到用黃色圈起來的地方，DLBCL 在各個國家都是最常見的 aggressive lymphoma 亞型，在亞洲國家大約佔了百分之三十到三十五左右，在美國也佔了相當高的比例。這告訴我們 DLBCL 確實是我們臨床上最常面對的侵襲性淋巴瘤。\n\n這些資料來自 Sun、Aoki、Yoon 以及 Morton 等人的大型流行病學研究。"
+    },
+    "5": {
+      "hint": "American Society of Hematology | American Society of Hematology | Aggressive B-c",
+      "note": "那什麼是 aggressive B-cell lymphoma 呢？它是一群因為臨床行為相似而被歸類在一起的惡性 B 細胞腫瘤。這些腫瘤的特點是腫瘤細胞增殖快速，需要早期治療來控制疾病。\n\n在分類方面，目前最新的第五版 WHO 分類，也就是 HAEM5，以及 International Consensus Classification，也就是 ICC，根據形態學、免疫表型、臨床表現和部分分子特徵，將 aggressive B-cell lymphoma 分成超過二十個類別。這反映出這個疾病群的高度異質性。"
+    },
+    "6": {
+      "hint": "American Society of Hematology | Diffuse large B cell lymphoma Genetechonology.c",
+      "note": "接下來我們聚焦在 DLBCL。大家都知道，R-CHOP 化學免疫治療大約可以治癒百分之六十五的病人，這已經是相當不錯的成績了。但是，仍然有百分之三十五的病人會出現疾病復發或是原發性難治的情況，而且這些病人可能對化療產生抗藥性。\n\n大家看這張來自 Sehn 發表在 2021 年 New England Journal of Medicine 的存活曲線圖，可以清楚看到 time to progression、progression-free survival 和 overall survival 的三條曲線。在十年的追蹤期間，大約有三分之一的病人最終會面臨疾病進展的問題。這就是我們今天要討論的重點 -- 如何改善這些病人的預後。"
+    },
+    "7": {
+      "hint": "American Society of Hematology | American Society of Hematology | DLBCL: molecul",
+      "note": "DLBCL 的分子分類是我們了解這個疾病異質性的重要工具。最經典的分類方式是根據 cell of origin，也就是 COO，透過 gene expression profiling 將 DLBCL 分成 GCB 和 ABC 兩個亞型。這是 2000 年 Alizadeh 等人發表在 Nature 的經典研究，大家可以看到右上角的 heatmap。\n\n後來 Schmitz 和 Chapuy 兩個團隊分別在 2018 年透過 whole exome sequencing 進一步將 DLBCL 細分成不同的基因亞群。大家看下方的 oncoplot，可以看到 MCD、BN2、EZB 等不同的 genetic subgroups，每個亞群有各自獨特的突變圖譜。這些分子分類對於未來的精準治療有重要的意義。"
+    },
+    "8": {
+      "hint": "American Society of Hematology | DLBCL heterogeneity Highlights of ASH® Sehn LH,",
+      "note": "這張投影片進一步說明了 DLBCL 的異質性。大家看這張整合圖表，最上面是 cell of origin 的分類，分成 germinal center B-cell-like 和 activated B-cell-like，中間還有 unclassifiable 的部分。\n\n往下看，LymphGen classification 包括了 EZB、ST2、BN2、A53、N1 和 MCD 等亞群，這些跟更早期的 DLBCL Clusters C1 到 C5 有部分對應關係。每個亞群都有其特徵性的 genetic hallmarks 和被影響的 biologic pathways。\n\n更重要的是，不同亞群的預後也不同。比如 EZB 和 ST2 通常預後較好，而 MCD 和 A53 則預後較差。最下面一行也顯示這些亞群跟其他淋巴瘤實體之間的基因相似性，例如 EZB 跟 follicular lymphoma 相似，MCD 跟 primary extranodal lymphoma 相似。"
+    },
+    "9": {
+      "hint": "American Society of Hematology | American Society of Hematology | First-line tre",
+      "note": "談到 DLBCL 的第一線治療，過去二十年來大家一直嘗試 R-CHOP + X 的策略，也就是在 R-CHOP 的基礎上加上各種新藥，但大多數都沒有成功。大家看右上方的時間軸，從 2002 年確立 R-CHOP 優於 CHOP 之後，一直到 2022 年 Pola-R-CHP 才證實優於 R-CHOP。\n\n在部分亞洲國家，Pola-R-CHP 已經成為 IPI 大於等於 2/3 的病人的標準治療。下方列出了目前正在進行的多個 phase 3 臨床試驗，包括 POLARIX、ENGINE1、POLAR BEAR、ESCALADE、frontMIND 等等，涵蓋了 targeted therapy、bispecific antibody、CAR-T 等各種新策略。\n\n這些試驗的結果將在未來幾年陸續公布，我們需要新的 first-line regimens 來改善病人的預後。"
+    },
+    "10": {
+      "hint": "American Society of Hematology | American Society of Hematology | Relapsed / ref",
+      "note": "對於 relapsed 或 refractory 的 DLBCL，這是一個很大的 unmet medical need，尤其是在亞洲國家，新藥的可及性相對有限。\n\n大家看這個來自 ORBIT 研究的資料，這是一項針對亞洲 R/R DLBCL 病人的真實世界研究。右邊的表格和存活曲線清楚地顯示，隨著每次復發，病人的預後會越來越差。第一次復發的 median OS 還有 13.5 個月，但到了第二次復發就降到 6.1 個月。\n\n更重要的是，早期復發（六個月內）的病人預後明顯更差，median OS 只有 6.2 個月。這些數據告訴我們，我們迫切需要更有效的治療方案。"
+    },
+    "11": {
+      "hint": "American Society of Hematology | American Society of Hematology | Relapsed / ref",
+      "note": "在 R/R DLBCL 的治療中，CAR-T cell therapy 是一個重要的突破。但是在亞洲國家，特別是在 second-line setting，可及性仍然是一個很大的問題。\n\n大家看這兩張 PFS 的存活曲線。左邊是 Liso-cel 和標準治療的比較，三年 PFS 分別是 51% 和 26%。右邊是 Axi-cel 和標準治療的比較，四年 PFS 分別是 42% 和 24%。這些數據清楚地顯示 CAR-T 在 second-line 是有效的，但仍然有很大的改善空間，因為大約一半的病人仍然會復發。\n\n所以我們需要思考如何進一步改善 CAR-T 治療的效果。"
+    },
+    "12": {
+      "hint": "American Society of Hematology | American Society of Hematology | Relapsed / ref",
+      "note": "另一個重要的治療策略是 bispecific T-cell engagers，以及它們與其他藥物的組合。\n\n大家看這張投影片的資料，這是 Glofitamab 加上 GemOx 跟 R-GemOx 的比較。左邊的柱狀圖顯示，Glofit-GemOx 的 ORR 達到 68.3%，其中 CR 率為 58.5%，明顯優於 R-GemOx 的 40.7%。\n\n中間的 PFS 曲線也顯示 Glofit-GemOx 在 18 個月的 PFS 率為 46.5%，遠優於 R-GemOx 的 23%，HR 為 0.41。右邊的 OS 數據同樣令人鼓舞，24 個月 OS 為 54.4% 對 33.6%。這些都是 Abramson 等人發表在 Lancet 的重要數據。"
+    },
+    "13": {
+      "hint": "American Society of Hematology | American Society of Hematology | Case 1 • A 50-",
+      "note": "好，讓我們來看第一個臨床案例。這是一位 50 歲的緬甸男性，主訴是黑便和體重減輕。大家看右邊的 PET-CT 影像，可以看到腹部有明顯的高代謝病灶。\n\n CT 檢查顯示瀰漫性胃部腫塊、廣泛的淋巴結腫大以及腹膜癌轉移。胃鏡發現胃部腫塊，病理顯示不典型淋巴細胞，免疫組織化學染色 CD20 陽性、CD19 陽性、CD10 陰性、CD5 陰性、Bcl2 陽性、Bcl6 陽性、Mum1 陰性，Ki-67 為 90%，符合 DLBCL germinal center subtype。\n\nH. pylori 陽性，腹水細胞學也發現 DLBCL 細胞，但 CSF 檢查是陰性的。FISH 檢查 MYC 和 BCL2 rearrangement 都是陰性的。IPI score 4 分，屬於高風險族群。"
+    },
+    "14": {
+      "hint": "American Society of Hematology | American Society of Hematology | • He was treat",
+      "note": "這位病人接受了六個療程的 R-CHOP 治療，同時也接受了 H. pylori 的三合一療法，以及 intrathecal methotrexate 做 CNS 預防。\n\n治療結束後的 PET scan 顯示，右側肺門區域仍有一個殘存的淋巴結，大小為 2.2 乘以 1.5 公分，SUVmax 為 9.3。大家可以看右邊的 PET-CT 影像，這個殘存病灶是一個需要進一步評估的問題。\n\n這裡帶出一個重要的臨床問題：在 DLBCL 治療結束時，什麼是預測預後最好的指標？是 IPI？升高的 LDH？PET response？還是用 ctDNA 做的 MRD 狀態？讓我們接下來深入討論這個議題。"
+    },
+    "15": {
+      "hint": "American Society of Hematology | Longitudinal Circulating Tumor DNA Dynamics Dur",
+      "note": "接下來要介紹的是今年 ASH 的 Abstract #474，由 Steven Wang 等人報告的一項重要研究。這項研究探討的是 large B-cell lymphoma 病人在第一線治療期間及之後，circulating tumor DNA 的動態變化。\n\n這是一個來自荷蘭的全國性世代研究，由多位研究者共同參與，包括 Marcel Nijland、David Kurtz、Ash Alizadeh 以及 Martine Chamuleau 等人。這項研究的重要性在於，它是目前規模最大的前瞻性 ctDNA 監測研究之一。"
+    },
+    "16": {
+      "hint": "American Society of Hematology | • Sample-Level Sensitivity depends on: • Quanti",
+      "note": "在方法學上，這項研究使用的是 PhasED-seq 技術來偵測 MRD。大家看左邊的流程圖，首先從腫瘤 DNA 或治療前血漿中，透過 Foresight B-Cell Lymphoma Panel 進行定序，建立每個病人專屬的 phased variants 清單。然後在後續的追蹤中，從 cell-free DNA 進行 panel sequencing 來偵測 MRD。\n\n右邊列出了影響 sample-level sensitivity 的因素，包括 DNA 的投入量，這個研究使用 3 到 6 毫升的血漿，以及分析性能，中位數為每個樣本 120,000 個 informative molecules。這些都是確保 MRD 偵測敏感度的關鍵因素。"
+    },
+    "17": {
+      "hint": "American Society of Hematology | C1 D1 C2 D1 C3 D1 C4 D1 C5 C6 1L Tx: R-CHOP or",
+      "note": "這項研究來自荷蘭 HOVON 合作組織，涵蓋了約 50 個學術和社區醫療中心。收案對象是新診斷的 DLBCL 或 HGBL 病人，接受 curative intent 的第一線治療，也就是 R-CHOP 或 DA-EPOCH-R。\n\n大家看下方的時間軸，血液樣本是收集在 PAXgene ccfDNA 管中。在治療期間的 C1D1、C2D1、C3D1、C4D1 都會收取樣本，治療結束時做 PET-CT，之後進入疾病監測期，第一年每三個月抽一次血，第二年每六個月抽一次血，持續追蹤兩年。這是一個設計得非常完善的前瞻性研究。"
+    },
+    "18": {
+      "hint": "American Society of Hematology | Patient Selection and Characteristics • 166 eva",
+      "note": "來看病人的特徵。這個研究共有 166 位可評估的病人，有 surveillance 和/或 on-treatment 的樣本可供分析。\n\n大家看右邊的表格，中位年齡 69 歲，男性佔 65%。診斷方面，95% 是 DLBCL，5% 是 HGBL。分期上，79% 的病人是 stage III-IV，IPI 分數分布相當均勻。第一線治療方面，95% 接受 R-CHOP，5% 接受 DA-EPOCH-R。\n\n值得注意的是，phased variants 成功在 164 位中的 166 位病人中被辨識出來，成功率高達 99%。中位追蹤時間為 33 個月。"
+    },
+    "19": {
+      "hint": "American Society of Hematology | MRD Negativity at C2D1 is Associated with Low-R",
+      "note": "這張投影片呈現了最關鍵的發現之一。大家看左邊的 time to progression 曲線，藍色線代表 C2D1 MRD 陰性的病人，紅色線代表 MRD 陽性的病人。兩組之間的差異非常顯著。\n\n有 30% 的病人在 C2D1 就達到 MRD 陰性，而這些病人在三年的追蹤中，全部都維持無復發的狀態！沒有一個人復發。HR 高達 18.4，p 值小於 0.0001。\n\n更重要的是，這個 early MRD clearance 在控制 IPI 因素後，仍然是 TTP 的獨立預測因子。這意味著 C2D1 的 MRD 狀態可以非常早期地辨識出低復發風險的病人，未來可能成為 therapy de-escalation 試驗的重要 biomarker。"
+    },
+    "20": {
+      "hint": "American Society of Hematology | American Society of Hematology | Addition of Su",
+      "note": "這張投影片顯示，加入監測期的樣本可以提高復發的偵測率，特別是對於晚期復發的病人。\n\n大家看左邊的 swimmer plot，金色圓點代表 EOT MRD 陽性，藍色代表陰性，三角形代表復發。右邊的柱狀圖顯示，單看 EOT 的樣本，clinical sensitivity 為 56%，可以偵測到 15 位中的 27 位復發病人。但如果加入追蹤期的樣本，sensitivity 大幅提升到 81%，偵測到 22 位中的 27 位。\n\n特別值得注意的是，75% 的早期復發（一年內）和 91% 的晚期復發（超過一年）可以被偵測到。這說明持續的 ctDNA 監測對於提早發現復發有很大的價值。"
+    },
+    "21": {
+      "hint": "American Society of Hematology | American Society of Hematology | Surveillance M",
+      "note": "這張投影片回答了一個非常實用的臨床問題：在監測期間，如果 ctDNA 檢測是陰性的，代表什麼意義？\n\n大家看左邊的曲線，Y 軸是 non-relapse 的機率，X 軸是距離陰性檢測結果的時間。可以看到在一次陰性檢測後，6 個月內維持無復發的機率高達 99%，12 個月是 97%，24 個月是 91%，30 個月仍有 86%。\n\n這個數據非常有臨床實用性。也就是說，如果病人的 ctDNA 檢測是陰性的，我們可以非常有信心地告訴病人，短期內復發的風險是非常低的。這也支持了每年進行一次 MRD 檢測可能就足夠了。"
+    },
+    "22": {
+      "hint": "American Society of Hematology | American Society of Hematology | Surveillance M",
+      "note": "相反地，如果在監測期間出現陽性的 ctDNA 結果，那代表什麼呢？\n\n大家看這張圖，在一次陽性檢測後，6 個月內復發的風險是 27%，12 個月是 36%，24 個月升高到 62%，30 個月更達到 79%。這代表陽性結果隨著時間推移，復發的風險持續增加。\n\n這反映了 ctDNA 的 biological lead time，也就是 ctDNA 可以比臨床影像更早偵測到疾病復發。這帶出一個重要的研究方向：未來的臨床試驗應該評估，在 MRD 偵測到陽性時是否應該提早介入治療，以改善病人的預後。"
+    },
+    "23": {
+      "hint": "American Society of Hematology | American Society of Hematology | Conclusions &",
+      "note": "讓我們來總結這項 ctDNA 研究的重要結論。\n\n第一，C2D1 的 early MRD clearance 可以辨識出低風險族群，在三年的追蹤中沒有復發。這有潛力成為未來 therapy de-escalation 試驗的早期 on-treatment biomarker。\n\n第二，在監測期間，MRD 檢測的表現是時間依賴的。任何一次陰性結果都跟非常低的短期復發風險相關，陰性結果後一年維持無復發的機率高達 97%。因此每年的 MRD 檢測值得前瞻性評估。\n\n第三，陽性結果後的復發風險隨時間增加，從六個月的 27% 上升到 30 個月的近 80%。未來的試驗應該評估 MRD 陽性時提早介入是否能改善預後。"
+    },
+    "24": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "回到我們的 Case 1。之前提到的那位治療結束後右肺門有殘存淋巴結的病人，他接受了支氣管鏡超音波引導切片（EBUS），結果顯示是肉芽腫性疾病，沒有淋巴瘤、結核菌或黴菌感染的證據。\n\n後續追蹤的 PET scan 顯示淋巴結病變穩定，而 MRD 檢測在治療結束和追蹤期間都是陰性的。大家看下面的 ctDNA tracking 圖表，從 2025 年 8 月到 2026 年 3 月，所有的時間點都維持在偵測不到的水平。\n\n這位病人目前已經維持緩解大約兩年了。這個案例很好地說明了 ctDNA MRD 檢測在臨床上的價值，特別是當影像學出現不確定結果時，MRD 可以提供額外的安心感。"
+    },
+    "25": {
+      "hint": "American Society of Hematology | American Society of Hematology | Case 2 • A 65-",
+      "note": "讓我們進入第二個案例。這是一位 65 歲的女性，主訴是日漸加重的腹痛。大家看右邊的 PET-CT 影像，可以看到腹部有明顯的高代謝病灶。\n\nCT 顯示廣泛的腹部淋巴結腫大，最大的 mesenteric lymph node 達到 9.9 乘以 6.6 公分。PET scan 確認在腹部、retroperitoneal 和骨盆區域都有 hypermetabolic lymphadenopathy。\n\n切片顯示不典型淋巴細胞，CD20 陽性、CD19 陽性、CD10 陽性、Bcl2 陽性、Bcl6 陽性，Ki-67 為 90%，符合 DLBCL germinal center subtype。FISH 檢查 BCL2 rearrangement 陽性但 MYC 陰性。IPI score 2 分。"
+    },
+    "26": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "針對這位病人，我們來討論一下治療選擇。大家看投影片上列出的四個選項：第一，R-CHOP 三個療程加上放射治療；第二，R-CHOP 四到六個療程，根據 PET 結果調整；第三，Pola-R-CHP 六個療程；第四，R-EPOCH。\n\n這位病人 IPI score 2，是 GCB subtype，BCL2 rearrangement 陽性。對於這類病人，在目前的治療 landscape 中，我們有越來越多的選擇。接下來讓我們看看最新的臨床試驗數據，特別是針對年長或體能狀態較差的病人，有沒有更好的治療方案。"
+    },
+    "27": {
+      "hint": "American Society of Hematology | Phase II Frontline Chemolight R-Pola-Glo Trial",
+      "note": "接下來要介紹的是 ASH Abstract #61，這是一項 phase II 研究，由 Chapuy 等人報告。這項試驗叫做 R-Pola-Glo，是一個 frontline 的 chemolight 方案，用於年長和 medically unfit/frail 的 aggressive B-cell lymphoma 病人。\n\n為什麼這項研究特別重要呢？因為在實際臨床中，很多年長的病人因為共病或體能狀態不佳，無法接受標準的 full-dose R-CHOP。我們非常需要一個有效但毒性較低的治療方案。"
+    },
+    "28": {
+      "hint": "American Society of Hematology | Hypothesis: R-CHOP as standard in DLBCL for the",
+      "note": "這項研究的假設很清楚：R-CHOP 作為 DLBCL 的標準治療已經使用了二十幾年，現在有三種高度有效的抗淋巴瘤藥物，組合成 R-Pola-Glo，可能可以滿足目前未被滿足的醫療需求。\n\n大家看這張投影片，R-Pola-Glo 方案包含三種藥物。左邊是 Rituximab，一個 anti-CD20 抗體。右邊是 Polatuzumab vedotin，一個 anti-CD79b 的 antibody-drug conjugate。中間是 Glofitamab，一個 CD20/CD3 的 bispecific T-cell engager，可以媒介 T 細胞直接殺死腫瘤細胞。\n\n這個組合的概念是利用三種不同機轉的藥物來取代傳統的化療，減少毒性的同時維持甚至提高療效。"
+    },
+    "29": {
+      "hint": "American Society of Hematology | R-Pola-Glo – Study Design Indication • Untreate",
+      "note": "來看研究設計。這是一個 one-arm、multicenter 的 phase II 試驗，在德國和奧地利的 30 個中心進行，收了 80 位病人。收案條件是未經治療、年齡超過 60 歲的 LBCL 病人，且無法接受 full-dose R-CHOP。\n\n大家看上方的治療流程圖。首先是 prephase 做 debulking，然後 Cycle 1 是 step-up dosing，使用 obinutuzumab、polatuzumab 和 glofitamab。Cycle 2 到 6 是 target dose，給予 rituximab、polatuzumab 和 glofitamab。Cycle 7 到 12 是 consolidation，只給 glofitamab。Cycle 1 到 6 是強制住院治療，並有 mandatory prophylaxis。\n\n主要終點是 1 年的 PFS rate，次要終點包括 OS、EFS 以及 feasibility 和 toxicity。"
+    },
+    "30": {
+      "hint": "American Society of Hematology | R-Pola-Glo – Patients Characteristics Cohort (N",
+      "note": "來看病人的基線特徵。左邊的表格顯示，這 80 位病人的中位年齡是 80 歲，範圍從 66 到 92 歲。其中 19% 的病人年齡超過 85 歲。63% 是 advanced stage，28% 是 ECOG 2，63% 的 LDH 高於正常值上限，64% 的 IPI 是 3 到 5 分。\n\n右邊的 Simplified Geriatric Assessment 顯示，91.3% 的病人屬於 medically unfit 或 frail。這真的是一個代表性很高的真實世界年長、虛弱病人族群，治療的複雜度很高。"
+    },
+    "31": {
+      "hint": "American Society of Hematology | R-Pola-Glo – Response DLBCL CMR (complete metab",
+      "note": "治療反應方面，結果非常令人驚豔。大家看左邊的代表性案例，這位 DLBCL 病人在治療兩個療程後，只花了六週，就從全身多處病灶達到 complete metabolic remission。\n\n右邊的柱狀圖顯示，在第二個療程後，ORR 已經達到 96%，CMR 率為 58%。到第六個療程，ORR 為 94%，CMR 率提升到 75%。而在治療結束後（post-C12），ORR 為 90%，CMR 率更提升到 81%。\n\n特別值得注意的是，在 C6 之後仍有 CMR 的轉換，這突顯了 glofitamab consolidation 的重要角色。在這群年齡中位數 80 歲的虛弱病人中，能達到這樣的 CMR 率，確實是非常出色的成績。"
+    },
+    "32": {
+      "hint": "American Society of Hematology | R-Pola-Glo – Therapy Adherence and Overall Safe",
+      "note": "安全性方面，大家看左邊的表格，80% 的病人完成了預定的治療，34% 的病人在整個治療期間沒有出現任何 grade 3 到 5 的不良事件，而 grade 5 的不良事件只有 4%，也就是 3 位病人。\n\n右邊的橫條圖列出了最常見的不良事件，包括 peripheral neuropathy、skin toxicity、fatigue、cytokine release syndrome、neutropenia 和 neurotoxicity 等，但大多數都是低等級的。\n\n總結來說，這個治療方案耐受性良好，沒有出現意外的不良事件，治療相關的死亡率低，而且有 34% 的病人完全沒有嚴重不良事件。對於這群年齡中位數 80 歲的虛弱病人來說，這是非常可接受的安全性表現。"
+    },
+    "33": {
+      "hint": "American Society of Hematology | R-Pola-Glo – ICANs/CRS ICANs CRS è CRSs usually",
+      "note": "特別值得關注的是 CRS 和 ICANS 的發生情形。大家看左邊的 CRS 圖表，all grades 的 CRS 發生率為 31%，但只有 1% 是 grade 3，完全沒有 grade 4 或 5 的 CRS。而且 CRS 主要集中在前幾個療程，以 C1 和 C2 為主，之後就幾乎不再出現，而且全部都完全緩解。\n\n右邊的 ICANS 圖表顯示，ICANS 的發生率只有 4%，也就是 3 位病人，其中 2 位是 grade 2，1 位是 grade 3，都是零星發生在不同的療程。\n\n這些數據表明，在年長虛弱病人中使用包含 glofitamab 的方案，CRS 和 ICANS 是可控的。"
+    },
+    "34": {
+      "hint": "American Society of Hematology | R-Pola-Glo – Infections over time and Cycle Inf",
+      "note": "感染方面，左邊的表格顯示，all grades 的感染發生率為 66%，其中 grade 3 為 19%，grade 4 為 3%，grade 5 為 4%。Grade 5 的感染有 3 例，分別是 COVID、COVID 加 RSV，以及原因不明各一例。\n\n右邊的圖表顯示感染隨治療療程的分布情況，可以看到感染在治療的不同階段都有發生，在 C12 的 consolidation 階段以及後續追蹤期有一個小高峰，主要是較低等級的感染。\n\n整體來說，感染是可以處理的，只有三例 grade 5 的事件，而且這些主要與 COVID 相關，反映的是這個特殊時期的大環境因素。"
+    },
+    "35": {
+      "hint": "American Society of Hematology | R-Pola-Glo – Outcome è With a median follow-up",
+      "note": "最關鍵的療效數據來了。大家看這兩張存活曲線。左邊是 PFS，在中位追蹤 15 個月的情況下，一年的 PFS 率為 84.6%。右邊是 OS，一年的 OS 率為 89.7%。\n\n在分析時間點（2025 年 7 月 2 日），80 位病人中有 71 位仍然存活，也就是 89%。這些反應是持久的。\n\n大家想想看，這群病人的中位年齡是 80 歲，九成以上是 medically unfit 或 frail，在這樣的族群中能達到近 85% 的一年 PFS 和近 90% 的一年 OS，真的是非常了不起的成績。"
+    },
+    "36": {
+      "hint": "American Society of Hematology | R-Pola-Glo – Conclusion è R-Pola-Glo achieved h",
+      "note": "總結 R-Pola-Glo 這項研究的結論。第一，R-Pola-Glo 達到了高且持久的 CMR 率，安全性也是可接受的。第二，治療反應轉化為高的一年存活率，在年長、虛弱、medically unfit 的病人中效果顯著。\n\n第三，也是最重要的一點，這項研究證實了一個 anthracycline-free 的方案可以在被認為不適合標準治療的族群中，誘導出持久的緩解。\n\n最後，R-Pola-Glo 顯示出比目前被視為標準治療的方案更高的反應率和更好的一年存活結果，支持進一步臨床評估這個方案作為這群脆弱病人的 frontline 治療選擇。"
+    },
+    "37": {
+      "hint": "American Society of Hematology | American Society of Hematology | Case 2 • She e",
+      "note": "回到我們的 Case 2。這位 65 歲的女性病人後來加入了一個 phase 3 臨床試驗，研究 Glofitamab 這個 CD20/CD3 bispecific antibody 加上 Pola-R-CHP 對比單用 Pola-R-CHP 的療效。\n\n她被隨機分配到研究組，接受了 Glofitamab 加上 Pola-R-CHP 的治療。她對治療的耐受性相當好，唯一的副作用是 grade 1 的 peripheral neuropathy，沒有出現 CRS 或 ICANS。\n\n大家看右邊的 PET-CT 影像，追蹤的 PET scan 顯示達到 CR，Deauville score 為 1。她目前已經維持緩解約一年了。這是一個很好的治療成功案例。"
+    },
+    "38": {
+      "hint": "American Society of Hematology | American Society of Hematology | Case 3 • A 46-",
+      "note": "接下來是第三個案例。這是一位 46 歲的男性，最初因為呼吸困難加重和疲倦到外院就診。CT 顯示廣泛的淋巴結腫大、pleural effusion 和骨骼病灶。大家看右邊的 PET-CT 影像，可以看到全身多處高代謝病灶。\n\nCT-guided 的 retroperitoneal lymph node 切片顯示 DLBCL，CD20 陽性、CD30 陽性、CD10 陰性、CyclinD1 陰性、EBV 陰性。FISH 結果沒有取得。\n\n他先在外院接受了六個療程的 R-EPOCH，但追蹤的 PET scan 顯示 primary refractory disease。之後又接受了四個療程的 R-ICE，然後就失聯了一段時間。後來他來到我的門診，PET scan 顯示廣泛的 hypermetabolic lymphadenopathy、骨骼病灶以及右側 pleural-based lesion。再次切片確認是 DLBCL，GCB subtype，CD20 陽性、CD19 陽性、CD10 陽性。"
+    },
+    "39": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "面對這位 primary refractory 的年輕 DLBCL 病人，我們來討論治療選擇。投影片上列出了四個選項：第一，salvage chemotherapy 後接 autologous stem cell transplant；第二，bispecific antibody therapy；第三，bridging therapy 後接 CAR-T therapy；第四，allogeneic stem cell transplant。\n\n對於這位年輕、primary refractory 的病人，根據 ZUMA-7 和 TRANSFORM 的數據，CAR-T 在這個情境下已經被認為是標準治療。但問題是如何優化 CAR-T 的療效，減少復發。接下來讓我們看看最新的研究進展。"
+    },
+    "40": {
+      "hint": "American Society of Hematology | Long-term follow-up with sustained progression-",
+      "note": "接下來介紹的是 ASH Abstract #1020，由 Nilanjan Ghosh 等人報告。這項研究探討 subcutaneous mosunetuzumab 加上 polatuzumab vedotin 組合，對比 rituximab 加上 polatuzumab vedotin，在 R/R B-cell NHL 病人中的長期追蹤結果。\n\n這是一項重要的研究，因為它提供了超過兩年的追蹤數據，讓我們可以評估這個 chemotherapy-free 組合的長期療效和安全性。"
+    },
+    "41": {
+      "hint": "American Society of Hematology | American Society of Hematology | Background Hig",
+      "note": "先來回顧一下背景。這是一項進行中的 phase Ib/II 研究，旨在評估 Mosun IV 或 SC 加上 Pola 在 R/R LBCL 病人中的療效和安全性。\n\n大家看右邊的柱狀圖，在先前的分析中，phase II randomized cohort 已經顯示 Mosun-Pola 的 ORR 為 77.5%，CR 率為 57.5%，明顯優於 R-Pola 的 ORR 50% 和 CR 率 35%。而且在中位追蹤 18 個月時，median DOR 和 PFS 都未達到，CRS 發生率低（10%），且都是 grade 1-2，全部緩解。\n\n在全球性的 phase III SUNMO 研究中也觀察到一致的結果。今天報告的是這個 randomized cohort 超過兩年追蹤的更新分析。"
+    },
+    "42": {
+      "hint": "American Society of Hematology | American Society of Hematology | Study overview",
+      "note": "來看研究設計。收案條件是確認的 LBCL，包括 DLBCL、HGBCL、FL grade 3b 和 trFL，至少接受過一線包含 anti-CD20 的治療。主要終點是由 IRC 評估的最佳 ORR。\n\n大家看右邊的治療流程圖。Mosun-Pola 組的 Mosunetuzumab 是皮下注射，在 C1 採用 step-up dosing（5mg、45mg、45mg），之後每個療程 45mg，共 8 個療程。Pola 在 C1 到 C6 給予。R-Pola 組則是 rituximab 加 pola 標準方案。兩組以 1:1 隨機分配，按照先前治療線數分層。\n\n值得注意的是，Mosun-Pola 組不需要強制住院，這對於病人的生活品質和醫療資源的使用都是很大的優勢。中位追蹤時間 Mosun-Pola 組為 25.7 個月，R-Pola 組為 27.2 個月。"
+    },
+    "43": {
+      "hint": "American Society of Hematology | American Society of Hematology | Baseline chara",
+      "note": "來看兩組病人的基線特徵。Mosun-Pola 組 40 位，R-Pola 組 40 位。中位年齡分別是 71.5 歲和 67.5 歲。大部分是 DLBCL。\n\n值得注意的幾個重點，用紅框標出的：double/triple-hit 在 Mosun-Pola 組佔 21.6%；prior CAR-T therapy 分別為 35% 和 37.5%，而且其中 refractory to CAR-T 的比例分別是 71.4% 和 80%。Primary refractory/early relapse 的比例分別為 62.5% 和 70%。\n\n這是一群預後非常差的病人族群，很多都是 CAR-T 失敗後的病人。在這樣的族群中，我們來看 Mosun-Pola 能達到什麼樣的療效。"
+    },
+    "44": {
+      "hint": "American Society of Hematology | American Society of Hematology | Response rates",
+      "note": "療效和安全性方面的結果。大家看左邊的柱狀圖，Mosun-Pola 的 ORR 為 77.5%，其中 CR 率 55%、PR 率 22.5%。R-Pola 的 ORR 為 50%，CR 率只有 35%。兩組之間的差異是臨床上有意義的。\n\n右邊的表格是安全性數據。值得注意的是，ICANS 在兩組都是零。感染方面，Mosun-Pola 組 all grades 為 45%，R-Pola 組為 33.3%，略高但主要是低等級的。Neutropenia 在 Mosun-Pola 組為 40%，也稍高一些。\n\n整體來說，Mosun-Pola 在療效上明顯優於 R-Pola，而安全性方面只有略微增加的感染和 neutropenia 風險，是可以接受的。"
+    },
+    "45": {
+      "hint": "American Society of Hematology | American Society of Hematology | PFS and OS Hig",
+      "note": "最重要的長期追蹤數據在這裡。大家看左邊的 PFS 曲線，Mosun-Pola 的 median PFS 為 25.4 個月，而 R-Pola 只有 6.4 個月，HR 為 0.47，p 值 0.0287。在 18 個月和 24 個月，Mosun-Pola 的 PFS 率分別是 54.2% 和 54.2%，而 R-Pola 分別是 32% 和 25.6%。\n\n右邊的 OS 曲線也顯示了有利的趨勢。Mosun-Pola 的 median OS 未達到，而 R-Pola 為 25.5 個月。18 個月 OS 率分別是 62.9% 和 61.4%，24 個月分別是 60.1% 和 52.6%。HR 為 0.78，雖然 p 值 0.47 沒有達到統計學顯著性，但數值上仍然有利。\n\n最下面的結論寫得很清楚：Mosun-Pola 將 median PFS 延長了約四倍，從 6.4 個月提升到 25.4 個月。"
+    },
+    "46": {
+      "hint": "American Society of Hematology | American Society of Hematology | Conclusions Hi",
+      "note": "這項研究的結論有幾個重點。第一，固定療程、門診型的 Mosun SC 加 Pola 持續展現出臨床上有意義且持續的 DOR 和 PFS 改善，median DOR 未達到 vs 11.3 個月，median PFS 25.4 vs 6.4 個月。\n\n第二，Mosun-Pola 在 early relapse 或 first-line refractory 的病人中也顯示改善的療效，ORR 為 68% vs 39.3%。\n\n第三，安全性方面，low-grade CRS 只在 C1D1 出現，沒有新的安全性信號，適合門診使用。\n\n第四，雖然這個世代主要在美國收案，但在全球性的 phase III SUNMO 研究中觀察到一致的結果。這些數據支持 Mosun-Pola 作為 R/R LBCL 的重要治療選擇。"
+    },
+    "47": {
+      "hint": "American Society of Hematology | Mosunetuzumab and Polatuzumab combined with Axi",
+      "note": "接下來介紹的是另一項令人興奮的研究，ASH Abstract #63，由 Jay Y. Spiegel 等人報告。這項研究探討的是一個全新的治療概念：將 Mosunetuzumab 和 Polatuzumab 與 Axicabtagene Ciloleucel，也就是 Axi-cel CAR-T 結合使用，在 R/R large B-cell lymphoma 中達到了非常高的 Day+90 完全緩解率。\n\n這個 total therapy 的概念結合了 bispecific antibody、ADC 和 CAR-T，嘗試從多個角度同時攻擊腫瘤，非常有創意。"
+    },
+    "48": {
+      "hint": "American Society of Hematology | American Society of Hematology | Background Hig",
+      "note": "先來了解這個研究的背景和 rationale。大家看這張投影片，它列出了 CAR-T 治療失敗的幾個主要原因。\n\n第一是 tumor biology，包括腫瘤抗原密度下降、CD19 loss 是常見的失敗機制，以及高腫瘤負荷和腫瘤微環境的問題。第二是 T-cell fitness，效應 T 細胞會耗竭。第三是 CAR-T manufacturing，病人需要快速可靠的產品，也需要更有效的 bridging therapy。第四是最佳細胞類型的選擇。\n\n基於這些考量，研究者提出假設：將 Mosun-Pola 與 Axi-cel 結合，可以同時解決 CAR-T 失敗的多個原因，從而改善持久的治療反應。"
+    },
+    "49": {
+      "hint": "American Society of Hematology | American Society of Hematology | Total Therapy",
+      "note": "大家看這個精心設計的治療流程。整個方案分為三個階段。\n\n第一階段是 bridging，在 Day -36 開始 apheresis，然後 Day -35 和 -28 分別給予 mosunetuzumab 的 step-up dosing（1mg 和 2mg），Day -21 給予 mosunetuzumab 60mg 加上 polatuzumab。\n\n第二階段是 CAR-T 治療，Day -7 做 PET-CT 評估，Day -5 到 -3 進行 Flu/Cy conditioning，Day 0 輸注 Axi-cel，Day +14 給予 mosunetuzumab 30mg。\n\n第三階段是 consolidation，如果達到 SD、PR 或 CR 的病人，在 Day +35、+56、+77 繼續給予 mosunetuzumab 30mg 加 polatuzumab。主要終點是 Day 90 post CAR-T infusion 的 CR 率。"
+    },
+    "50": {
+      "hint": "American Society of Hematology | American Society of Hematology | Patient Baseli",
+      "note": "來看病人的基線特徵。共有 25 位病人入組，中位年齡 63 歲，56% 年齡大於等於 65 歲，64% 是 stage III/IV。\n\n疾病類型方面，52% 是 DLBCL NOS，20% 是 HGBCL，20% 是 TFL。疾病狀態方面，44% 是 primary refractory，24% 是一年內的 early relapse，32% 是 relapsed。16% 曾接受過 autologous SCT。\n\n48% 的 IPI 為 3-5 分，48% 的 LDH 升高，20% 有 bulky disease。60% 的病人曾接受過兩線或以上的治療。這是一群高風險的 R/R LBCL 病人。"
+    },
+    "51": {
+      "hint": "American Society of Hematology | American Society of Hematology | Primary Outcom",
+      "note": "主要終點的結果令人印象深刻。大家看左邊的柱狀圖，在 Day 90，92% 的病人達到 CR+PR，其中 CR 率就高達 90%！完全沒有 SD 的病人，只有 8% 出現 PD。\n\n右邊的瀑布圖更清楚地展示了治療過程中的反應動態。從 apheresis 開始，在 Day -7 就可以看到 bridging 階段已經有部分病人達到 CR。到 one month，CR 持續增加。Three months 時 CR 達到 22 位。Six months 和 one year 分別維持在 18 和 15 位 CR。\n\n在 Day 28，CR 率已經達到 67%，而且沒有 PD。20 位（83%）的病人在 Day 14 接受了 mosunetuzumab。總共有 5 位病人死亡，1 位是 NRM，4 位因 PD。"
+    },
+    "52": {
+      "hint": "American Society of Hematology | American Society of Hematology | Mosun-Pola-Axi",
+      "note": "長期追蹤數據更進一步證實了這個方案的耐久性。在中位追蹤 22.7 個月的情況下，大家看左邊的 OS 曲線，12 個月 OS 為 79%。右邊的 PFS 曲線也顯示 12 個月 PFS 為 79%。\n\n兩條曲線在 6 個月左右趨於穩定，之後維持在一個平台期，這暗示達到緩解的病人有很大的機會維持長期無病。對於這群高風險的 R/R LBCL 病人來說，這是非常有希望的結果。"
+    },
+    "53": {
+      "hint": "American Society of Hematology | American Society of Hematology | Mosun-Pola-Axi",
+      "note": "安全性方面的數據也很重要。大家看左邊的柱狀圖，CRS 的發生率為 96%，但全部都是 grade 1-2，以 grade 1 為主（29%），grade 2 佔 67%。這代表雖然 CRS 很常見，但嚴重度很低。\n\nICANS 的發生率為 58%，其中 29% 是 grade 1，17% 是 grade 2，12% 是 grade 3，沒有 grade 4。有一位病人在 Day 14 mosunetuzumab 後出現復發性 ICANS。\n\n右邊的表格顯示，CRS 的中位起始時間是 Day 3，持續 3 天。ICANS 的中位起始時間是 Day 6，持續 2 天。重要的是，consolidation 階段的 mosun/pola 沒有引起新的 CRS 或 ICANS。"
+    },
+    "54": {
+      "hint": "American Society of Hematology | American Society of Hematology | Conclusion Hig",
+      "note": "這項研究的結論很清楚。第一，Mosun-Pola-Axi-cel 誘導了很高的反應率，而且在 axi-cel infusion 後一年有 79% 的病人維持緩解，顯示療效是持久的。\n\n第二，毒性與先前的 CAR-T 研究一致，但可能有較長時間的 neutropenia。\n\n第三，研究團隊計劃在未來進行一個 randomized phase II trial，將這個方案與標準 CAR-T 治療進行比較，以更好地評估這個組合的療效。\n\n這個 total therapy 的概念 -- bridging 加 CAR-T 加 consolidation -- 確實為改善 CAR-T 療效開啟了新的方向。"
+    },
+    "55": {
+      "hint": "American Society of Hematology | American Society of Hematology | Case 3 • He re",
+      "note": "回到 Case 3 的後續。這位 46 歲 primary refractory 的 DLBCL 病人，最後接受了三個療程的 R-GemOx 作為 bridging chemotherapy，之後接受了 Liso-cel 的 CAR-T 治療。追蹤的 PET scan 顯示達到 CR，Deauville score 為 1。大家看右邊的影像，對比之前滿是高代謝病灶的影像，現在已經完全乾淨了。\n\n他也曾經被邀請參加 SWOG 2114，這是一個 randomized phase 2 研究，評估 mosunetuzumab 加上 polatuzumab vedotin 作為 CAR-T 後的 consolidation 治療。但他最終決定不參加。\n\n目前他維持緩解大約一年。這個案例說明了即使是 primary refractory 的病人，CAR-T 仍然能提供長期緩解的機會。"
+    },
+    "56": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "讓我們來做個整體總結。首先是關於 MRD 的部分。EOT 的 MRD 檢測對 PFS 有很高的正預測值，但目前使用 ctDNA 來指導治療的 risk-adapted approach 仍在研究階段，尚未成為第一線治療的標準。\n\n像 PhasED-Seq 這樣的超敏感技術已經展示了優於傳統方法的 MRD 偵測靈敏度，因為它偵測的是 clusters of mutations 而非單一點突變。\n\nEOT 的 MRD 在預測較差 PFS 方面優於 EOT PET/CT。在 Cycle 2 Day 1 達到 MRD 陰性代表非常低的復發風險。\n\n未來的方向包括：在 EOT PET-CT 結果不明確的病人中，ctDNA-MRD 可能取代侵入性切片；技術標準將朝向 PhasED-Seq 或類似的高靈敏度技術發展；分子反應可能與 PET-based response 互補，整合到 risk-adapted 的臨床試驗策略中。"
+    },
+    "57": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "在 frontline treatment 方面，目前 DLBCL 的標準治療仍然是 Pola-R-CHP，特別是 IPI 大於等於 3、ABC subtype、double-expressor 和 BCL6 rearrangement 的病人。R-CHOP 和 R-EPOCH（double-hit 病人）仍然是基礎方案。\n\n但是有很多新的藥物正在 frontline setting 進行臨床試驗，包括 Glofitamab 加 Pola-R-CHP 的 SKYGLO 試驗、Epcoritamab 加 R-CHOP 的 EPCORE 試驗、Odronextamab-CHOP 的 OLYMPIA-3、Axi-cel 的 ZUMA-23、Tafa-Len-CHOP 的 frontMIND、Acala-R-CHOP 的 ESCALADE，以及 Golcadomide 加 R-CHOP 的 GLOSEEK。\n\n對於年長病人，R-Pola-Glo 和 Epcor-R-mini-CHOP 等新方案已經顯示出很有希望的初步結果。這個領域真的是充滿了新的發展。"
+    },
+    "58": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "在 R/R DLBCL 的治療方面，根據 ZUMA-7 和 TRANSFORM 的數據，CAR-T 已經是 primary refractory 或一年內復發病人的標準治療。而化療後接 ASCT 仍然是晚期復發（超過一年）的標準方案。\n\n對於不適合移植或 CAR-T 的病人，目前有多種治療選擇，包括 Mosunetuzumab 加上 Polatuzumab vedotin、Glofitamab 加上 GemOx、Epcoritamab 加上 GemOx、Pola-R-GemOx、Tafasitamab 加上 Lenalidomide，以及 Pola-BR。\n\n這些新選擇大大改善了 R/R DLBCL 病人的治療前景，特別是對於沒有機會接受 CAR-T 的病人。"
+    },
+    "59": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "好的，以上就是今天關於侵襲性淋巴瘤新治療策略的完整報告。感謝大家的聆聽，如果有任何問題，歡迎提出來討論。謝謝！"
+    }
+  }
+}

@@ -5,6 +5,12 @@ export interface ServerConfig {
   timerMinutes?: number;
 }
 
+export interface DirectoryConfig {
+  dirPath: string;
+  port: number;
+  timerMinutes?: number;
+}
+
 export interface StartedServer {
   port: number;
   stop: () => Promise<void>;

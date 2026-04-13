@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "pdf": "practice-changing-advances-in-myelodysplastic-syndromes-and-myeloproliferative-neoplasms.pdf",
+    "totalSlides": 40,
+    "generatedAt": "2026-04-12T19:14:46.030Z",
+    "generator": "pdf-presenter"
+  },
+  "notes": {
+    "1": {
+      "hint": "American Society of Hematology | Practice Changing Advances in Myelodysplastic S",
+      "note": "各位先進大家好，歡迎來到今天的 Highlights of ASH 專題演講。我是來自香港大學醫學院內科學系的 Harinder Gill，今天很高興有機會跟大家分享在 myelodysplastic syndromes 跟 myeloproliferative neoplasms 這兩大領域中，幾個可能改變臨床實踐的重要進展。\n\n這次的演講內容涵蓋了最新的 ASH 年會上發表的關鍵研究數據，我們會從 MDS 的部分開始，討論 lower-risk MDS 以及 higher-risk MDS 的最新治療策略，接著再進入 MPN 的部分，看看 polycythemia vera 跟 essential thrombocythemia 有什麼重要的新進展。那我們就開始吧。"
+    },
+    "2": {
+      "hint": "American Society of Hematology | Disclosures In compliance with ACCME policy, AS",
+      "note": "在正式開始之前，依照 ACCME 的規定，我需要先跟大家揭露我的利益關係。大家可以在投影片上看到完整的 disclosure 資訊。另外，今天的演講中會涉及到 venetoclax 的 off-label drug use 的討論，請大家留意。"
+    },
+    "3": {
+      "hint": "American Society of Hematology | American Society of Hematology | Learning Objec",
+      "note": "今天演講的學習目標有三個重點。第一，我們要能夠辨識哪些 lower-risk MDS 的病人最能從第一線使用 luspatercept 中獲益。第二，我們要了解在 higher-risk MDS 中，phase 3 研究所面臨的困境，以及如何找出可能從 azacitidine-based 合併療法中受益的病人亞群。第三，我們要理解在 MPN 領域中，針對新靶點的新興藥物如何可能改變疾病生物學和病人預後。\n\n好，那我們先從 MDS 的部分開始。"
+    },
+    "4": {
+      "hint": "American Society of Hematology | Myelodysplastic neoplasm Highlights of ASH®",
+      "note": "首先我們進入 myelodysplastic neoplasm 的部分。在這個章節中，我會跟大家分享兩個重要的研究：一個是關於 luspatercept 在 lower-risk MDS 中的 COMMANDS trial 的 post-hoc analysis，另一個是 venetoclax 加上 azacitidine 在 higher-risk MDS 中的 VERONA study 的 subgroup analyses。"
+    },
+    "5": {
+      "hint": "American Society of Hematology | Clinical benefit of luspatercept in erythropoie",
+      "note": "第一個要介紹的研究是這篇由 Valeria Santini 等人發表的 COMMANDS trial post-hoc analysis。這個研究探討的是 luspatercept 在 ESA-naive、具有早期疾病特徵的 very low-、low- 或 intermediate-risk MDS 病人中的臨床效益。\n\n這是一個非常重要的分析，因為它幫助我們更精準地了解哪些病人能從 luspatercept 的治療中獲得最大的好處。摘要編號是 abs25-9166。"
+    },
+    "6": {
+      "hint": "American Society of Hematology | American Society of Hematology | Background and",
+      "note": "先來看一下背景。大家知道，luspatercept 在 phase 3 的 COMMANDS trial 中已經證實了它相對於 epoetin alfa 的優越性，在 ESA-naive、需要輸血的 lower-risk MDS 病人中，luspatercept 提供了更高的 RBC transfusion independence 比率，而且效果持久。這些結果也支持了它獲得核准，作為可能需要紅血球輸注且未使用過 ESA 的 lower-risk MDS 成人病人的第一線治療。\n\n但在臨床上，我們知道 lower-risk MDS 病人的疾病特徵差異很大。較高的 hemoglobin、較低的 serum EPO、以及較低的 transfusion burden，這些都代表疾病處於比較早期的階段，這些病人對治療的反應通常也比較好。所以這個 post-hoc analysis 的目的，就是要看在這些不同的疾病特徵分層下，luspatercept 的療效表現如何。"
+    },
+    "7": {
+      "hint": "American Society of Hematology | American Society of Hematology | Study design H",
+      "note": "大家看這張投影片上的試驗設計圖。COMMANDS 是一個全球性的 phase 3、open-label、randomized controlled trial。符合條件的病人包括年滿 18 歲、IPSS-R 為 very low 到 intermediate risk 的 MDS、不包含 del(5q)、骨髓芽細胞小於 5%、需要紅血球輸注、ESA-naive、而且內源性 EPO 要小於 500 U/L。\n\n病人以一比一隨機分配到 luspatercept 1.0 mg/kg 皮下注射每三週一次，可以 titration 到 1.75 mg/kg，共 182 人；或者 epoetin alfa 450 IU/kg 皮下注射每週一次，可以 titration 到 1050 IU/kg，共 181 人。\n\n主要療效指標是 RBC-TI 大於等於 12 週加上同時 hemoglobin 上升大於等於 1.5 g/dL。在這個 post-hoc analysis 中，他們用 data cutoff 在 2025 年 2 月 7 日的數據，根據 baseline 的 Hb、sEPO 和 transfusion burden 來做分層分析。"
+    },
+    "8": {
+      "hint": "American Society of Hematology | American Society of Hematology | RBC-TI ≥ 12 we",
+      "note": "首先來看依照 baseline hemoglobin 做的分層結果。大家看這張表格跟下面的 Kaplan-Meier 曲線。在 luspatercept 的治療組中，baseline Hb 大於等於 8 g/dL 的病人，RBC-TI 達標率高達 87.5%，而 Hb 小於 8 的病人則是 69.1%，odds ratio 是 3.1。\n\n在 HI-E 的部分也是類似的趨勢，Hb 較高的組別有 83.3% 達到 HI-E，而 Hb 較低的組別是 78.2%。特別值得注意的是，在 RBC-TI 的持續時間方面，Hb 大於等於 8 的組別中位數達到 150 週，而 Hb 小於 8 的組別是 108.3 週。\n\n大家看下面這個 Kaplan-Meier 曲線，兩條曲線的分離是非常明顯的，Hb 較高的病人持續獲益的時間確實比較長。"
+    },
+    "9": {
+      "hint": "American Society of Hematology | American Society of Hematology | RBC-TI ≥ 12 we",
+      "note": "接下來看依照 baseline serum EPO 水平做的分層。這個結果差異更加顯著。sEPO 小於等於 100 U/L 的病人，RBC-TI 達標率是 87.4%，而 sEPO 大於 200 U/L 的只有 54.1%，odds ratio 達到 5.9，差異非常大。\n\nHI-E 方面也是一樣，sEPO 低的組別達到 90.3%，sEPO 高的組別只有 62.2%，odds ratio 是 5.7。在 RBC-TI 持續時間方面，sEPO 低的組別中位數是 143.3 週，而 sEPO 高的組別只有 48.3 週，hazard ratio 是 0.406。\n\n大家看這張 Kaplan-Meier 曲線，兩條線的分離比剛才 hemoglobin 的分層更明顯。這告訴我們，baseline sEPO 水平是預測 luspatercept 療效非常重要的一個因子。"
+    },
+    "10": {
+      "hint": "American Society of Hematology | American Society of Hematology | RBC-TI ≥ 12 we",
+      "note": "最後是依照 baseline transfusion burden 的分層。TB 等於 2 U 每 8 週的病人，也就是輸血需求比較低的這群，RBC-TI 達標率是 86.4%，而 TB 大於等於 4 U 每 8 週的病人則是 60.9%，odds ratio 是 4.1。\n\nHI-E 方面同樣有差異，低 TB 組 87.7% 對比高 TB 組 73.4%，odds ratio 2.6。在持續時間上，低 TB 組中位數是 120.9 週，高 TB 組是 110 週。\n\n從這張 Kaplan-Meier 曲線可以看到，雖然兩組在持續時間上的差異沒有前面兩個分層那麼大，但低輸血負擔的病人仍然表現更好。"
+    },
+    "11": {
+      "hint": "American Society of Hematology | American Society of Hematology | Conclusion • I",
+      "note": "那這個 COMMANDS trial 的 post-hoc analysis 帶給我們什麼結論呢？\n\n第一，在所有臨床相關的亞群分析中，不管是用 Hb、sEPO 還是 TB 來分，luspatercept 都一致地比 epoetin alfa 有更高的反應率和更長的反應持續時間，這進一步支持 luspatercept 作為需要輸血的 lower-risk MDS 的首選第一線治療。\n\n第二，具有較高 Hb、較低 sEPO、較低 TB 這些代表疾病較早期的病人，從 luspatercept 治療中獲得的臨床效益更大。\n\n第三，也是最重要的一個臨床啟示：考慮到這些結果，在 lower-risk MDS 的病程早期就開始使用 luspatercept，可能帶來更高的反應率和更長的輸血獨立時間。這對我們臨床決策有很重要的指導意義。"
+    },
+    "12": {
+      "hint": "American Society of Hematology | Subgroup Analyses From the Randomized Phase 3 V",
+      "note": "好，接下來我們轉到 higher-risk MDS 的部分。這個研究是 VERONA trial 的 subgroup analyses，由 Guillermo Garcia-Manero 等人發表。VERONA 是一個 randomized phase 3 的研究，比較 venetoclax 加上 azacitidine 對比 placebo 加上 azacitidine，在未經治療的 higher-risk MDS 病人中的療效。\n\n這個研究的結果其實蠻值得深入討論的，因為它的 primary endpoint 並沒有達到統計學上的顯著差異，但是在某些 subgroup 中可能有一些有意義的訊號。"
+    },
+    "13": {
+      "hint": "American Society of Hematology | American Society of Hematology | Introduction •",
+      "note": "先來看一下背景。Higher-risk MDS 是一個非常具侵略性的疾病，使用 HMA 單獨治療的話，intermediate risk 的中位 overall survival 大約 3 年，high risk 約 1.6 年，very high risk 只有 0.8 年。\n\n在 phase 1b 研究中看到了令人鼓舞的安全性和療效數據之後，研究者設計了這個 phase 3 的 VERONA trial，去比較 Ven + Aza 跟 Pbo + Aza 在未經治療的 higher-risk MDS 病人中的表現。\n\n但是在 primary analysis 中，中位追蹤 41.2 個月，Ven + Aza 跟 Pbo + Aza 在 OS 上並沒有顯著差異，分別是 22.18 個月跟 21.68 個月，HR 是 0.908，p 值 0.38。不過值得注意的是，modified overall response rate 在 Ven + Aza 組明顯較高，76.2% 對比 57.7%，p 值小於 0.0001。"
+    },
+    "14": {
+      "hint": "American Society of Hematology | American Society of Hematology | Study design a",
+      "note": "大家看這張試驗設計圖。VERONA 收了 509 位病人，以一比一隨機分配。入組條件包括年滿 18 歲、新診斷的 MDS、IPSS-R 大於 3 分、ECOG PS 0 到 2、HSCT eligible 但未預先安排 HSCT 或者 HSCT ineligible、而且沒有接受過任何先前治療。\n\n在 venetoclax 組，病人接受 venetoclax 400 mg 口服每天，第 1 到 14 天，加上 azacitidine 75 mg/m2，共 7 天。Placebo 組則是 placebo 加上同樣劑量的 azacitidine。治療持續到疾病復發、惡化、接受 HSCT 或無法耐受的毒性。\n\nPrimary endpoint 是 overall survival，key secondary endpoints 包括 mOR、CR、HI、TI、PROs 以及安全性。分層因子包括 IPSS-R、HSCT eligibility 以及地理區域。"
+    },
+    "15": {
+      "hint": "American Society of Hematology | American Society of Hematology | Baseline chara",
+      "note": "大家看這張投影片，左邊兩個表格是 baseline characteristics，右邊是 patient disposition 的 flow chart。\n\n兩組的基線特徵大致平衡。中位年齡大約 72 歲，大約六成多是男性。在 IPSS-R prognostic risk 方面，兩組的 intermediate、high 跟 very high 的比例也差不多。值得注意的是，baseline mutations 的部分，ASXL1、TP53、RUNX1 這些基因突變的比例在兩組間也是類似的。\n\n看右邊的 disposition 圖，可以看到大多數病人最終都停止了治療。Ven + Aza 組有 90.6% 停藥，主要原因是疾病進展、不良事件和 HSCT。Pbo + Aza 組有 95.1% 停藥。在轉化為 AML 方面，Ven + Aza 組的比率是 15%，中位時間是 9.7 個月；而 Pbo + Aza 組是 20%，中位時間 6.9 個月。"
+    },
+    "16": {
+      "hint": "American Society of Hematology | American Society of Hematology | No significant",
+      "note": "這是主要的 OS 結果。大家看這張 Kaplan-Meier survival curve，兩條線幾乎是重疊的。中位追蹤是 41.2 個月，Ven + Aza 組的中位 OS 是 22.2 個月，Pbo + Aza 組是 21.7 個月，HR 是 0.908，95% 信賴區間 0.733 到 1.126，stratified log-rank test 的 nominal p 值是 0.38。\n\n所以很明確地，在整體人群中，加上 venetoclax 並沒有帶來 OS 的改善。這個結果其實讓很多人感到意外，因為我們在 AML 中已經看到 venetoclax 加 azacitidine 有很好的效果。但 MDS 跟 AML 的生物學畢竟不同，這提醒我們不能簡單地把 AML 的經驗外推到 MDS。"
+    },
+    "17": {
+      "hint": "American Society of Hematology | American Society of Hematology | Ven + Aza resu",
+      "note": "雖然 OS 沒有差異，但在 response rate 方面，Ven + Aza 確實表現更好。大家看左邊的長條圖，Ven + Aza 的 mOR 是 76.2%，其中 CR 18%、PR 0.4%、mCR 57.8%；而 Pbo + Aza 的 mOR 是 57.7%，CR 20.2%、mCR 37.5%。P 值小於 0.0001，差異非常顯著。\n\n右邊的表格顯示，mOR 的中位持續時間兩組差不多，分別是 15.3 個月跟 14.8 個月。在 hematologic improvement 方面，Ven + Aza 有 49.4%，Pbo + Aza 有 41.2%，p 值 0.0723，接近但未達統計顯著。\n\n在 transfusion independence 方面，紅血球的 TI rate，Ven + Aza 是 55.7%，明顯高於 Pbo + Aza 的 33.6%。血小板的 TI 也是 Ven + Aza 較高。所以加上 venetoclax 確實改善了反應率和輸血獨立性，只是這些改善沒有轉化為 OS 的獲益。"
+    },
+    "18": {
+      "hint": "American Society of Hematology | American Society of Hematology | Subgroup analy",
+      "note": "這張投影片非常重要。左邊是 mOR 的 subgroup analysis，右邊是 OS 的 subgroup analysis，用 forest plot 來呈現。\n\n在 mOR 方面，Ven + Aza 在多個亞群中都顯示出優勢，特別是在年齡小於 75 歲、bone marrow blasts 大於等於 10%、IPSS-R high 到 very high risk、以及帶有 ASXL1、TP53 或 RUNX1 突變的病人中，差異最為明顯。\n\n在 OS 的部分，雖然整體沒有差異，但在某些亞群中出現了有利於 Ven + Aza 的趨勢。特別是小於 75 歲的病人、ECOG PS 2 的病人、bone marrow blasts 大於等於 10% 的病人，以及 IPSS-R very high risk 的病人。\n\n這些 subgroup 的結果提示我們，或許在某些特定的 higher-risk MDS 病人族群中，venetoclax 加 azacitidine 的組合可能有其角色，但這需要進一步的前瞻性研究來驗證。"
+    },
+    "19": {
+      "hint": "American Society of Hematology | American Society of Hematology | Subsequent tre",
+      "note": "大家看這張表格，呈現的是後續治療的資訊。在 HSCT 方面，Ven + Aza 組有 16.8% 的病人接受了 HSCT，Pbo + Aza 組是 13%。Ven + Aza 組中，有較多病人是在不需要額外治療的情況下直接進入 HSCT 的，比例是 15.2% 對比 9.1%。\n\n在 HSCT 前的最佳反應方面，Ven + Aza 組有更多的 mCR 反應，60.5% 對比 33.3%，而 Pbo + Aza 組有較多的 stable disease，39.4% 對比 14%。\n\n在 post-study therapy 方面，Pbo + Aza 組有更高比例的病人需要後續治療，38.7% 對比 28.5%。其中接受 venetoclax 作為後續治療的，Pbo + Aza 組是 20.9%，Ven + Aza 組是 10.5%。這個後續治療的 crossover 效應可能也部分解釋了為什麼 OS 沒有差異。"
+    },
+    "20": {
+      "hint": "American Society of Hematology | American Society of Hematology | No new safety",
+      "note": "安全性方面沒有出現新的安全信號。大家看左邊的長條圖，最常見的 TEAEs 包括 neutropenia、thrombocytopenia、anemia、febrile neutropenia 等等，兩組的發生率大致類似，但 Ven + Aza 組的 neutropenia 和 thrombocytopenia 的 grade 3 以上比例稍微高一些。\n\n右邊的表格顯示，serious AEs 在 Ven + Aza 組是 65.5%，Pbo + Aza 組是 54.9%。導致死亡的 AEs 兩組相似，Ven + Aza 7.1%，Pbo + Aza 8.1%。整體死亡率也是類似的，分別是 65.5% 和 68.6%，最常見的死因是疾病進展。\n\n所以總體來說，安全性是可控的，符合預期，沒有新的安全性疑慮。"
+    },
+    "21": {
+      "hint": "American Society of Hematology | American Society of Hematology | Conclusions •",
+      "note": "那麼 VERONA trial 的結論是什麼呢？\n\n第一，Ven + Aza 在未經治療的 higher-risk MDS 病人中，並沒有在 OS 這個 primary endpoint 上達到統計顯著的改善。\n\n第二，雖然 OS 沒有差異，但 Ven + Aza 確實帶來了更高的 mOR、mCR with HI、TI，而且有更多病人能夠接受 HSCT。\n\n第三，subgroup analyses 顯示，在小於 75 歲、高 blasts、high 或 very high IPSS-R、以及帶有 ASXL1、TP53、RUNX1 突變的病人中，Ven + Aza 有 mOR 獲益的趨勢。在 OS 方面也在小於 75 歲跟高 blasts 的病人中觀察到有利的趨勢。\n\n最後，Ven + Aza 的安全性符合預期，可以管控。所以雖然整體結果比較令人失望，但這些 subgroup 的資料仍然提供了有價值的資訊，幫助我們思考在哪些病人中可能值得嘗試這個組合。好，MDS 的部分就到這裡。"
+    },
+    "22": {
+      "hint": "American Society of Hematology | Myeloproliferative neoplasm Highlights of ASH®",
+      "note": "接下來我們進入第二個大主題，myeloproliferative neoplasm。在 MPN 的部分，我會跟大家分享兩個很重要的研究：一個是 rusfertide 在 polycythemia vera 中的 VERIFY study，另一個是 ropeginterferon alfa-2b 在 essential thrombocythemia 中的 ROP-ET study。這兩個研究都可能對我們的臨床實踐帶來重要的改變。"
+    },
+    "23": {
+      "hint": "American Society of Hematology | Rusfertide or Placebo Plus Current Standard of",
+      "note": "第一個要介紹的是 VERIFY study，這是一個 randomized controlled phase 3 的研究，由 Andrew T. Kuykendall 等人發表。研究比較的是 rusfertide 或 placebo 加上目前的標準治療，用在 polycythemia vera 的病人身上。今天報告的是到第 52 週的反應持久性和安全性結果。\n\n值得一提的是，我們的演講者 Harinder Gill 也是這個研究的共同作者之一。"
+    },
+    "24": {
+      "hint": "American Society of Hematology | American Society of Hematology | Polycythemia V",
+      "note": "先來了解一下背景。Polycythemia vera 是由 JAK2 突變驅動的 myeloproliferative neoplasm，特徵是紅血球過度產生，這會增加心血管和血栓事件的風險。\n\n目前的治療指引建議 hematocrit 要控制在 45% 以下，以降低致命性血栓事件的風險。目前 PV 的標準治療是 phlebotomy 加上或不加上 cytoreductive therapy。但問題是，頻繁的 phlebotomy 對病人來說負擔很重，而且往往不足以維持 hematocrit 穩定在 45% 以下。Phlebotomy 也會影響生活品質，惡化很多病人的症狀。\n\n那 rusfertide 是什麼呢？它是一個 first-in-class 的、自行皮下注射的 peptide mimetic，模擬內源性的 hepcidin，而 hepcidin 是鐵代謝恆定的主要調控者。透過抑制鐵的吸收和釋放，rusfertide 可以限制紅血球的過度產生。"
+    },
+    "25": {
+      "hint": "American Society of Hematology | American Society of Hematology | Phase 3 VERIFY",
+      "note": "大家看這張 VERIFY study 的設計圖。研究分為四個部分。Part 1a 是從 baseline 到 week 32 的雙盲期，包含 dose titration 和 primary efficacy 評估。Primary endpoint period 是 weeks 20 到 32，key secondary endpoints 的評估期是 weeks 0 到 32。\n\nPart 1b 是 weeks 32 到 52 的 open-label period，所有病人都轉為接受 rusfertide 加上標準治療。Part 2 是長期安全性的 open-label 評估期，延伸到 week 156。Part 3 是 open-label 的治療延長期。\n\n病人以一比一隨機分配到 rusfertide 加上標準治療，或 placebo 加上標準治療。標準治療指的是 phlebotomy 加上或不加上 cytoreductive therapy。"
+    },
+    "26": {
+      "hint": "American Society of Hematology | American Society of Hematology | In Part 1a (Ba",
+      "note": "在 Part 1a 的結果中，rusfertide 達到了它的 primary endpoint 以及全部四個 key secondary endpoints。\n\n看左邊第一張圖，primary endpoint 是 weeks 20 到 32 的 responder 比例。Rusfertide 組有 76.9% 達標，placebo 組只有 12.9%，p 值小於 0.0001，差異非常驚人。\n\n第二張圖是 phlebotomy 的次數。Rusfertide 組平均只有 0.5 次，placebo 組是 1.8 次，大幅減少。第三張圖是維持 hematocrit 小於 45% 的病人比例，rusfertide 組 63.6%，placebo 組只有 14.4%。\n\n右邊兩張圖是 PRO 相關的 key secondary endpoints。在 PROMIS Fatigue SF-8a 和 MFSAF TSS7 這兩個患者自述指標上，rusfertide 都顯示了統計顯著的改善。所以 rusfertide 不只是控制了 hematocrit，還改善了病人的症狀和生活品質。"
+    },
+    "27": {
+      "hint": "American Society of Hematology | American Society of Hematology | In Part 1b (We",
+      "note": "進入 Part 1b 的部分。在 week 32 之後，原本 placebo 組的病人也轉為接受 open-label 的 rusfertide。大家看右邊的 flow chart，一開始篩選了 399 位病人，隨機分配了 293 位，rusfertide 組 147 位，placebo 組 146 位。\n\n進入 Part 1b 的有 274 位，Part 2 有 267 位，目前仍在進行中的有 254 位。病人的留存率相當高，這也反映了 rusfertide 的良好耐受性。\n\n這次報告的數據是到 week 52 的安全性、療效和反應持久性的結果。"
+    },
+    "28": {
+      "hint": "American Society of Hematology | American Society of Hematology | Rusfertide Led",
+      "note": "這張圖是很有說服力的。大家看這張 hematocrit 變化的折線圖。藍色圓點是 rusfertide 組，灰色方塊是 placebo 組，紫色三角形是 placebo 轉到 rusfertide 的組。\n\nRusfertide 組從一開始就把 hematocrit 控制在 baseline 以下，而且一直維持到 week 52 以後。相比之下，placebo 組的 hematocrit 持續上升。\n\n最令人印象深刻的是，原本在 placebo 組的病人，在 week 32 轉為使用 rusfertide 之後，hematocrit 迅速下降，而且在幾週之內就降到跟原本 rusfertide 組類似的水平。這說明 rusfertide 的效果是快速的，而且不管什麼時候開始用都有效。"
+    },
+    "29": {
+      "hint": "American Society of Hematology | American Society of Hematology | Rusfertide Pro",
+      "note": "這張投影片用多個角度呈現了 rusfertide 的持久療效。\n\n左上方的圖顯示，在 Part 1a 的 primary endpoint period，rusfertide 的反應率是 76.9%。延續到 Part 1b 的 weeks 32 到 52，rusfertide 組的反應率維持在 84.1%，顯示效果不但持久，甚至有所改善。\n\n左下方的圖更有意思。原本 placebo 組只有 32.9% 的反應率，轉為 rusfertide 之後，在 weeks 40 到 52 期間達到了 77.9% 的反應率，跟原始 rusfertide 組非常接近。\n\n右邊兩張是 time to phlebotomy 的 Kaplan-Meier 曲線。在 Part 1a 和 Part 1b 中，rusfertide 組都顯示出顯著更長的 phlebotomy-free 時間。整體來說，rusfertide 提供了持久的反應控制，而且從 placebo 切換過來的病人也能迅速獲益。"
+    },
+    "30": {
+      "hint": "American Society of Hematology | American Society of Hematology | Changes in fer",
+      "note": "鐵代謝的變化也是大家很關心的一個議題。這張投影片展示了 ferritin、serum iron、transferrin 和 transferrin saturation 四個指標隨時間的變化。\n\n大家看 ferritin 的圖，在 placebo 組，ferritin 持續走低，這反映了頻繁 phlebotomy 造成的鐵缺乏。而 rusfertide 組的 ferritin 則是維持穩定甚至略有回升。轉組之後的病人也顯示了 ferritin 的改善。\n\nSerum iron 和 transferrin saturation 的變化也是類似的趨勢。重要的是，rusfertide 雖然是透過限制鐵的可用性來控制紅血球生成，但並沒有加重全身性的鐵缺乏。這是一個很重要的安全性發現，因為 phlebotomy 最大的問題之一就是會造成嚴重的鐵缺乏。"
+    },
+    "31": {
+      "hint": "American Society of Hematology | American Society of Hematology | Rusfertide Con",
+      "note": "安全性的部分。大家看左邊的表格，列出了 Part 1a 和 Part 1b 中最常見的 TEAEs。注射部位反應是 rusfertide 最常見的副作用，在 Part 1a 有 55.9%，但到了 Part 1b 降到了 9.7%，說明隨著時間會減少。\n\nFatigue、anemia、headache、COVID-19、pruritus 等也有報告，但多數是 grade 1 或 2。右邊列出了重要的安全性資訊：大多數 TEAEs 是 grade 1 或 2，最常見的 grade 3 TEAEs 是 anemia、asthenia 和 hypertension，各 3 例。\n\nSerious AEs 在 Part 1a 是 3.4%，Part 1b 是 2.6%。兩位病人出現了 thromboembolic events，分別在 Part 1a 和 Part 1b 各一位，這在 189.6 patient-years 的 rusfertide 暴露中算是很低的比率。"
+    },
+    "32": {
+      "hint": "American Society of Hematology | American Society of Hematology | Cancer Events",
+      "note": "關於 cancer events 的部分。在 Part 1a 從 baseline 到 week 32，placebo 組有 8 位病人出現至少一個 non-PV malignancy，rusfertide 組只有 3 位。在 Part 1b 的 weeks 32 到 52 期間，從 placebo 轉到 rusfertide 的有 2 位，持續 rusfertide 的有 4 位。\n\n大家看表格中列出的癌症類型，主要是 basal cell carcinoma、squamous cell carcinoma 這類皮膚癌，還有個別的 breast carcinoma、melanoma 等。整體來看，rusfertide 並沒有增加二次腫瘤的風險，這是很重要的長期安全性數據。"
+    },
+    "33": {
+      "hint": "American Society of Hematology | American Society of Hematology | Conclusions •",
+      "note": "那麼 VERIFY study 的結論是什麼？\n\n第一，rusfertide 在 baseline 到 week 32 達到了 primary endpoint 和全部四個 key secondary endpoints，而且效果持續到 week 52，提供了持久的 hematocrit 控制在 45% 以下，以及 phlebotomy ineligibility。\n\n第二，rusfertide 降低了 hematocrit 但沒有加劇全身性的鐵缺乏。這一點非常重要，跟傳統的 phlebotomy 形成了鮮明的對比。\n\n第三，在 52 週的治療後，rusfertide 的耐受性良好，安全性 profile 跟先前的觀察一致。\n\n第四，VERIFY study 目前仍在進行 Part 2 和 Part 3 的長期追蹤。同時配合 phase 2 的 THRIVE study 的長期數據，rusfertide 正在建立完整的長期安全性和療效資料。\n\n最後，基於 REVIVE 和 VERIFY 的數據，rusfertide 的 regulatory approval 正在積極推進中。這將為 PV 的病人帶來一個全新的治療選擇。"
+    },
+    "34": {
+      "hint": "American Society of Hematology | Ropeginterferon alfa-2b in essential thrombocyt",
+      "note": "最後一個要介紹的研究是 ROP-ET study，由 Jean-Jacques Kiladjian 等人發表。這是一個 phase 3 的研究，探討 ropeginterferon alfa-2b 在 essential thrombocythemia 病人中的療效，特別是那些不適合接受標準 cytoreduction 治療的各風險等級的病人。今天報告的是 12 個月的 primary endpoint analysis。摘要編號是 abs25-2199。\n\n大家知道，ET 的治療選項其實不多，特別是對那些對 hydroxyurea、anagrelide 等傳統藥物不耐受或無效的病人，治療選擇更是有限。Ropeginterferon alfa-2b 在 PV 中已經獲得核准，但它在 ET 中的角色一直是個重要的研究問題。"
+    },
+    "35": {
+      "hint": "American Society of Hematology | American Society of Hematology | ROP-ET study d",
+      "note": "大家看這張試驗設計。ROP-ET 是一個 ongoing 的 phase 3、prospective、multicenter、single-arm 的研究，登記號是 NCT06514807。\n\n入組條件包括成年的 ET 病人、符合 WHO 2016 criteria、需要 cytoreduction、但對所有核准的 cytoreductive therapies 不耐受、抗藥或不適合，包括 hydroxyurea、anagrelide、busulfan 和 pipobroman。而且病人要是 interferon alfa-naive 的。\n\n治療方案是 ropeginterferon alfa-2b 皮下注射每兩週一次，起始劑量 125 微克。如果 3 個月後未達反應，可以增加到 250 微克；6 個月後仍未反應可以增加到 500 微克。達到反應後可以延長注射間隔到每 4 週。治療共持續 36 個月。"
+    },
+    "36": {
+      "hint": "American Society of Hematology | American Society of Hematology | Primary endpoi",
+      "note": "Primary endpoint 的定義是在 12 個月時達到持久的，也就是大於等於 3 個月的，血液學和臨床反應，依據 modified ELN criteria。這個反應需要同時滿足以下所有條件：\n\n第一，peripheral blood count remission，也就是血小板小於等於 400 x 10 的 9 次方每升，白血球小於 10 x 10 的 9 次方每升。第二，沒有血栓或出血事件，沒有疾病進展。第三，沒有疾病相關徵象的進展，主要是 splenomegaly。第四，症狀改善，用 MPN-SAF Total Symptom Score 來評估。\n\n研究者把觀察到的 12 個月反應率跟歷史性的 40% 反應率做比較。計劃收案 117 人，確保至少有 93 位可評估的病人。"
+    },
+    "37": {
+      "hint": "American Society of Hematology | American Society of Hematology | Baseline chara",
+      "note": "大家看 baseline characteristics。總共收了 132 位病人。中位年齡是 56.5 歲，範圍從 22 到 87 歲。女性佔 58.3%。絕大多數是白人，佔 97%。\n\n從診斷到入組的中位時間是 3.3 年。Baseline 的血小板中位數是 579 x 10 的 9 次方每升，範圍很大，從 201 到 1958。白血球中位數是 7.35。有 21.2% 的病人白血球大於等於 10。MPN-SAF TSS 的中位數是 8，代表症狀負擔不算太重。\n\n值得注意的是，這些都是對標準 cytoreductive therapy 不耐受或無效的病人，所以是一個相對難治的族群。"
+    },
+    "38": {
+      "hint": "American Society of Hematology | American Society of Hematology | ROP-ET met its",
+      "note": "重點來了，ROP-ET 達到了它的 primary efficacy endpoint。大家看左邊的表格，在 12 個月時，48% 的病人達到了持久的疾病反應，95% 信賴區間是 39.1 到 57.1。127 位可評估的病人中，有 61 位是 responders，66 位是 non-responders，另外有 14 位因為提早退出而被計為 non-responders。\n\n右邊的表格列出了各個 individual parameters 的反應率。持久的 peripheral blood count remission 達到了 65.3%。沒有出血或血栓事件的比例是 96.2%。沒有疾病進展的是 100%。沒有 splenomegaly 進展的是 98.5%。症狀改善達到 84.2%。\n\n安全性方面，治療相關的 AEs 大多輕微，68.9% 的病人出現 grade 1 的 AEs。Grade 3 以上的治療相關 AEs 只佔 5.3%，只有一位病人出現嚴重的治療相關不良事件。"
+    },
+    "39": {
+      "hint": "American Society of Hematology | American Society of Hematology | Adverse events",
+      "note": "大家看這張詳細的不良事件資料。左邊的表格顯示，73.5% 的病人有治療相關的 adverse events，但 serious adverse event 只有 0.8%，只有一例。從嚴重度來看，grade 1 佔 68.9%，grade 2 佔 32.6%，grade 3 只有 5.3%，grade 4 只有 0.8%，沒有 grade 5。\n\n右邊的表格列出了發生率大於等於 5% 的 adverse drug reactions。最常見的是 ALT 升高跟 headache，各佔 15.2%。GGT 升高、neutropenia、pruritus 各佔 10.6%。AST 升高 9.1%，influenza-like illness 9.1%，asthenia 8.3%，hepatic enzyme increased 8.3%，bone pain 7.6%，pyrexia 7.6%。\n\n整體來說，ropeginterferon alfa-2b 在 ET 病人中的安全性跟它在 PV 中的表現是一致的，耐受性良好。"
+    },
+    "40": {
+      "hint": "American Society of Hematology | American Society of Hematology | Conclusions •",
+      "note": "最後來看 ROP-ET study 的結論。\n\nPhase 3 的 ROP-ET trial 達到了它的 primary endpoint，在 12 個月時有 48% 的持久疾病反應。沒有觀察到疾病進展或重大出血事件，而重大血栓事件只發生在 2 位病人身上，比例很低，只有 1.5%。62.3% 的病人症狀獲得改善。\n\n在劑量方面，response-driven dosing 讓平均兩週一次的劑量只有 193.8 微克，這算是相當低的劑量。Ropeginterferon alfa-2b 在 ET 病人中的安全性和耐受性良好，跟在 PV 中的經驗一致。治療相關的毒性主要是輕微的，而且很少導致停藥，只有 2.3%。\n\n最後也是最重要的一點，ropeginterferon alfa-2b 對那些需要 cytoreduction 但無法接受其他現有治療的 ET 病人，看起來是一個值得期待的治療選項。\n\n好，以上就是今天所有四個研究的分享。感謝大家的聆聽，希望這些 ASH 的重要進展對各位的臨床實踐有所幫助。"
+    }
+  }
+}

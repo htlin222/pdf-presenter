@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "pdf": "8_Tips for Publishing.pdf",
+    "totalSlides": 38,
+    "generatedAt": "2026-04-12T19:14:49.194Z",
+    "generator": "pdf-presenter"
+  },
+  "notes": {
+    "1": {
+      "hint": "American Society of Hematology | Tips for Publishing Eliza Hawkes, MD | Olivia N",
+      "note": "大家好，歡迎來到今天的 Clinical Research Trainee Day in Asia Pacific 課程。我是 Eliza Hawkes，來自澳洲的 Olivia Newton-John Cancer Research Institute。\n\n今天我要跟大家分享的主題是 Tips for Publishing，也就是關於學術發表的一些實用建議。對於在座的 trainee 來說，學會如何有效地發表你的研究成果，是學術生涯中非常重要的一個技能。接下來我會從為什麼要發表、什麼時候發表、怎麼選期刊、怎麼寫稿，一直到如何處理 revision 和 rejection，跟大家做一個完整的分享。"
+    },
+    "2": {
+      "hint": "American Society of Hematology | American Society of Hematology | Speaker Disclo",
+      "note": "在開始之前，依照 ASH 的規定，我先做一下利益揭露。我目前擔任 ejHaem 的 Associate Editor，也是 Blood 和 Blood Advances 的 Editorial Board 成員，同時擔任超過二十個期刊的 peer reviewer。我的研究經費來自 Roche、Bristol Myers Squibb、Merck KgA、Astra Zeneca、TG Therapeutics 和 Merck 等公司。此外，我也有多家藥廠的顧問及差旅費用關係，詳細內容大家可以看投影片上的列表。好，那我們就正式開始。"
+    },
+    "3": {
+      "hint": "American Society of Hematology | American Society of Hematology | Why Publish? •",
+      "note": "首先，我們來談談為什麼要發表論文。這個問題看起來很基本，但其實很重要，因為了解動機可以幫助你更有策略地規劃你的發表計畫。\n\n第一，發表論文是傳播研究成果、推動科學和臨床照護進步最重要的方式。你做了研究，如果不發表出來，就沒有人知道，那研究的價值就無法被實現。\n\n第二，peer review 的過程本身就非常有價值。透過同儕審查，你可以得到對你研究品質的重要回饋，也可以從中獲得下一步研究方向的啟發。\n\n第三，發表論文對你的職涯發展非常關鍵，包括升遷和學術職位的申請都需要。第四，有了發表紀錄，你才更容易申請到研究經費。最後，持續發表可以讓你建立起在某個領域的專家地位。"
+    },
+    "4": {
+      "hint": "American Society of Hematology | It all starts with a meeting abstract",
+      "note": "好，那一切都從哪裡開始呢？大家看這張投影片上的大字：It all starts with a meeting abstract。沒錯，所有的論文發表之旅，通常都是從一篇會議 abstract 開始的。\n\n在你準備寫一篇完整的 manuscript 之前，先把你的研究成果以 abstract 的形式投稿到國際會議，是一個非常好的起步方式。接下來我會跟大家詳細說明為什麼、什麼時候、以及去哪裡投 abstract。"
+    },
+    "5": {
+      "hint": "American Society of Hematology | Allows research to progress faster Timely commu",
+      "note": "為什麼要先投會議 abstract 呢？大家看投影片上列出了幾個重要的理由。\n\n首先，abstract 可以讓研究進展得更快。因為從你寫完 abstract 到在會議上發表，可能只需要幾個月的時間，比寫一篇完整的論文快得多。\n\n第二，abstract 提供了及時的溝通管道，可以分享正在進行或已經完成的研究。第三，早期把資訊散布出去，可以讓其他研究者在你的基礎上繼續發展，或者讓臨床治療因此改變。\n\n最後一點也很重要，abstract 通常比正式論文早好幾個月甚至好幾年就發表了。所以它是一個讓學術社群提早知道你的研究發現的好方式。"
+    },
+    "6": {
+      "hint": "American Society of Hematology | State claim to an idea ? Simultaneous publicati",
+      "note": "除了剛才提到的理由，投會議 abstract 還有幾個策略性的好處。\n\n第一，你可以藉此宣告你的研究主題，也就是 state claim to an idea。在競爭激烈的研究領域裡，這一點非常重要。\n\n第二，一個好的 abstract 可以引起期刊 editor 的注意。有時候 editor 在會議上看到你的 abstract 或 poster，可能會主動邀請你投稿，這是一個很大的優勢。\n\n第三，有些期刊甚至允許同步發表，也就是 simultaneous publication，讓你的 abstract 和 manuscript 同時出現。最後，在國際會議上發表 abstract 可以大幅增加你的曝光度。"
+    },
+    "7": {
+      "hint": "American Society of Hematology | When you have something substantial and \"mature",
+      "note": "那什麼時候適合投 abstract 呢？這張投影片給了我們幾個重要的考量。\n\n最基本的原則是，你的研究要有足夠實質且成熟的內容可以報告。不要太早投，資料不夠完整會影響你的可信度。\n\n但也要注意 embargo 的問題。如果你在一個競爭非常激烈的領域，投 abstract 可能反而會延遲你正式論文的發表，這時候你可能要考慮跳過 abstract，直接投稿 manuscript。\n\n另外，如果是 clinical trial，在計畫中的分析完成之前不應該報告結果，尤其是如果結果可能影響試驗的進行。最後要注意，同一篇 abstract 不應該重複投到不同的會議，除非該會議明確允許。"
+    },
+    "8": {
+      "hint": "American Society of Hematology | EHA ASH Abstracts previously submitted to large",
+      "note": "說到投 abstract，大家一定要了解各個會議的規則，這非常重要。這張投影片比較了 EHA 和 ASH 兩個重要會議的規定。\n\n左邊是 EHA 的規則。EHA 允許之前已經投過其他大型國際會議的 abstract 再投到 EHA，前提是這些會議是在同一時期舉辦的，例如 ASCO、ISTH、ICML 等。但如果是這種情況，你需要在投稿時說明有新的或更新的資訊。\n\n右邊是 ASH 的規定，就比較嚴格了。如果你的 abstract 是已發表論文的小幅延伸，或者資料可能會在 ASH 年會前被發表，你就必須申請 Special Consideration。大家看投影片右邊列出的幾個會讓 abstract 不合格的條件，包括資料已經在 PubMed 等搜尋引擎上公開可得、已被接受發表、或曾在超過一千人的會議上發表過等等。所以投稿前一定要仔細閱讀規則。"
+    },
+    "9": {
+      "hint": "American Society of Hematology | Where? • Reach the target audience • Achieve wi",
+      "note": "接下來是要投去哪裡。選擇會議時有幾個重要的考量。\n\n第一，要能觸及你的目標受眾。你的研究是血液學的、腫瘤學的，還是更專科的？這會決定你應該投哪個會議。第二，要盡量達到最廣的曝光度。第三，可以考慮同時投國際、國家級和地方性的會議，不一定只選一個。\n\n大家看右邊的表格，這裡列出了幾個重要會議的 abstract 投稿截止日期和會議日期。ASH 的截止日期大約在八月，會議在十二月。AACR 截止在十一月，會議在隔年四月。ASCO 截止在二月，會議在五到六月。EHA 和 ICML 則都是三月截止，六月舉辦。了解這些時程可以幫助你做好規劃。"
+    },
+    "10": {
+      "hint": "American Society of Hematology | International meetings will receive thousands o",
+      "note": "但大家也要了解競爭有多激烈。國際會議通常會收到數以千計的投稿。每個 review team 的成員可能要審超過一百篇 abstract。\n\n最終大約只有百分之四十到五十的 abstract 會被接受 publication，而只有百分之十能得到 oral presentation 的機會。所以你的 abstract 必須能抓住 reviewer 的注意力。這意味著你的寫作要清晰、重點明確、資料要紮實。"
+    },
+    "11": {
+      "hint": "American Society of Hematology |",
+      "note": "這張投影片展示的是一篇發表在 Journal of Clinical Oncology 的文章，作者是 Christopher M. Booth 等人。這篇文章探討的是在大型腫瘤學會議上報告 randomized controlled trial 非最終結果的頻率和影響。\n\n這篇研究的結論指出，會議 abstract 經常包含 nonfinal analyses，而且這些結果跟最後正式發表的論文經常有出入。這提醒我們，當我們在投 abstract 的時候，要確保我們報告的資料是足夠成熟和可靠的，而不是急著搶先報告不成熟的結果。"
+    },
+    "12": {
+      "hint": "American Society of Hematology | American Society of Hematology | Your Research",
+      "note": "好，現在假設你的研究已經準備好了！大家看這張投影片的情境。你做了一個 phase 2 的研究，測試一種治療血液科醫師 burnout 的新藥。\n\n在 ITT analysis 中，百分之四十五的人工作滿意度提升，百分之三十五的人有活力恢復的感覺。不過 non-compliance rate 是百分之四十，但整體而言是成功的。你的成果已經在 ASH 的 oral session 上報告了。\n\n這當然是一個幽默的例子，但重點是：你的 abstract 被接受了，在會議上也報告了，現在下一步就是要把它寫成正式的 manuscript 發表出來。"
+    },
+    "13": {
+      "hint": "American Society of Hematology | American Society of Hematology | It's now March",
+      "note": "但現實是什麼呢？現在已經是三月了，你正在值班，小孩需要你接送，行事曆排得滿滿的。你該怎麼辦？\n\n這張投影片列出了五個選項。第一，等到事情少一點再寫。第二，暫緩寫作，先投一個 abstract 到 EHA。第三，在值班期間利用零碎時間一小段一小段地寫。第四，讓 co-investigators 參與進來，分攤寫作工作。第五，請試驗的 sponsor 提供 professional writing service 來協助。\n\n我的建議是，第三、四、五個選項都可以考慮。千萬不要等，因為等永遠等不到空閒的時候。把寫作拆成小塊來完成，同時善用團隊合作和可用的資源，這才是最實際的做法。"
+    },
+    "14": {
+      "hint": "American Society of Hematology | American Society of Hematology | Authorship • A",
+      "note": "在開始寫之前，authorship 的問題一定要先處理好。最重要的原則是：在計畫一開始就要決定好作者排序的規則。\n\n根據 ICMJE 的標準，要成為論文作者，必須同時滿足以下所有條件：第一，對研究的構思設計、資料獲取分析或解釋有實質貢獻。第二，參與論文的起草或重要修改。第三，對最終發表版本的批准。第四，同意對研究所有方面負責。\n\n這四個條件缺一不可。另外要注意，如果有 professional writer 參與撰寫，必須在文章中致謝說明。"
+    },
+    "15": {
+      "hint": "American Society of Hematology | American Society of Hematology | Authorship Ord",
+      "note": "關於作者排序，也有一些約定俗成的慣例。\n\n第一作者的位置是最受重視的，通常是對研究貢獻最多的人，包括實際撰寫論文的人。最後作者傳統上是保留給指導老師或 principal investigator。第二或第三作者的位置通常會給 statistician。\n\n對於其他作者，沒有硬性的排序規則。如果是大型合作計畫，可以按字母順序排列。但不管怎樣，作者排序經常會引起爭議，所以最重要的原則就是公開透明、公平處理。一定要在早期就把這個問題談清楚，不要等到論文快完成了才來討論。"
+    },
+    "16": {
+      "hint": "American Society of Hematology | Picking a Journal Audience ? Impact Factor = Ci",
+      "note": "接下來談選擇期刊。這是一個非常重要的決定。大家看這張投影片，選期刊要考慮兩個主要因素：你的 audience 是誰，以及期刊的 impact factor。\n\n Impact factor 的計算方式是 citations 除以 citable items。右邊列出了幾個重要期刊的 impact factor 供大家參考：NEJM 是 176.1，JCO 是 45.3，Circulation 是 39.9，Blood 是 22.1，Leukemia 是 11.4，Haematologica 是 10.1。\n\n但 impact factor 只是參考指標之一。你還要考慮你的目標讀者群在哪裡。如果你的研究比較偏血液學，投 Blood 可能比投 JCO 更能觸及你的目標讀者。"
+    },
+    "17": {
+      "hint": "American Society of Hematology | American Society of Hematology | Journal Select",
+      "note": "在選擇期刊時，我的第一個建議是：aim high，先投高一點的期刊。最壞的結果就是被拒絕，但至少你嘗試過了。\n\n另外可以考慮做 pre-submission enquiry，也就是在正式投稿前先寫一封信給 editor，簡要說明你的研究，詢問他們是否有興趣。這可以幫你節省很多時間。同時也要檢查發表費用和其他要求。\n\n對於高階期刊，editor 在決定是否送審時會考慮幾個重要因素。Impact：這篇研究會不會改變臨床實踐？Novelty：這是前所未見的發現嗎？Quality：研究設計是否嚴謹、有足夠的統計效力？Citations 也是考量之一，但這比較有爭議。最後，要選最適合你研究的期刊，如果有 invited submission 的機會更好。"
+    },
+    "18": {
+      "hint": "American Society of Hematology | American Society of Hematology | Journal choice",
+      "note": "這是一個非常重要的提醒：小心 predatory journals，也就是掠奪性期刊。\n\n大家看這張投影片上列出了 Beall's list 所整理的掠奪性期刊特徵。這些期刊會很快就接受你的文章，幾乎沒有 peer review 或品質控管，甚至會接受惡作劇和無意義的論文。它們會在你的文章被接受之後才告知費用。它們會主動大量邀請學者投稿或加入 editorial board。它們會未經許可就把學者列為 editorial board 成員，而且不允許退出。有些甚至會虛構 editorial board 成員，模仿知名期刊的名稱或網站，宣稱虛假的辦公地點，不當使用 ISSN，以及宣傳虛假的 impact factor。\n\n如果你收到不明期刊的邀稿信，一定要小心查證。投稿到掠奪性期刊不但浪費錢，還會損害你的學術聲譽。"
+    },
+    "19": {
+      "hint": "American Society of Hematology | American Society of Hematology | Types of Publi",
+      "note": "在決定投稿之前，你也需要了解論文的類型有哪些。這張投影片列出了幾種常見的發表類型。\n\nFull-length papers 是最完整的，也是最常見的研究論文類型。Rapid communications 適合需要快速發表的重要發現。Short communications 篇幅較短，適合比較精簡的研究。Letters to the editor 可以用來回應其他論文或分享簡短的觀察結果。Case reports 適合報告特別有教育意義的個案。Technical or laboratory notes 適合介紹新的技術或方法。Methods 則著重描述新的研究方法。\n\n選擇哪種類型取決於你的資料量和研究性質。不是所有研究都適合寫成 full-length paper，有時候一篇精簡的 short communication 反而更有效。"
+    },
+    "20": {
+      "hint": "American Society of Hematology | Writing your Manuscript Article Type and Format",
+      "note": "好，現在來談怎麼寫你的 manuscript。大家看這張投影片，它用圖示的方式呈現了論文的基本架構。\n\n上排三個方塊：首先選定 article type and format；然後是 synopsis，也就是你的 abstract；接著是 introduction，回答「為什麼做這個研究」。\n\n下排三個方塊：methods 回答「你做了什麼」；tables and figures 呈現「你發現了什麼」；最後是 discussion，解釋「這些發現代表什麼意義」。\n\n投影片底下也提到，網路上有很多優秀的資源可以幫助你學習如何寫論文。我建議大家多去參考。"
+    },
+    "21": {
+      "hint": "American Society of Hematology | American Society of Hematology | Writing the Ar",
+      "note": "在實際寫作時，有幾個關鍵的注意事項。\n\n首先，一定要先詳細閱讀目標期刊的 instructions for authors，建立好框架，包括字數限制、格式要求、圖表數量限制等等。很多人忽略這一步，結果投稿被退回要求修改格式，白白浪費時間。\n\n第二，要盡早讓所有作者參與到寫作過程中，給他們明確的截止日期。第三，organization is key，好的組織架構是關鍵。第四，注意細節，確保所有的計算和數據都是正確的。第五，絕對要避免 plagiarism，現在期刊都有軟體可以偵測。最後，要寫一封用心的 cover letter。"
+    },
+    "22": {
+      "hint": "American Society of Hematology | American Society of Hematology | Checklists • C",
+      "note": "寫論文的時候，善用 checklists 可以幫你確保論文的品質和完整性。\n\n不同類型的研究有不同的 checklist。CONSORT statement 是用來規範 randomized controlled trial 的報告標準。STROBE 適用於觀察性研究，包括 case-control、cohort 和 cross-sectional 研究。PRISMA 是用來報告 systematic review 和 meta-analysis 的。TRIPOD 是用來報告預測模型開發的。SQUIRE 則是用來報告品質改善研究的。\n\n很多期刊在投稿時就要求你附上相對應的 checklist，所以一開始寫的時候就對照著 checklist 來寫，可以讓你的論文更加完善。"
+    },
+    "23": {
+      "hint": "American Society of Hematology | American Society of Hematology | Preparation: b",
+      "note": "在正式動筆之前，準備工作非常重要。\n\n首先是 literature search，文獻搜尋要做得徹底而廣泛。不只看跟你的研究直接相關的文章，也要閱讀不同主題但類型相似的論文，學習他們的結構和寫法。\n\n第二，善用 reference manager，像是 EndNote 或 Mendeley。把所有參考文獻存在裡面，而且要取得原文全文，不要只看 abstract。\n\n第三，也是非常重要的一點，你必須徹底熟悉你的研究方法和資料。要了解 original protocol、statistical analysis plan、clinical study report，以及各種分析的類型和負責人員。這些都是你在寫作和回覆 reviewer 時必須清楚掌握的。"
+    },
+    "24": {
+      "hint": "American Society of Hematology | American Society of Hematology | Conflict of In",
+      "note": "Conflict of interest 的申報是另一個需要特別注意的事項。\n\n我的建議是：meticulously declare everything，要鉅細靡遺地申報所有可能的利益衝突。每個期刊可能有自己的規定，有些要求申報的範圍比較廣，有些比較窄。\n\n與其少報，不如多報。不要只申報跟你這篇論文直接相關的利益關係，把所有的都列出來比較安全。另外要保持一致性，不要靠記憶，因為很容易遺漏。我的做法是維護一份隨時更新的利益衝突清單，做成一張投影片的格式，每次投稿或演講時直接拿出來用。"
+    },
+    "25": {
+      "hint": "American Society of Hematology | Manuscript Refinement Revise Revise Revise Prof",
+      "note": "論文初稿完成後，接下來就是 manuscript refinement 的階段。大家看這張投影片上列出了幾個重要的步驟。\n\n首先，做一個好的 lead author 和 co-author 很重要。Lead author 要能有效協調所有作者的意見，co-author 也要認真負責地審閱和提供回饋。然後就是修改、修改、再修改，revise, revise, revise。好的論文都是改出來的。\n\n圖表要做得專業美觀。可以考慮找 language editor 來潤稿，尤其如果英文不是你的母語的話。參考文獻要確保都是最關鍵的。最後，寫一封好的 cover letter，向 editor 說明你的研究為什麼重要、為什麼適合這個期刊。"
+    },
+    "26": {
+      "hint": "American Society of Hematology | American Society of Hematology | Suggesting Rev",
+      "note": "很多期刊在投稿時會要求你建議 reviewer 的人選。這是一個需要策略思考的環節。\n\n在建議名單上，你可以考慮包含那些了解你研究領域、公正客觀的同事和朋友。當然所謂的朋友不是說找人幫你放水，而是找那些真正了解這個領域、能給出專業評價的人。\n\n在排除名單上，你可以考慮排除直接的競爭者，因為他們可能會有利益衝突。但這也不是絕對的，因為有時候你的競爭者反而是最了解你研究的人。Editor 不一定會完全按照你的建議來選 reviewer，但至少你提供了參考。"
+    },
+    "27": {
+      "hint": "American Society of Hematology | The Verdict Accept!!!",
+      "note": "投稿之後，最期待的當然就是收到 Accept 的通知了！大家看這張圖，一個人在城市天際線前舉起雙手歡呼。這就是收到 accept 信的感覺。"
+    },
+    "28": {
+      "hint": "American Society of Hematology | The Verdict Accept!!! Never Happens",
+      "note": "但是，現實是什麼呢？大家看下面那行大字：Never Happens。直接 accept 幾乎不會發生！\n\n在我的整個學術生涯中，第一次投稿就被直接接受的情況是極其罕見的。所以不要期待這種情況，而是要做好準備迎接接下來的各種可能結果。"
+    },
+    "29": {
+      "hint": "American Society of Hematology | American Society of Hematology | Potential Verd",
+      "note": "那投稿之後可能會有哪些結果呢？大家看這張流程圖。從 Submit 出發，可能會有四種結果。\n\n第一種是 reject without review，也就是連 reviewer 都沒送就被退了。這通常是因為 editor 覺得你的文章不適合這個期刊。第二種是 reject after review，reviewer 看了之後建議退稿。第三種是 revise and resubmit，這其實是好消息，因為代表 editor 和 reviewer 覺得你的研究有價值，只是需要修改。第四種才是 accept，但如同剛才說的，這幾乎不會在第一輪就發生。\n\n最常見的好結果是第三種，revise and resubmit，所以我們接下來就來談談怎麼處理。"
+    },
+    "30": {
+      "hint": "American Society of Hematology | American Society of Hematology | Major or Minor",
+      "note": "收到 major 或 minor revision 的決定時，首先要記住：你的論文本來就不是完美的。所有的論文都會因為 peer review 的過程而變得更好，這是一件好事。\n\n處理 revision 時有幾個重要的原則。第一，寫一封禮貌的 revision letter，感謝 reviewer 的用心評審。第二，針對每一條 reviewer 的意見寫一份詳細的 response letter，逐條回應。第三，在你的稿件中進行相應的修改，並使用 track changes 追蹤所有的改動。\n\n不管你同不同意 reviewer 的意見，都要認真回應。即使你不同意，也要有禮貌地解釋原因，並提供證據支持你的立場。"
+    },
+    "31": {
+      "hint": "American Society of Hematology | American Society of Hematology | Sample Respons",
+      "note": "這張投影片展示了一個很好的 response letter 範例。大家看，開頭先感謝 reviewer 的意見，說他們的評審讓這篇論文變得更清晰、更有力。然後請他們參考下面的逐條回覆。\n\n接著是 Reviewer #1 的第一個問題，reviewer 要求討論為什麼 osteonecrosis 在較年長的 Hispanic 病患中更顯著，而 fracture 則在較年輕的 Hispanic 病患中較多。\n\n作者的回應很值得學習。他們先引用過去的文獻來支持他們的發現，承認種族差異仍然是未知的，然後用紅色字標出他們已經在稿件的第十四頁第二段加入了相關討論。這種格式非常清楚，讓 editor 和 reviewer 都能一目瞭然地看到你做了什麼修改。"
+    },
+    "32": {
+      "hint": "American Society of Hematology | American Society of Hematology | Handling Rejec",
+      "note": "但如果收到的是 rejection 呢？大家看這張圖，一個憤怒的角色。沒錯，被拒絕的第一反應通常就是憤怒和沮喪。這是完全正常的情緒反應。"
+    },
+    "33": {
+      "hint": "American Society of Hematology | American Society of Hematology | Handling Rejec",
+      "note": "但是，你需要做的是冷靜下來。大家看這張圖，從憤怒變成了平靜的冥想。收到 rejection 之後，千萬不要在情緒激動的時候回信給 editor。給自己一兩天的時間冷靜下來，然後客觀地重新審視 reviewer 的意見。很多時候你會發現，reviewer 的批評其實是有道理的，可以幫助你改善論文。"
+    },
+    "34": {
+      "hint": "American Society of Hematology | American Society of Hematology | Common Reasons",
+      "note": "了解常見的被拒原因可以幫你在投稿前就避免這些問題。\n\n最常見的原因包括：第一，不適合所選的期刊，這是選刊不當的問題。第二，方法學和研究設計有缺陷。第三，case 組或 control 組有問題。第四，covariates 或 outcomes 的選擇有問題。第五，統計分析不夠好。第六，結論下得太誇大，超出了資料能支持的範圍。最後是所謂的 editorial priorities，也就是期刊覺得你的主題目前不是他們的優先方向。\n\n其中有些是可以避免的，比如選對期刊、做好統計、不要過度解讀結果。但有些像是 editorial priorities，那就不是你能控制的了。"
+    },
+    "35": {
+      "hint": "American Society of Hematology | American Society of Hematology | Consider your",
+      "note": "被拒絕之後，你有幾個選項可以考慮。\n\n第一，如果你有充分的理由認為 rejection 的決定不合理，你可以寫 rebuttal letter 提出申訴。但這種情況比較少見。第二，也是最重要的心態，不要把被拒絕當成是對你個人的否定。很多優秀期刊的 acceptance rate 只有大約百分之二十，所以被拒是常態。\n\n第三，快速行動。不要讓一篇被拒的稿件在抽屜裡躺太久。第四，把 reviewer 的意見認真看一遍，做相應的修改，然後在一個月內投到下一個期刊。第五，有毅力就會有結果，你的研究最終一定會找到一個合適的發表平台。"
+    },
+    "36": {
+      "hint": "American Society of Hematology | Next Steps Media Coverage Social Media Subseque",
+      "note": "論文發表之後，事情還沒有結束。大家看這張投影片上的 Next Steps。\n\n你可以透過 media coverage 和 social media 來增加你論文的影響力和能見度。把你的 CV 更新，加入最新的發表。開始思考下一篇論文，也就是 subsequent paper。成為一個好的 reviewer，因為做好 peer review 也是回饋學術社群的重要方式。最後，隨著經驗的累積，你會從 first author 慢慢成長為 senior author，開始指導下一代的研究者。"
+    },
+    "37": {
+      "hint": "American Society of Hematology | American Society of Hematology | Summary • Publ",
+      "note": "最後做一個總結。\n\n發表研究論文是一個持續學習和進步的過程。你可以從別人身上學、從大量閱讀中學、從實際參與 peer review 和 mentorship 中學。\n\n投稿時要提交你最好的作品，花時間把細節做到位。要保持謙遜的態度，善用批評和回饋，因為每個人的意見都是在幫助你的論文變得更好。\n\n最後我想說的是，好的研究只要寫得好，一定會被發表。所以從一開始就好好設計和執行你的研究計畫，這會讓後續的發表過程順利很多。祝大家都能順利發表！"
+    },
+    "38": {
+      "hint": "American Society of Hematology | Special Thanks Lillian Sung, Kara Kelly, Angeli",
+      "note": "最後我要特別感謝 Lillian Sung、Kara Kelly、Angelika Hofmann、Wendy Stock、Jessica Okosun、Cece Calhoun M 和 Pedro H Prata，感謝他們在準備這個演講過程中的協助和貢獻。\n\n謝謝大家的聆聽，如果有任何問題，歡迎提出來討論。"
+    }
+  }
+}

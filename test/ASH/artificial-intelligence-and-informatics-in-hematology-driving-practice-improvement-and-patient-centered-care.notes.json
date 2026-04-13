@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "pdf": "artificial-intelligence-and-informatics-in-hematology-driving-practice-improvement-and-patient-centered-care.pdf",
+    "totalSlides": 44,
+    "generatedAt": "2026-04-12T19:14:42.333Z",
+    "generator": "pdf-presenter"
+  },
+  "notes": {
+    "1": {
+      "hint": "American Society of Hematology | Artificial Intelligence & Informatics in Hemato",
+      "note": "大家好，歡迎來到今天的演講。我是 Barbara Lam，來自 Fred Hutch Cancer Center 以及 University of Washington，位於 Seattle, Washington。\n今天我要跟大家分享的主題是 Artificial Intelligence and Informatics in Hematology: Driving Practice Improvement and Patient-Centered Care。這是 ASH 年會的 Highlights 系列，我們會一起回顧今年在 AI 與資訊科技領域中，跟血液學相關的重要研究進展。\n在接下來的時間裡，我會帶大家看幾個精選的 abstract，涵蓋 AI 在疾病分類、風險預測、臨床決策支援，以及穿戴式裝置遠端監測等方面的應用。希望大家聽完之後，能對這些新工具在臨床實務上的潛力有更清楚的認識。"
+    },
+    "2": {
+      "hint": "American Society of Hematology | Disclosures In compliance with ACCME policy, AS",
+      "note": "依照 ACCME 的規定，我需要向大家揭露利益衝突。如同投影片上所示，我本人沒有需要揭露的利益關係。另外，今天的演講也不涉及任何 off-label drug use 的討論。好，那我們就開始進入正題。"
+    },
+    "3": {
+      "hint": "American Society of Hematology | Learning Objectives Upon participation in this",
+      "note": "在開始之前，先跟大家說明今天的學習目標。聽完這場演講後，各位應該能夠：第一，描述 AI 和遠端病人監測在研究及臨床實務上的新應用；第二，辨識使用 large language models，也就是 LLMs，來輔助臨床決策時的優點與潛在陷阱。\n這兩個目標會貫穿我們今天所有討論的 abstract，讓我們帶著這些問題來看接下來的內容。"
+    },
+    "4": {
+      "hint": "American Society of Hematology | Major themes We identified four major themes in",
+      "note": "我們在回顧今年 ASH 的 AI 相關 abstract 之後，歸納出四個主要的主題。\n第一個是 AI to classify hematologic diseases based on pathology，也就是用 AI 來根據病理特徵分類血液疾病。第二個是 AI for risk prediction，利用 AI 來做風險預測。第三個是 Large language models for clinical decision-making，探討 LLM 在臨床決策上的應用。第四個是 Wearable technology to enable home monitoring of patients，也就是穿戴式裝置讓病人可以在家進行遠端監測。\n接下來我會依序帶大家深入了解每一個主題。"
+    },
+    "5": {
+      "hint": "American Society of Hematology | Theme 1: Artificial intelligence (AI) to classi",
+      "note": "好，我們先進入第一個主題：Artificial intelligence to classify hematologic diseases based on pathology。\n這個領域主要探討的是，如何利用 AI 技術，透過病理組織的影像或分子特徵，來幫助我們更快速、更精準地分類血液系統的疾病。"
+    },
+    "6": {
+      "hint": "American Society of Hematology | American Society of Hematology | A case for art",
+      "note": "在深入討論之前，讓我們先用一個臨床案例來說明為什麼這個主題很重要。\n想像一下，你有一位 45 歲的女性病人，她有 Sjogren's disease 的病史，最近兩個月頸部淋巴結持續變大，但沒有什麼症狀。你幫她做了 core needle biopsy，病理科的初步報告寫著「features concerning for lymphoma, additional studies pending」。但是這些額外的檢查可能還要再等好幾週才會有結果。\n你的團隊開始討論在等待期間該怎麼辦。這就是我們臨床上常遇到的困境：病理診斷有時候需要很長的時間，尤其是涉及到特殊染色和分子檢測的時候。那麼，AI 有沒有辦法幫助我們加速這個過程呢？"
+    },
+    "7": {
+      "hint": "American Society of Hematology | These abstracts used neural networks to classif",
+      "note": "在介紹具體的 abstract 之前，讓我先簡單說明一下這些研究所使用的技術。大家看這張圖，這是一個 neural network 的基本架構。\n左邊是 input layer，中間有任意數量的 hidden layers，右邊是 output layer。每一層都有很多個 nodes，彼此之間互相連接。簡單來說，你給模型一張圖片，問它「這是什麼？」，經過中間多層的處理之後，它就能告訴你「這是一隻貓」。\n同樣的原理，我們可以把病理切片的影像或是分子資料輸入模型，讓它來判斷疾病的類型。接下來要介紹的兩篇 abstract 就是用這樣的方法。"
+    },
+    "8": {
+      "hint": "American Society of Hematology | Highlights of ASH Abstract 13972 Lymphovision:",
+      "note": "大家看這張投影片，上面列出了我們在這個主題下要討論的兩篇 abstract。\n上半部是 Abstract 13972，叫做 Lymphovision，這是一個專門針對 lymphoma 設計的 foundation model，用組織學影像來做 lymphoma 的分類和分型。大家可以看到，它的 input 是淋巴結的 H&E 染色切片影像，通過 neural network 之後，output 可以區分出是 DLBCL 還是 CHL 等不同類型。\n下半部是 Abstract 10859，這篇則是用 DNA methylation 的資料來做血液惡性腫瘤的快速分類。它的 input 不是影像，而是 methylation array 的資料，output 則可以辨識出像是 PAX5 altered 或 KMT2A-PTD 等特定的分子亞型。\n所以大家可以看到，雖然都是用 neural network，但 input 的資料型態是不一樣的。"
+    },
+    "9": {
+      "hint": "American Society of Hematology | Abstract 13972: Lymphovision: A lymphoma- speci",
+      "note": "我們先來看第一篇，Abstract 13972，Lymphovision。這篇的第一作者是 Jansen N Seheult，來自 Mayo Clinic 的研究團隊，作者群相當龐大，包括了病理科和血液科的多位專家。\n這個研究開發了一個專門針對 lymphoma 的 foundation model，利用組織切片的影像來進行 lymphoma 的分類和亞型判定。讓我們來看看他們具體的做法和結果。"
+    },
+    "10": {
+      "hint": "American Society of Hematology | American Society of Hematology | Mayo Clinic Pa",
+      "note": "這篇研究使用了 Mayo Clinic 的病人資料，規模相當大。大家看左邊的數據：總共有 9,155 個 cases，31,211 張 slides，資料涵蓋了 2006 到 2024 年。\n他們最新的模型是用 3700 萬個 patches 來訓練的，而且使用了四種不同的放大倍率：5x、10x、20x 和 40x。大家可以看到下面這排不同放大倍率的影像範例。\n那結果呢？大家看右邊的圖表和重點。這個模型在分類 B cell lymphomas 方面達到了 AUC 0.95，非常出色。在 grade follicular lymphoma 方面 AUC 是 0.88，辨識 DLBCL cell of origin 的 AUC 達到 0.93。\n比較有意思的是最後一點，在預測 DLBCL 的 EFS24，也就是 event-free survival at 24 months 方面，單純用臨床資料的 AUC 是 0.67，但是加上 H&E 影像之後提升到 0.74。大家看右上角的圖表，紫色的線是 Clinical + Images，藍色的線是 Clinical Only，可以看到加入影像資料確實帶來了額外的預測價值。"
+    },
+    "11": {
+      "hint": "American Society of Hematology | Abstract 10859: Rapid DNA-methylation based cla",
+      "note": "接下來看第二篇，Abstract 10859，由 Tristan Achterberg 領導的研究團隊。這篇的重點是利用 DNA methylation 來快速分類血液惡性腫瘤。\n這跟剛才的 Lymphovision 不同，它不是看組織切片的影像，而是看 DNA methylation 的 pattern。讓我們來看看具體的方法和結果。"
+    },
+    "12": {
+      "hint": "American Society of Hematology | Can a model classify heme malignancies based on",
+      "note": "這篇研究的規模也很大。他們用了 5,550 個 training samples，全部來自 methylation arrays。\n最令人印象深刻的是，這個模型可以分類 58 種不同的血液惡性腫瘤，涵蓋了 leukemia 和 lymphoma。大家看右邊這張 UMAP 圖，每個顏色代表一種不同的疾病分類，可以看到不同疾病在圖上很明顯地聚集在一起，顯示模型確實能有效區分這些不同的疾病。\n更重要的是，這個方法使用 nanopore sequencing，可以在幾個小時內就得出結果，大幅縮短了從原本需要好幾週的診斷時間。\n在一個包含 178 位成人和兒童病人的回溯性 cohort 中，在 confidence threshold 設定為 0.95 的條件下，達到了 95% 的準確率。這意味著我們有可能在更短的時間內，就能給病人一個精確的分子診斷。"
+    },
+    "13": {
+      "hint": "American Society of Hematology | Theme 1 AI to classify hematologic diseases bas",
+      "note": "好，讓我們來總結一下 Theme 1 的重點。大家再看這張 neural network 的示意圖。\n左邊標示了我們可以考慮很多種類型的 input，包括 H&E slides、methylation arrays、以及其他分子資料等等，都可以作為分類的依據。\n右邊則提醒我們，AI 不只能用在惡性腫瘤的分類，未來也有潛力應用在其他類型的血液疾病。所以這個領域的發展空間其實是非常廣闊的。"
+    },
+    "14": {
+      "hint": "American Society of Hematology | American Society of Hematology | A case for art",
+      "note": "讓我們回到剛才的臨床案例。還記得那位 45 歲的 Sjogren's disease 病人嗎？她的淋巴結切片初步顯示可能是 lymphoma，但需要額外幾週的時間才能確認。\n根據我們剛才介紹的研究，在未來，你的團隊可能可以使用 AI 模型來更快速地診斷血液惡性腫瘤。無論是透過 H&E 影像分析，還是透過快速的 DNA methylation 分類，都有可能把診斷時間從幾週縮短到幾個小時。這對於臨床決策和病人的焦慮管理都會有很大的幫助。"
+    },
+    "15": {
+      "hint": "American Society of Hematology | Theme 2: Artificial intelligence (AI) for risk",
+      "note": "好，接下來我們進入第二個主題：Artificial intelligence for risk prediction，也就是用 AI 來做風險預測。\n這個主題探討的是，如何超越傳統的風險評分系統，利用 AI 來更準確地預測病人的預後和併發症風險。"
+    },
+    "16": {
+      "hint": "American Society of Hematology | American Society of Hematology | A case for art",
+      "note": "一樣，讓我們先用一個臨床案例來帶入。\n你有一位 72 歲的男性病人，診斷是 pancreatic cancer。一開始的時候，他被評估為 venous thromboembolism 的高風險族群，所以開始使用預防性的抗凝血劑。但是最近他的狀況不錯，疾病穩定，血球數值也在改善中。\n這時候你就會想，隨著他的臨床狀況改變，他的血栓風險是不是也跟著改變了呢？傳統的風險評分工具通常只在某一個時間點做一次評估，沒有辦法反映病人隨時間的變化。那有沒有更好的方法呢？"
+    },
+    "17": {
+      "hint": "American Society of Hematology | Highlights of ASH Traditional risk scores assig",
+      "note": "大家看這張投影片，左邊是我們熟悉的傳統風險評分系統的例子，像是 Geneva Risk Score for VTE Prophylaxis。這類工具的做法就是根據不同的變數，像是有沒有 cardiac failure、respiratory failure、recent stroke 等等，每一項是或否給予固定的分數，最後加總起來得到一個風險評估。\n右邊的文字點出了關鍵：這一類 abstract 的核心概念是要重新思考傳統的風險評分方式。\n在這個主題下，我們要介紹兩篇 abstract。左邊的 Abstract 7816 是用 deep learning 搭配電子病歷中的時序資料來動態預測癌症相關血栓的風險。右邊的 Abstract 14158 則是用 AI 分析骨髓切片的形態學特徵，來預測 MPN 病人的血管事件和疾病進展。\n這兩篇的共同點是，它們都跳脫了傳統「是或否」的靜態評分方式，嘗試用不同類型的資料來讓風險預測更加精準和動態。"
+    },
+    "18": {
+      "hint": "American Society of Hematology | Highlights of ASH Abstract 7816 A deep-learning",
+      "note": "讓我們更仔細看這兩篇 abstract 各自的切入角度。\n左邊的 Abstract 7816，它用 deep learning 模型來動態預測癌症相關的 thrombosis。重點在於它使用了美國 VA healthcare system 的電子病歷資料。跟傳統風險評分不同的是，它不是用「是或否」的變數，而是把診斷和治療的時間軸都納入考量，利用離癌症診斷和癌症治療時間點的遠近來預測 VTE 的風險。\n右邊的 Abstract 14158，MEAM 模型，它的創新之處在於用骨髓切片的影像來預測 MPN 病人的血管事件和疾病進展風險。同樣地，它不是用傳統的「是或否」臨床變數，而是用骨髓的形態學影像來取代。\n這兩個研究都在嘗試用更豐富的資料來超越傳統風險評分的限制。"
+    },
+    "19": {
+      "hint": "American Society of Hematology | Abstract 7816: A deep-learning model to dynamic",
+      "note": "我們先來看 Abstract 7816 的細節。第一作者是 Tianshe He，這篇研究的標題是 A deep-learning model to dynamically predict cancer-associated thrombosis using electronic health records from the U.S. Veterans Affairs healthcare system。\n這是一個非常有企圖心的研究，試圖用 deep learning 來解決癌症病人 VTE 風險預測的問題。讓我們看看他們的方法論。"
+    },
+    "20": {
+      "hint": "American Society of Hematology | • Static features : BMI, Sex, Race • ICD Phecod",
+      "note": "大家看這張投影片的研究設計。他們使用了 88,808 位來自 VA 的癌症病人作為 derivation cohort，另外還有 9,752 位來自 Harris Health 的癌症病人作為 external validation。\n模型的 input features 包含三大類：第一是 static features，像是 BMI、Sex、Race；第二是 ICD Phecodes，總共有 1,863 個診斷碼；第三是 lab values，包括 CBC 和 CMP。\n大家看下面的圖，這是他們的 trajectory 設計。每位病人的資料會從治療開始之前就開始收集，以三個月為一個窗口。模型會在不同的時間點，也就是 Q1 到 Q4，分別做預測。關鍵是這個模型是動態的，它會隨著時間推移，持續更新病人的風險評估，而不是只在某一個時間點做一次靜態的評估。"
+    },
+    "21": {
+      "hint": "American Society of Hematology | This abstract's model outperformed existing cli",
+      "note": "那結果呢？大家看這張圖，比較了三種模型在不同預測時間區間的表現。紫色是 Transformer model，黃色是 EHR-CAT，綠色是傳統的 Khorana Score。\n可以很明顯地看到，Transformer model 在所有時間區間的 AUC 都是最高的，而且隨著時間推移，它的優勢越來越明顯。到了 Q4，也就是 9 到 12 個月的時候，Transformer model 的 AUC 接近 0.8，遠高於 Khorana Score 大約 0.5 左右的表現。\n這告訴我們，動態的 transformer model 未來有可能超越甚至取代傳統的靜態風險評分工具。這對臨床很有意義，因為我們知道癌症病人的血栓風險是會隨時間變化的，一個能動態更新的模型顯然更符合臨床實際。"
+    },
+    "22": {
+      "hint": "American Society of Hematology | Abstract 14158: Multi-endpoint AI morphology mo",
+      "note": "接下來看第二篇，Abstract 14158。第一作者是 Xuezi Hu，研究標題是 Multi-endpoint AI morphology model，簡稱 MEAM，enhances risk prediction for vascular events and disease progression in MPNs。\n這篇也是一個跨國的大型合作研究，作者群來自多個國家的多個機構。它的核心概念是利用 AI 分析骨髓切片的形態學特徵，來預測 MPN 病人的多種臨床結局。"
+    },
+    "23": {
+      "hint": "American Society of Hematology | 788 patients 643 with essential thrombocythemia",
+      "note": "大家看這張投影片的方法學。他們總共納入了 788 位病人，其中 643 位是 essential thrombocythemia，也就是 ET，另外 145 位是 polycythemia vera，也就是 PV。\n左邊展示了他們的影像處理流程：先把整張 whole slide image 做 tissue mask，然後切成 512 乘以 512 的小 tiles，接著通過 pretrained foundation model 做 feature extraction，最後用 vision transformer 來做最終的預測。\n預測的 endpoints 包括四項：vascular events、transformation to myelofibrosis、transformation to AML/MDS、以及 death。這是一個 multi-endpoint 的模型設計，一次可以預測多種臨床結局。"
+    },
+    "24": {
+      "hint": "American Society of Hematology | ET PV • Improved accuracy (higher AUC) for pred",
+      "note": "來看看結果。大家看左邊的長條圖，上面是 ET 的結果，下面是 PV 的結果。紅色代表傳統的 conventional risk scoring，綠色代表結合了 AI 模型之後的 combined model。\n在 ET 方面，加入 AI 影像分析之後，預測 myelofibrosis transformation 的 C-index 提升了 45.96%，這個進步幅度是非常驚人的。預測死亡的準確度也有顯著提升。在 PV 方面，各項 endpoint 也都看到了不同程度的改善，例如 MFT 提升了 37.6%，AMLT 提升了 30.6%。\n不過右邊也列出了一些重要的觀察。在預測 thrombosis 方面，AI 模型的表現跟傳統模型差不多，可能是因為他們只用了骨髓切片影像，而血栓風險可能更依賴其他類型的臨床資料。另外，這個研究目前還沒有做 external validation，這是未來需要補強的部分。"
+    },
+    "25": {
+      "hint": "American Society of Hematology | American Society of Hematology | A case for art",
+      "note": "讓我們回到剛才那個 72 歲 pancreatic cancer 病人的案例。他一開始被評為 VTE 高風險，但最近狀況穩定。\n根據我們剛才介紹的研究，新的 AI 風險模型可以整合不同類型的資料，包括隨時間變化的實驗室數據、診斷碼，甚至是骨髓影像，來動態評估病人的風險變化。\n這意味著未來我們不再需要只依賴某一個時間點的靜態風險評估，而是可以持續追蹤病人的風險變化，在風險改變的時候及時調整治療策略。"
+    },
+    "26": {
+      "hint": "American Society of Hematology | Theme 3: Large language models (LLMs) for clini",
+      "note": "好，接下來進入第三個主題：Large language models for clinical decision-making。\n這個主題我相信在座很多人都很感興趣，因為 LLM 像是 ChatGPT 這類工具，現在已經非常普及了。那麼問題是，這些工具在血液學的臨床決策上到底表現如何？有什麼樣的能力和限制？"
+    },
+    "27": {
+      "hint": "American Society of Hematology | American Society of Hematology | A case for lar",
+      "note": "同樣，我們用一個案例來開始。\n你有一位 35 歲的男性病人，診斷是 Castleman Disease，今天要來門診討論他最近在家裡發燒的問題。Castleman Disease 不是我們每天都會看到的疾病，所以你在看診前打開了 ChatGPT，想幫自己複習一下。\nChatGPT 建議的實驗室檢查和檢測你覺得還不錯，但是對它給出的 differential diagnosis，你不太確定是否正確。你開始好奇，有沒有人研究過這些 AI 工具在輔助臨床推理方面的能力，以及它們的不足之處在哪裡？"
+    },
+    "28": {
+      "hint": "American Society of Hematology | American Society of Hematology | Do you current",
+      "note": "在繼續之前，我想先問在場的各位一個問題：你現在有在使用 large language models 來幫助臨床決策嗎？A 是有，B 是沒有。\n我相信這個答案在最近幾年變化很大，越來越多的臨床醫師開始嘗試使用這些工具。不管你現在有沒有在用，接下來的內容都會幫助你更好地了解它們的能力和限制。"
+    },
+    "29": {
+      "hint": "American Society of Hematology | American Society of Hematology | Do any of your",
+      "note": "另外一個有趣的問題是：你的病人有沒有在使用 LLM 來為他們的看診做準備？A 是有，B 是沒有。\n我想這也是一個很值得關注的趨勢。越來越多的病人在就診前會先上網查資料，而現在他們可能會用 ChatGPT 之類的工具。身為臨床醫師，我們也需要了解病人從這些工具得到的是什麼樣的資訊。"
+    },
+    "30": {
+      "hint": "American Society of Hematology | Abstract 11366: Evaluating large language model",
+      "note": "好，來看第一篇 LLM 相關的研究。Abstract 11366，由 David Swoboda 領導的團隊，標題是 Evaluating large language models in real-world hematologic clinical decision-making: Performance, limitations, and clinical implications。\n這是一個非常直接的研究問題：讓 LLM 直接面對真實的血液學臨床案例，看看它們的表現如何。"
+    },
+    "31": {
+      "hint": "American Society of Hematology | American Society of Hematology | Four LLMs eval",
+      "note": "大家看這張結果表格，非常重要。這個研究用了 30 個複雜的 MDS 案例，整合了臨床、形態學、細胞遺傳學和分子資料，來測試四個不同的 LLM。\n他們使用標準化的 prompt，讓每個模型分別產生 risk scores、治療建議和臨床試驗推薦，然後由 11 位國際 MDS 專家用 1 到 5 的 Likert scale 來評分，4 分以上才算正確。\n大家看右邊的表格：GPT-o3 表現最好，overall 正確率 66.4%，但也有 24% 的重大事實錯誤。GPT-4o 的正確率降到 40.9%，DeepSeek 是 38.2%，Claude 最低只有 33.8%，而且重大事實錯誤率達到 32%。\n結論很清楚：目前最先進的 LLM 在高度專業化的血液惡性腫瘤場景中，表現是不夠好的。"
+    },
+    "32": {
+      "hint": "American Society of Hematology | American Society of Hematology | There are some",
+      "note": "不過，我們在解讀這類研究的時候，也需要注意一些 caveats。\n第一，我們不知道他們用了什麼 prompt。大家知道，prompt 的設計對 LLM 的輸出品質影響非常大，不同的 prompt 可能會得到完全不同的結果。\n第二，DeepSeek 和 Claude 都有很多不同的版本，而我們不知道他們測試的具體是哪個版本。不同版本之間的表現差異可能很大。\n第三，臨床醫師實際上可能會使用很多不同的模型和平台，像是 GPT-5、OpenEvidence、Doximity 等等。這些工具一直在快速更新和變化，我們並不清楚它們之間的表現如何比較。\n左下角有一個 QR code，連結到 LiveBench.ai，這是一個 LLM 的 benchmark 平台，大家有興趣可以去看看。\n所以總結來說，這些模型或許可以提供一個 baseline 的臨床決策參考，但很可能需要搭配其他資源一起使用。"
+    },
+    "33": {
+      "hint": "American Society of Hematology | Abstract 2556: Generative AI-powered clinical d",
+      "note": "接下來看第二篇，Abstract 2556，由 Carmelo Gurnari 領導的研究。這篇的方向比較不一樣，它探討的是 generative AI-powered clinical decision support，專門針對 germline predisposition to myeloid neoplasms 這個領域。\n這是一個比較新興的研究方向，嘗試用 AI 來輔助我們在 germline predisposition 方面的臨床決策。"
+    },
+    "34": {
+      "hint": "American Society of Hematology | Can we make the LLM \"evidence based\"? • Team cr",
+      "note": "這篇研究試圖回答一個很重要的問題：我們能不能讓 LLM 變成「evidence-based」的？\n他們的團隊建立了一個 chatbot，使用 GPT-4 搭配 retrieval-augmented generation，也就是 RAG 技術。大家看右邊的流程圖，上半部是 LLM development 的流程：先把 peer-reviewed 的文獻和臨床指引處理成 chunks，然後透過 encoder model 轉換成 vectors，存入 database。\n下半部是實際使用時的流程：當使用者提出問題，系統會從 vector database 中搜尋相關的文獻和指引內容，然後讓 LLM 基於這些 evidence 來產生答案。\n他們還開啟了 multimodal 功能，讓 chatbot 可以同時閱讀醫學影像。初步的回饋是，這個工具增加了臨床決策的信心。不過，這個 chatbot 仍然需要在更多的真實案例上做測試驗證。\n所以這個方向是很有前景的：透過 RAG 技術，讓 LLM 不只是憑藉訓練時學到的知識來回答，而是可以動態地查找最新的文獻和指引。"
+    },
+    "35": {
+      "hint": "American Society of Hematology | American Society of Hematology | A case for lar",
+      "note": "讓我們回到 Castleman Disease 的案例。你在看診前用 ChatGPT 查了一下，它推薦的檢查還不錯，但 differential diagnosis 讓你不太放心。\n根據我們剛才看到的研究，LLM 確實可以在臨床決策上提供一些基本的協助，但市面上有很多不同的模型，而且它們一直在更新變化。目前的 LLM 在高度專業的血液學場景中，正確率可能不到七成，而且有相當比例的重大事實錯誤。\n不過好消息是，透過像 RAG 這樣的技術，未來我們有可能為 LLM 加上額外的功能，讓它們在臨床應用上更加可靠。"
+    },
+    "36": {
+      "hint": "American Society of Hematology | Theme 4: Wearable technology to enable home mon",
+      "note": "好，我們進入最後一個主題：Wearable technology to enable home monitoring of patients。\n穿戴式裝置在一般健康管理領域已經很流行了，但在血液學領域的應用相對較新。這個主題探討的是，我們能不能利用穿戴式裝置來遠端監測血液病的病人，讓他們可以在家中接受更好的照護。"
+    },
+    "37": {
+      "hint": "American Society of Hematology | American Society of Hematology | A case for wea",
+      "note": "一樣先看案例。你有一位 22 歲的女性病人，患有 sickle cell disease。她在過去一個月裡已經掛了三次急診。她常常因為怕請假影響工作而延遲就醫，結果反而等到症狀很嚴重才來。\n你很希望有一種方法可以在家裡就監測她的 vital signs，這樣你就能提早判斷她什麼時候應該來就診，而不用等到她已經嚴重到需要掛急診。"
+    },
+    "38": {
+      "hint": "American Society of Hematology | Abstract 11609: Implementation of an innovative",
+      "note": "先來看 Abstract 11609，由 Nikesh Shah 領導的研究。這篇是關於在 hematologic malignancies 病人中，實施一個創新的 Hospital at Home 計畫。\n這個概念是讓本來需要住院的血液惡性腫瘤病人，在符合條件的情況下，可以在家中接受住院等級的照護。讓我們看看他們的做法和成效。"
+    },
+    "39": {
+      "hint": "American Society of Hematology | A Hospital at Home (HaH) program was initiated",
+      "note": "這個 Hospital at Home 計畫是在 Tampa General Hospital 實施的。大家看左邊的流程圖，它分成三個部分：首先在住院時篩選合適的病人，然後透過虛擬方式進行持續的生物指標監測和血液科遠端會診，最後在家中提供包括護理、抽血、輸液、輸血、氧氣治療、復健等完整的服務。\n大家看右邊的數據：在 15 個月內，他們從 101 位被篩選的病人中，有 45 位實際參與了計畫。中位年齡 56 歲，中位住院天數 14 天，參與 HaH 計畫的中位天數是 5 天。\n最重要的成效數據：總共節省了 226 個住院床日，62% 的參與者是 acute leukemia 病人，有 22.2% 在家中接受了輸血。30 天的死亡率是 0%，非計畫性的再入院率是 20%，這跟預期值是相當的。\n這說明了即使是像 acute leukemia 這樣需要密集監測的病人，在適當的篩選和遠端監測下，也可以安全地在家中接受部分住院照護。"
+    },
+    "40": {
+      "hint": "American Society of Hematology | Abstract 14941: Feasibility of wearable technol",
+      "note": "第二篇是 Abstract 14941，由 Charles Jonassaint 領導的研究。這篇專注在 sickle cell disease 的病人，標題是 Feasibility of wearable technology for remote monitoring in high-risk adults with sickle cell disease: Baseline data from the SCD-carre trial。\n這是一個多中心的隨機對照試驗，專門評估穿戴式裝置在高風險 sickle cell disease 成人病人中的可行性。"
+    },
+    "41": {
+      "hint": "American Society of Hematology | Feasibility and compliance high in this multi-",
+      "note": "大家看這張投影片的結果。這個研究納入了 173 位高風險成人，為期 12 個月，讓病人在 baseline 和後續追蹤時連續佩戴穿戴式裝置 7 天。\n可行性的結果非常不錯：有效資料收集率達到 85.2%，132 位病人提供了有效資料，平均每日佩戴時間是 21.5 小時，有任何裝置資料的比例是 89.6%。\n更有意義的是右邊這張表格。他們把病人依照疾病嚴重度分成 Class I 到 Class IV。可以看到，隨著 class 從 I 到 IV，也就是疾病越嚴重，steps、distance、active time 這些活動指標都顯著下降，P-value 都小於 0.01。平均心率在 Class III 最高。\n這些結果說明穿戴式裝置收集的資料確實能反映疾病的嚴重程度，支持未來將穿戴式裝置整合到 sickle cell disease 的臨床試驗和臨床照護中。"
+    },
+    "42": {
+      "hint": "American Society of Hematology | American Society of Hematology | A case for wea",
+      "note": "讓我們回到那位 22 歲 sickle cell disease 女性病人的案例。她因為不想請假而延遲就醫，結果反而需要頻繁跑急診。\n根據我們剛才介紹的研究，利用穿戴式裝置的居家監測計畫，可以提供跟疾病嚴重度相關的資訊。未來你也許可以透過遠端監測她的活動量、心率和睡眠狀況，在她的症狀開始惡化之前就及時介入，指引她什麼時候應該來就醫。這樣不僅能改善她的預後，也能減少不必要的急診就醫。"
+    },
+    "43": {
+      "hint": "American Society of Hematology | There were four major themes in this year's AI",
+      "note": "好，讓我們來做一個總結。今年 ASH 在 AI 領域有四個主要的主題。\n第一，AI to classify hematologic diseases based on pathology，包括利用 H&E stains 和 DNA methylation 來進行分類。\n第二，AI for risk prediction，透過整合時間軸上的變化和影像資料，來創新風險預測的方式。\n第三，Large language models for clinical decision-making，目前各家模型都在實驗階段，也有人嘗試加入額外的功能來提升可靠性。\n第四，Wearable technology to enable home monitoring of patients，讓傳統血液學和惡性血液疾病的病人都能透過遠端監測獲得更好的照護。"
+    },
+    "44": {
+      "hint": "American Society of Hematology | Highlights of ASH Neural networks Transformer m",
+      "note": "最後這張投影片是今天所有內容的一個總覽。大家看這張圖，左邊列出了各種可以作為 input 的資料類型：bone marrow slides、lymph node biopsies、DNA methylation、labs over time、還有 wearable data。\n中間這些資料透過不同的 AI 技術來處理，包括 neural networks、transformer models 和 large language models。\n右邊是這些技術可以帶來的成果：更快速的診斷、動態的風險預測、以及更好的預後判斷。\n總結來說，臨床醫師和研究者正在嘗試整合各種不同類型的資料，利用現代 AI 模型來改善病人的照護。雖然這些工具大多還在研究階段，但它們展示了令人興奮的可能性。\n感謝大家的聆聽，希望今天的內容對各位有所幫助。"
+    }
+  }
+}

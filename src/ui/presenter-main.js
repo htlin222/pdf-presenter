@@ -42,6 +42,15 @@ export async function initPresenter() {
     pdfNameEl.title = config.pdfName;
   }
 
+  // Show "back to list" button when launched from directory mode
+  if (config.listUrl) {
+    const backBtn = document.getElementById("back-to-list");
+    if (backBtn) {
+      backBtn.href = config.listUrl;
+      backBtn.classList.remove("hidden");
+    }
+  }
+
   const channel = new BroadcastChannel(CHANNEL_NAME);
   let currentSlide = 1;
   let frozen = false;

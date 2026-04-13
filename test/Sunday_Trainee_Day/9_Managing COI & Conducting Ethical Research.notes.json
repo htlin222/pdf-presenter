@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "pdf": "9_Managing COI & Conducting Ethical Research.pdf",
+    "totalSlides": 45,
+    "generatedAt": "2026-04-12T19:14:49.632Z",
+    "generator": "pdf-presenter"
+  },
+  "notes": {
+    "1": {
+      "hint": "American Society of Hematology | Managing Conflicts of Interest and Conducting E",
+      "note": "大家好，歡迎來到今天的 Clinical Research Trainee Day in Asia Pacific。我是 P. Joy Ho，來自 University of Sydney，同時也是 Royal Prince Alfred Hospital 的 Institute of Hematology 研究主任。\n\n今天我要跟大家談的主題是 Managing Conflicts of Interest and Conducting Ethical Research，也就是如何管理利益衝突以及如何進行符合倫理的研究。這個主題對於我們每一位從事臨床研究的人來說都非常重要。\n\n在此也要特別感謝 Drs David Yeung、Lillian Sung 以及之前 CRTI 的講者們提供的資料。"
+    },
+    "2": {
+      "hint": "American Society of Hematology | American Society of Hematology | Speaker Disclo",
+      "note": "在開始之前，依照 ASH 的規定，我需要先做 speaker disclosure。我擔任 Gilead、Janssen 和 Pfizer 的 advisory board 成員，有收取 GSK 的演講酬勞，另外也有接受 Gilead、GSK、Janssen 和 Kelonia Therapeutics 的會議贊助。好，那我們就開始今天的內容。"
+    },
+    "3": {
+      "hint": "American Society of Hematology | Ethical considerations",
+      "note": "首先，我們來談談研究倫理的部分。Ethical considerations 是整個臨床研究的基礎，在我們討論 conflict of interest 之前，我們必須先了解研究倫理的歷史脈絡和核心原則。"
+    },
+    "4": {
+      "hint": "American Society of Hematology | American Society of Hematology | Historical con",
+      "note": "要了解為什麼研究倫理這麼重要，我們需要回顧一些歷史事件。首先是二戰期間的 Nazi experiments，納粹在集中營對囚犯進行了各種非人道的人體實驗，這是人類歷史上最黑暗的一頁。\n\n另一個非常重要的案例是 Tuskegee Syphilis study，這個研究從1932年一直持續到1972年。在這個研究中，受試者在沒有 informed consent 的情況下被納入研究，目的是觀察 syphilis 感染的自然病程。更令人震驚的是，penicillin 在1947年就已經成為治療梅毒的 standard of care，但這些受試者直到1972年都沒有接受治療。這些慘痛的歷史教訓，讓我們深刻體認到研究倫理的重要性。"
+    },
+    "5": {
+      "hint": "American Society of Hematology | American Society of Hematology | Major Research",
+      "note": "大家看這張投影片，這裡列出了主要的研究倫理準則的發展時間軸。從1947年的 Nuremberg Code 開始，1948年的 Declaration of Human Rights，1964年的 Declaration of Helsinki，1974年美國的 National Research Act，1977年的 CIOMS Guidelines，1979年的 Belmont Report，一直到1997年的 ICHTR Guidelines。\n\n大家可以看到下方有幾張歷史圖片，從左到右分別是 Nuremberg Code 的書籍、Universal Declaration of Human Rights、Declaration of Helsinki，以及 Belmont Report 的封面。這些文件構成了我們現代研究倫理的基石。接下來我會逐一跟大家介紹這些重要的準則。"
+    },
+    "6": {
+      "hint": "American Society of Hematology | American Society of Hematology | The Nuremberg",
+      "note": "首先是 Nuremberg Code，它包含了十個要點，涵蓋了道德、倫理和法律的概念。這是在二戰之後，針對納粹人體實驗的審判所制定的。\n\n其中最重要的第一條就是：受試者的自願同意是絕對必要的。研究必須要能為社會帶來有益的成果，而且這些成果無法透過其他方法取得。研究必須基於動物實驗的結果，或是對疾病的了解，使得預期結果能夠合理化實驗的進行。\n\n此外，必須避免一切不必要的身心痛苦與傷害。如果有理由相信實驗可能導致死亡或殘疾，則不應進行該實驗。研究的風險不應超過其所要解決問題的人道重要性。\n\n同時，必須提供適當的準備和設施，實驗只能由具有科學資格的人員進行。在實驗過程中，受試者有權隨時終止實驗。而科學家如果發現有傷害、殘疾或死亡的風險，也必須在任何階段終止實驗。"
+    },
+    "7": {
+      "hint": "American Society of Hematology | American Society of Hematology | Major Research",
+      "note": "回到我們的時間軸，接下來要特別介紹的是1964年的 Declaration of Helsinki，這是目前臨床研究倫理中最被廣泛引用的指引之一。"
+    },
+    "8": {
+      "hint": "American Society of Hematology | American Society of Hematology | Declaration of",
+      "note": "Declaration of Helsinki 有幾個非常關鍵的元素。第一，尊重個人的自主權，以及做出 informed decisions 的權利，不論是在研究開始時或進行過程中。第二，研究者的職責完全是對病人或志願者負責。\n\n第三，受試者的福祉必須永遠優先於科學和社會的利益。第四，倫理考量必須永遠優先於法律和規範。\n\n關於研究本身，它必須對所研究的族群有合理的預期效益，必須由受過適當訓練的研究者使用核准的 protocol 來執行，並且要接受獨立倫理委員會的審查和監督。\n\n還有兩個重要的點：倫理原則延伸到結果的發表以及任何潛在 COI 的考量。最後，研究完成後，受試者的利益也應該是整體倫理評估的一部分，包括確保他們能獲得最佳的已證實治療。"
+    },
+    "9": {
+      "hint": "American Society of Hematology | American Society of Hematology | Major Research",
+      "note": "再回到時間軸，1974年美國通過了 National Research Act，1977年有 CIOMS Guidelines，1979年有 Belmont Report。這裡標示星號的 National Research Act 和 Belmont Report 都是美國的重要文件。\n\n右邊的方框特別列出了三個核心原則：Respect for persons、Beneficence 和 Justice。以及三個主要的應用面向：Informed consent、Assessment of risks and benefits，還有 Selection of subjects。這些原則至今仍然是研究倫理的根基。"
+    },
+    "10": {
+      "hint": "American Society of Hematology | American Society of Hematology | Council for In",
+      "note": "接著是 CIOMS，全名是 Council for International Organisations and Medical Sciences。CIOMS guidelines 特別針對臨床試驗倫理中一些較為複雜的議題提出了指引。\n\n這些議題包括：HIV/AIDS 的研究倫理、研究結束後治療藥物的可及性、女性作為研究受試者的考量、保密性的維護、不良事件的補償，以及知情同意的相關指引。這些都是在實際執行臨床試驗時經常會遇到的挑戰。"
+    },
+    "11": {
+      "hint": "American Society of Hematology | American Society of Hematology | Major Research",
+      "note": "最後在時間軸上是1997年的 ICHTR Guidelines，也就是 Pharmaceuticals for Human Use 的相關指引。讓我們來看看它的內容。"
+    },
+    "12": {
+      "hint": "American Society of Hematology | American Society of Hematology | International",
+      "note": "ICTHR 的全名是 International Council on Harmonisation of Technical Requirements。它提供了人用藥品註冊的相關指引。\n\n它的整體目標是確保 Quality、Safety 和 Efficacy 作為新藥上市許可和安全監測的主要標準。更重要的是，它致力於在全球不同司法管轄區域之間達成 harmonisation，也就是法規的一致性。這對於跨國臨床試驗來說是非常重要的。"
+    },
+    "13": {
+      "hint": "American Society of Hematology | National statement on ethical conduct in human",
+      "note": "除了這些國際性的準則之外，各國也有自己的倫理規範。大家看右邊這張圖片，這是澳洲2023年版的 National Statement on Ethical Conduct in Human Research。\n\n這個文件是由 Australian government 主導，由 National Health and Medical Research Council、Australian Research Council 以及澳洲的各大學共同制定的。每個國家都會有類似的國家級研究倫理規範，大家在進行研究時一定要了解並遵循自己國家的相關規定。"
+    },
+    "14": {
+      "hint": "American Society of Hematology | American Society of Hematology | Defining Ethic",
+      "note": "在進入 conflict of interest 的討論之前，我們先來看看這兩個詞的定義。根據 Oxford Dictionaries 的定義，Ethic 是一套道德原則，特別是與某個特定群體、領域或行為形式相關的道德原則。\n\n而 Conflict of interest 則是指兩個不同方的關注點或目標不相容的情境。這個定義看起來很簡單，但在臨床研究的實際情境中，利益衝突的辨識和管理往往是非常複雜的。"
+    },
+    "15": {
+      "hint": "American Society of Hematology | American Society of Hematology | Ethical requir",
+      "note": "現在讓我們來看看一個臨床研究需要符合哪些倫理要求。根據 NIH 的整理，主要有七個面向：Social and Clinical Value、Scientific Validity、Fair subject selection、Favourable risk-benefit ratio、Independent review、Informed consent，以及 Respect for human subjects。\n\n接下來我會逐一跟大家說明這七個要求的具體內涵。"
+    },
+    "16": {
+      "hint": "American Society of Hematology | American Society of Hematology | Value • To be",
+      "note": "第一個是 Value。要符合倫理，臨床研究必須能夠帶來健康上的改善，或是推進可以被推廣的知識。研究的目的應該是要產生新的資訊，或者是驗證先前的研究結果。\n\n這裡有一個很重要的觀念：unpublished research is futile。沒有發表的研究是徒勞無功的。因為如果研究結果沒有被分享，那麼受試者承擔的風險就沒有意義了。"
+    },
+    "17": {
+      "hint": "American Society of Hematology | American Society of Hematology | Scientific val",
+      "note": "第二個是 Scientific validity。研究方法必須是有效的，而且要適合研究問題。如果研究的 statistical power 不足，或者需要太長的時間才能得到答案，那這個研究就是徒勞的。\n\n另外，如果 endpoints 或 entry criteria 有偏差，也會讓研究結果變得沒有意義。所以在設計研究的時候，科學的嚴謹性是非常關鍵的。"
+    },
+    "18": {
+      "hint": "American Society of Hematology | American Society of Hematology | Fair subject s",
+      "note": "第三個是 Fair subject selection，也就是公平的受試者選擇。我們應該從具有代表性的族群中選擇病人，不能在沒有科學理由的情況下排除特定群體，因為被排除在研究之外會影響未來的健康照護成果。\n\n這裡有一個很好的例子：African Americans 在 Myeloma 臨床試驗中的代表性不足。這對非裔社區和試驗本身都不好。試驗族群應該要能代表實際的患者群體。近年來已有改善，試驗開始更積極地確保 African American 的參與，並在數據中特別報告。也有專門的研究在探討受試者選擇的障礙，例如參與臨床試驗的阻礙因素。"
+    },
+    "19": {
+      "hint": "American Society of Hematology | American Society of Hematology | Favourable Ris",
+      "note": "第四個是 Favourable Risk-Benefit Ratio。大家看右邊的天秤圖，這很好地象徵了風險和效益之間的權衡。\n\n介入措施的風險必須在可能獲益或疾病嚴重程度的背景下來評估。舉個例子，在嚴重疾病中，較高的毒性門檻是可以接受的。比如一個新的化療藥物有百分之一的腎臟損傷風險，用在癌症治療上可能是可以接受的，但如果同樣的風險是為了縮短感冒的病程，那就不合理了。\n\n此外，我們還需要考慮非身體性的傷害，包括心理的、社會的、經濟的以及其他方面的成本。"
+    },
+    "20": {
+      "hint": "American Society of Hematology | American Society of Hematology | Independent re",
+      "note": "第五個是 Independent review，也就是獨立審查。這通常是在機構層面透過 IRB 或 HREC 來進行的。審查委員會的成員包括一般民眾、專家和非專家、統計學家、律師和倫理學家。有時候還會由科學小組委員會做進一步的審查。\n\n此外，合作性的試驗組織也可能有自己的獨立審查委員會。獨立審查的目的就是要確保研究設計合理、風險可控、受試者的權益能夠得到保障。"
+    },
+    "21": {
+      "hint": "American Society of Hematology | American Society of Hematology | Informed conse",
+      "note": "第六個是 Informed consent，知情同意。這包含幾個關鍵要素：Competence，受試者必須有能力做決定；Disclosure of information，要用容易理解的語言提供資訊；Understanding，確保受試者真的理解；以及 Voluntary agreement，自願同意參與，並且有權在任何時候退出。\n\n大家看右邊的圖片，這是簽署同意書的示意圖。這裡要特別提醒一點，語言障礙可能會將少數族群排除在研究之外。所以我們需要提供翻譯文件和口譯服務，確保不同語言背景的病人都有公平參與的機會。"
+    },
+    "22": {
+      "hint": "American Society of Hematology | American Society of Hematology | Patient Inform",
+      "note": "具體來說，Patient Information and Consent form 通常有標準的範本可以使用。內容應該包括：研究的目的和參與的時間長度、風險和效益、替代方案、保密性、受傷時的補償、有問題時的聯絡人，以及自願性和退出的權利。\n\n這些元素缺一不可，每一項都必須清楚地向受試者說明。"
+    },
+    "23": {
+      "hint": "American Society of Hematology | American Society of Hematology | Respect for hu",
+      "note": "最後第七個要求是 Respect for human subjects，尊重人類受試者。這意味著我們要把病人當作人來對待，而不僅僅是研究的一部分。我們要做對病人有利的事，而不是對試驗有利的事。要持續讓他們了解研究的進展，並且允許他們在沒有懲罰的情況下自主退出。\n\n好，以上就是臨床研究的七個倫理要求。接下來我們要進入今天的另一個重要主題：利益衝突。"
+    },
+    "24": {
+      "hint": "American Society of Hematology | Conflict of interest in Clinical Research Patie",
+      "note": "大家看這張圖，這是一個拔河的畫面，非常生動地描繪了臨床研究中利益衝突的本質。中間的 You 就是你，也就是研究者。而四周拉扯你的力量分別是 Pharma（藥廠）、Colleagues（同事）、Institution（機構）和 Patient（病人）。\n\n在臨床研究中，我們經常處於這些不同利害關係人之間，各方都有自己的需求和期待，而這些需求有時候是互相矛盾的。如何在這些拉扯中保持平衡，把病人的利益放在第一位，這就是管理利益衝突的核心挑戰。"
+    },
+    "25": {
+      "hint": "American Society of Hematology | American Society of Hematology | Conflicts of I",
+      "note": "首先來看 Conflicts of Interest and Career Goals。個人的、學術的和職業目標通常是建立在設計、執行和發表有意義的研究之上。然而，negative results 是會發生的，研究計畫可能因為各種原因而停滯，而且主要期刊拒絕大部分的投稿論文。\n\n大家看右下角的圖片，有被標記為 retracted 的論文，還有 Chicago Tribune 關於乳癌研究造假的頭條新聞。如果把職業規劃放在研究倫理之前，可能會導致數據的不實呈現、plagiarism 甚至是 fraud。這些後果是非常嚴重的。"
+    },
+    "26": {
+      "hint": "American Society of Hematology | American Society of Hematology | Conflicts of I",
+      "note": "接下來是 Conflicts of Interest and Collaborations。合作是成功研究的關鍵要素。良好平衡的合作關係可以在想法、技術、數據整合和科學寫作方面產生 synergy。\n\n但另一方面，如果濫用對他人的研究成果、材料或經費的取得管道，可能會導致誤用、欺騙和剝削。因此，充分地說明各方的責任和界限，並以誠信和專注來履行各自的任務，可以避免這些衝突的發生。"
+    },
+    "27": {
+      "hint": "American Society of Hematology | American Society of Hematology | Conflicts of I",
+      "note": "第三個面向是 Conflicts of Interest and Finance。雖然我們做的許多高品質研究是由產業界資助的，但不當的意圖可能會干擾研究倫理。\n\n除了意圖之外，所有可能影響研究設計、研究執行和結果發表的衝突都必須被處理和報告。其他與藥廠的財務關係，例如 honoraria 和 consulting，不能影響研究或臨床決策，而且必須充分揭露。\n\n大家看下方的圖表，左邊顯示雖然藥廠在研究上的投入越來越多，但 drug approvals 的數量並沒有等比例增加。這提醒我們，財務關係和研究成果之間的關係需要被謹慎管理。"
+    },
+    "28": {
+      "hint": "American Society of Hematology | Conflicts of Interest: Key Maxims ABOVE ALL, DO",
+      "note": "在處理利益衝突時，有三個關鍵的座右銘要記住。第一：ABOVE ALL, DO NO HARM。首先，不要造成傷害。這是最基本的原則。\n\n第二：HOW WILL OTHERS VIEW MY ACTIONS? 別人會怎麼看待我的行為？我們要從旁觀者的角度來審視自己的決定。\n\n第三：IF I ACT DIFFERENTLY, WHAT COULD HAPPEN? 如果我採取不同的行動，會發生什麼？這三個問題可以幫助我們在面臨利益衝突時做出正確的判斷。"
+    },
+    "29": {
+      "hint": "American Society of Hematology | American Society of Hematology | Importance of",
+      "note": "揭露利益衝突的重要性不容忽視。Funding 是研究的必要組成部分，而 consulting 也是合法的活動。但如果未能報告 COI，就會違反公眾的信任。\n\n在科學報告和論文發表中，disclosure of conflicts of interest 通常是強制性的。雖然不同的財務利益有不同程度的影響，但我們需要透明的工具來評估可能的偏差。\n\n大家看下面，美國有 OpenPaymentsData.CMS.gov，這是一個國家級的透明度計畫，收集並公開醫療產業和醫療提供者之間的財務關係。澳洲則有 Medicines Australia 的 Disclosure Australia，提供可搜尋的資料庫。這些工具幫助維持公眾的信任。"
+    },
+    "30": {
+      "hint": "American Society of Hematology | American Society of Hematology | Case-Based Dis",
+      "note": "好，接下來我們進入今天非常精彩的部分，就是 Case-Based Discussion。所有的案例都刻意設計在灰色地帶，也就是沒有絕對的對或錯。\n\n這些案例的目的是要幫助大家辨識利益衝突，並討論如何避免或處理潛在的衝突。我會請大家一起思考，歡迎大家踴躍發言。"
+    },
+    "31": {
+      "hint": "American Society of Hematology | CASE 1 You are the PI of a single institution p",
+      "note": "我們來看 Case 1。情境是這樣的：你是一個 single institution phase I trial 的 PI，研究的是一個新的 myeloma 藥物。你只需要再收2個病人就完成收案了。在2年的收案期間，25個病人中有3個有反應。當收案完成後，你將發表一篇期待已久的 first-author publication。\n\n但是六個月前，你的同事在你的機構開了一個 multicenter phase 2 study。在全國範圍內，最初的13個病人中有8個有反應，而且毒性很低。預計收案期是3年，你的同事會是 manuscript 的 co-author。\n\n現在你的病人同時符合兩個試驗的資格，她問你應該參加哪一個。你會推薦你自己的試驗嗎？\n\n大家想想看，這裡有什麼利益衝突？你自己的試驗 response rate 是 3/25，而同事的試驗是 8/13，而且毒性更低。如果從病人的最佳利益出發，答案似乎很清楚。但你的 first-author publication 又怎麼辦呢？大家覺得 YES or NO？可以用什麼策略來預防這種衝突？"
+    },
+    "32": {
+      "hint": "American Society of Hematology | CASE 2 The Head of the Hematology department at",
+      "note": "來看 Case 2。你們血液科的主任被一家藥廠邀請設計一個 phase II trial，使用一個新的藥物來治療年長的 AML 病人。但是他覺得必須拒絕這個邀請，因為他的女兒是那家公司的 senior marketing director。\n\n然後他邀請你來當 PI，並且願意幫你做 study design。你會是所有 publications 的 first author，而他只負責監督統計分析和審閱最終的 manuscript。\n\n你會接受他的提議嗎？大家想想，雖然他自己因為 COI 退出了，但他透過你間接參與，這樣衝突真的被解決了嗎？他的女兒在藥廠的角色會不會影響研究的客觀性？可以用什麼策略來管理這個衝突？歡迎大家討論。"
+    },
+    "33": {
+      "hint": "American Society of Hematology | You are conducting an investigator initiated ph",
+      "note": "Case 3 的情境是：你正在進行一個 investigator initiated phase I study，研究的是 refractory pediatric ALL，使用一家小型 biotech company 提供的藥物。你已經治療了23個病人，完成了 phase I 的部分。沒有觀察到 objective responses，不過有2個受試者的 blast count 有短暫下降，持續了2到3週。\n\n現在你要提交一個 abstract，你的結論是 phase I dose has been identified。但是藥廠的 PR 部門想要你加上一句：the agent has promising clinical activity。\n\n你會把這句話加到 abstract 裡嗎？大家想想，23個病人沒有 objective response，只有2個有短暫的 blast count 下降。說這個藥物有 promising clinical activity 是否符合數據？這就是一個典型的藥廠試圖影響研究結論的情境。YES or NO？"
+    },
+    "34": {
+      "hint": "American Society of Hematology | You are planning to submit a paper relating to",
+      "note": "最後是 Case 4。你準備投一篇論文，內容是關於你在中心做的 sickle cell disease 回顧性分析。你跟一位同事提到這件事，她正在做一個類似的回顧性分析，研究的是年長的 acute lymphoblastic leukemia 病人。\n\n她提議幫你編輯論文和整理 references，交換條件是你讓她當 co-author，同時你也成為她論文的 co-author。這樣每個人都可以多得到一篇論文。\n\n你會接受這個提議嗎？這裡的問題是，sickle cell disease 和 elderly ALL 是完全不同的領域。如果你對她的研究沒有實質的 intellectual contribution，那當 co-author 是否符合 authorship 的標準？這就是所謂的 gift authorship，大家怎麼看？"
+    },
+    "35": {
+      "hint": "American Society of Hematology | Study Selection • Appropriate science • Adequat",
+      "note": "好，案例討論完了。接下來我們來看看在一個試驗的整個生命週期中，研究者需要承擔哪些倫理責任。根據 Baer 等人2011年發表在 Journal of Oncology Practice 的文章，研究者的責任貫穿 study 的三個階段。\n\n第一個階段是 Study Selection，要確保科學的適當性和充足的資源，包括人員、病人、設備和時間。第二個階段是 Study Initiation，包括研究者的資格要求、教育訓練、法規申請如 IRB/IEC submission，以及職責的分配。\n\n第三個階段是 Study Conduct，涵蓋醫療照護、研究合規性、研究藥物的管理、informed consent、study reporting 包括 CRFs、AEs、SAEs，以及法規方面的安全通報和 IRB/IEC 的持續報告。"
+    },
+    "36": {
+      "hint": "American Society of Hematology | American Society of Hematology | PI responsibil",
+      "note": "具體來說，PI 的責任包括哪些呢？首先是確定 research question。接著是 conceptual design，這需要和 statistician 以及 collaborators 一起合作。然後是爭取 funding and resources，包括經費、介入措施、藥物和人力，來源可以是政府、產業界或機構。\n\n還有 protocol development，需要跟 Co-PIs、peers、patients、collaborative groups、regulatory bodies 和 IRBs 共同完成。Trial initiation 包括資訊的傳達和 CRF design。最後當然是 conduct the study，實際執行研究。"
+    },
+    "37": {
+      "hint": "American Society of Hematology | American Society of Hematology | PI operational",
+      "note": "在 PI 的 operational responsibilities 方面，首先是要解讀 protocol，必要時申請 waivers。其次是 safety and data monitoring，SAEs 必須即時處理，定期進行 safety、futility、stopping rules、relevance 和 literature review 的檢視。\n\n此外，必要時也要修改 protocols。這些都是 PI 在研究進行中持續要負責的工作。"
+    },
+    "38": {
+      "hint": "American Society of Hematology | American Society of Hematology | PI publication",
+      "note": "在 publication responsibilities 方面，PI 要主導數據的分析和解讀，並且要對數據的真實性負責。PI 要撰寫 manuscript 初稿並主導修訂。要推薦適當的會議和期刊來發表數據。也要透過演講來確保數據是可及和可用的。\n\n發表是研究者的重要責任，因為就像前面提到的，unpublished research is futile。"
+    },
+    "39": {
+      "hint": "American Society of Hematology | American Society of Hematology | Study design a",
+      "note": "關於 Study design and Ethics，作為研究者，我們必須充分了解研究設計的限制，這樣才能為特定的問題設計適當的研究，並且做出適當的結論。\n\n科學上的嚴謹在臨床試驗的倫理執行中是至關重要的。不嚴謹的研究設計不只是科學上的問題，也是倫理上的問題，因為它讓受試者承擔了風險卻無法產生有意義的結果。"
+    },
+    "40": {
+      "hint": "American Society of Hematology |",
+      "note": "好，讓我們繼續往下看。"
+    },
+    "41": {
+      "hint": "American Society of Hematology | Avoiding Conflicts of Interest: The 6 Ps",
+      "note": "最後我想跟大家分享一個很實用的框架，叫做 The 6 Ps，幫助大家避免利益衝突。前三個 P 分別是：\n\n第一個 P 是 Public duty versus private interests。問自己：我是否有可能與公共職責相衝突的個人或私人利益？\n\n第二個 P 是 Potentialities。問自己：現在或將來，是否有可能讓人質疑我客觀性的利益？\n\n第三個 P 是 Perception。記住，perception 是很重要的。別人會怎麼看待我參與這個決定或行動？\n\n下面引用了一句話：A conflict of interest is a situation arising from conflict between the performance of public duty and private or personal interests。"
+    },
+    "42": {
+      "hint": "American Society of Hematology | Avoiding Conflicts of Interest: The 6 Ps",
+      "note": "接下來是後面三個 P。第四個 P 是 Proportionality。我的參與在所有情況下看起來是否公平合理？\n\n第五個 P 是 Presence of mind。如果我忽視利益衝突，後果是什麼？如果我的參與被公開質疑會怎樣？\n\n第六個 P 是 Promises。我是否對相關事項做出了任何承諾或承諾？我是否會從提議的行動或決定中獲利或損失？\n\n這裡最下面有一句非常重要的話：It isn't wrong or unethical to have a conflict of interest, what is important is that it is identified and appropriately managed。有利益衝突並不是錯的或不道德的，重要的是它被辨識出來並且被適當地管理。"
+    },
+    "43": {
+      "hint": "American Society of Hematology |",
+      "note": "大家看這張圖，一位醫師一手托著 patient welfare、unbiased educational activities 和 research integrity，另一手托著 awards、investments 和金錢。這非常生動地描繪了我們在臨床研究中面臨的平衡挑戰。我們必須始終把病人的福祉和研究的誠信放在首位。"
+    },
+    "44": {
+      "hint": "American Society of Hematology | Some Take - home Messages • Review your researc",
+      "note": "好，我們來到 take-home messages 了。第一，要檢視你的研究想法是否具有原創性、科學和社會價值，評估受試者的風險，以及是否有適當的受試者選擇。\n\n第二，要跟著研究的結果走，不論結果如何。質疑你自己的研究結果，並請你的同儕來審查。\n\n第三，準確地發表你的研究結果，不要忽視 negative results。Negative results 同樣有重要的科學價值。"
+    },
+    "45": {
+      "hint": "American Society of Hematology | Some Take - home Messages • Be aware of externa",
+      "note": "繼續 take-home messages。要注意影響你研究和結果的外部壓力，制定策略來減少偏差。\n\nConflicts of interest 是無法完全避免的，這是事實。但面對衝突時，問問自己：別人在同樣的情況下會怎麼看？如果這個利益衝突沒有被處理，會發生什麼後果？\n\n最後，COI 是可以根據倫理原則來預防和管理的。記住那6個P，記住那三個 key maxims。希望今天的分享對大家未來在進行臨床研究時有所幫助。謝謝大家！"
+    }
+  }
+}

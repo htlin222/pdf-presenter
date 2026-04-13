@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "pdf": "changing-paradigms-of-treatment-approaches-for-acute-myeloid-leukemia.pdf",
+    "totalSlides": 35,
+    "generatedAt": "2026-04-12T19:14:43.217Z",
+    "generator": "pdf-presenter"
+  },
+  "notes": {
+    "1": {
+      "hint": "American Society of Hematology | Changing Paradigms of Treatment Approaches for",
+      "note": "各位好，歡迎來到這場 Highlights of ASH 的演講。今天要跟大家分享的主題是 Changing Paradigms of Treatment Approaches for Acute Myeloid Leukemia，也就是 AML 治療策略正在發生的典範轉移。\n\n我是 Katherine Tarlock，來自 Seattle Children's Hospital, University of Washington。今天我會帶大家回顧幾篇在 ASH 年會上發表的重要摘要，涵蓋的範圍從成人到兒童、從化療減量到標靶治療，再到最新的免疫治療，包括 CAR T 細胞和 CAR NK 細胞。希望透過這些精選的研究，讓大家了解 AML 治療領域目前最前沿的進展。"
+    },
+    "2": {
+      "hint": "American Society of Hematology | Disclosures In compliance with ACCME policy, AS",
+      "note": "依照 ACCME 的規定，在此揭露我的利益衝突聲明。我本人沒有需要揭露的利益關係，也沒有涉及 off-label drug use 的討論。我們直接進入今天的內容。"
+    },
+    "3": {
+      "hint": "American Society of Hematology | Highlights of ASH Learning Objectives Upon part",
+      "note": "在開始之前，先跟大家說明今天的學習目標。聽完這場演講之後，各位應該能夠：第一，了解在某些 AML 亞群中，強化化療方案的變化和減量趨勢；第二，回顧目前在 AML 中使用的標靶組合治療策略；第三，認識幾個在 AML 中用於免疫治療的新興標靶。\n\n我們今天會涵蓋六篇重要的摘要，涵蓋了從傳統化療的優化到全新的免疫細胞治療，讓我們一起來看看。"
+    },
+    "4": {
+      "hint": "American Society of Hematology | Abstract 6: Results from PARADIGM - A phase 2 r",
+      "note": "首先，第一篇是 Abstract 6，PARADIGM 研究的結果。這是一個 phase 2 的多中心隨機研究，比較 azacitidine 加上 venetoclax 與傳統的 induction chemotherapy，用在新診斷、身體狀況良好的成人 AML 患者。\n\n第一作者是 Amir T. Fathi，這個研究團隊非常龐大，集合了多個中心的研究者。這個研究的重要性在於，它直接在 fit patients 中頭對頭比較了 aza-ven 和傳統的 intensive chemotherapy，這在過去是很少見的，因為 aza-ven 原本主要是給 unfit 的患者使用。"
+    },
+    "5": {
+      "hint": "American Society of Hematology | 1:1 randomization 7+3 or CPX-351 azacitidine +",
+      "note": "大家看這張試驗設計圖。PARADIGM 研究總共篩選了 472 位患者，最終有 172 位被以 1:1 的方式隨機分配到兩組：86 位接受傳統的 7+3 或 CPX-351，另外 86 位接受 azacitidine 加上 venetoclax。\n\n在 intensive chemotherapy 這組，如果第 13 到 16 天的骨髓切片仍有殘留疾病，可以接受第二次 induction，用 5+2 或 CPX-351；如果達到 ablation 或 response，則在血球恢復後確認反應，再進行 consolidation。而 aza-ven 組則在第 21 到 31 天做骨髓評估，有反應的患者繼續 aza-ven 治療。兩組在達到 response 後都可以進行 HCT。\n\n要注意的是收案條件：年齡 18 歲以上、未治療過的 AML、適合接受 intensive chemotherapy。排除條件包括 t(15;17)、core binding factor 變異、FLT3 ITD/TKD 突變（VAF 大於等於 5%）、60 歲以下的 NPM1 突變、BCR::ABL1 fusion 和 mixed phenotype。所以這個研究主要針對的是中等到高風險、FLT3 wild-type 的患者。中位追蹤時間是 21.9 個月。"
+    },
+    "6": {
+      "hint": "American Society of Hematology | American Society of Hematology | Baseline Chara",
+      "note": "大家看這張 baseline characteristics 的表格。整體來說，兩組的基本特徵是平衡的。中位年齡是 64 歲，範圍從 23 到 79 歲，大約一半的患者在 65 歲以下。男性比例大約是 67%，ECOG performance status 0 或 1 的佔了超過 93%。\n\n值得注意的是 ELN 2022 的風險分類：大約 72% 的患者屬於 adverse risk，只有 13% 是 favorable risk，15% 是 intermediate risk。這反映出這個研究排除了 FLT3 突變和年輕 NPM1 突變的患者，所以留下來的族群確實偏向高風險。\n\n在突變的分布上，兩組之間的 NPM1、IDH1、IDH2、TP53、RUNX1 和 KRAS/NRAS 的比例大致相當，沒有明顯的不平衡。"
+    },
+    "7": {
+      "hint": "American Society of Hematology | American Society of Hematology | Safety and Tol",
+      "note": "接下來看安全性資料，這是非常重要的一張投影片。大家可以看到四個比較圖表。\n\n首先是感染方面：grade 3 以上的感染率，IC 組是 20.8%，aza-ven 組是 15.1%，p 值 0.04，OR 0.53，所以 aza-ven 組的感染率顯著較低。出血方面也有類似的趨勢，IC 組 6.3%，aza-ven 組只有 1.3%，p 值 0.01。\n\n60 天死亡率方面，IC 組是 4.7%，而 aza-ven 組是 0%，雖然 p 值 0.08 沒有達到統計顯著，但數字上差異很明顯。住院天數在前 6 個月內，IC 組平均 58.5 天，aza-ven 組只有 41 天，p 值小於 0.001，這是高度顯著的差異。另外，前 30 天的 ICU 入住率，IC 組是 9.6%，aza-ven 組同樣是 0%，p 值 0.003。\n\n整體來說，雖然兩組的 grade 3 以上 TEAE 的整體發生率相似，但 aza-ven 在感染、出血、住院天數和 ICU 入住率等臨床相關指標上，都優於 intensive chemotherapy。"
+    },
+    "8": {
+      "hint": "American Society of Hematology | American Society of Hematology | Overall Outcom",
+      "note": "現在我們來看最關鍵的療效結果。大家看這兩張 Kaplan-Meier 曲線，左邊是 event-free survival，右邊是 overall survival。\n\n在 EFS 方面，aza-ven 組的中位 EFS 是 14.6 個月，而 IC 組只有 6.2 個月，這是一個顯著的改善。從曲線可以看到，aza-ven 組在整個追蹤期間都維持著優勢。\n\n不過在 overall survival 方面，兩組之間並沒有統計上的顯著差異。右邊的 OS 曲線可以看到兩條線比較接近，雖然早期 aza-ven 似乎稍好，但長期來看差異不大。\n\n這篇研究的結論是：在功能狀態良好的中等到高風險、FLT3 wild-type AML 患者中，aza-ven 的數據支持它可以作為一個有效的治療選擇。它不但 EFS 更好，而且毒性更低、住院天數更少。這對於我們未來如何選擇 AML 的第一線治療有重要的啟示。"
+    },
+    "9": {
+      "hint": "American Society of Hematology | Abstract 878: Optimized Treatment for Pediatric",
+      "note": "接下來我們轉到兒童 AML 的領域。這是 Abstract 878，來自 Children's Oncology Group 的 AAML1831 研究，討論的是低風險兒童 AML 的治療優化。\n\n第一作者是 Reena Pabari 和 Chana Glasser，這是一個非常大型的多中心兒童合作研究。在兒童 AML 中，我們一直在追求的目標是：在維持療效的同時，如何減少治療的毒性？特別是對於低風險的患者，能否安全地減量化療？AAML1831 就是為了回答這個問題而設計的。"
+    },
+    "10": {
+      "hint": "American Society of Hematology | American Society of Hematology | AAML1831 Pedia",
+      "note": "這張投影片說明了 AAML1831 的風險分層策略。大家看左邊的定義：Low Risk 1，也就是 LR1，是指有 favorable cytomolecular features 且 end of induction 1 的 MRD 小於 0.05% 的患者，這些患者只需要 4 個 cycle 的化療。\n\nLow Risk 2 和 Intermediate Risk，就是不屬於 LR1 也不屬於 High Risk 的患者，這些接受 5 個 cycle 的化療。High Risk 則是有 unfavorable cytomolecular features，或是有 positive EOI1 MRD 但沒有 favorable features 的患者，這些會建議進行 HSCT。\n\n右邊列出了 LR1 和 LR2/Int 的具體化療方案。可以看到兩組的前幾個 cycle 都是 DA + GO、DA、AE，但第四和第五個 cycle 有所不同。LR1 的第四個 cycle 是 Capizzi Ara-C，而 LR2/Int 多加了一個 MA cycle，然後才是 Capizzi Ara-C。"
+    },
+    "11": {
+      "hint": "American Society of Hematology | American Society of Hematology | 5 cycles of Ch",
+      "note": "現在我們來看 LR2/Intermediate Risk 這一群的結果，這是跨研究的歷史比較。左邊大家可以看到三個研究的化療方案對比：AAML1831、AAML0531 和 AAML1031。\n\n右邊的表格顯示了關鍵的結果比較。AAML1831 的 LR2 組共 99 位患者，relapse rate 是 24%，DFS 是 74%，OS 是 87%。跟最早的 AAML1031 的 319 位患者比較，那時候的 relapse rate 高達 44%，DFS 只有 54%，OS 是 81%。所有的比較 p 值都是顯著的。\n\n這個數據告訴我們，5 個 cycle 的化療在 LR2/Intermediate Risk 的兒童 AML 中帶來了更好的結果。AAML1831 用 5 個 cycle 加上 gemtuzumab ozogamicin 的策略，確實改善了這群患者的 DFS 和 OS。"
+    },
+    "12": {
+      "hint": "American Society of Hematology | American Society of Hematology | Excellent Outc",
+      "note": "這張投影片更令人興奮，因為它回答了一個重要的問題：對於最低風險的 LR1 患者，我們能否在減少 anthracycline 劑量的情況下維持同樣好的療效？\n\n大家看左邊的方案比較：AAML1831 只有 4 個 cycle，累積的 anthracycline 劑量換算成 doxorubicin equivalence 只有 150 mg/m2。而 AAML1031 有 5 個 cycle，累積劑量高達 630 mg/m2，用 mitoxantrone 對 doxorubicin 10:1 的換算比例。這是超過 4 倍的差距。\n\n右邊的表格顯示 AAML1831 的 LR1 組（88 位患者），relapse rate 19%，DFS 81%，OS 99%！相比 AAML1031 的 243 位患者，relapse rate 22%、DFS 75%、OS 92%。DFS 和 RR 的差異沒有統計顯著差異，但 OS 在 AAML1831 組顯著更好，p 值 0.031。\n\n所以結論是：在 LR1 兒童 AML 中，大幅減少 anthracycline 劑量不但沒有影響療效，OS 甚至更好。這對於降低長期心臟毒性來說是非常重要的進展。"
+    },
+    "13": {
+      "hint": "American Society of Hematology | Abstract 44: Post-allogeneic hematopoietic cell",
+      "note": "第三篇摘要是 Abstract 44，探討的是一個臨床上很常見的問題：用 HMA/venetoclax 或是 cytarabine-based 的 intensive chemotherapy 作為 induction 之後，接受 allogeneic HCT 的結果是否有差異？\n\n這篇的第一作者是 John Preston Claiborne，來自 Johns Hopkins。隨著 aza-ven 越來越多被用於 AML 的第一線治療，很多臨床醫師擔心：如果用了比較溫和的 induction regimen，接下來做移植的結果會不會比較差？這篇研究就是要回答這個問題。"
+    },
+    "14": {
+      "hint": "American Society of Hematology | American Society of Hematology | Comparison of",
+      "note": "大家看這張研究設計圖。收案條件是 18 歲以上、符合 WHO 2022 定義的 AML 患者，在第一次完全緩解時接受第一次 allo-HCT。重要的是，所有患者都使用統一的移植前處置方案：Flu/Cy/400 cGy TBI conditioning，加上 post-transplant cyclophosphamide 50 mg/kg 在 day +3 和 +4 作為 GVHD prophylaxis。時間範圍是 2018 到 2024 年在 Johns Hopkins。\n\n總共有 190 位接受 intensive chemotherapy 的患者和 53 位接受 HMA/venetoclax 的患者。主要終點是 overall survival，次要終點包括 relapse incidence、NRM、engraftment 和 GVHD 的發生率等等。\n\n值得注意的是，ven/HMA 組的患者年齡和 donor 年齡都較大，secondary AML 和 TP53 突變的比例較高，pre-allo MRD 也較高；而 intensive chemotherapy 組則有較多的 FLT3-ITD 突變和 extramedullary disease。"
+    },
+    "15": {
+      "hint": "American Society of Hematology | American Society of Hematology | Survival Outco",
+      "note": "大家看這三張 survival 曲線，這是經過校正後的結果，非常重要。\n\n左邊是 overall survival：intensive chemotherapy 組的 adjusted 2-year OS 是 81.6%（95% CI 75.6-87.6%），HMA/venetoclax 組是 73.5%（95% CI 62.4-84.5%），p 值 0.17，沒有統計顯著差異。\n\n中間是 relapse incidence：intensive 組的 adjusted 2-year relapse incidence 是 15.4%，HMA/ven 組是 15.9%，p 值 0.89，幾乎一模一樣。\n\n右邊是 non-relapse mortality：intensive 組的 adjusted 2-year NRM 是 9.7%，HMA/ven 組是 13.8%，p 值 0.33，也沒有顯著差異。\n\n這些數據都經過 recipient 和 donor 年齡的校正，使用 cause-specific Cox regression model。結論很清楚：用什麼 induction regimen 進到移植，在使用統一的移植平台下，結果是類似的。"
+    },
+    "16": {
+      "hint": "American Society of Hematology | American Society of Hematology | No Differences",
+      "note": "這張投影片進一步整理了亞群分析的結果。不論是年齡大於等於 64 歲、secondary AML、還是 IDH mutant 的患者，在 OS、relapse incidence 和 NRM 方面，HMA/ven 和 intensive chemotherapy 組都沒有顯著差異。\n\n在 engraftment 方面，血小板和嗜中性球的恢復時間也沒有差異。Grade 2-4 acute GVHD 和 chronic GVHD 的發生率幾乎相同。即便是 secondary AML 的患者，接受 CPX-351 和 HMA/ven 的 OS、RI 和 NRM 也沒有差異。\n\n總結來說，這是一個很有說服力的回顧性分析，告訴我們在使用統一的 HCT 平台時，不管之前用的是 intensive chemotherapy 還是 HMA/ven，移植後的結果是一樣的。這對於支持 HMA/ven 作為 bridge to transplant 的策略提供了重要的依據。"
+    },
+    "17": {
+      "hint": "American Society of Hematology | Abstract 47: Phase II study of the all-oral com",
+      "note": "好，我們現在進入標靶治療的部分。Abstract 47 是 SAVE 研究，一個全口服的三藥組合：revumenib 加上 decitabine/cedazuridine 再加上 venetoclax，用在新診斷的 AML。\n\n第一作者是 Wei-Ying Jen，來自 MD Anderson Cancer Center。Revumenib 是一個 menin inhibitor，而這個研究嘗試將它與 HMA 和 venetoclax 結合，形成一個全口服的方案。這個概念非常吸引人，因為如果有效的話，患者可以完全不需要靜脈注射化療。"
+    },
+    "18": {
+      "hint": "American Society of Hematology | American Society of Hematology | SAVE Phase I/I",
+      "note": "這張投影片詳細說明了 SAVE 研究的原理和設計。左邊是 menin inhibition 的機轉示意圖：menin 和 KMT2A 的交互作用是 KMT2A-rearranged、NPM1 mutant 和 NUP98-rearranged leukemia 的關鍵依賴。抑制這個交互作用可以關閉 HOX 和 MEIS 基因的轉錄，促進分化和凋亡。\n\n中間列出了三個藥物的劑量：revumenib 根據有沒有 CYP3A4 inhibitor 分為不同劑量，ASTX727 是一顆包含 35 mg decitabine 和 100 mg cedazuridine 的口服錠，venetoclax 400 mg 每天口服。\n\n這個研究收的是 12 歲以上、有 KMT2Ar 或 NPM1 突變的 AML 或 myeloid MPAL 患者，不適合或不願意接受 intensive chemotherapy，或是 relapsed/refractory 的。Phase I 用 3+3 設計找 MTD 和 RP2D，Phase II 則評估 efficacy。重要的是，在 SCT 之後還可以用 revumenib maintenance 一年。"
+    },
+    "19": {
+      "hint": "American Society of Hematology | American Society of Hematology | Adverse Events",
+      "note": "來看安全性數據。左邊列出了所有 grade 的常見 TEAE，在 21 位患者中，嘔吐最常見佔 67%，elevated AST/ALT 62%，高鉀血症 62%，噁心 57%。QTc prolongation 發生在 43% 的患者，但沒有任何 grade 3 以上的 QTc 事件，這一點很重要，因為 QTc prolongation 是 menin inhibitor 已知的副作用。Differentiation syndrome 發生在 4 位患者（19%）。\n\n右邊的表格列出了 grade 3 以上的 TEAE：febrile neutropenia 最常見佔 48%，thrombocytopenia 33%，neutropenia 24%。有 2 位患者（10%）出現 differentiation syndrome，都在 grade 3。整體來說，這個三藥組合的毒性是可以管理的。"
+    },
+    "20": {
+      "hint": "American Society of Hematology | American Society of Hematology | Response Rates",
+      "note": "這是療效的重點數據。大家看這張表格，在全部 21 位新診斷患者中，ORR 達到 86%，CR/CRh 是 81%，其中 CR 佔 76%。\n\n分開來看不同基因型：NPM1 突變的 14 位患者，ORR 86%，CR 71%；KMT2A-rearranged 的 7 位患者，ORR 也是 86%，而且 CR 高達 86%。\n\n更令人印象深刻的是 MRD 的結果：在所有可評估的患者中，用 multicolor flow cytometry 測量，86% 達到 MRD negative。而在有反應的患者中，MRD negative rate 是 100%。\n\n30 天的 early death rate 是 10%，都發生在 NPM1 突變的患者中。這個全口服的三藥組合在新診斷 AML 中展現了非常令人印象深刻的療效。"
+    },
+    "21": {
+      "hint": "American Society of Hematology | American Society of Hematology | Duration of Re",
+      "note": "這張投影片展示了依基因型分析的 duration of response 和 overall survival。左邊是達到 CR 或 CRh 的患者的 DOR 曲線。NPM1 突變和 KMT2A-rearranged 兩組的 median DOR 都尚未達到。在 12 個月時，NPM1mt 組的 DOR 維持率是 71%（95% CI 43-100%），KMT2Ar 組是 80%（95% CI 52-100%）。\n\n右邊是 overall survival 的曲線，中位追蹤時間為 9 個月。NPM1mt 組的 median OS 尚未達到，12 個月 OS 是 53%（95% CI 29-97%）；KMT2Ar 組的 median OS 也尚未達到，12 個月 OS 是 69%（95% CI 40-100%）。\n\n雖然樣本數還不大，追蹤時間也還短，但這些早期數據顯示，revumenib 加上 decitabine/cedazuridine 加上 venetoclax 這個全口服方案在新診斷 AML 中有持久的療效，值得在更大規模的研究中進一步驗證。"
+    },
+    "22": {
+      "hint": "American Society of Hematology | Abstract 764: Ziftomenib in Combination with Ve",
+      "note": "接下來是另一個 menin inhibitor 的研究。Abstract 764 是 KOMET-007 研究，探討 ziftomenib 加上 venetoclax 和 azacitidine 在 relapsed/refractory 的 NPM1 mutant 或 KMT2A-rearranged AML 中的結果。\n\n第一作者是 Ghayas C. Issa，同樣也是來自一個大型的多中心團隊。Ziftomenib 是另一個 menin inhibitor，它跟剛才提到的 revumenib 一樣，也是鎖定 menin-KMT2A 這個交互作用。這次是在 relapsed/refractory 的情境下，看三藥組合的效果。"
+    },
+    "23": {
+      "hint": "American Society of Hematology | 83 Enrolled and treated with Ziftomenib 600 mg",
+      "note": "大家看這張試驗流程圖。總共有 83 位患者被收案並接受 ziftomenib 600 mg 加上 ven/aza 治療。其中 51 位是 NPM1 mutant，32 位是 KMT2A-rearranged。\n\n在可評估療效的族群中，NPM1-m 有 48 位，其中 16 位仍在接受治療，14 位接受了 HSCT，32 位已停藥。KMT2A-r 有 32 位可評估，其中 5 位仍在治療，2 位接受了 HSCT，27 位已停藥。\n\n主要終點包括 complete remission 和 adverse events。次要終點包括 CRc、MRD、ORR 和 DoR。數據截止日期是 2025 年 9 月 24 日。"
+    },
+    "24": {
+      "hint": "American Society of Hematology | American Society of Hematology | Safety and Tol",
+      "note": "來看安全性數據。在所有 83 位患者中，grade 3 以上的 TEAE 發生率是 92%。最常見的是 thrombocytopenia 34%、febrile neutropenia 31%、leukopenia 31%、neutropenia 31%、anemia 21% 和 sepsis 15%。\n\n如果只看跟 ziftomenib 相關的 grade 3 以上 TEAE，比例就低很多了，全部患者中只有 40%。主要是 febrile neutropenia 10%、neutropenia 10%、thrombocytopenia 8%、leukopenia 8%。\n\n特別重要的幾點：沒有出現 ziftomenib 相關的 QTc prolongation，這和 ziftomenib 之前的單藥數據一致。只有 2 位患者（2%）因為 ziftomenib 相關的 AE 停藥，都是 KMT2A-r 的患者。另外只有 1 位患者出現 grade 3 的 differentiation syndrome，用 protocol-specified 的方式處理後成功恢復並繼續用藥。"
+    },
+    "25": {
+      "hint": "American Society of Hematology | American Society of Hematology | Clinical Activ",
+      "note": "療效數據是大家最關心的。在 NPM1-m 的 48 位可評估患者中，CRc rate 是 48%，ORR 是 65%。CR 27%，CRh 13%，CRi 8%，MLFS 15%。MRD negativity rate 在可評估的患者中是 60%（12/20）。達到 CRc 的中位時間只有 3.9 週。\n\n在 KMT2A-r 的 32 位患者中，CRc rate 是 28%，ORR 是 41%。不過要注意，KMT2A-r 組的 non-responder 比例較高（53%），反映了這個亞群的治療挑戰。MRD negativity rate 在可評估的 KMT2A-r 患者中是 43%（3/7）。\n\n整體來說，ziftomenib 加上 ven/aza 在 R/R AML 中展現了有臨床意義的活性，特別是在 NPM1-m 的患者中。"
+    },
+    "26": {
+      "hint": "American Society of Hematology | American Society of Hematology | Clinical Activ",
+      "note": "這張投影片進一步分析了先前是否使用過 venetoclax 對於療效的影響，這是臨床上一個很重要的問題。\n\n在沒有使用過 venetoclax 的患者中，NPM1-m 的 CRc 率是 70%、ORR 是 83%，非常好；KMT2A-r 的 CRc 是 60%、ORR 70%。但在之前用過 venetoclax 的患者中，NPM1-m 的 CRc 掉到 28%、ORR 48%；KMT2A-r 更低，CRc 只有 14%、ORR 27%。\n\n這個數據告訴我們一個很明確的訊息：先前沒有接受過 venetoclax 的患者，對於 ziftomenib 加 ven/aza 的反應明顯更好。隨著 venetoclax-based regimen 越來越多被用在第一線，這將是未來設計臨床試驗時需要考慮的重要因素。"
+    },
+    "27": {
+      "hint": "American Society of Hematology | Abstract 816: CD7-targeted universal CAR T- cel",
+      "note": "好，我們現在進入免疫治療的部分，這是整個演講中最前沿的領域。Abstract 816 報告的是 CD7-targeted universal CAR T-cell therapy 在 relapsed/refractory AML 中的應用。\n\n第一作者是 Yong-xian Hu，這是一個來自多個中心的研究團隊。CAR T 細胞治療在 B-cell malignancies 中已經取得了巨大的成功，但在 AML 中一直是個挑戰，因為缺乏一個理想的 AML-specific 標靶。CD7 是一個新的選擇，讓我們來看看這個 universal CAR T 的數據。"
+    },
+    "28": {
+      "hint": "American Society of Hematology | American Society of Hematology | CD7 UCART • Ab",
+      "note": "這張投影片介紹了 CD7 UCART 的設計原理和試驗流程。首先，為什麼選 CD7？因為異常的 CD7 表現在 10-20% 的 AML 中可以觀察到，而正常的 myeloid 細胞系並不表現 CD7，所以它提供了一個 therapeutic window。\n\n大家看右上角的細胞設計示意圖，這個 UCART 進行了多重基因編輯：第一，knockout CD7 防止 fratricide，也就是 CAR T 細胞自相殘殺；第二，knockout TCR 防止 GvHD；第三，knockout Class II transactivator CIITA 防止免疫排斥；第四，加入了 ANSWER 平台（ANS5 expression），這是一個專利的抗排斥技術。\n\n試驗設計方面，收案 3-70 歲的 R/R AML 患者，bone marrow blast 大於等於 5%，CD7 positive。Lymphodepletion 用 CTX 300 mg/m2/d 加 Flu 25 mg/m2/d 三天，然後注入 CAR T 細胞，分三個劑量水平：DL1 200 x 10^6、DL2 400 x 10^6、DL3 大於 600 x 10^6 CAR+ cells。Day 28 評估 response 和 safety。"
+    },
+    "29": {
+      "hint": "American Society of Hematology | American Society of Hematology | Toxicity and C",
+      "note": "安全性方面的數據非常令人鼓舞。大家看左邊的表格：CRS 在所有患者中都有發生（100%），但沒有任何 grade 3 以上的。ICANS 只有 1 位（10%），也沒有 grade 3 以上。完全沒有觀察到 GvHD 和 HLH，這對於一個 universal 的 allogeneic CAR T 產品來說是非常好的結果。\n\n血液學毒性方面，thrombocytopenia 和 neutropenia/leukopenia 是最常見的，各有 30-40%，但這在 CAR T 治療後是預期中的。沒有出現 DLT 或治療相關的死亡。\n\n右邊的圖表展示了 CAR T 細胞在體內的擴增動力學。可以看到 CAR T 細胞在不同劑量水平下都有 robust expansion，中位 persistence 是 31 天，範圍從 7 天到超過 640 天。這顯示這個 universal CAR T 產品可以在異體環境中有效擴增和存活。"
+    },
+    "30": {
+      "hint": "American Society of Hematology | American Society of Hematology | UCAR-T Therapy",
+      "note": "大家看這張 swimmer plot，展示了每位患者的治療反應和持續時間。綠色代表 CR/CRi，橘色代表 CD7 negative 的 progression，紅色代表 CD7 positive 的 progression。\n\n可以看到幾個重要的觀察。首先，CD7 UCAR-T 在劑量高達 1x10^9 CAR+ T cells 的情況下都是安全且可耐受的，沒有 DLT。最好的反應出現在 CD7 high expression 的患者中，best overall response rate 是 62.5% 的 CR/CRi，而且達到 MRD negative。\n\n但也有一些挑戰：在 non-responder 或是失去反應的患者中，大多數出現了 CD7-negative 的疾病擴張，這代表 antigen escape 是一個需要克服的問題。此外，hematopoietic stem cell support，不管是移植還是 boost，對於維持長期緩解是很關鍵的。\n\n有幾位患者的反應持續時間超過了 2-3 年，特別是那些 CD7 高表現且接受了後續移植的患者。這些早期數據支持 CD7 作為 AML 免疫治療標靶的潛力。"
+    },
+    "31": {
+      "hint": "American Society of Hematology | Abstract 1044: Promising Results from an Ongoin",
+      "note": "最後一篇摘要是 Abstract 1044，報告的是 SENTI-202 的早期結果。這是一個 first-in-class 的 logic gated CAR NK 細胞治療，用在 relapsed/refractory AML。\n\n第一作者是 Nosha Farhadfar。SENTI-202 的獨特之處在於它使用了 logic gate 的概念：activating CAR 辨識 CD33 和/或 FLT3，但同時有一個 inhibitory CAR 辨識 endomucin (EMCN)。這個 NOT gate 的設計是為了保護正常的造血幹細胞。而且這是一個 off-the-shelf 的產品，用健康捐贈者的 NK 細胞製造。"
+    },
+    "32": {
+      "hint": "American Society of Hematology | American Society of Hematology | SENTI-202-101:",
+      "note": "這張投影片詳細說明了 SENTI-202 的 gene circuit design。大家看左邊的示意圖，這個設計包含四個關鍵元素：第一，NK 細胞本身就有天然的 anti-AML 活性；第二，activating CAR 辨識 CD33 或 FLT3，用 OR gate 的邏輯，殺死表現這些標記的 AML blasts 和 leukemic stem cells；第三，inhibitory CAR 辨識 EMCN，用 NOT gate 的邏輯，保護正常的 HSC 和 HSPC；第四，加入了 calibrated release 的 crIL15，增強 SENTI-202 和局部免疫細胞的活化和擴增。\n\n試驗設計是 Phase I，收 18-75 歲的 R/R CD33 和/或 FLT3 positive 的血液惡性腫瘤患者。評估了兩個劑量水平：1x10^9 和 1.5x10^9 CAR+ NK cells/dose，以及兩種給藥時程 S1 和 S2。主要目標是安全性、MTD 和療效。"
+    },
+    "33": {
+      "hint": "American Society of Hematology | American Society of Hematology | Study Cohort a",
+      "note": "大家看這張投影片的兩個表格。左邊是患者特徵：總共 20 位患者，中位從 AML 診斷到入組的時間是 0.75 年，之前的治療線數中位是 2 線，所有患者都曾接受過化療。85% 的患者曾用過 venetoclax，75% 用過 HMA。35% 的患者有過 HCT 的經歷。這是一群 heavily pre-treated 的族群，60% 的患者對最近一線治療是 refractory 的。\n\n右邊是 grade 3 以上的 treatment emergent AE。90% 的患者出現了至少一個 grade 3 以上的 AE，但大部分被研究者判定為與 SENTI-202 無關。最常見的是 febrile neutropenia 45%、platelet count decreased 20%、anemia 15%。值得注意的是，所有事件幾乎都被評估為跟 SENTI-202 無關，只有 1 位患者同時有 grade 3 febrile neutropenia 和 grade 4 platelet count decreased 被認為相關。"
+    },
+    "34": {
+      "hint": "American Society of Hematology | American Society of Hematology | SENTI-202 Expa",
+      "note": "最後來看 SENTI-202 的療效數據。在所有 18 位可評估患者中，ORR 是 50%，CR/CRh rate 是 39%。在 Dose Level 2 也就是 RP2D（1.5x10^9 CAR+ NK cells/dose）的 12 位患者中，ORR 同樣是 50%，CR/CRh 率是 42%。\n\n在 MRD 方面，達到 CR 的 5 位患者中，100% 都是 MRD negative；在 CR/CRh 的患者中，MRD negativity rate 是 86%。中位 time to response 很快，只有 1.2 個月。\n\n在安全性方面，CRS 或輸注相關反應發生在 35% 的患者中，但都是 grade 1-2，沒有嚴重的。周邊血中可以觀察到 CAR+ NK 細胞的擴增，在前 14 天出現，大約 2 週後從血液中清除。\n\n初步的數據顯示，較高的 SENTI-202 暴露量與反應和劑量提升之間有正相關的趨勢，雖然還不到統計顯著。整體來說，這個 logic gated CAR NK 平台展現了令人期待的早期療效和安全性，特別是在這群高度難治的 R/R AML 患者中。"
+    },
+    "35": {
+      "hint": "American Society of Hematology | American Society of Hematology | Thank you High",
+      "note": "好，以上就是今天所有的內容。讓我快速總結一下今天的重點：PARADIGM 研究顯示 aza-ven 在 fit 的 AML 患者中可以是 intensive chemotherapy 的替代選項，EFS 更好且毒性更低。AAML1831 證明在兒童低風險 AML 中可以安全地減少化療強度。HMA/ven 和 intensive chemotherapy 作為移植前的 induction，在統一的移植平台下結果相當。Menin inhibitor 的組合治療，不管是 revumenib 的 SAVE 研究還是 ziftomenib 的 KOMET-007，都在 NPM1 mutant 和 KMT2A-rearranged AML 中展現了可觀的療效。而 CD7 UCART 和 SENTI-202 logic gated CAR NK 則為 AML 的免疫治療開啟了新的方向。\n\n感謝大家的聆聽，歡迎提問。"
+    }
+  }
+}

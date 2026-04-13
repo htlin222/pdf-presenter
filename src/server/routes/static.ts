@@ -95,3 +95,53 @@ export async function handleStaticRoutes(
   }
   return "pass";
 }
+
+export interface SharedAssetDeps {
+  uiDir: string;
+  pdfjsDir: string;
+}
+
+/**
+ * Handles only shared asset routes (`/assets/*`).
+ * Used by directory mode where per-PDF routes handle the rest.
+ */
+export async function handleSharedAssetRoutes(
+  _req: IncomingMessage,
+  res: ServerResponse,
+  url: URL,
+  deps: SharedAssetDeps,
+): Promise<RouteResult> {
+  const pathname = url.pathname;
+  const method = _req.method ?? "GET";
+  if (method !== "GET" && method !== "HEAD") return "pass";
+
+  if (pathname.startsWith("/assets/pdfjs/")) {
+    const rel = pathname.slice("/assets/pdfjs/".length);
+    const safe = resolve(deps.pdfjsDir, rel);
+    if (!safe.startsWith(deps.pdfjsDir + "/") && safe !== deps.pdfjsDir) {
+      send(res, 403, "Forbidden");
+      return "handled";
+    }
+    if (!existsSync(safe)) {
+      notFound(res);
+      return "handled";
+    }
+    streamFile(res, safe, contentTypeFor(safe));
+    return "handled";
+  }
+  if (pathname.startsWith("/assets/")) {
+    const rel = pathname.slice("/assets/".length);
+    const safe = resolve(deps.uiDir, rel);
+    if (!safe.startsWith(deps.uiDir + "/") && safe !== deps.uiDir) {
+      send(res, 403, "Forbidden");
+      return "handled";
+    }
+    if (!existsSync(safe)) {
+      notFound(res);
+      return "handled";
+    }
+    streamFile(res, safe, contentTypeFor(safe));
+    return "handled";
+  }
+  return "pass";
+}

@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "pdf": "updates-in-management-of-indolent-lymphoma-and-chronic-lymphocytic-leukemia.pdf",
+    "totalSlides": 58,
+    "generatedAt": "2026-04-11T05:37:17.771Z",
+    "generator": "pdf-presenter"
+  },
+  "notes": {
+    "1": {
+      "hint": "American Society of Hematology | Updates in Management of Indolent Lymphoma and",
+      "note": "各位好，歡迎來到今天的 ASH Highlights 演講。我是 Jia Ruan，來自 Weill Cornell Medicine。今天的題目是「Updates in Management of Indolent Lymphoma and Chronic Lymphocytic Leukemia」，要跟大家分享的是本屆 ASH 在 indolent lymphoma 以及 CLL 這個領域最新、最值得臨床醫師記住的研究。\n\n這場演講會分成三大區塊：第一部分是 Chronic Lymphocytic Leukemia，第二部分是 Mantle Cell Lymphoma，第三部分是 Follicular Lymphoma。每個區塊我都會挑幾篇 abstract 來深入討論，最後再幫大家做一個 summary 把臨床 implication 整理出來。"
+    },
+    "2": {
+      "hint": "American Society of Hematology | Disclosures In compliance with ACCME policy, AS",
+      "note": "根據 ACCME 的規範，我先做 disclosure。我擔任 AstraZeneca、BMS、Ipsen、Pfizer 的 consultant；research funding 來自 AstraZeneca、BMS、Daiichi Sankyo、以及 Genentech。\n\n今天的內容會討論到幾個藥物的 off-label use，包括 Pirtobrutinib、Zanubrutinib 以及 Obinutuzumab 在某些 indication 下的使用。我會把這些 context 清楚交代，請大家在解讀時把適應症的限制放在心上。"
+    },
+    "3": {
+      "hint": "American Society of Hematology | American Society of Hematology | Learning Objec",
+      "note": "今天的 learning objectives 有三個。\n\n第一，我們要 evaluate recent advances，看看目前 frontline 和 relapsed/refractory 的 treatment strategy 在 indolent lymphoma 跟 CLL 有什麼突破。\n\n第二，我們要 analyze evolving treatment paradigms 跟 sequencing strategies，這些決策必須要建立在 molecular risk 跟 patient factors 之上——比如 TP53 mutation、17p deletion、IGHV status，以及病人本身的 fitness。\n\n第三，我們要 assess clinical implications of emerging therapies，也就是這些新興藥物跟策略對真實臨床工作的影響。"
+    },
+    "4": {
+      "hint": "American Society of Hematology | American Society of Hematology | Chronic Lympho",
+      "note": "我們先從 Chronic Lymphocytic Leukemia 開始。今天在 CLL 這一段，我會 focus 在三個重要的 randomized phase 3 trial：第一個是德國 CLL17，比較 fixed-duration 跟 continuous targeted therapy；第二個是 BRUIN CLL-314，head-to-head 比較 pirtobrutinib 跟 ibrutinib；第三個是 BRUIN CLL-313，比較 pirtobrutinib 跟 bendamustine-rituximab。這三個 trial 共同回答了一個問題——在 targeted therapy 時代，CLL 的 first-line 該怎麼選？"
+    },
+    "5": {
+      "hint": "American Society of Hematology | American Society of Hematology | Abstract #1 Fi",
+      "note": "第一篇是本屆 ASH 的 abstract #1，德國 CLL study group 的 CLL17 trial，通訊作者是 Othman Al-Sawaf。題目是「Fixed-duration versus continuous targeted treatment for previously untreated chronic lymphocytic leukemia」。這篇可以說是今年 CLL 領域最受關注的 randomized phase 3 data，因為它直接挑戰了一個長期存在的問題：對於一個新診斷的 CLL 病人，我們到底應該給他 continuous 的 BTK inhibitor 到 progression 為止，還是給他 fixed-duration 的 combination 然後停藥？"
+    },
+    "6": {
+      "hint": "American Society of Hematology | Cll17 Study design",
+      "note": "CLL17 的 study design 是三個 arm 的 1:1:1 randomization。第一個 arm 是 Ibrutinib 420 mg 每天一次 continuous 治療，直到 progression；第二個 arm 是 Venetoclax 加 Obinutuzumab，縮寫 VO，是現在很常用的 fixed-duration 組合，venetoclax 400 mg 每天一次從 cycle 1 day 22 到 cycle 12，obinutuzumab 1000 mg IV 在 cycle 1 到 cycle 6；第三個 arm 是 all-oral 的 fixed-duration 組合，Venetoclax 加 Ibrutinib，縮寫 VI，總共 15 個 cycle。\n\nRandomization 的 stratification 依照三個因子：fitness、del17p/TP53 status、以及 IGHV mutation status。\n\n規模很大——976 位病人在 174 個 site、13 個國家 screen，從 2021 年 2 月 enroll 到 2022 年 11 月。Median observation time 是 34.2 個月，IQR 30.3 到 39.3。"
+    },
+    "7": {
+      "hint": "American Society of Hematology | Progression-free survival",
+      "note": "先看主要的 progression-free survival 結果，這張 KM curve 可以說是這篇 trial 最令人驚訝的地方——三條 curve 幾乎完全疊在一起。\n\n3-year PFS：Ibrutinib 單藥 continuous 是 81.0%，Venetoclax 加 Ibrutinib 是 79.4%，Venetoclax 加 Obinutuzumab 是 81.1%。\n\n統計上，VI vs I 的 hazard ratio 是 0.84，98% CI 0.53 到 1.32，沒有達到顯著；VO vs I 的 hazard ratio 是 0.87，98.3% CI 0.54 到 1.41，也沒有達到顯著。\n\n但是大家注意右邊的 event table：Ibrutinib arm 有 46 個 PD 加 11 個 death；VI arm 37 個 PD 加 13 個 death；VO arm 25 個 PD 但是有 21 個 death。這個 death 分布的差異會在後面的 subgroup 分析變得更明顯。\n\n整體來說——在未經選擇的 overall population，fixed-duration 跟 continuous 在 3 年這個時間點是 non-inferior 的，這是對臨床非常重要的訊息。"
+    },
+    "8": {
+      "hint": "American Society of Hematology | Progression-free survival According to TP53/del",
+      "note": "這是 CLL17 最重要的 subgroup 分析之一——依照 TP53 或 del17p status 再切一次 PFS。\n\n先看 wild type 的病人（沒有 TP53 mutation 也沒有 17p deletion），三個 arm 的 3-year PFS 幾乎一致：I 是 81.0%、VI 是 80.1%、VO 是 82.7%。所以 for TP53 wild-type，這三種策略都是好選擇。\n\n但是 TP53 del/mut 的 high-risk 病人就完全不一樣了：I 維持在 79.4%，但 VI 掉到 69.0%，VO 更是掉到 62.0%。\n\nHazard ratio 上面：VI vs I 是 0.70，95% CI 0.22 到 2.16；VO vs I 是 1.20，95% CI 0.40 到 3.59。\n\n這個結果的臨床意涵非常重要：對於 TP53 aberrant 的 high-risk CLL，continuous BTK inhibitor 仍然比 fixed-duration venetoclax-based regimen 有優勢。這也暗示了——在 high-risk 病人，單單 12 個 cycle 或 15 個 cycle 的 fixed duration 可能還不夠用來達到長期 disease control。"
+    },
+    "9": {
+      "hint": "American Society of Hematology | Progression-free survival According to fitness",
+      "note": "另一個重要的 subgroup 是 fitness——也就是所謂的 unfit 病人，定義是 cumulative illness rating scale 大於 6 或 GFR 小於 70 mL/min，這代表多重共病、腎功能也不太好的族群。\n\n在 unfit 病人：Ibrutinib 的 3-year PFS 是 70.4%，VI 是 74.9%，VO 是 79.6%。HR 上面，VI vs I 是 0.66，VO vs I 是 0.58。\n\n在 fit 病人：I 是 88.7%、VI 是 82.7%、VO 是 82.1%。這個方向就反過來了。\n\n所以 Ibrutinib 在 fit 病人表現比較好，但在 unfit 病人反而相對比較差——可能是因為 continuous BTK 的 cumulative toxicity 在 fragile 病人影響比較大。相對而言，fixed-duration 的 VO 在 unfit 病人反而是 numerically 最好的。\n\n這個 data 幫我們做出一個很實用的臨床建議：fit 的 TP53 wild-type 病人，三種策略都可以；high-risk 病人（TP53 aberrant）continuous BTKi 仍較有優勢；unfit 病人 fixed-duration 的 VO 是一個相當 attractive 的選項。"
+    },
+    "10": {
+      "hint": "American Society of Hematology | Pirtobrutinib vs Ibrutinib in Treatment‐Naïve a",
+      "note": "接下來是另一篇重量級的 randomized phase 3 trial——Abstract #683，Jennifer Woyach 主導的 BRUIN CLL-314。題目是「Pirtobrutinib vs Ibrutinib in Treatment-Naïve and Relapsed/Refractory CLL/SLL」。\n\n這是第一篇 head-to-head 比較 non-covalent BTK inhibitor（pirtobrutinib）跟 covalent BTK inhibitor（ibrutinib）的 phase 3 study。這個 comparison 對臨床非常重要，因為到目前為止，non-covalent BTKi 主要用在 post-covalent BTKi failure 的族群，而這篇是第一次在 TN 和 early-line R/R 的 setting 裡直接比較兩者。"
+    },
+    "11": {
+      "hint": "American Society of Hematology | BRUIN CLL‐314 Study Design Stratified by: Key E",
+      "note": "BRUIN CLL-314 的 study design：CLL/SLL 病人，BTKi naïve，包括 treatment-naïve 和 relapsed/refractory 的族群，隨機 1:1 分到 Pirtobrutinib 200 mg PO QD 或 Ibrutinib 420 mg PO QD，都是持續治療直到 progression 或 unacceptable toxicity。\n\nStratification 依兩個因子：17p deletion 的 presence（Y 或 N）、以及 prior lines of therapy（0、1、≥2）。實際的 TN 跟 R/R 比例是 34% TN / 66% R/R。\n\nPrimary objective 是 non-inferiority of ORR，定義依照 iwCLL 2018 criteria，由 blinded IRC 評估，測試在 ITT population 或 R/R population 其一達標。Key secondary objective 是 superiority of PFS，可以在 ITT 或 R/R 族群測試。為了控制 type I error，他們用一個 graphical testing strategy，2-sided error rate 0.05。Non-inferiority margin 設在 0.88 和 0.86。\n\nExploratory 的部分會看 TN population 的 endpoint。"
+    },
+    "12": {
+      "hint": "American Society of Hematology | Overall Response Rate",
+      "note": "先看 primary endpoint——Overall Response Rate。這張表格是整個 trial 最關鍵的 data。\n\nITT population：Pirtobrutinib ORR 87.0%、Ibrutinib 78.5%，ORR ratio 1.108，p value for non-inferiority 小於 0.0001——達到 primary endpoint。Nominal p value for superiority 是 0.0035——不只 non-inferior，ITT population 已經顯著 superior。\n\nTN population：Pirto 92.9% vs Ibr 85.8%，ORR ratio 1.080，趨勢有利 pirto。\n\nR/R population：Pirto 84.0% vs Ibr 74.8%，p value for non-inferiority 小於 0.0001，也達標。\n\n再看 best overall response 的 breakdown——CR 或 CRi 的比例：ITT 4.8% vs 2.4%、TN 7.1% vs 3.5%、R/R 3.7% vs 1.8%。CR rate 一致地 favor pirtobrutinib，而且差距蠻明顯的。\n\n結論就是投影片下方紅色框的那句話——Pirtobrutinib demonstrated consistently higher ORR than ibrutinib across all patients。"
+    },
+    "13": {
+      "hint": "American Society of Hematology | Progression‐Free Survival (ITT Population) Numb",
+      "note": "這張是 Progression-Free Survival 的 ITT 分析，是本次研究的 key secondary endpoint。\n\nPirtobrutinib arm 的 PFS events 是 43 件（13.0%），Ibrutinib arm 是 69 件（20.8%）。\n\n18-month PFS rate：Pirtobrutinib 86.9%（95% CI 82.4, 90.3），Ibrutinib 82.3%（95% CI 77.3, 86.3）。\n\n關鍵的 hazard ratio 是 0.569，95% CI 0.388 到 0.834，nominal p value 0.0034。\n\n下方的 take-home message 是：Pirtobrutinib reduced the risk of progression or death by 43%，而且 ibrutinib 的 outcome 跟 historical data 一致，這代表這是一個 clean comparison——ibrutinib arm 沒有表現得比以前差。所以我們可以 confidently 說，pirtobrutinib 在 early-line 的 BTKi naive CLL 病人跟 ibrutinib head-to-head 比下去，efficacy 是更好的。"
+    },
+    "14": {
+      "hint": "American Society of Hematology | Treatment‐Emergent Adverse Events",
+      "note": "再看 safety profile——Treatment-Emergent Adverse Events。這張表格對臨床決策很重要，因為 efficacy 只是一半，剩下一半是病人能不能長期 tolerate。\n\n幾個 key 的 comparison——任何 grade 的 neutropenia：Pirto 22.7% vs Ibr 17.8%，pirto 略高。Hypertension：Pirto 10.6% vs Ibr 15.1%——pirto 明顯比較低。Arthralgia：Pirto 7.9% vs Ibr 12.6%。Diarrhea：Pirto 13.3% vs Ibr 19.1%。Atrial fibrillation：Pirto 2.4% vs Ibr 12.6%——這是 5 倍的差距，非常 striking。\n\n劑量調整：Dose reductions Pirto 7.9% vs Ibr 18.2%；Discontinuations 9.4% vs 10.8%。\n\nMedian time on treatment：Pirto 20.5 個月 vs Ibr 19.3 個月。Richter transformation：Pirto 1 例 vs Ibr 4 例。\n\n結論：Pirtobrutinib 不只 efficacy 更好，tolerability 也更好——尤其是 atrial fibrillation 跟 hypertension 這些 covalent BTKi 典型的 off-target side effect 都明顯降低。這對需要長期治療的 CLL 病人來說非常有意義。"
+    },
+    "15": {
+      "hint": "American Society of Hematology | Pirtobrutinib vs Bendamustine Plus Rituximab (B",
+      "note": "第三個 CLL trial 是 LBA-3，也就是 late-breaking abstract 3——Wojciech Jurczak 主導的「Pirtobrutinib vs Bendamustine Plus Rituximab (BendaR) in Patients With CLL/SLL」，也就是 BRUIN CLL-313。\n\n這篇跟 CLL-314 是姐妹 trial，但它比較的對象不一樣——這次是跟 chemoimmunotherapy（BendaR）比較，而且限定在 untreated 病人。\n\n這個 comparison 很有意思，因為雖然 BendaR 在 targeted therapy 時代已經越來越少用了，特別是在西方國家，但在全世界不少地區它仍然是 first-line standard。這篇的結果會改變我們看待這個 historical control 的方式。"
+    },
+    "16": {
+      "hint": "American Society of Hematology | BRUIN CLL‐313: Study Design Stratified by: R 1:",
+      "note": "BRUIN CLL-313 的 study design：Previously untreated CLL/SLL 病人，randomized 1:1 分到 Pirtobrutinib 200 mg PO QD，或 Bendamustine 90 mg/m² IV 加 Rituximab（cycle 1 是 375 mg/m²，cycle 2 到 6 是 500 mg/m²），28 天一個 cycle，總共 6 個 cycle。\n\nStratification 因子：IGHV mutation status（mutated vs unmutated）、Rai stage（0-II vs III-IV）。\n\n重要的 eligibility criteria：ECOG PS 0-2、naïve to systemic therapy、**no 17p deletion**（這個很關鍵，因為 17p del 已經是 BendaR 的 contraindication）、血液學條件 platelets ≥75、hemoglobin ≥8、ANC ≥0.75。\n\nPrimary endpoint 是 PFS by IRC，key secondary 是 OS，secondary 有 ORR 跟 safety。\n\n特別注意：BendaR arm 的病人在 IRC confirmed PD 之後可以 crossover 到 pirtobrutinib——這個 crossover 對後面 OS 的解讀很重要。"
+    },
+    "17": {
+      "hint": "American Society of Hematology | Primary Endpoint: Progression‐Free Survival Num",
+      "note": "這張是 primary endpoint——Progression-Free Survival，也是本篇最 dramatic 的結果。\n\nPirtobrutinib arm 的 PFS events 是 13 件（9.2%），BendaR arm 是 48 件（34.0%）。\n\n24-month PFS rate：Pirtobrutinib 93.4%（95% CI 87.6 到 96.5），BendaR 只有 70.7%（95% CI 61.5 到 78.1）。\n\nHazard ratio 0.20，95% CI 0.11 到 0.37，p value 小於 0.0001。這是**80% 的 progression 或 death 風險降低**。以 BTK inhibitor 做過的 randomized trial 來說，這是其中一個最大的 effect size。\n\nMedian follow-up 兩個 arm 都大約是 28 個月。\n\n下方的 take-home message 寫得很清楚：Pirtobrutinib demonstrated a statistically significant and clinically meaningful PFS improvement with an 80% reduction in risk of PD or death。這個結果強化了一個觀念——在 targeted therapy 時代，chemoimmunotherapy 在 CLL 的角色應該越來越小，尤其是 BendaR 這種 alkylator-based regimen。"
+    },
+    "18": {
+      "hint": "American Society of Hematology | Overall Survival Number at risk",
+      "note": "Overall Survival 的結果目前還 immature，但是趨勢有利 pirtobrutinib。\n\nPirto events 3 件（2.1%）vs BendaR 10 件（7.1%）。24-month OS rate：Pirto 97.8% vs BendaR 93.0%。Hazard ratio 0.26，95% CI 0.07 到 0.93，p value 0.0261。\n\n值得特別提醒的是——右下角寫的 effective crossover rate 是 52.9%，也就是 BendaR arm 裡面有 18/34 有 PD 的病人 crossover 過去接受 pirtobrutinib。儘管有這麼高的 crossover，OS 還是 trend 對 pirtobrutinib 有利，這代表 up-front 用 pirto 的 survival benefit 是真實的——即使後線能夠 rescue 到 pirto，也沒有完全補上 up-front 不用它的差距。\n\n下方的結論：OS data were immature, but trended in favor of pirtobrutinib, despite a high effective crossover rate。"
+    },
+    "19": {
+      "hint": "American Society of Hematology | Adverse Events of Interest EAIR per 100 Person‐",
+      "note": "這張是 Adverse Events of Interest，透過 exposure-adjusted incidence rate 比較，讓 safety profile 的比較更公平。\n\n先看 infection：Pirto any grade 57.1% vs BendaR 33.3%，但這個是 crude rate，EAIR 換算成 per 100 person-years：Pirto 38.3 vs BendaR 89.7——意思是 BendaR 的 infection rate 其實是 pirto 的兩倍多。\n\nNeutropenia：Pirto any grade 15.0% vs BendaR 51.5%，這是非常大的差距，反映 BendaR 的 myelotoxicity。EAIR ratio 0.04。\n\nBleeding：Pirto 25.7% vs BendaR 1.5% any grade，但大部分都是 grade 1 的 bruising 和 petechiae——EAIR ratio 3.73。這是預期中的，BTKi 會影響 platelet function。\n\nAfib/flutter：Pirto 1.4% vs BendaR 0.8%，都非常低。特別是在 ≥75 歲的病人，Pirto 5.0% vs BendaR 4.3%——BTKi 的 afib 風險在老年 pirto 病人上面也沒有顯著增加。\n\nHypertension：Pirto 7.9% vs BendaR 4.5%。\n\n下方框框：Incidence of atrial fibrillation/flutter remains low in older patients aged ≥75 years。這進一步支持 pirtobrutinib 的 safety profile 在老年病人是可以接受的。"
+    },
+    "20": {
+      "hint": "American Society of Hematology | Summary of CLL studies •",
+      "note": "CLL 區段的 summary。我把三個 trial 的 key messages 整理出來。\n\n第一，Fixed-Duration Venetoclax-Based Regimens (CLL-17)：Fixed-duration Ven-O 跟 Ven-Ibr 對 continuous ibrutinib 是 non-inferior 的 PFS。但是——infection risk 在所有 regimen 都是 relevant 的 concern，特別是有 CD20 antibody 的 arm。大多數 treatment-naïve CLL 病人可以把 fixed-duration 視為 primary option。不過在 high-risk 族群（TP53 aberrant），我們還需要更長的 follow-up 來了解 comparative efficacy。另外還有一個越來越被提出的問題——在 acalabrutinib 跟 zanubrutinib 這些 second generation BTKi 成為主流的今天，把 ibrutinib 當成 control arm 本身的 relevance 已經是可以質疑的。\n\n第二，Pirtobrutinib vs Ibrutinib (CLL-314)：這是第一個 head-to-head BTKi trial 在 TN 跟 R/R CLL/SLL 的 setting。Pirtobrutinib 顯示 non-inferior 的 ORR，以及 PFS 早期趨勢 favor superiority（ORR 93% in TN、HR 0.24 vs ibrutinib）。Tolerability 更好——AF、flutter、discontinuation 都比較少。需要等 PFS 更 mature 的 long-term follow-up。同樣的 caveat——ibrutinib 作為 control 的 relevance 值得討論。\n\n第三，Pirtobrutinib vs BendaR (BRUIN CLL-313)：Pirtobrutinib 對 BendaR 展現 superior PFS，是 BTKi 迄今最大的 effect size 之一。OS trend favor pirtobrutinib 儘管有超過 50% 的 crossover。Safety profile 良好，AF/flutter 低。支持 pirtobrutinib 成為 potential 1L standard of care，特別是在 older 病人。但它並不能證明在 covalent BTKi 之前就先用 pirtobrutinib 是對的——這是另外一個問題。"
+    },
+    "21": {
+      "hint": "American Society of Hematology | American Society of Hematology | Mantle Cell Ly",
+      "note": "接下來我們進入第二部分——Mantle Cell Lymphoma。\n\nMCL 今年在 ASH 有三個重要的 study 值得拿出來討論：第一個是 BOVen triplet 用在 older MCL 的 frontline study；第二個是 TrAVeRse，Acalabrutinib 加 Venetoclax 加 Rituximab 的 phase 2 trial；第三個是 Sonrotoclax（BGB-11417）的 monotherapy，這是 next generation BCL2 inhibitor 在 R/R MCL 的 phase 1/2 data。\n\n這三個 trial 共同的 theme 是——chemotherapy-free 的 targeted combination 越來越成為 MCL frontline 的主角，尤其是針對那些不適合做 autologous stem cell transplant 的 older 病人。"
+    },
+    "22": {
+      "hint": "American Society of Hematology | Abstract #888 Preliminary Safety and Efficacy o",
+      "note": "第一篇是 Abstract #888，Anita Kumar 帶領的 MSK 團隊，題目是「Preliminary Safety and Efficacy of BOVen (Zanubrutinib, Obinutuzumab, and Venetoclax) as Frontline Therapy for Older Patients with Mantle Cell Lymphoma」。\n\nBOVen 這個名字就是三個藥的縮寫——B 是 BTK inhibitor 的 Zanubrutinib、O 是 Obinutuzumab、Ven 是 Venetoclax。這是一個 all-oral 加一個 monoclonal antibody 的 chemo-free regimen，專門設計給那些因為年紀或 comorbidity 沒辦法做 autologous stem cell transplant 的 older MCL 病人。這個 patient population 在真實世界其實是大多數的 MCL 病人——因為 median age at diagnosis 大約是 68 歲。"
+    },
+    "23": {
+      "hint": "American Society of Hematology | Study Design for BOVen After 24 cycles, MRD‐dri",
+      "note": "BOVen 的 Study Design：Minimum 24 個 cycle 的 treatment，28 天一個 cycle。\n\nDosing 的部分——Zanubrutinib 160 mg 每天兩次 continuous；Obinutuzumab 1000 mg IVPB，cycle 1 在 day 1、8、15，cycle 2 到 8 每個 cycle 的 day 1；Venetoclax 400 mg 每天一次，從 cycle 2 開始，先經過 5-week ramp-up——20 mg 一週、然後 50 mg、100 mg、200 mg、400 mg，才達到 target dose。\n\n特別值得一提的是 MRD-driven 的 stop 設計：在完成 24 個 cycle 之後，如果達到 CR 加上 peripheral blood MRD undetectable at 10⁻⁶（縮寫 uMRD6），就 stop treatment；如果沒有達到 CR 或 MRD 仍可偵測，就繼續 zanubrutinib 加 venetoclax。這種 MRD-guided 的停藥策略，可能是未來 MCL 管理的趨勢。\n\nEligibility：previously untreated MCL、年齡 ≥65 歲或 comorbidity 無法做 ASCT、ECOG ≤2、organ 跟 hematologic function 充足。\n\nPrimary endpoint 是 3-year PFS，benchmark 定義為 ≥70% promising、≤50% unacceptable，歷史比較對象是 bendamustine-rituximab。"
+    },
+    "24": {
+      "hint": "American Society of Hematology | Recurrent (≥10%) Treatment‐Related Adverse Even",
+      "note": "先看 safety——這張是 recurrent（≥10%）treatment-related adverse events。\n\n最常見的是 bruising 52%，絕大部分是 grade 1；這反映 BTKi 的 on-target anti-platelet effect。Diarrhea 46% 也是大多數 grade 1，manageable。Neutrophil count decreased 34%，其中 grade 4 是 12%——這個需要留意，20% 有 grade ≥3 的 neutropenia，而且有 38% 的病人 receive growth factor support。Platelet count decreased 30%。\n\nCOVID-19 infection 28%，其中 grade 3+ 是 20%。\n\nNausea 24%、Fatigue 24%，都大多 low grade。Anemia 18%。Infusion related reaction 16%（跟 obinutuzumab 有關）。Lung infection 14%。\n\n下方的 take-home：Overall 這個 triplet 是 well-tolerated 和 safe。Grade ≥3 的 neutropenia 10 例（20%）、febrile neutropenia 1 例（2%）。Diarrhea 以 grade 1 為主，可以管理。整體來說 toxicity 是在可接受範圍。"
+    },
+    "25": {
+      "hint": "American Society of Hematology | Serious Adverse Events and Infections Treatment",
+      "note": "再進一步看 serious adverse events and infections，這個在 older、immune-compromised 的 MCL 病人族群特別重要。\n\nTreatment-related AE 任意 grade 是 94%、grade 3 或以上 42%。Infections 整體 76%、grade 3 或以上 26%。Serious adverse events 44%，其中 hospitalizations 36%。Deaths 有 2 例 4%。\n\n兩例死亡（可能與治療有關）：一例 viral encephalitis、一例 sudden death（當時病人只在 venetoclax）。\n\nSpecial interest 的 AE：1 例 grade 3 atrial fibrillation；2 例 tumor lysis syndrome 在 obinutuzumab cycle 1 day 1；3 例 grade 3 bleeding。\n\n右邊是 common infectious events ≥10% 的分布：Sinopulmonary/URI/respiratory virus 高達 52%（grade 1-2 38% + grade 3+ 14%），這是最 dominant 的。COVID-19 infection 28%。Urinary tract infection 18%。\n\n這個 infection pattern 提醒我們——在這種 anti-CD20 含有的 triplet regimen，即使是在沒有 intensive chemotherapy 的情況下，long-term 的 infectious complication 仍然是臨床管理的重要議題。"
+    },
+    "26": {
+      "hint": "American Society of Hematology | Minimal Residual Disease Results Peripheral blo",
+      "note": "這張是 Minimal Residual Disease results，用 Adaptive ClonoSEQ® 在 peripheral blood 測量，sensitivity 到 10⁻⁶，也就是 uMRD6。\n\nMRD 在 98% 的病人（49/50）可以評估。\n\n在 Cycle 3——也就是 early assessment time point——28% 已經達到 uMRD6（13/47）。這個 early molecular response 的 depth 已經非常驚人。\n\n在 Cycle 13（中段評估），87% 達到 uMRD6（39/45）。\n\n在 End of Treatment / Cycle 24，93% 達到 uMRD6（28/30）。\n\n下方的 discrepancy 是因為 sample availability：有些病人 1 個 missing baseline ID sample、1 個 early progressor、C13 有 3 個還沒到時間、EOT 有 3 個 progressor、3 個 death、1 個 lost to follow-up、12 個還沒到 C24。\n\n整體來說，這個 depth of molecular response 在 MCL frontline 是非常 impressive 的。這也提供了 MRD-guided treatment discontinuation 的 rational basis——如果一個病人達到深度 molecular remission，或許真的不需要繼續治療。"
+    },
+    "27": {
+      "hint": "American Society of Hematology | Progression‐Free and Overall Survival Outcomes",
+      "note": "看到 efficacy outcomes——Progression-Free 和 Overall Survival。\n\n左邊的 PFS curve：Median follow-up 25 個月。**2-year PFS 86%**（95% CI 77, 97）。Median PFS not reached。累積 event 6 個。Number at risk：開始 50、6 個月 49、12 個月 45、18 個月 37、24 個月 24、30 個月 9。\n\n右邊的 OS curve：2-year OS 92%（95% CI 84, 100）。Median OS not reached。累積 event 5 個。\n\n這個 86% 的 2-year PFS 在老年 MCL 族群是非常 impressive 的，historical 的 bendamustine-rituximab 在同樣 population 大約是 70% 左右。所以 BOVen 已經 surpass 了 historical benchmark。而這個是還沒有達到 3-year primary endpoint 的 preliminary data——full endpoint 的 readout 會在未來公佈。"
+    },
+    "28": {
+      "hint": "American Society of Hematology | Abstract #884 Acalabrutinib Plus Venetoclax and",
+      "note": "第二篇是 Abstract #884——Eliza Hawkes 主導的「Acalabrutinib Plus Venetoclax and Rituximab in Patients With Treatment-Naive Mantle Cell Lymphoma: Results From the Phase 2 TrAVeRse Study」。\n\nTrAVeRse 這個名字的含意是 **T**reatment 加上 **AVR**——acalabrutinib + venetoclax + rituximab 這個 triplet 的縮寫。這個 trial 的 unique 設計是在 induction 之後用 MRD-guided 的 randomization 來決定是繼續 acalabrutinib maintenance 還是 observation。"
+    },
+    "29": {
+      "hint": "American Society of Hematology | TrAVeRse Study Design: Multicenter, Open‐label,",
+      "note": "TrAVeRse 是 multicenter、open-label、phase 2 study。\n\nScreening：Untreated MCL，N=100，年齡 ≥18 歲，Ann Arbor stage II-IV，ECOG PS 0-2，個別部分允許 2/3。\n\nInduction（cycles 1-13，每個 cycle 28 天）是 AVR：Acalabrutinib 100 mg BID（C1-C13，也有 C14 post-induction），Venetoclax（C2-C13，5 週 ramp-up 從 20 mg 到 400 mg daily），Rituximab 375 mg/m² day 1 of C1-12。\n\nMRD 評估用 NGS（10⁻⁵ sensitivity；clonoSEQ）on peripheral blood。\n\nRandomization：在 end of induction 如果達到 MRD-neg CR（per Lugano criteria），就隨機 1:1 分到 continue Acalabrutinib 100 mg BID until PD 或 observation（只觀察）。Observation 的病人如果後來 PD，可以 retreat with acalabrutinib。\n\nMRD-positive 或只是 PR 或 SD 的病人不 randomize，繼續 acalabrutinib until PD。\n\nRandomization stratification 依三個因子：sMIPI risk status、blastoid/pleomorphic histology、TP53 mutation status。\n\nPrimary endpoint：MRD-neg CR rate at end of induction。這個 design 很特別——它嘗試用 MRD 來驅動 post-induction 的 de-escalation。"
+    },
+    "30": {
+      "hint": "American Society of Hematology | Primary Endpoint: MRD‐negative (10⁻⁵) CR Rate a",
+      "note": "這是 primary endpoint——MRD-negative (10⁻⁵) CR rate at end of induction。\n\n頂部的結論寫得很清楚：93% of patients who completed AVR induction achieved MRD-neg CR。\n\n左邊的 ITT population bar：82%（89/108）——這是 intent-to-treat，分母是所有 enroll 的病人。\n\n右邊的「Patients evaluable for MRD & response at C14」bar：93%（87/94）——這是 induction 完成、真的有拿到 MRD sample 的 per-protocol 分析。\n\n不管看哪個 denominator，這個 MRD-neg CR rate 都非常 high。比起 historical 的 chemoimmunotherapy induction，這個 depth of response 幾乎翻了一倍。\n\nMRD-neg 是在 PB by NGS 10⁻⁵ clonoSEQ while in CR per Lugano criteria。\n\n這個 data 強烈支持 BTKi + venetoclax + anti-CD20 的 triplet 作為 MCL 的 first-line 選項——特別是在評估 disease burden 的深度上。"
+    },
+    "31": {
+      "hint": "American Society of Hematology | Progression‐free Survival No. at risk",
+      "note": "PFS 的部分，Median follow-up 14.9 個月。\n\n整體族群（N=108）：6 個月 PFS 是 97.1%，12 個月 是 95.2%。\n\nTP53 mutated 族群（N=17，17 人其中大部分是 high-risk disease）：6 個月 PFS 94.1%，12 個月 88.2%。\n\n下方的結論：PFS rates were high, regardless of TP53 mutation status。\n\n這個 result 非常重要——traditionally，MCL 的 TP53 mutation 是所有治療都很難克服的 adverse prognostic factor。用 chemoimmunotherapy 的話，TP53-mutated MCL 的 median PFS 常常只有 1 到 2 年。但在 TrAVeRse 的這個 chemo-free triplet，TP53-mutated 的 12-month PFS 達到 88.2%——這意味 BTKi 加 venetoclax 的 combination 可能真的可以 overcome TP53 mutation 對 outcome 的負面影響。這是 practice-changing 的 potential。"
+    },
+    "32": {
+      "hint": "American Society of Hematology | Events of Clinical Interest During AVR Inductio",
+      "note": "看 AVR induction 期間到 C14 結束的 events of clinical interest。\n\nCardiac events：任意 grade 14.8%，grade ≥3 只有 1.9%。其中 atrial fibrillation/flutter 3.7%，grade ≥3 的 1.9%——跟 ibrutinib 歷史的 afib rate 相比，acalabrutinib 明顯比較低。Ventricular tachyarrhythmias 1.9%。\n\nAnemia：11.1%，grade ≥3 2.8%。\n\nNeutropenia：48.1%，grade ≥3 高達 34.3%——這是 venetoclax 加 BTKi 的 combination 最常見的 hematologic toxicity，其中 5 例（4.6%）是 grade ≥3 febrile neutropenia。\n\nThrombocytopenia：20.4%，grade ≥3 5.6%。\n\nMajor hemorrhage：4.6%，grade ≥3 1.9%。\n\nHepatotoxicity：16.7%，grade ≥3 1.9%。\n\nHypertension：4.6%，grade ≥3 0.9%——比 ibrutinib 也低。\n\nInfections：65.7%，grade ≥3 16.7%——這是 major concern 之一。\n\nSecond primary malignancies 10.2%，其中排除 non-melanoma skin 之後是 5.6%。\n\nTumor lysis syndrome：1 例（0.9%），而且是 laboratory only。\n\n整體來說——cardiac、bleeding、TLS 都很可接受，最主要的 toxicity 還是 cytopenia 跟 infection。"
+    },
+    "33": {
+      "hint": "American Society of Hematology | Abstract #663 Sonrotoclax (BGB‐11417) Monothera",
+      "note": "第三個 MCL trial 是 Abstract #663——Michael Wang 帶領的「Sonrotoclax (BGB-11417) Monotherapy in Patients With R/R MCL Previously Treated With a BTK Inhibitor」。\n\nSonrotoclax 是 next generation 的 BCL2 inhibitor，開發代號 BGB-11417。它跟 venetoclax 相比有幾個 pharmacologic 的改進——更短的 half-life、更選擇性對 BCL2（對 BCL-XL 的活性更低，理論上 thrombocytopenia 風險較小），以及更強的效力。\n\n這個 trial 的 setting 很重要：R/R MCL 而且已經用過 BTK inhibitor。這是目前 MCL 臨床上最難處理的 population 之一——一旦 post-BTKi progression，可用的 option 非常有限，historical ORR 大約只有 30%。"
+    },
+    "34": {
+      "hint": "American Society of Hematology | BGB‐11417‐201 (NCT05471843) study design •",
+      "note": "BGB-11417-201 Study Design（NCT05471843）。\n\nEligibility：年齡 ≥18 歲、histologically-confirmed MCL（per WHO 2016）、至少一線 anti-CD20 based therapy 加 BTK inhibitor、ECOG PS 0-2、沒有 prior BCL2 inhibitor treatment。\n\n設計分兩個部分——Part 1A + 1B 是 dose escalation 加 safety expansion：Target dose 1 是 160 mg QD（n=10），Target dose 2 是 320 mg QD（n=12），safety expansion 最多 2 個 cohort，每個 cohort n ≤12。\n\nPart 2 是 efficacy expansion：Sonrotoclax at RP2D until PD，n=103。\n\nPart 1 endpoints：Primary 是 DLT（Part 1A）、TEAE、SAE、AE leading to discontinuation、TLS events。Secondary 是 preliminary antitumor activity。\n\nPart 2 endpoints：Primary 是 ORR by IRC（Lugano 2014）。Secondary 是 ORR by INV、DOR by IRC 跟 INV、PFS by IRC 跟 INV、TTR by IRC 跟 INV、HR-QOL、OS、safety。\n\n重要的 practice note：Sonrotoclax target dose 達成是經過 4 週的 ramp-up，不需要住院或 12/24 小時 post-dose laboratory monitoring——這是一個 patient-friendly 的 feature。"
+    },
+    "35": {
+      "hint": "American Society of Hematology | Safety summary Sonrotoclax was well tolerated a",
+      "note": "Safety summary：Sonrotoclax was well tolerated and adverse events were manageable。\n\nPart 1：no DLTs, MTD 未達到。Sonrotoclax 的 RP2D 決定為 320 mg QD。\n\nOverall safety profile（N=115）：\n- Any TEAE：111 人（96.5%），treatment-related 92 人（80.0%）\n- Grade ≥3 TEAE：60 人（52.2%），treatment-related 42 人（36.5%）\n- Serious TEAE：43 人（37.4%），treatment-related 20 人（17.4%）\n- Leading to death：15 人（13.0%）\n- Leading to treatment discontinuation：16 人（13.9%）\n- Leading to treatment modification：31 人（27.0%），dose interruption 31 人、dose reduction 只有 1 人（0.9%）\n\nWell tolerated；median relative dose intensity 是 100%——這代表大多數病人能夠按照標準 dose 完成治療。\n\n最常見的 serious TEAE 是 infections。\n\n15 例 TEAE leading to death：11 例 considered related to underlying disease；其他死因包括 pneumonia（1）、pneumothorax（1）、unknown（2）。\n\nTEAEs 導致 temporary interruption 在 27% 病人；使用 supportive measures 可以 resolve。\n\n這個 safety profile 對 heavily pretreated R/R MCL 來說是很可以接受的。"
+    },
+    "36": {
+      "hint": "American Society of Hematology | Efficacy for sonrotoclax at RP2D 320 mg QD Very",
+      "note": "Efficacy for sonrotoclax at RP2D 320 mg QD。\n\nPart 2 Sonrotoclax 320 mg 族群（n=103）的 data：\n\nORR：IRC-assessed 54 人（52.4%），95% CI 42.4 到 62.4，1-sided P value <.0001。INV-assessed 49 人（47.6%）。\n\nCR rate：IRC 16 人（15.5%），INV 23 人（22.3%）。\n\nTTR median：1.9 個月（range 1.6 到 6.2）。\n\n下方的 take-home messages：\n- **Primary endpoint was met**：跟 historical control 的 30% ORR 相比，IRC-assessed 52.4% 代表 clinically meaningful improvement。\n- ORR by IRC for patients with <3 prior lines of therapy：61.0%（95% CI 44.5% 到 75.8%）——earlier line 的病人 response 更好。\n- Median study follow-up 14.2 個月（range 0.3 到 24.9 個月）。\n\n考慮到這是 post-BTKi R/R MCL 這樣一個極難處理的 setting，52% 的 ORR 是相當有意義的。這暗示 sonrotoclax 作為單藥已經有意義，combination 的 potential 更大。"
+    },
+    "37": {
+      "hint": "American Society of Hematology | Very promising efficacy in heavily pretreated p",
+      "note": "再進一步看 durability——duration of response、PFS、跟 OS。\n\nMedian study follow-up 14.2 個月。Part 2 sonrotoclax 320 mg QD 的 outcomes：\n\nMedian DOR by IRC 是 **15.8 個月**（95% CI 7.4 到 NE）。有 23 個 events（42.6%）。63% 的 responders 在 9 個月時仍然在 remission。\n\nMedian PFS by IRC：6.5 個月（95% CI 4.0 到 10.4）。\n\nMedian OS：not reached（95% CI 14.8 到 NE）。\n\n這個 median DOR 15.8 個月在 heavily pretreated、post-BTKi 的 MCL 是 meaningful 的。雖然 median PFS 只有 6.5 個月聽起來不長，但這代表 responders 維持 remission 的時間其實相對久——問題是有大約一半的病人一開始就沒有 response。\n\n這個 data 支持 sonrotoclax 作為 post-BTKi MCL 的選項，也為後續的 combination 跟 earlier-line 研究鋪路。ongoing phase 3 的 CELESTIAL trial 正在測試 sonrotoclax 加 zanubrutinib。"
+    },
+    "38": {
+      "hint": "American Society of Hematology | Summary of MCL studies",
+      "note": "MCL 這段的 summary，三個 trial 的重點整理。\n\nBOVen Triplet in Older MCL：\n- Highly active regimen，deep molecular responses，2-year PFS 86%。\n- Triplet well tolerated，toxicity 跟過往經驗相似。\n- 強大的 MRD-guided potential 做 treatment tailoring——未來可以 stop treatment after MRD-neg CR。\n- 這是未來 BOSON MRD-guided triplet trial 的 basis。\n\nTrAVeRse (AVR Triplet) in 1L MCL：\n- 非常高的 MRD-negative CR rate（82% ITT、93% in evaluable），in end of induction。\n- Benefit 在 TP53-mutated 病人仍然 preserved——這是 historical chemoimmunotherapy 做不到的。\n- Manageable toxicity，87% 的病人完成了 induction。\n- No new safety signals；durable early outcomes。\n\nSonrotoclax Monotherapy in R/R MCL：\n- Meaningful activity：ORR 52%，median DOR 15.8 個月。\n- Responses 在 TP53-mutated 病人也 consistent。\n- Well tolerated，manageable hematologic toxicity，low TLS incidence。\n- Ongoing phase 3 CELESTIAL trial 正在評估 sonrotoclax 加 zanubrutinib 的 combination。\n\nOverall 的 MCL take-home：chemo-free、BTKi 加 BCL2 inhibitor 加 anti-CD20 的 triplet 策略正在迅速成為 MCL frontline 的 new standard，而新一代的 BCL2 inhibitor 則提供 post-BTKi setting 的新選項。"
+    },
+    "39": {
+      "hint": "American Society of Hematology | American Society of Hematology | Follicular Lym",
+      "note": "最後一段，我們來看 Follicular Lymphoma。\n\nFL 今年在 ASH 最受矚目的幾個 study 分屬不同機轉的 novel therapy：\n\n第一個是 EPCORE FL-1，這是 CD3xCD20 bispecific antibody Epcoritamab 加 R² 的 phase 3 study，代表 bispecific 在 FL 早線的突破。\n\n第二個是 ROSEWOOD 的 final analysis，BTK inhibitor Zanubrutinib 加 Obinutuzumab，代表 small molecule + antibody 的 combination。\n\n第三個是 CAR-T 的兩個 long-term update——TRANSCEND FL 的 lisocabtagene maraleucel 3-year update，以及 ELARA 的 tisagenlecleucel 5-year update。\n\n這三類療法——bispecific、BTK-based、CAR-T 分別代表 relapsed/refractory FL 的三個 major modality，今年都有更成熟的 data。"
+    },
+    "40": {
+      "hint": "American Society of Hematology | Abstract #466 Primary Phase 3 Results From the",
+      "note": "先看 Abstract #466——Lorenzo Falchi 主導的「Primary Phase 3 Results From the EPCORE FL-1 Trial of Epcoritamab With Rituximab and Lenalidomide (R²) Versus R² for Relapsed or Refractory Follicular Lymphoma」。\n\nEpcoritamab 是一個 subcutaneous CD3xCD20 bispecific antibody，已經在 R/R DLBCL 有 approval。這個 trial 是第一個 phase 3 randomized study 把 bispecific 放到 FL 的 earlier-line setting（包括 second-line），比較的對象是 rituximab 加 lenalidomide（R²）——R² 是目前 R/R FL 的 standard of care 之一。\n\n這個 trial 的設計重要之處是——第一個證明 bispecific 加 R² 比 R² 單用更好的 phase 3 evidence。"
+    },
+    "41": {
+      "hint": "American Society of Hematology | EPCORE FL‐1: Phase 3, Global, Randomized, Open‐",
+      "note": "EPCORE FL-1 是 Phase 3、global、randomized、open-label study。Fixed-duration 設計，總共 12 cycles，每 cycle 28 天。\n\nKey eligibility：histologically confirmed CD20+ FL、grade 1-3a、Stage II-IV、至少一線 prior treatment 包括 anti-CD20 mAb 加 alkylating agent、且 meet ≥1 個 GELF criterion。\n\nRandomization 1:1：\n- Epcoritamab（48 mg）加 R²：epcoritamab 用 3-SUD（3 step-up dose）cycle 1，然後 QW 到 cycle 2-3，再 Q4W 到 cycle 4-12；rituximab 375 mg/m² 5 個 cycle；lenalidomide 20 mg daily day 1-21 總共 12 cycle。\n- R² control arm：同樣的 rituximab 跟 lenalidomide schedule。\n\nStratification factors：disease status（2L 距離前一線 >2 年或 ≤2 年；3L+ 距離前一線 >6 個月或 <6 個月）、region（US/EU vs rest of world）。\n\nDual primary endpoints：ORR per IRC 和 PFS per IRC。Key secondary：CR rate per IRC、OS、MRD。\n\n值得一提的是——用 3-SUD 是為了 mitigate CRS 的 severity，這個 regimen 是從前面的 EPCORE NHL-2 data 學到的。\n\nData cutoff：2025 年 5 月 24 日，median follow-up 14.8 個月。"
+    },
+    "42": {
+      "hint": "American Society of Hematology | Epcoritamab+R² Resulted in Superior PFS per IRC",
+      "note": "這是 primary endpoint——PFS per IRC，title 寫得很 dramatic：Epcoritamab+R² Resulted in Superior PFS per IRC With 79% Risk Reduction。\n\n兩個 arm 分別有 243 vs 245 病人。PFS events：Epcoritamab+R² 35 件 vs R² 106 件——差距非常明顯。\n\nMedian PFS：Epcoritamab+R² **not estimable**（NE to NE），R² 只有 11.7 個月（95% CI 11.1 到 15.1）。\n\nHazard ratio **0.21**（95% CI 0.14 到 0.31），p value <.0001。這代表 **79% 的 progression 或 death 風險降低**——這在 R/R FL 的 randomized trial 歷史上是很罕見的 effect size。\n\nConcordance rate between IRC 跟 investigator assessment 是 94%，代表 review 很 robust。\n\nEstimated 16-month PFS：Epcoritamab+R² 是 **85.5%**（95% CI 79.7 到 89.7），R² 是 **40.2%**（95% CI 31.8 到 48.4）。\n\n這個 85.5% vs 40.2% 的 gap 在 R/R FL 2L+ 的 setting 簡直就是 paradigm shift。"
+    },
+    "43": {
+      "hint": "American Society of Hematology | Epcoritamab+R² Extended Time to Next Treatment",
+      "note": "再看 secondary endpoint——Time to Next Anti-lymphoma Treatment。這是一個 patient-centric 的 outcome，代表實際上病人需要下一線治療的時間。\n\nTTNLT events：Epcoritamab+R² 15 件 vs R² 77 件。\n\nMedian TTNLT：Epcoritamab+R² **not estimable**；R² 是 24.3 個月（95% CI 18.2 到 NE）。\n\nHazard ratio 0.15（95% CI 0.09 到 0.27），p value <0.0001——這是 85% 的 risk reduction。\n\nAt 16 months，92.8% 的 epcoritamab+R² 病人仍然 free from new anti-lymphoma treatment，而 R² arm 只有 64.9%。\n\n這個 data 非常重要——比 PFS 更貼近病人的 real life experience。意思是，在 epcoritamab arm，16 個月後只有 7% 的病人需要下一線治療，而 R² arm 有超過三分之一已經需要了。"
+    },
+    "44": {
+      "hint": "American Society of Hematology | Positive Trend for Overall Survival With Epcori",
+      "note": "Overall Survival 的 early data——Positive trend for OS with Epcoritamab+R²。\n\nOS events：Epcoritamab+R² 10 件 vs R² 25 件。Median 都是 not estimable。\n\nHazard ratio 0.38（95% CI 0.18 到 0.80），p value **0.0039**。\n\n16-month OS estimates：Epcoritamab+R² 95.8% vs R² 88.8%。\n\n這個 OS data 目前還 early，median follow-up OS 是 14.8 個月 vs 14.6 個月。Information fraction 只有 24%（35/146 events），所以這還沒 reach formal statistical significance at the pre-specified alpha level 0.000005。\n\n但是 trend 很明顯對 epcoritamab 有利，而且 hazard ratio 0.38 的 magnitude 讓人對 future readout 有信心。Additional analyses 會在未來公佈。"
+    },
+    "45": {
+      "hint": "American Society of Hematology | Manageable AEs With No New Safety Signals",
+      "note": "Safety 的 overall picture——Manageable AEs With No New Safety Signals。\n\n這張表格比較 epcoritamab+R² 跟 R² 的 adverse event profile。\n\nAny grade AE：epcoritamab arm 100% vs R² 99%——兩個 arm 都幾乎 universal。但 grade ≥3 是 90% vs 68%——差距明顯。\n\nSerious adverse event：56% vs 29%。\n\nAdverse event 導致 treatment discontinuation：19% vs 12%。細分到 epcoritamab 本身 9%、rituximab 3%、lenalidomide 19%。\n\nAdverse events of clinical interest >20%：\n- Infections：77% vs 53%，grade ≥3 33% vs 16%。\n- Neutropenia：74% vs 52%，grade ≥3 69% vs 42%。\n- CRS：**85%** in epcoritamab arm，對比 R² arm <1%——這是 bispecific 最 characteristic 的 AE。\n- Anemia、thrombocytopenia、pyrexia、rash、COVID-19 都比 R² 略高。\n\n但是注意右邊的 key observations：\n- **Neutropenia 是 manageable 的**，只有 3% discontinued study drug due to neutropenia，febrile neutropenia rate 是 6%（R² 是 3%）。\n- **Infections 也是 manageable**，6% discontinued study drug due to infection。\n- **Fatal adverse events 罕見**，epcoritamab arm 2% vs R² 4%——其實 epco arm 的 fatal AE 比 R² 更少！\n- Despite 更高的 AE rate，大多數病人還是完成 prescribed regimen，median relative dose intensity ≥90% for epcoritamab+R²。"
+    },
+    "46": {
+      "hint": "American Society of Hematology | CRS Was Low Grade and Predictable With Epcorita",
+      "note": "CRS 的 detailed analysis——CRS Was Low Grade and Predictable With Epcoritamab+R²。\n\n左邊的 bar chart 是 3-SUD 的 CRS events by dosing period。可以看到——CRS 主要發生在 First full dose（cycle 1 的 first full dose）之後：16% grade 1 加 3% grade 2。Step-up doses 1-3 都很低。Second 跟 third full dose 之後 CRS 幾乎沒有。這是非常 predictable 的 pattern。\n\n右邊的 table 比較 2-SUD 跟 3-SUD 的 CRS rate：\n- 2-SUD：CRS 45%（grade 1 36% + grade 2 9%）。\n- 3-SUD：CRS 只有 **26%**（grade 1 21% + grade 2 5%）——3-SUD 明顯減少 CRS rate。\n\nCRS signs/symptoms 主要是 fever（~95%）、hypotension（~17%）、hypoxia（~5%）。\n\nMedian time to first CRS onset from first full dose：1-1.5 天。Median time to resolution：1 天——非常短。\n\nCRS interventions：大約四分之一的 CRS 病人用 tocilizumab，40% 左右用 corticosteroid。\n\nKey points：hydration 跟 dexamethasone 被用來做 CRS prophylaxis。One ICANS event 觀察到，grade 1。沒有 discontinuation due to CRS 或 ICANS。所有 events 都 resolved。沒有 CTLS。\n\n這個 data 非常 reassuring——3-SUD 可以讓 CRS 的 rate 從 45% 降到 26%，而且 severity 都很 low，可以 outpatient 管理。這對 bispecific 在 FL 的 real-world 使用是非常 encouraging 的。"
+    },
+    "47": {
+      "hint": "American Society of Hematology | Abstract #227 Final Analysis of the Randomized",
+      "note": "接下來是 Abstract #227——Pier Luigi Zinzani 主導的「Final Analysis of the Randomized Phase 2 ROSEWOOD Study of Zanubrutinib + Obinutuzumab vs Obinutuzumab Monotherapy in Patients With Relapsed/Refractory Follicular Lymphoma」。\n\nROSEWOOD 這個 trial 本來已經在 2022 年的 JCO 發表過 primary analysis，建立了 zanubrutinib 加 obinutuzumab 在 R/R FL 的 role。今年的 ASH update 是 final analysis——median follow-up 已經超過 40 個月，我們可以看到 long-term 的 durability。"
+    },
+    "48": {
+      "hint": "American Society of Hematology | ROSEWOOD: A Global, Randomized, Open‐Label, Pha",
+      "note": "ROSEWOOD 是 global、randomized、open-label、phase 2 study。\n\nKey eligibility：adults，histologically confirmed grade 1-3a FL；R/R disease 至少 2 線 prior therapy 包括 anti-CD20 antibody 加 alkylating agent；measurable disease；ECOG PS 0-2；沒有 prior BTK inhibitor。\n\nRandomization 2:1：\n- Arm A (ZO)：Zanubrutinib 加 Obinutuzumab，until PD 或 unacceptable toxicity，n=145。\n- Arm B (O)：Obinutuzumab monotherapy，option to cross over to receive ZO combination if no response at 12 months 或 PD，n=72。\n\nStratification factors：prior lines of therapy、rituximab-refractory status、geographic region。\n\nPrimary endpoint：ORR (PR or better) assessed per Lugano 2014 classification by IRC。\n\nSecondary endpoints：ORR by INV、DOR by IRC 和 INV、PFS by IRC 和 INV、OS、safety per NCI CTCAE v4.03。\n\n這是 2:1 randomization，讓 combination arm 的 sample size 比較大，便於 observe efficacy 跟 safety。"
+    },
+    "49": {
+      "hint": "American Society of Hematology | ORR per IRC With ZO Was Higher Compared With O",
+      "note": "這張是 primary endpoint——ORR per IRC。\n\nZO arm（n=145）：Overall response rate **70.3%**（95% CI 62.2 到 77.6），partial response 28.3% 加 complete response 42.1%。\n\nO arm（n=72）：ORR 只有 **44.4%**（95% CI 32.7 到 56.6），PR 25.0% + CR 19.4%。\n\nRisk difference 25.5%（95% CI 11.8 到 39.3），2-sided p value **0.0003**。\n\nCR rate：ZO 42.1% vs O 19.4%，p value 0.0009——這個差距特別重要，因為 CR 是 FL long-term outcome 的關鍵 predictor。\n\nStable disease：ZO 14.5% vs O 19.4%；non-progressive disease：4.1% vs 12.5%；PD：9.0% vs 22.2%。\n\nORRs per INV 跟 IRC 類似：ZO 68.3%、O 43.1%——兩種 assessment 的 trend 一致。\n\n簡單說——加 zanubrutinib 到 obinutuzumab，ORR 從 44% 提升到 70%，CR rate 從 19% 提升到 42%。這是顯著 meaningful 的 benefit。"
+    },
+    "50": {
+      "hint": "American Society of Hematology | PFS per IRC Was Longer in the ZO Arm Months",
+      "note": "這張是 PFS per IRC，這次的 final analysis 有 long follow-up data。\n\nMedian PFS per IRC：\n- ZO arm **22.1 個月**（95% CI 16.1 到 34.0）\n- O arm 10.3 個月（95% CI 6.5 到 13.8）\n\nHazard ratio 0.54（95% CI 0.37 到 0.79），2-sided p value 0.0012。這是 46% 的 progression 或 death 風險降低。\n\nFollow-up median（range）：ZO 44.1 個月（0 到 67.2），O 42.1 個月（0 到 51.8）。\n\nLong-term 的 curve 看起來——ZO arm 在早期的 benefit 一直維持到很後面，大約 20 個月時兩個 arm 的 gap 最大，到 50 個月 plateau 在大約 25% 到 30%；O arm 很快就掉到 20% 以下。\n\n這個 data 確認了 ZO combination 的 long-term benefit 是 robust 的，不是只看 short-term response 而已。"
+    },
+    "51": {
+      "hint": "American Society of Hematology | Time to New Anticancer Therapy Was Longer in th",
+      "note": "再看 TTNT——Time to New Anticancer Therapy，這是 long-term 追蹤對病人 clinical course 非常重要的 endpoint。\n\nMedian TTNT：\n- ZO arm **51.7 個月**（95% CI 36.6 到 NE）\n- O arm 只有 **12.1 個月**（95% CI 8.3 到 15.9）\n\nHazard ratio 0.37（95% CI 0.25 到 0.55），2-sided p value <0.0001。\n\n簡單說——median TTNT 從 12 個月延長到 51 個月，這是超過 4 倍的延長。\n\nFollow-up median：ZO 40.6 個月 vs O 38.8 個月。\n\n這個 data 強化了 ROSEWOOD 的 clinical value。對 R/R FL 病人來說，每延長一年不需要下一線治療，就是一年的 treatment-free interval、一年的 better quality of life。從 1 年延長到 4.3 年，這對病人的 long-term trajectory 是很 meaningful 的改變。"
+    },
+    "52": {
+      "hint": "American Society of Hematology | Three‐Year Efficacy and Longitudinal Safetyof L",
+      "note": "接下來進入 CAR-T 的兩個 long-term update。第一個是 Sairah Ahmed 主導的 TRANSCEND FL 的 3-year update：「Three-Year Efficacy and Longitudinal Safety of Lisocabtagene Maraleucel in Patients with Third-Line or Later Follicular Lymphoma」。\n\nLiso-cel（lisocabtagene maraleucel）是一個 CD19 directed autologous CAR-T 產品，已經在 DLBCL 取得 approval，並且在 FL 也獲得加速 approval 基於 TRANSCEND FL 的 primary analysis。\n\n今年 ASH 的 update 重點是：3 年的 long-term follow-up data——我們是不是看到 CAR-T 在 R/R FL 維持 durable remission？尤其是在那些 high-risk feature 的病人——POD24、bulky disease、double-refractory。"
+    },
+    "53": {
+      "hint": "American Society of Hematology | Responses were deep and durable in patients wit",
+      "note": "先看 response 的 depth 跟 durability。\n\n3L+ FL（third-line or later）族群 n=103。\n\n**ORR 97%**（95% CI 92 到 99，n=100 responders）——這是極高的 response rate。\n\n**CR rate 94%**（95% CI 88 到 98，n=97）——有 94% 的病人達到 complete response，這在 R/R FL 任何 therapy 都是非常罕見的 depth。\n\nDuration of response：\n- Median DOR **not reached**（95% CI 38.5 到 NR）。\n- 36-Month DOR rate：**70%**（95% CI 60 到 78）。\n\nMedian follow-up 35.4 個月（95% CI 35.1 到 35.5）。\n\n下方的重點：Median DOR 在更長的 follow-up 仍然 not reached，而且 70% 的 responders 在 36 個月 still in response。\n\n對 R/R FL 的病人來說——94% CR 加上 70% 三年仍然 response——這個 data 讓 CAR-T 成為一個 potential curative option，在 3L+ FL 的 setting。"
+    },
+    "54": {
+      "hint": "American Society of Hematology | 36‐Month rates of PFS, TTNT, and OS were high i",
+      "note": "再看 3L+ FL 的三個 survival endpoint，36 個月的 rates 都很 high。\n\n**PFS**：Median PFS **not reached**（95% CI 39.4 到 NR）。36-month PFS **68%**（95% CI 58 到 76）。Median follow-up 36.3 個月。\n\n**TTNT（time to next therapy）**：Median TTNT not reached。36-month TTNT **75%**（95% CI 70 到 80）。Median follow-up 42.3 個月。\n\n**OS**：Median OS not reached。36-month OS **86%**（95% CI 78 到 92）。Median follow-up 42.1 個月。\n\n三個 endpoint 的 median 都還沒 reach，這在 R/R FL 這麼 late line 的 setting 是非常特別的。\n\n特別是 36-month TTNT 75%——意味著 75% 的病人在 liso-cel infusion 後 3 年仍然不需要下一線治療。這個 treatment-free interval 對病人的 quality of life 有很大的意義。"
+    },
+    "55": {
+      "hint": "American Society of Hematology | Abstract #468 Clinical outcomes of tisagenlecle",
+      "note": "另一個 CAR-T 的 long-term update 是 Abstract #468——Stephen Schuster 主導的「Clinical outcomes of tisagenlecleucel in patients with relapsed/refractory follicular lymphoma: Phase 2 ELARA 5-year update」。\n\nELARA 是 tisagenlecleucel（也叫 Kymriah）在 R/R FL 的 pivotal phase 2 study，原本的 primary analysis 已經發表，也在 FL 拿到 approval。\n\n這次的 update 是 5 年 follow-up 的 data。對任何 novel therapy 來說，5 年 follow-up 都是一個很重要的 milestone——特別是 FL 這種慢性 indolent 疾病，short-term 的 response 是必要但不充分的。我們要看 5 年後病人是不是還活著、還沒 relapse。"
+    },
+    "56": {
+      "hint": "American Society of Hematology | Median PFS Was 53.2 Months",
+      "note": "ELARA 5-year update 的 PFS data——Median PFS Was 53.2 Months。\n\nAll subjects N=94，events 46。Median follow-up 61 個月（也就是大約 5 年）。\n\nMedian PFS **53.2 個月**（95% CI 18.2 到 NE）。\n\n**60-month PFS rate is 46% in all patients**，而 **59.8% 在 experienced CR 的 subgroup**——差不多 60% 的 CR 病人在 5 年後仍然 progression-free。\n\n最引人注意的是紅色字標註的「No relapse reported after 36 months」——從 curve 上看，36 個月之後 relapse rate 幾乎 flatten。如果一個病人能夠 maintain response 到 3 年，那他有很高的機率長期 durable。這個 plateau 在 CAR-T 的 long-term follow-up 常常被解讀為 potential cure 的 signal。\n\n對比以前 R/R FL 的 standard therapy，median PFS 大約 2 到 3 年——CAR-T 把這個提升到 4.4 年，而且 5 年的 PFS rate 接近 50%。"
+    },
+    "57": {
+      "hint": "American Society of Hematology | Prolonged and Sustained PFS Across High‐Risk Pa",
+      "note": "這張 subgroup analysis 很有意思——Prolonged and Sustained PFS Across High-Risk Patient Subgroups。\n\nELARA 按照四種 high-risk feature 做 subgroup PFS：\n\n**POD24**（Yes vs No）：POD24 Yes（N=61），median PFS 36.4 個月，60-month PFS rate **41.1%**；POD24 No（N=33），median NE。POD24 是 FL 最惡名昭彰的 adverse prognostic factor——historical data 來看，POD24 的病人 median OS 只有 5 年左右。但在 CAR-T 之後，41% 的 POD24 病人在 5 年時仍然 progression-free——這是 historically 做不到的。\n\n**FLIPI**（High vs Low/Intermediate）：FLIPI High（N=57），median PFS 30 個月，60-month PFS **35.5%**；FLIPI Low/Intermediate（N=37），median not reached。高風險 FLIPI 也可以從 CAR-T 獲益。\n\n**Bulky disease**（Yes vs No）：Bulky Yes（N=62），median PFS 30 個月，60-month PFS **45.1%**。\n\n**Double refractory**（Yes vs No）：Double refractory Yes（N=65），median not reached，60-month PFS **50.5%**——這是所有 subgroup 裡面表現最好的！這代表即使是 double refractory（對 anti-CD20 跟 alkylator 都 refractory）的病人，CAR-T 仍然有一半以上可以 durable。\n\n這個 subgroup analysis 強烈支持 CAR-T 應該被考慮用在 high-risk R/R FL 的 earlier line，而不是最後一線的 salvage。"
+    },
+    "58": {
+      "hint": "American Society of Hematology | Summary of FL studies •",
+      "note": "最後是 FL 段的 summary，三個大類的 key messages。\n\n**Epcoritamab + R² in 2L+ FL (EPCORE-FL1)**：\n- 79% 的 PFS risk reduction vs R²；CR rate 83%。\n- Durable CRs；duration of complete response 還 not reached。\n- Benefit 在 high-risk 跟 low-risk groups 都 consistent。\n- Novel chemo-free、outpatient、fixed-duration standard of care——這是 R/R FL 2L+ setting 一個 paradigm-shifting 的選項。\n\n**ROSEWOOD Final Analysis: Zanubrutinib + Obinutuzumab (ZO) in R/R FL**：\n- ZO 取得比 obinutuzumab alone 更高的 ORR、CR rate、以及更長的 DOR/PFS。\n- Safety profile manageable，沒有 new signals。\n- Durable long-term benefit，follow-up 超過 34 個月。\n- 支持 ZO 作為 promising FL regimen；phase 3 MAHOGANY ongoing。\n\n**Liso-cel (TRANSCEND FL, 3-year update) 和 Tisagenlecleucel (ELARA, 5-year update)**：\n- Deep 跟 durable responses。\n- Strong efficacy 即使是 POD24、bulky、double-refractory 這些 high-risk feature 的病人。\n- Safe，low infections，hematologic recovery 允許 outpatient use。\n- 確認 CAR-T 作為 R/R FL 的 key therapeutic option。\n\n整體來說——R/R FL 的 therapeutic armamentarium 已經變得非常豐富。過去只有 R²、chemoimmunotherapy、radiation 等少數選擇，現在我們有 bispecific、BTK-based combination、CAR-T 三大類 novel therapy，每一類都有 randomized 或 long-term follow-up 的 evidence 支持。這代表 FL 的 management 真的進入了 personalized、sequencing、risk-adapted 的新時代。\n\n以上就是今天 Updates in Management of Indolent Lymphoma and CLL 的完整分享，非常謝謝大家的聆聽，歡迎 Q&A。"
+    }
+  }
+}

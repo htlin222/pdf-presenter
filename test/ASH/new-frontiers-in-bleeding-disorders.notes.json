@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "pdf": "new-frontiers-in-bleeding-disorders.pdf",
+    "totalSlides": 45,
+    "generatedAt": "2026-04-12T19:14:44.845Z",
+    "generator": "pdf-presenter"
+  },
+  "notes": {
+    "1": {
+      "hint": "American Society of Hematology | New Frontiers in Bleeding Disorders Ross Baker,",
+      "note": "各位好，歡迎來到今天的 Highlights of ASH 教育課程。我是 Ross Baker，來自澳洲 Perth 的 Perth Blood Institute，同時也隸屬於 University of Notre Dame Australia 和 Murdoch University。\n\n今天我要跟大家分享的主題是 \"New Frontiers in Bleeding Disorders\"，也就是出血性疾病的最新進展。我們會涵蓋幾個非常重要的議題，包括一些常被忽略的診斷、女性血友病帶因者的問題，以及 ITP 和 von Willebrand disease 的最新治療策略。希望接下來的內容能對大家的臨床實務有所幫助。"
+    },
+    "2": {
+      "hint": "American Society of Hematology | Disclosures In compliance with ACCME policy, AS",
+      "note": "在開始之前，依照 ACCME 的規定，我需要向大家揭露利益衝突。如同投影片上所示，我本人沒有任何需要揭露的利益衝突。好，那我們就直接進入今天的主題。"
+    },
+    "3": {
+      "hint": "American Society of Hematology | American Society of Hematology | Learning Objec",
+      "note": "首先讓我們看一下今天的學習目標。我們有三個主要的 learning objectives。\n\n第一，我們會討論一些常被忽略的診斷，包括 Bleeding Disorder of Unknown Cause，也就是 BDUC，以及 hereditary hemorrhagic telangiectasia，簡稱 HHT，並強調它們在臨床上的重要性。\n\n第二，我們會回顧 hemophilia A carriers 的出血傾向，即使她們的 factor VIII 數值在正常範圍內，仍然可能會有出血的問題。\n\n第三，我們會比較目前在出血性疾病方面所面臨的診斷挑戰，以及最新的治療策略。"
+    },
+    "4": {
+      "hint": "American Society of Hematology | American Society of Hematology | Agenda • The d",
+      "note": "大家看一下今天的 agenda。我們的內容會分成幾個部分。\n\n首先是診斷上的挑戰，我會談到 Bleeding Disorder of Unknown Cause，也就是 BDUC，以及 Hereditary hemorrhagic telangiectasia，也就是 HHT。\n\n接著我們會討論 Haemophilia A carriers，這些女性帶因者即使 factor level 看起來是正常的，卻仍然會出血。\n\n最後，我們會介紹在 immune thrombocytopenic purpura，也就是 ITP，以及 von Willebrand disease，也就是 VWD 方面的新治療策略。內容非常豐富，讓我們開始吧。"
+    },
+    "5": {
+      "hint": "American Society of Hematology | Moderate Deficiency (VWD type 2, rarer factor d",
+      "note": "大家看這張投影片，這是遺傳性出血疾病的臨床光譜圖。我用金字塔的方式來呈現，幫助大家理解不同嚴重程度的分布。\n\n在金字塔的頂端是嚴重缺乏的患者，包括 hemophilia 和 Glanzmann's thrombasthenia 這類疾病，他們會有自發性出血，通常由 Haemophilia Treatment Centre 來照顧，需要 factor replacement，而且以男性居多。這些是比較少見的。\n\n往下是中度缺乏，像 VWD type 2 和一些較罕見的凝血因子缺乏症。再往下是輕度缺乏，包括 VWD type 1、輕微的血小板功能缺陷或凝血因子缺乏，這些患者通常是被誘發才會出血。\n\n最底層也是最大的一群，就是實驗室檢查正常，但有明顯出血傾向的患者，這就是我們所謂的 BDUC。這些患者通常是在社區被照顧，以女性為主，仰賴的是 clinical gestalt 和 bleeding assessment tools。大家要注意，BDUC 是一個排除性診斷。"
+    },
+    "6": {
+      "hint": "American Society of Hematology | ASH 2025 Educational Session- BDUC. Diagnosis o",
+      "note": "在 ASH 2025 的教育課程中，有幾篇非常重要的關於 BDUC 的文獻。\n\n左邊列出了三篇重要的文章：第一篇是關於 BDUC 的診斷，探討需要做多少檢驗才能確立診斷；第二篇是關於 BDUC 未來出血的預測因子；第三篇則是 BDUC 患者手術處置的指引。這些都是由 Paula James、Ingrid Pabinger 和 Callie Berkowitz 等人所撰寫的。\n\n右邊大家可以看到的是 ISTH SSC 發表在 Journal of Thrombosis and Haemostasis 上的 communication，這是由 Ross Baker 和多位國際專家共同撰寫的，為 BDUC 的定義和管理建立了標準化的共識。這篇論文為我們提供了非常重要的框架。"
+    },
+    "7": {
+      "hint": "American Society of Hematology | Bleeding Disorder of Unknown Cause Definition P",
+      "note": "那什麼是 BDUC 呢？大家看左邊的定義。BDUC 指的是那些臨床上有明顯出血症狀，暗示有潛在的出血性疾病，但實驗室檢查卻是正常的患者。\n\n右邊的圖示呈現了 BDUC 患者常見的出血表現。在婦科和產科方面，60% 到 90% 的 BDUC 女性患者有 heavy menstrual bleeding，30% 到 65% 有 post partum bleeding，當然我們要先排除婦科本身的原因。\n\n在黏膜皮膚出血方面，66% 到 78% 有 hematomas 或容易瘀青，31% 到 79% 有 epistaxis，19% 到 53% 有口腔黏膜出血。另外，44% 到 75% 在手術或醫療處置期間或之後會出血，36% 到 84% 在牙科手術後出血。\n\n重要的是，BDUC 的致病機轉目前仍然不明，這也是我們需要持續研究的方向。Bleeding assessment 在這裡扮演了非常關鍵的角色。"
+    },
+    "8": {
+      "hint": "American Society of Hematology | American Society of Hematology | Bleeding Asses",
+      "note": "接下來我們談 Bleeding Assessment Tools，也就是 BATs。\n\n這些工具有幾個重要的功能：第一，客觀地評估和記錄出血症狀；第二，區分正常和異常的出血，不過要注意在男性和兒童方面有一些限制，需要結合臨床判斷；第三，在 VWD 和 BDUC 的患者中，較高的分數，特別是 bleeding score 大於 10，是未來出血的強力預測因子。\n\n投影片下方有一個很重要的 clinical practice point：ISTH BAT 應該被用來客觀評估那些因出血傾向而被轉介的個案，而且它也是 BDUC 診斷的基礎。這是 Baker 在 JTH 2024 發表的重要建議。"
+    },
+    "9": {
+      "hint": "American Society of Hematology | Kathie, 36 years of age ISTH-BAT* = 14 ABO Bloo",
+      "note": "讓我們來看一個案例。Kathie 是一位 36 歲的女性。大家看右邊的表格，這是 ISTH-BAT 的評分表。\n\n她的 ISTH-BAT score 是 14 分，這是相當高的分數。在 menorrhagia 方面她得到了最高分，代表她曾經因為急性月經過多而需要住院和緊急治療。在 post-partum hemorrhage 方面也有記錄，牙科手術和外科手術後也都有明顯的出血。\n\n另外值得注意的是，她的 ABO blood group 是 O 型。我們知道 O 型血的人 VWF 和 FVIII 的基礎值會比較低，這在評估出血疾病時是需要考慮的因素。\n\n這樣一位有顯著出血病史的年輕女性，接下來我們要看她的實驗室檢查結果如何。"
+    },
+    "10": {
+      "hint": "American Society of Hematology | American Society of Hematology | Lab Investigat",
+      "note": "這張投影片列出了 BDUC 患者的實驗室檢查，重點是這些檢查結果都是正常的。\n\n初始的止血檢查包括 CBC、peripheral blood smear、PT、aPTT、fibrinogen、TT，以及 VWD testing，也就是 VWF antigen 和 activity、FVIII:C、platelet aggregation testing 加上 dense granule assessment，還有 Factor IX、XI 和 chromogenic FVIII。\n\n如果初步檢查都正常，還可以考慮做進一步的檢測，包括罕見凝血因子缺乏的篩檢，例如 FXIII、FII、FV、FVII、FX，fibrinolysis 相關的檢查，PFA-100/200，以及進階的血小板功能檢測，像 GpFL 和 PTEM，還有 global assays of hemostasis。\n\n不過要注意，這些檢測的選擇需要考慮到各地實驗室的能力和當地人群的參考值範圍。"
+    },
+    "11": {
+      "hint": "American Society of Hematology | Test Result Reference range Platelet count (G/L",
+      "note": "我們回到 Kathie 的案例。大家看右上方的表格，她的所有檢查結果都在正常範圍內。Platelet count 193，PT 99%，aPTT 34.8 秒，VWF activity 142%，VWF RiCof 63%，FVIII 97%，FIX 62%，FXI 104%，FXIII 145%，全部正常。\n\n左邊我們可以看到她的臨床表現：終身的出血症狀，包括容易瘀青、小傷口延長出血、術後出血需要輸血、產後大出血，以及嚴重月經過多需要補鐵、使用 antifibrinolytics，甚至曾考慮 hysterectomy。\n\n右下方是她的血小板功能檢測結果，也是正常的。所以 Kathie 被診斷為 Bleeding Disorder of Unknown Cause，也就是 BDUC。儘管所有檢查正常，她確實有嚴重的出血問題，這對她的健康相關生活品質造成了顯著的影響。"
+    },
+    "12": {
+      "hint": "American Society of Hematology | Evaluate Procedure Risk Factors Highlights of A",
+      "note": "當 BDUC 的患者需要接受手術或處置時，我們需要評估哪些風險因子呢？大家看這張圖，我們需要同時考慮病人端和處置端的因素。\n\n在病人端，我們要評估 ISTH-BAT score、過去手術或處置後的出血經驗、對止血藥物的反應，以及年齡、用藥和共病症。\n\n在處置端，我們要考慮這是 major 還是 minor procedure、出血風險有多高、血栓風險、液體管理，以及止血產品的可用性和監測能力。\n\n綜合這些因素，我們才能做出適當的手術前準備和圍術期處置計畫。"
+    },
+    "13": {
+      "hint": "American Society of Hematology | BDUC: A simplified treatment algorithm Highligh",
+      "note": "這張投影片提供了一個簡化的 BDUC 治療演算法，非常實用。\n\n大家看這個三欄式的圖表。左邊是 Patient Risk，中間是 Procedure Risk，右邊是對應的 Management Options。\n\n如果病人風險低、手術風險也低，我們可以選擇觀察或使用 TXA，也就是 tranexamic acid。如果病人風險高但手術風險低，建議使用 TXA。如果病人風險和手術風險都高，那我們就需要更積極的處理，包括 TXA、TXA 合併 desmopressin，或者 TXA 合併 platelet transfusion。\n\n這個演算法雖然簡化，但在臨床上非常實用，可以幫助我們快速做出決策。"
+    },
+    "14": {
+      "hint": "American Society of Hematology | Bleeding disorder of unknown cause (BDUC): Is t",
+      "note": "接下來我要介紹一個很有意思的研究。這是 Aishwarya Pradeep 等人在 ASH 2025 發表的 abstract 第 15123 號。\n\n研究的標題是 \"Bleeding disorder of unknown cause: Is there a role for expanded platelet testing?\" 這個研究要回答的問題是：對於 BDUC 的患者，擴展性的血小板檢測是否有角色？\n\n這是來自 Mayo Clinic 的研究團隊，包括 Meera Sridharan、Dong Chen、Rajiv Pruthi 等多位專家。讓我們來看看他們的研究方法和發現。"
+    },
+    "15": {
+      "hint": "American Society of Hematology | Methods Most with abnormal bleeding are classif",
+      "note": "這是一個 minimal risk 的回顧性研究。大家看這個流程圖。\n\n研究對象是 2017 年 10 月到 2025 年 6 月在 Mayo Clinic Rochester 因異常出血就診，且有做 platelet transmission electron microscopy，也就是 PTEM 檢查的 18 歲以上患者，一共有 271 位。\n\n右邊列出了排除條件：未滿 18 歲、已確診出血疾病或獲得性出血疾病如肝病、有惡性腫瘤、沒有做 plasma-based coagulation testing，以及正在使用抗凝血劑、抗血小板藥物或 SSRIs 的患者。排除了 163 位後，最終有 108 位患者符合研究條件。"
+    },
+    "16": {
+      "hint": "American Society of Hematology | Results: Baseline Characteristics Most with abn",
+      "note": "我們來看基本特徵。108 位符合條件的患者中，83.3% 是女性，也就是 90 位。大家看左邊的圓餅圖，女性佔了絕大多數，這和我們之前提到 BDUC 以女性為主是一致的。\n\n中位年齡是 45 歲，範圍從 17 到 88 歲。中位 ISTH-BAT score 是 7 分，範圍從 2 到 21 分。\n\n一個重要的發現是，在正常和異常 hemostasis profiles 的兩組之間，ISTH BAT 分數並沒有顯著差異，不管是用 Mann-Whitney U test 還是 Welch's t-test，p 值分別是 0.56 和 0.87。這告訴我們，光靠 ISTH-BAT 分數無法區分這兩組患者。"
+    },
+    "17": {
+      "hint": "American Society of Hematology | Results Normal (N = 46) Abnormal (N = 62) Abnor",
+      "note": "這張投影片的結果非常重要。大家看右邊的表格。\n\n108 位患者中，46 位也就是 42.6% 的止血檢查結果完全正常，62 位也就是 57.4% 有異常的 hemostasis profiles。\n\n在那些 hemostasis 正常的 46 位患者中，沒有任何人有 plasmatic assay 或 platelet function test 的異常。但是，有 14 位，也就是 30.4%，在 expanded testing panel 中有異常，包括 PTEM 或 GpFL 的異常。\n\n這是一個很重要的發現，意味著即使傳統的止血檢查全部正常，透過 expanded platelet testing，特別是 PTEM 和 glycoprotein flow cytometry，我們仍然可以在將近三分之一的患者中找到異常。這支持了擴展性血小板檢測在 BDUC 診斷中的價值。"
+    },
+    "18": {
+      "hint": "American Society of Hematology | Clinical Spectrum of Hereditary Hemorrhagic Tel",
+      "note": "好，接下來我們轉換到另一個重要的主題：Hereditary Hemorrhagic Telangiectasia，也就是 HHT。\n\n這是 Hanny Al-Samkari 醫師和 CHORUS Investigators 在 ASH 2025 發表的 abstract 第 8457 號。研究標題是 \"Clinical Spectrum of HHT: Data from the Comprehensive HHT Outcomes Registry of the United States (CHORUS)\"。\n\n大家看右邊的臨床照片，可以看到舌頭上有明顯的 telangiectasias，這是 HHT 非常典型的表現。這項研究是美國第一個大規模的 HHT 登錄資料分析，提供了非常寶貴的臨床數據。"
+    },
+    "19": {
+      "hint": "American Society of Hematology | American Society of Hematology | Al-Samkari H.,",
+      "note": "HHT 是一種多系統的遺傳性出血疾病，會造成許多嚴重甚至致命的臨床表現。\n\n它是一種進行性的疾病，由於異常的血管形成，導致黏膜皮膚的 telangiectasias，進而造成嚴重的反覆 epistaxis 和慢性消化道出血。患者常有 iron deficiency anemia，經常需要靜脈鐵劑輸注和紅血球輸血。\n\n另外，HHT 患者在肺部、肝臟和腦部可能有 arteriovenous malformations，也就是 AVMs，這些可能導致出血性和栓塞性中風、肝硬化、肺高壓，以及高心輸出量心衰竭。\n\n值得注意的是，患者自己認為出血是最重要的臨床表現，AVM 和貧血並列第二。而且目前全球還沒有任何核准的治療藥物，這是一個重大的未被滿足的醫療需求。"
+    },
+    "20": {
+      "hint": "American Society of Hematology | American Society of Hematology | HHT is the Sec",
+      "note": "HHT 是第二常見的遺傳性出血疾病，僅次於 von Willebrand disease。\n\n大家看右邊的圖示比較。Hemophilia A 和 Hemophilia B 以男性為主，但 HHT 是 autosomal dominant 遺傳，發生率約每 3800 人中有一位，而且男女都會受到影響。\n\n事實上，HHT 是女性最具臨床意義、最嚴重的遺傳性出血疾病。患者的整體存活率比健康對照組低。在美國大約有 8 萬人患有 HHT，全球則影響約 160 萬人。\n\n所以這不是一個罕見到可以忽略的疾病，我們在臨床上需要有足夠的警覺性。"
+    },
+    "21": {
+      "hint": "American Society of Hematology | American Society of Hematology | The Comprehens",
+      "note": "CHORUS registry 收錄了 600 位經基因檢測或 Curacao criteria 確診的 HHT 患者。中位年齡 53 歲，範圍從 0 到 88 歲，60% 是女性。\n\n大家看這個表格，很有意思的一點是診斷年齡的分布。雖然 60% 的患者在 13 歲之前就開始有反覆的自發性 epistaxis，但絕大多數，也就是 71%，是到成年之後才被診斷出來，將近一半是在 40 歲之後才確診。\n\n這告訴我們什麼？HHT 的診斷嚴重延遲。兒童時期就有症狀，但要等到中年才被診斷。在 molecular testing 方面，61% 的參與者本人做過基因檢測，23% 的血親也做了檢測。提高對 HHT 的認識和早期診斷是非常重要的。"
+    },
+    "22": {
+      "hint": "American Society of Hematology | American Society of Hematology | Incidence of S",
+      "note": "在 CHORUS registry 中，95% 的患者有自發性反覆 epistaxis，這幾乎是所有人都會有的表現。\n\n大家看右邊的圓餅圖，在有 epistaxis 的患者中，41% 是輕度，但 59% 是中度到重度。中度到重度的定義包括：ESS 分數大於 4.00、需要全身性藥物或手術介入，或者需要靜脈鐵劑和/或紅血球輸血來處理貧血。\n\n在治療方面，44% 接受了鼻腔局部治療，43% 做過鼻腔手術或處置，24% 使用了全身性藥物治療。在全身性藥物中，56% 使用 antifibrinolytics，49% 使用 antiangiogenics，28% 使用其他藥物。這些數字顯示 epistaxis 的治療負擔相當大。"
+    },
+    "23": {
+      "hint": "American Society of Hematology | Further Clinical Manifestations of HHT Practice",
+      "note": "除了 epistaxis 之外，HHT 還有許多其他的臨床表現。大家看右邊的流程圖。\n\n35% 的患者有 heavy menstrual bleeding，41% 有其他黏膜皮膚出血包括消化道出血，68% 有 iron deficiency。在 AVM 方面，47% 有 pulmonary AVM，2% 有肺出血，15% 有 intracranial AVM，特別是 25 歲以下的年輕患者要注意腦出血的風險佔 3%，40% 有 liver AVM。\n\n左邊是幾個重要的 practice points：第一，在理學檢查時要想到這個診斷；第二，要定期評估鐵質狀態；第三，要篩檢 AVM；第四，我們需要新的治療方法。\n\n這些數據再次強調 HHT 是一個需要多專科團隊合作處理的複雜疾病。"
+    },
+    "24": {
+      "hint": "American Society of Hematology | Data from the United States 8CHECK Females Affe",
+      "note": "接下來我們要進入另一個重要的議題：女性與 Hemophilia A。這是 JM Johnsen、SN Fletcher 等人的研究，來自美國的 8CHECK Program，ASH 2025 abstract 第 1997 號。\n\n標題是 \"Females Affected by Hemophilia A: Data from the United States 8CHECK Program\"。這個研究探討的是一個長期被忽視的問題：女性 hemophilia A 帶因者的臨床表現。讓我們來看看他們的發現。"
+    },
+    "25": {
+      "hint": "Genetic Testing of Hemophilia A F8 : F8 gene that encodes FVIII; FVIII: factor V",
+      "note": "首先讓我們回顧一下 Hemophilia A 基因檢測的基本概念。\n\n在女性方面，診斷需要綜合 F8 genotype status、FVIII levels 和 bleeding symptoms 三個要素。在男性方面，診斷相對直接，以 FVIII 小於 40% 為標準，而且 F8 variant type 與疾病嚴重度、inhibitor 發展風險，以及 immune tolerance induction 的成功率都有關聯。\n\n右邊列出了 F8 genotyping 的用途：幫助診斷、個人化照護、辨識有風險的家族成員，以及提供遺傳諮詢和家庭計畫的資訊。所以基因檢測不只是學術上的意義，它有非常實際的臨床應用價值。"
+    },
+    "26": {
+      "hint": "Genetic Testing of Hemophilia A in Females dL: deciliter; F8 : F8 gene that enco",
+      "note": "這張投影片特別針對女性的情況做說明。有三個重要的觀念。\n\n第一，帶有 Hemophilia A genotype 的女性，她們的 FVIII levels 是高度變異的。大約 30% 的帶因者 FVIII 低於 40 IU/dL，也就是達到 hemophilia A 的定義標準。\n\n第二，即使是 F8 genotype-positive 但 FVIII 正常的女性，仍然可能會有出血症狀。這是一個非常重要的觀念，不能光看 FVIII 數值就認為沒有問題。\n\n第三，目前在了解女性 hemophilia 相關健康風險方面還存在很大的 knowledge gap。這就是 8CHECK Program 想要填補的知識空缺。"
+    },
+    "27": {
+      "hint": "Eligibility Criteria for Genetic Testing FVIII: factor VIII; HA: hemophilia A. I",
+      "note": "8CHECK Program 的基因檢測納入條件很簡單，有兩類人符合資格。\n\n第一類是已經被診斷 Hemophilia A 的個體，也就是 FVIII level 小於 40%。第二類是有一等親或偶爾更遠親屬患有 Hemophilia A 的女性。\n\n大家看右邊的家族譜圖，可以幫助理解這個概念。重點是，這個計畫不只看有症狀的女性，也主動去篩檢有家族史的女性，這是非常前瞻性的做法。"
+    },
+    "28": {
+      "hint": "Overview of Participants F8 : F8 gene that encodes factor VIII; HA: hemophilia A",
+      "note": "從 2024 年 3 月到 2025 年 7 月，一共有 531 份來自符合條件女性的檢體被送去做基因檢測。\n\n大家看左邊的表格，年齡範圍從 0.04 歲到 83.1 歲，平均檢測年齡是 25.1 歲，發現 variant 的平均年齡是 26.8 歲。\n\n右邊的圓餅圖是 genotyping 的結果：62% 的女性，也就是 329 位，被發現有 clinically reportable 的 F8 variant。38%，也就是 202 位，沒有發現 variant。\n\n62% 這個數字非常高，代表在有家族史或低 FVIII 的女性中，超過六成確實帶有致病的基因變異。這強調了基因檢測在女性 hemophilia 評估中的重要性。"
+    },
+    "29": {
+      "hint": "FVIII Activity in Genotype-Positive Females F8 : F8 gene that encodes FVIII; FVI",
+      "note": "現在我們來看 genotype-positive 女性的 FVIII activity。在 231 位有 FVIII 數據的女性中，133 位有 F8 variant，與整體 62% 的比例一致。\n\n大家看左邊的長條圖。Genotype-positive 女性的平均 FVIII 是 50.4%，顯著低於 genotype-negative 女性的 66.4%，p 值是 0.004。\n\n右邊的圓餅圖更重要。在 133 位 genotype-positive 女性中，44.4%，也就是 59 位，FVIII 低於 40%，達到 Hemophilia A 的定義標準。其中還有 2 位是 severe HA，FVIII 小於 1%。但另外 55.6%，也就是 74 位，FVIII 是大於等於 40% 的，看起來是「正常」的。\n\n這就是為什麼我們不能只靠 FVIII level 來判斷女性是否有 hemophilia。"
+    },
+    "30": {
+      "hint": "American Society of Hematology | FVIII Levels and Bleeding in Genotype-Positive ",
+      "note": "這張投影片是關鍵的結論投影片。49.3% 的 genotype-positive 女性回報了 excessive bleeding。\n\n大家看左邊的長條圖，有出血的女性平均 FVIII 是 44.6%，沒有出血的是 59.3%，差異有統計學意義，p 值 0.02。但請注意，有出血的女性中，平均 FVIII 仍然在 40% 以上。\n\n右邊的圓餅圖更令人震驚：在有出血的 genotype-positive 女性中，52%，也就是 38 位，FVIII 是大於等於 40% 的！也就是說，超過一半有出血症狀的帶因者女性，她們的 FVIII 數值看起來是「正常」的。\n\n所以結論很清楚：FVIII level 是 variant status 和 bleeding risk 的不良預測因子。我們不能僅靠 FVIII level 來排除女性的 hemophilia，基因檢測在這裡至關重要。"
+    },
+    "31": {
+      "hint": "American Society of Hematology | First-line steroids, IVIG, anti-D Second-line T",
+      "note": "好，現在讓我們轉到今天的最後一個大主題：ITP 治療的最新進展。\n\n大家看這張投影片，左邊呈現了 ITP 治療的循環。First-line 治療包括 steroids、IVIG 和 anti-D。Second-line 包括 TPO-RA、rituximab、fostamatinib、splenectomy 和 MMF 等。還有正在發展的 emerging therapies，包括 FcRn inhibitors、BTK inhibitors、SYK inhibitors、complement inhibitors、Anti-CD38 和 BAFF inhibitors 等。\n\n右邊則列出了臨床選擇時需要考慮的因素：藥物的可用性和成本、持久反應率，以及安全性和生活品質。最終的趨勢是走向 combination therapy。\n\n接下來我會重點介紹幾個在 ASH 2025 發表的重要臨床試驗。"
+    },
+    "32": {
+      "hint": "American Society of Hematology | ITP STUDY Drug Indication Result VAYHIT2 Hanny",
+      "note": "大家看這張總表，列出了 ASH 2025 中幾個重要的 ITP 研究。\n\n第一個是 VAYHIT2，Hanny Al-Samkari 等人的研究，使用 ianalumab，這是一個 BAFF-R with eltrombopag 的組合，用於 prednisolone 失敗的患者，Phase 3 研究，結果顯示 time to treatment failure 延長到 13 個月對比 4 個月。\n\n第二個是 VAYHIT3，Phillip Choi 等人的 Phase 2 研究，ianalumab 用於兩線治療失敗的患者，response rate 44%。第三個是 Linperlisib，PI3K-AKT inhibitor，Phase 2 研究，50% response。第四個是 ESLIM-OL，sovleplenib，BTK inhibitor 的 Phase 3 extension study，61.5% response。\n\n最後是 PROLONG trial，Waleed Ghanima 等人的研究，用 dexamethasone 加 rituximab 的組合，response 從 38% 提升到 61%。讓我們深入看幾個重要的試驗。"
+    },
+    "33": {
+      "hint": "American Society of Hematology | Primary results from VAYHIT2, a randomized, dou",
+      "note": "首先是 VAYHIT2 試驗。這是一個 randomized、double-blind 的 Phase 3 研究，比較 ianalumab plus eltrombopag 和 placebo plus eltrombopag 在 first-line corticosteroid 失敗的 primary ITP 患者中的療效。\n\n這個研究非常重要，論文已經發表在 New England Journal of Medicine 上。大家可以看到右邊有 NEJM 的文章截圖。第一作者是 Hanny Al-Samkari，這是 ASH 2025 的 late-breaking abstract 第 LBA-2 號。"
+    },
+    "34": {
+      "hint": "American Society of Hematology |  ITP is a rare autoimmune disease, most common",
+      "note": "先讓我們了解一下背景。ITP 是一種罕見的自體免疫疾病，最常表現為黏膜皮膚出血和疲勞。\n\nSecond-line therapies 常常有停藥後 loss of response 的問題。之前嘗試縮短 TPO-RA 治療時間的努力也效果有限。\n\n重點來了。BAFF signaling pathway 對 B-cell 的活化、成熟、增殖和存活至關重要，而且這些過程在 primary ITP 的病理生理機制中扮演關鍵角色。\n\nIanalumab 是一個 fully human monoclonal antibody，它有一個獨特的 dual mechanism of action：一方面透過 ADCC 直接清除 B cells，另一方面透過阻斷 BAFF-R 來抑制 B cell 的活化和存活。大家看右邊的機轉圖，可以清楚看到這個雙重作用機制，包括 enhanced B-cell depletion 和 reduced B-cell activity。"
+    },
+    "35": {
+      "hint": "American Society of Hematology | VAYHIT2 Study Design Once treatment failure occ",
+      "note": "VAYHIT2 的研究設計很巧妙。大家看這個時間軸圖。\n\n納入的是成人 primary ITP 患者，之前只用過 corticosteroids 加或不加 IVIG，但反應不足或復發，platelet count 小於 30 x 10^9/L，而且沒有使用過其他 second-line therapy。\n\n患者以 1:1:1 隨機分成三組：ianalumab 3 mg/kg、ianalumab 9 mg/kg，或 placebo，每月靜脈注射一次共 4 次，三組都同時加上 eltrombopag。治療期 16 週之後，進入 8 週的 eltrombopag tapering 期，然後是長期追蹤。\n\n當 treatment failure 發生時，進入安全性評估。沒有 treatment failure 的患者則持續接受 efficacy 和 safety assessments。Data cut-off 是 2025 年 6 月 20 日。"
+    },
+    "36": {
+      "hint": "American Society of Hematology | Primary Endpoint: Time to Treatment Failure Kap",
+      "note": "主要結果出來了，大家看這張 Kaplan-Meier 曲線。\n\n結果非常令人印象深刻。Ianalumab 9 mg/kg 加 eltrombopag 組的 time to treatment failure 顯著長於 placebo 加 eltrombopag 組，HR 0.55，95% CI 0.32-0.92，p 值 0.021。Ianalumab 3 mg/kg 組也達到了統計學意義，HR 0.58，p 值 0.023。\n\n具體來說，ianalumab 9 mg/kg 組的中位 TTF 是 13.0 個月，ianalumab 3 mg/kg 組的中位數尚未達到，而 placebo 組只有 4.7 個月。\n\n這個差距是非常顯著的。13 個月對比 4.7 個月，ianalumab 讓治療失敗的時間延長了將近三倍。這代表大多數患者在 ianalumab 治療後，即使停掉 eltrombopag，仍然能維持 response。"
+    },
+    "37": {
+      "hint": "American Society of Hematology | Safety: On- and Post-treatment AESIs AESI, adve",
+      "note": "在安全性方面，大家看這張表格，列出了 on-treatment 和 post-treatment 的 adverse events of special interest。\n\n感染方面，三組的發生率相似，大約 48% 到 56%，但 grade 3 以上的嚴重感染很少，各組只有 1 到 2%。Neutropenia 在 ianalumab 9 mg/kg 組稍高，為 16%，但大多是 grade 1-2。值得注意的是，只有一位患者因為 neutropenia 需要治療，後來被診斷為 Evans' syndrome。\n\nInfusion-related reactions 都是 grade 1-2，沒有嚴重的。Hypogammaglobulinemia 只有一例，發生在 9 mg/kg 組的 post-treatment period，是在開始其他免疫抑制治療之後才出現的。\n\n整體來看，安全性 profile 是可以接受的。"
+    },
+    "38": {
+      "hint": "American Society of Hematology | The PROLONG TRIAL. A two-phase randomized place",
+      "note": "接下來我要介紹 PROLONG trial。這是 Waleed Ghanima 等人的研究，ASH 2025 abstract 第 7613 號。\n\n這是一個 two-phase、randomized、placebo-controlled 的試驗，目的是探討在 ITP 患者中，用 dexamethasone 來優化 rituximab 的反應，以及用低劑量 rituximab 做維持治療。\n\n研究團隊包括來自多個國家的專家，是一個真正的國際性研究。讓我們來看看具體的研究設計。"
+    },
+    "39": {
+      "hint": "American Society of Hematology | STUDY DESIGN PROLONG: multi-center, internation",
+      "note": "PROLONG 是一個多中心、國際性、兩階段的 double-randomized 研究。\n\n大家看這個設計圖。Phase 1 是 induction phase，open-label，1:1 隨機分為兩組：一組只用 rituximab 1000 mg 在 day 1 和 day 15；另一組是 rituximab 加上 2 個 cycle 的 dexamethasone，也就是 20 mg 每天連續 4 天，在 day 1 和 day 15 給予。在 week 24 評估 response。\n\n Phase 2 是 maintenance phase，double-blind 設計。在 induction phase 有 response 的患者，再 1:1 隨機分為 rituximab 500 mg 或 placebo，在 week 0 和 week 24 給予，追蹤到 week 52。主要 endpoint 是 loss of response。\n\n這個設計同時回答了兩個問題：dexamethasone 能否提升 rituximab 的初始反應，以及低劑量 rituximab 維持治療能否延長反應持續時間。"
+    },
+    "40": {
+      "hint": "American Society of Hematology | ITT: Intention to treat p=0.01 Percent 100 90 8",
+      "note": "Induction phase 的結果出來了。大家看左邊的長條圖。\n\n在 ITT population，也就是 63/64 位患者中，加了 dexamethasone 的組別在 week 24 的 response rate 是 61.3%，而沒有加 dexamethasone 的組別是 38.5%，p 值 0.01，差異非常顯著。\n\n右邊的 box plot 呈現了 induction phase 期間中位 platelet counts 的變化。可以看到兩組在治療後 platelet count 都上升了，但加了 dexamethasone 的組別，platelet count 明顯更高。\n\nResponse 的定義是 week 24 前後兩週的平均 platelet count 大於 50 x 10^9/L，且不使用任何其他 ITP 治療。所以 dexamethasone 的加入確實顯著提高了 rituximab 的療效。"
+    },
+    "41": {
+      "hint": "American Society of Hematology | 23% 3.4% Time to loss of response Efficacy: Mai",
+      "note": "Maintenance phase 的結果也很有趣。大家看這張 Kaplan-Meier 曲線，呈現的是 time to loss of response。\n\n在 rituximab 維持治療組，loss of response 的比例是 3.4%，而 placebo 組是 23%。雖然看起來差異很大，但 log-rank p 值是 0.15，沒有達到統計學顯著性。\n\n不過要注意，這個研究的 sample size 相對較小，可能 power 不足以檢測到差異。Loss of response 的定義是連續兩次 platelet count 小於 50 x 10^9/L，間隔 1-8 週，或者使用了任何 ITP 治療。\n\n雖然 p 值未達顯著，但 3.4% 對比 23% 的數字差異仍然值得關注，提示低劑量 rituximab 維持治療可能有臨床意義。"
+    },
+    "42": {
+      "hint": "American Society of Hematology | Subcutaneous, every-four-week maintenance dosin",
+      "note": "最後一個我要介紹的新療法是針對 von Willebrand disease 的。這是 Allison P. Wheeler 等人的研究，ASH 2025 abstract 第 7717 號。\n\n這是一個 rebalancing therapy 的概念，使用 VGA039 這個新藥。研究的副標題很好地總結了結果：皮下注射、每四週一次的維持劑量，耐受性良好，並且大幅降低了出血率。\n\n這是一個 Phase 1/2 的多劑量研究，稱為 VIVID 3，用於各類型 von Willebrand disease 的患者。讓我們來看具體的機轉和結果。"
+    },
+    "43": {
+      "hint": "American Society of Hematology | VGA039 is a fully human, IgG4 monoclonal antibo",
+      "note": "VGA039 是一個 fully human、IgG4 的 monoclonal antibody，它調節 Protein S 的活性。Protein S 是 TFPIa 和 aPC 的 cofactor，而 VGA039 透過影響 Protein S 來增強 thrombin generation。\n\n大家看這個 VIVID 3 的研究設計圖。Screening 最多 6 週，然後進入 17 週的 treatment period，有兩個 cohort：MD-1 用固定劑量 225 mg，MD-2 用體重分級劑量。先給一個 loading dose，然後每 4 週皮下注射一次維持劑量共 16 週。之後可以進入 open-label extension 或 follow-up。\n\n納入條件是 12 到 60 歲、有症狀的任何類型 VWD 患者。排除條件包括 baseline FVIII activity 大於等於正常下限、有血栓病史，以及使用含雌激素荷爾蒙治療。Endpoints 包括安全性、PK/PD profile 和對出血的臨床效果。"
+    },
+    "44": {
+      "hint": "American Society of Hematology | Phase 3-eligible (hABR > 12) Participant Annual",
+      "note": "結果非常令人振奮。大家看這張投影片的標題：median bleed reduction 81%，範圍 41% 到 100%。在 hABR 大於等於 12 的、符合 Phase 3 資格的患者中，reduction 更是達到 73% 到 87%。\n\n左邊的圖表是沒有接受過 IV prophylaxis 的患者。每位患者的 ABR 都大幅下降。例如 participant 2 從 180.9 降到 60.4，降幅 81%；participant 8 從 321.2 降到 14.9，降幅也是 81%。有些患者甚至達到 100% 的 bleed reduction。\n\n右邊是從先前 IV prophylaxis 轉換過來的患者，同樣看到顯著的 ABR 下降，包括一位從 56.8 降到 14.1，75% reduction，另一位從 7 降到 0，100% reduction。\n\n這些數據非常有前景。一個皮下注射、每月一次的治療方案，就能將出血率降低八成以上，對 VWD 患者來說是一個巨大的突破。"
+    },
+    "45": {
+      "hint": "American Society of Hematology | Conclusions • Bench-to-bedside medicine is cruc",
+      "note": "最後讓我們做一個總結。今天我們討論了四個重點。\n\n第一，bench-to-bedside medicine 對於推進出血管理至關重要。從基礎研究到臨床應用，每一步都不可或缺。\n\n第二，我們還需要發現更多的 bleeding factors。正如我們在 BDUC 中看到的，有很多患者的出血原因仍然不明，expanded platelet testing 可能提供一些線索，但我們離完全理解還有很長的路。\n\n第三，combination therapy 可以同時增強療效和安全性。VAYHIT2 的 ianalumab 加 eltrombopag、PROLONG 的 rituximab 加 dexamethasone，都展示了這個趨勢。\n\n第四，目前的重點是在 balancing the haemostatic system，VGA039 就是一個很好的例子，透過 rebalancing 的方式來治療 VWD。\n\n謝謝大家的聆聽，希望今天的內容對各位有所幫助。"
+    }
+  }
+}

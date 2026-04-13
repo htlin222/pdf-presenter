@@ -1,0 +1,430 @@
+{
+  "meta": {
+    "pdf": "turning-the-tide-key-cases-and-conundrums-in-thrombosis-medicine.pdf",
+    "totalSlides": 105,
+    "generatedAt": "2026-04-12T19:14:46.477Z",
+    "generator": "pdf-presenter"
+  },
+  "notes": {
+    "1": {
+      "hint": "American Society of Hematology | Turning the Tide: Key Cases and Conundrums in T",
+      "note": "各位好，歡迎來到今天的 Highlights of ASH 專題演講。今天的主題是 \"Turning the Tide: Key Cases and Conundrums in Thrombosis Medicine\"，也就是透過臨床案例來探討血栓醫學中的關鍵難題。\n今天非常榮幸有三位講者一起參與討論。第一位是來自 Singapore General Hospital 的 Lai Heng Lee 醫師，第二位是來自泰國 Chulalongkorn University 的 Ponlapat Rojnuckarin 教授，第三位是來自加拿大 McMaster University 的 Jeffrey Weitz 教授。\n我們將透過幾個臨床案例，帶大家一起思考在 cancer-associated thrombosis 這個領域中，最新的 ASH 2025 研究成果如何應用到臨床實務。"
+    },
+    "2": {
+      "hint": "American Society of Hematology | Disclosures In compliance with ACCME policy, AS",
+      "note": "按照 ACCME 的規範，在此揭露講者的利益關係。Lai Heng Lee 醫師沒有需要揭露的利益衝突。Ponlapat Rojnuckarin 教授有 Daiichi Sankyo 的顧問費用及多家藥廠的演講酬勞。Jeffrey Weitz 教授則有多家藥廠的顧問及演講費用。本次演講不涉及 off-label drug use 的討論。"
+    },
+    "3": {
+      "hint": "American Society of Hematology | American Society of Hematology | Learning Objec",
+      "note": "在開始之前，讓我們先看一下今天的學習目標。\n第一，我們要能辨識並解釋 cancer-associated VTE 的主要風險因子與病理生理機轉，包括腫瘤相關、治療相關以及病人本身的因素。\n第二，我們要學習如何運用現有的診斷策略和風險評估工具，來準確辨識癌症病人的 VTE，並決定適當的影像檢查。\n第三，也是最重要的，我們要能夠根據實證證據來選擇並說明預防和治療計畫，包括抗凝血劑的選擇、劑量、療程，以及出血風險的管理，並且要結合指引建議和個別病人的因素來做臨床決策。"
+    },
+    "4": {
+      "hint": "American Society of Hematology | American Society of Hematology | Mr TYC - 76 ye",
+      "note": "好，讓我們從第一個案例開始。這位是 Mr. TYC，76 歲的華人男性，過去有高血壓、肥胖和右膝退化性關節炎的病史。\n他的腫瘤病史相當複雜。2019 年診斷為 atypical chronic lymphocytic leukaemia 合併 splenic marginal zone lymphoma，接受了六個療程的 Rituximab/Bendamustine，治療後脾腫大有明顯改善。\n到了 2022 年，又診斷出 stage 2a 的 rectosigmoid adenocarcinoma，接受了手術切除和輔助性化療。\n大家看右邊的影像，2024 年 4 月，他的淋巴增生性疾病出現進展，LDH 升高、淋巴結腫大、脾臟腫大，PET scan 也顯示淋巴結和脾臟的 FDG avidity 增加。不過當時疾病負擔不高，所以採取 watch and wait 的策略。"
+    },
+    "5": {
+      "hint": "American Society of Hematology | American Society of Hematology | Mr TYC - July",
+      "note": "時間來到 2025 年 7 月。Mr. TYC 因為之前大腸手術造成的腸沾黏，發生了小腸阻塞。他接受了 adhesiolysis 手術，術後使用皮下注射 enoxaparin 做 VTE 預防。\n不幸的是，住院期間他併發了院內感染的肺炎和 sepsis。腎功能也從基線的 eGFR 73 惡化到 43。\nCTAP 檢查還發現骨盆腔有腫瘤結節，侵犯直腸壁和膀胱周圍，骨盆和直腸旁區域也有新的淋巴結腫大。\n最後他順利出院，但還需要安排骨盆腫瘤和淋巴結的切片檢查。"
+    },
+    "6": {
+      "hint": "American Society of Hematology | American Society of Hematology | Mr TYC -￿ Augu",
+      "note": "出院才兩個星期，2025 年 8 月，Mr. TYC 又回來了。這次是因為右下肢腫脹疼痛四天，一路延伸到大腿近端。沒有呼吸困難、胸痛或咳血的症狀。\n大家看右邊的解剖圖和左下方的影像。Venous doppler 超音波顯示右側 common iliac vein 有急性血栓形成。而且影像上可以看到，右側 iliac vein 被周圍的 adenopathy，也就是腫大的淋巴結所壓迫。\n所以這位病人的 DVT 成因是多重的：既有癌症本身的高凝狀態，又有腫瘤壓迫靜脈的機械性因素。"
+    },
+    "7": {
+      "hint": "American Society of Hematology | American Society of Hematology | Discussion & L",
+      "note": "好，針對 Mr. TYC 的案例，我們有四個學習重點要從 ASH 2025 的最新研究來討論。第一個就是目前加粗標示的：這位病人 DVT 的風險因子有哪些？接下來我們還會討論急性近端下肢 DVT 的抗凝血劑選擇、手術前暫停抗凝血治療的問題，以及抗凝血相關出血的處理。"
+    },
+    "8": {
+      "hint": "American Society of Hematology | American Society of Hematology | VTE and heme m",
+      "note": "這張投影片來自 ASH 2025 的 Education Session，主題是探討血液惡性腫瘤中使用抗凝血劑的實證資料。\n大家看右上方的圖，它顯示了不同血液惡性腫瘤的 VTE 發生率。Acute lymphoblastic leukemia 是 13-34%，acute myeloid leukemia 是 11-18%，CLL 是 1.4-7.9%，multiple myeloma 高達 10-26%。\n下方列出了腫瘤相關的促凝因子，包括異常的 tissue factor 表現和釋放會活化凝血級聯反應、發炎性 cytokines 會增加凝血蛋白如 FVIII 和 vWF 的產生、內皮損傷、DIC、血小板活化黏附和聚集、纖溶抑制，以及血漿黏度增加。\n回到我們的病人 Mr. TYC，他同時有 CLL/splenic marginal zone lymphoma 和 rectosigmoid adenocarcinoma，所以他的 VTE 風險是來自多重腫瘤的影響。"
+    },
+    "9": {
+      "hint": "American Society of Hematology | American Society of Hematology | Hematology 202",
+      "note": "除了腫瘤本身的因素，病人相關的風險因子也很重要。大家看這張投影片，右上方是經典的 Virchow's triad：stasis（血流淤滯）、endothelial injury（內皮損傷）和 hypercoagulability（高凝狀態）。\n紅色箭頭標示的就是 Mr. TYC 具備的風險因子：年齡大、男性、不活動、共病症包括高血壓和腎功能不全、肥胖，以及全身性感染和發炎（他之前剛住院治療肺炎和 sepsis）。\n最下面特別標出 Mr. TYC 還有兩個額外的重要因素：其他癌症的存在，以及骨盆腫瘤壓迫右側 iliac vein。所以他的 DVT 風險因子可以說是多重疊加的。"
+    },
+    "10": {
+      "hint": "American Society of Hematology | American Society of Hematology | Hematology 202",
+      "note": "這張投影片整理了目前用於血液惡性腫瘤的 VTE 風險評估工具。大家看這張表格。\nKhorana Score 是 2008 年發展的，主要用於實體腫瘤和淋巴瘤。但它的問題是對淋巴瘤的預測效果不佳，也不是針對白血病設計的，而且缺乏 biomarker 和遺傳學指標。\nVienna V-CATS Score 加入了 D-dimer 和 soluble P-selectin，但主要只有在轉移性癌症的 proof-of-concept 數據。\nTHROLY Score 是 2016 年專門為淋巴瘤設計的，包含先前血栓、BMI、縱膈腔侵犯等因子，但外部驗證的準確度有限。\nLymphoma VTE Nomogram 則需要 D-dimer、血小板計數和化療次數等參數。\n整體來說，目前還沒有一個完美的風險評估工具適用於所有血液惡性腫瘤，這是這個領域未被滿足的需求。"
+    },
+    "11": {
+      "hint": "American Society of Hematology | American Society of Hematology | Discussion & L",
+      "note": "好，我們已經討論了 Mr. TYC 的 DVT 風險因子。現在要進入第二個學習重點：急性近端下肢 DVT 的抗凝血劑選擇。"
+    },
+    "12": {
+      "hint": "American Society of Hematology | American Society of Hematology | Anticoagulant",
+      "note": "談到抗凝血劑的選擇，目前的趨勢是什麼呢？\nFXa inhibitors，也就是 apixaban 和 rivaroxaban，已經根據 CARAVAGGIO 和 SELECT-D 研究的結果，取代 LMWH 成為 cancer-associated thrombosis 治療的標準用藥。ASH 也建議使用口服 factor Xa inhibitor，而非 LMWH 來做初始治療。\n但這邊有一些重要的細節要注意。Rivaroxaban 在 SELECT-D 研究中，major bleeding 的比率和 LMWH 相似，但 clinically relevant non-major bleeding 較高，特別是在上消化道癌症的病人。\nApixaban 在 CARAVAGGIO 研究的 post hoc 分析中，和 LMWH 相比在消化道癌症的出血率沒有差異。但 Houghton 等人的前瞻性觀察研究發現，在 luminal GI cancers 中，apixaban 的 major bleeding 其實比 enoxaparin 高。\n不過在 GI cancers 中，apixaban 的 clinically relevant non-major bleeding 比 rivaroxaban 低。\n所以結論是：對於未切除的上消化道腔內腫瘤合併 VTE 的病人，LMWH 仍然有其角色。"
+    },
+    "13": {
+      "hint": "American Society of Hematology | Comparative safety and effectiveness of direct",
+      "note": "接下來介紹一個來自 ASH 2025 的重要研究：VICTORIE 研究。這是一個比較 DOACs 和 LMWH 在合併 VTE 的癌症病人中安全性和有效性的真實世界研究。\n作者群包括 Ellen Brodin、Annie Young、Florian Langer 等人，涵蓋了歐洲多國的資料。研究的目的就是利用來自 Norway、Sweden、Finland、UK 和 Germany 的 registry 真實世界數據，來比較 DOACs 和 LMWH。"
+    },
+    "14": {
+      "hint": "American Society of Hematology | • This was a multi-country, real-world retrospe",
+      "note": "大家看這張研究設計圖。這是一個多國、真實世界的回顧性世代研究，採用各國個別分析加上 meta-analysis 的方式。\nIndex date 定義為第一次開立 DOAC、LMWH 或 VKA 的日期，必須在 2013 年 1 月到 2019 年 12 月之間，而且在 index VTE 事件後 30 天內。\n病人需要在 VTE 診斷前 6 個月內到 index date 有 active cancer 的診斷。追蹤期間則是從 index date 開始，到 6 個月後、死亡、研究 outcome、停藥/換藥、移民、IVC filter 置入、懷孕或研究結束，取最早發生者。"
+    },
+    "15": {
+      "hint": "American Society of Hematology | • Adults with incident VTE identified using dia",
+      "note": "收案標準方面，左邊是納入條件：成人新發 VTE，使用 ICD-10 診斷碼辨識；在 VTE 診斷前 6 個月到 index date 有 active cancer；在 VTE 後 30 天內社區藥局領取抗凝血劑，LMWH 至少使用 14 天以上。\n右邊是排除條件，用螢光色標示出來的：之前有 VTE 的既往史、先前有使用抗凝血劑、心房顫動、機械瓣膜、二尖瓣狹窄、IVC filter、懷孕、同時使用超過一種抗凝血劑，以及追蹤不到一天的病人。"
+    },
+    "16": {
+      "hint": "American Society of Hematology | Overall bleeding and bleeding by site (ICH, GI,",
+      "note": "大家看這張表格，它整理了研究的暴露因子和結局指標。\n暴露因子包括 LMWH、VKAs 和 DOACs，包含 apixaban、rivaroxaban、edoxaban 和 dabigatran。DOAC 的使用天數用處方包裝數量和劑量來估算，LMWH 則假設每天一支注射器。\n安全性結局是整體出血和各部位出血，包括 ICH、GI bleeding 和其他部位出血，以住院診斷碼來辨識。\n有效性結局則是 VTE 復發，定義為出院 7 天後的住院 VTE 診斷。"
+    },
+    "17": {
+      "hint": "American Society of Hematology | On-treatment and Confounding Control Potential",
+      "note": "這張投影片說明了研究如何處理 on-treatment 分析和潛在的干擾因子。\n在 on-treatment 部分，病人在以下情況會被 censored：index date 後 6 個月、死亡、研究結局、停藥或換藥、移民、IVC filter 置入、懷孕或研究結束。\n在潛在干擾因子的控制方面，他們使用了 propensity score 搭配 IPTW，也就是 inverse probability of treatment weighting，在每個國家的資料集中分別比較 DOAC 組和 LMWH 組。\n校正的 covariates 包括 VTE 類型（DVT 或 PE）、年分、共病症、先前出血史、合併用藥和照護場所。"
+    },
+    "18": {
+      "hint": "American Society of Hematology | Patient Attrition After IPTW – • 30,002 and 2,8",
+      "note": "大家看右邊這個 patient flow 圖。從最初的 562,819 位 VTE 病人，篩選出有 cancer 的 130,758 位，再篩選出在 30 天內使用抗凝血劑的 70,190 位，然後排除不符合條件的病人，最後納入分析的是 46,170 位。\n其中 LMWH 組有 34,687 位、apixaban 3,045 位、rivaroxaban 4,537 位、VKA 3,176 位，以及少數使用 dabigatran 和 edoxaban 的病人。\n經過 IPTW 加權後，LMWH 對 apixaban 的比較是 30,002 對 2,892 位病人，LMWH 對 rivaroxaban 是 29,976 對 4,321 位病人。"
+    },
+    "19": {
+      "hint": "American Society of Hematology | Baseline Demographics, VTE Type, Prior Bleeds,",
+      "note": "經過 IPTW 加權後，各組的基線特徵已經取得良好的平衡。大家看右邊的表格。\n平均年齡在各組都是 67-68 歲。女性佔約 52-53%。VTE 類型方面，DVT 佔 43-51%，PE（合併或不合併 DVT）佔 49-57%。診斷場所以住院為主，約 54-64%。\n先前出血史在各組大約是 12.5-16.7%。Charlson Comorbidity Index 的平均分數在各組都是大約 5 分，代表這些病人的共病負擔相當高。"
+    },
+    "20": {
+      "hint": "American Society of Hematology | Baseline Comorbidities and Cancer Type • Around",
+      "note": "看共病症和癌症類型的分布。大約三分之二的病人有高血壓，這在各組之間很一致。\n癌症類型方面，大約三分之一的病人有 GI cancer，包括食道、胃、小腸、大腸、直腸、肛門等。轉移性實體腫瘤佔了約 54-57%。血液惡性腫瘤約 8-9%。\n其他重要的共病症包括 COPD/asthma 約 19-24%、腎臟疾病約 15-24%、貧血約 21-25%、肥胖約 13-17%。這些都是影響抗凝血劑選擇和出血風險的重要因素。"
+    },
+    "21": {
+      "hint": "American Society of Hematology | Bleeding Incidence Rates and Hazard Ratios Abbr",
+      "note": "現在來看最關鍵的結果。大家看這張 forest plot。\n上半部是 apixaban 對 LMWH 的比較。Overall bleeding 的 hazard ratio 是 0.67，信賴區間 0.53-0.86，顯著降低。GI bleeding 和 ICH 的風險則與 LMWH 相似。其他部位出血的 HR 是 0.64，也顯著降低。\n下半部是 rivaroxaban 對 LMWH。Overall bleeding 的 HR 是 0.98，沒有顯著差異。GI bleeding 也相似。但特別值得注意的是，rivaroxaban 的 ICH 風險顯著低於 LMWH，HR 只有 0.32。\n底下的三個重點：recurrent VTE 的比較因為 power 不足無法做。Apixaban 整體出血風險較低。Rivaroxaban 整體出血類似但 ICH 風險較低。"
+    },
+    "22": {
+      "hint": "American Society of Hematology | Conclusions Apixaban was associated with a lowe",
+      "note": "總結 VICTORIE 研究的結論。Recurrent VTE 的分析 power 不足。\nApixaban 與較低的整體出血風險相關，GI 和 ICH 的風險與 LMWH 相似。\nRivaroxaban 的整體出血、GI 出血和其他出血風險與 LMWH 相似，但 ICH 風險較低。\n最重要的是，這些發現提供了在證據仍然有限的領域中寶貴的真實世界 insights，支持 DOACs 作為 LMWH 在癌症合併 VTE 病人中的安全替代選項。"
+    },
+    "23": {
+      "hint": "American Society of Hematology | American Society of Hematology | Mr TYC - Augus",
+      "note": "回到我們的案例。Mr. TYC 在 2025 年 8 月被開始使用皮下注射 enoxaparin 80 mg 一天兩次來治療他的新 DVT，體重是 81 公斤。\n使用 enoxaparin 期間，他出現了直腸少量鮮紅色出血，但血紅素沒有明顯下降。大腸直腸外科評估後認為是外痔引起的，開始使用 daflon 治療。\n他繼續使用 enoxaparin，並安排擇期做肛周腫塊的 IR-guided biopsy。這邊要注意兩個重要的問題：他需要做骨盆腫瘤的切片檢查，而且前次住院時腎功能就已經惡化了。"
+    },
+    "24": {
+      "hint": "American Society of Hematology | American Society of Hematology | Discussion & L",
+      "note": "現在我們進入第三個學習重點：手術或侵入性處置前暫停抗凝血治療的問題。這對 Mr. TYC 來說特別重要，因為他需要做切片檢查。"
+    },
+    "25": {
+      "hint": "American Society of Hematology | American Society of Hematology | Anticoagulatio",
+      "note": "這張投影片來自 ASH 2025 的 Education Session，主題是在惡性腫瘤中同時出血和血栓的病人如何處理抗凝血。\n大家看這個流程圖。當病人有新診斷的急性 VTE 並且需要緊急手術時，如果可以的話，應該延遲手術至少 4-6 週，讓病人先接受治療劑量的抗凝血。\n如果無法延遲手術，那就要最小化停止抗凝血的圍手術期窗口，考慮使用 unfractionated heparin 或 LMWH 來縮短停藥期，術後儘早以預防劑量重新開始抗凝血，並考慮暫時放置 IVC filter。\n左邊紅框特別強調：如果 VTE 診斷不到 4-6 週就停藥，VTE 復發的年風險超過 20%。這對我們的病人來說是很重要的考量。"
+    },
+    "26": {
+      "hint": "American Society of Hematology | American Society of Hematology | Mr TYC - Septe",
+      "note": "2025 年 9 月，切片在兩週後完成了。切片之後，病人重新開始使用較低劑量的 enoxaparin 40 mg 一天兩次。\n但隨後出現了新的問題：creatinine 從 90 上升到 160，原因是骨盆腫瘤壓迫了右側輸尿管造成阻塞。Enoxaparin 因此被暫停。\n之後放置了右側 PCN（percutaneous nephrostomy），腎功能改善回到基線值。\n切片結果顯示是 DLBCL，也就是 diffuse large B-cell lymphoma，於是開始了 R-CHOP 化療。"
+    },
+    "27": {
+      "hint": "American Society of Hematology | American Society of Hematology | • After PCN in",
+      "note": "PCN 置入後，病人重新開始使用低劑量 enoxaparin 40 mg 一天兩次。但接著出現了 gross haematuria，也就是肉眼可見的血尿，血紅素下降。\n大家看下方的表格，他的血球計數因為化療也在下降：haemoglobin 從 8.2 降到 5.5，WBC 從 3.19 降到 0.28，platelet 從 118 降到 37。\n因為血球計數下降，enoxaparin 再次被暫停。這就是我們在臨床上常見的困境：癌症病人同時面臨血栓和出血的風險，化療引起的骨髓抑制更加複雜化了抗凝血的管理。"
+    },
+    "28": {
+      "hint": "American Society of Hematology | American Society of Hematology | Discussion & L",
+      "note": "所以我們來到第四個學習重點：抗凝血相關出血的處理。這是癌症病人抗凝血治療中最具挑戰性的議題之一。"
+    },
+    "29": {
+      "hint": "American Society of Hematology | American Society of Hematology | Anticoagulants",
+      "note": "這張投影片展示了血小板低下時的抗凝血策略，分成三種情境：Primary VTE Prophylaxis、Secondary VTE Prophylaxis/Maintenance，以及 Acute VTE Treatment。\n在 primary VTE prophylaxis 方面：platelet 大於 50,000 可以使用 LMWH 或 DOAC；小於 50,000 則避免藥物性預防。高風險情況下可以考慮提高 DOAC 的血小板門檻到 80,000 以上。\n在 secondary prophylaxis：platelet 大於 50,000 繼續全劑量；25,000-50,000 則減量使用 LMWH；小於 25,000 暫停抗凝血直到恢復。\n在急性 VTE 治療：platelet 大於 50,000 可以使用全劑量 LMWH 或 DOAC；25,000-50,000 使用半劑量 LMWH，不用 DOAC/VKA；小於 25,000 考慮暫停或減量，並考慮血小板輸注。"
+    },
+    "30": {
+      "hint": "American Society of Hematology | American Society of Hematology | Anticoagulatio",
+      "note": "這張投影片更詳細地討論了血小板低下時的抗凝血管理。\n關於血小板輸注：當 platelet 低於 20,000-30,000 時輸注以支持抗凝血使用。目標值是 30,000-50,000，取決於血栓和出血風險的權衡。在高風險血栓如 PE、機械瓣膜的情況下，可以輸注到 40,000-50,000 以繼續抗凝血。\n關於暫停抗凝血：platelet 低於 25,000（grade 4 TP）或出血風險高時暫停。Grade 3（25,000-50,000）時考慮減量 LMWH 或暫時停藥。\n也可以考慮使用 TPO agonists 如 eltrombopag、romiplostim 來幫助延長性血小板低下的病人安全使用抗凝血。\n重啟抗凝血方面：platelet 恢復到 40,000-50,000 以上時恢復全劑量，中間可以用 intermediate-dose LMWH 做 bridging。"
+    },
+    "31": {
+      "hint": "American Society of Hematology | American Society of Hematology | Mr TYC - Octob",
+      "note": "好消息是到了 2025 年 10 月，Mr. TYC 的情況穩定下來了。PCN 移除後，enoxaparin 從 40 mg 每天一次開始，慢慢增加到 40 mg 一天兩次。血尿沒有復發，腎功能也恢復良好。\n之後抗凝血從 enoxaparin 轉換為口服的 apixaban 5 mg 一天兩次。在接受 R-CHOP 化療期間，密切監測血球計數，在嚴重血小板低下的日子暫停 apixaban。\n最後他順利完成了 6 個療程的 R-CHOP。這個案例很好地展示了如何在癌症治療和抗凝血治療之間取得平衡。"
+    },
+    "32": {
+      "hint": "American Society of Hematology | Dynamic Machine Learning-Based Prediction of Ma",
+      "note": "接下來我們要介紹一個非常有趣的研究，利用 machine learning 來動態預測接受抗凝血治療病人的 major bleeding 風險。\n這是一個來自以色列的多中心研究，由 Ron Likvornik、Lior Rokach、Tamar Tadmor 等人發表在 ASH 2025 年會。這個研究開發了一個叫做 ADAPT-BLEED 的預測工具。"
+    },
+    "33": {
+      "hint": "American Society of Hematology | 6 Israeli Academic Medical Centers Multi-Center",
+      "note": "大家看這個研究設計。它採用 90-Day Landmark Approach，先有 90 天的觀察期收集基線數據，然後在第 90 天這個 landmark 時間點之後進行 12 個月的預測。\n這個設計的好處是避免了 immortal time bias，提供標準化的觀察，並確保有足夠的基線數據。\n研究涵蓋了 6 個以色列學術醫學中心、12 年的數據（2012-2024），使用電子病歷資料。納入條件是年齡 18 歲以上、接受抗凝血治療、存活超過 90 天觀察期，且有足夠的基線數據。"
+    },
+    "34": {
+      "hint": "American Society of Hematology | Study Cohort Characteristics (N = 163,596) Demo",
+      "note": "研究世代總共 163,596 位病人。中位年齡 74 歲，女性 53.2%，男性 46.8%。\n抗凝血劑的分布：enoxaparin（LMWH）佔了最大宗 76.7%，DOACs 佔 19.9%，heparin 10.3%，warfarin 6.0%。18.1% 的病人同時使用抗凝血加上抗血小板藥物。\nMajor bleeding 的發生率：6 個月是 1.5%，12 個月是 2.5%，36 個月是 5.0%。\n研究使用的 EHR 數據涵蓋了 538 種慢性疾病（20 年期間）、557 種觀察期的條件、140 種實驗室檢查和 30 種追蹤的藥物。"
+    },
+    "35": {
+      "hint": "American Society of Hematology | ↓ Our Methodology: Iterative Clinical-ML Approa",
+      "note": "這是研究的方法學流程。分為五個步驟：第一步是從 EHR 提取數據，包括人口學、診斷、藥物、檢驗和處置。第二步是 feature engineering，產生 450 個以上的候選特徵和組合。第三步使用 XGBoost（gradient boosting）進行模型訓練。\n接下來第四步是 SHAP analysis 來評估特徵重要性和交互作用。第五步是臨床驗證，由專家確認模型預測的原因是否合理。如果需要就重新調整。最終產出 ADAPT-BLEED 模型，包含 19 個經過驗證的特徵。"
+    },
+    "36": {
+      "hint": "American Society of Hematology | 0.72 +18% improvement Cohort 163,596 Patients a",
+      "note": "來看結果。ADAPT-BLEED 的 C-statistic 達到 0.72，比傳統的 HAS-BLED 分數的 0.61 提升了 18%。分析的世代是 163,596 位病人中有 4,000 個出血事件。\n大家看下方的 point system 表格，ADAPT-BLEED 包含六大類特徵：Demographics（年齡、性別，0-3 分）、Medical History（中風、先前出血、癌症，0-5 分）、Chronic Conditions（高血壓、CKD、糖尿病、貧血，0-3 分）、Laboratory Values（hemoglobin、creatinine、INR，0-5 分）、Anticoagulant Medications（0-2 分）、Antiplatelet Medications（0-1 分）。\n這個系統的優勢是它能根據病人的個別特徵動態調整風險評估，而不是像傳統量表那樣固定分配分數。"
+    },
+    "37": {
+      "hint": "American Society of Hematology | Putting it into Practice: A Clinical Case Mr. L",
+      "note": "來看一個實際應用的案例。Mr. Levi，82 歲男性，使用 warfarin。\n左邊是基線評估：年齡 82 歲（3分）、男性（1分）、中風病史（5分）、糖尿病（1分）、warfarin（2分）、hemoglobin 12.8 正常（0分）、creatinine 1.2 正常（0分）、INR 2.3 正常（0分）。基線分數 4/10，屬於 moderate risk，年出血率 3.5%。\n三個月後再評估，右邊顯示：hemoglobin 降到 9.2（+5分）、creatinine 升到 1.9（+3分）、INR 升到 3.2（+3分）。分數跳到 7/10，變成 very high risk，年出血率 7.0%。\n這個案例展示了 ADAPT-BLEED 的動態特性，能夠在病人狀況變化時即時更新風險評估。"
+    },
+    "38": {
+      "hint": "American Society of Hematology | Calculator Highlights of ASH®",
+      "note": "研究團隊還開發了一個線上 calculator。大家可以看到這個介面，輸入病人的年齡、性別、使用的抗凝血劑，以及各種臨床參數如高血壓、糖尿病、癌症病史、酒精使用，還有檢驗值如 hemoglobin、INR 等，系統就會自動計算出血風險分數。這是一個非常實用的臨床決策支援工具。"
+    },
+    "39": {
+      "hint": "American Society of Hematology | Conclusions and Clinical Implications 3. A Clin",
+      "note": "ADAPT-BLEED 研究的結論有三個重點。\n第一，Dynamic, Context-Aware Scoring 優於 Static Models。傳統風險量表不管病人情境都給固定分數，ADAPT-BLEED 能從真實世界數據中學習特徵之間的交互作用，根據個別病人提供更精準的個人化風險評估。\n第二，他們找出了關鍵的風險驅動因子。模型是可解釋的，突出了中風病史等因素的關鍵重要性，並揭示了複雜的特徵交互作用。\n第三，這是一個臨床可行的工具。ADAPT-BLEED 提供了一個實用的、經過驗證的計分系統，可以整合到臨床工作流程中以改善病人安全。"
+    },
+    "40": {
+      "hint": "American Society of Hematology | Highlights of ASH® Thank You",
+      "note": "感謝大家的聆聽。這就是第一部分 Mr. TYC 案例的內容。接下來我們要進入第二個案例。"
+    },
+    "41": {
+      "hint": "American Society of Hematology | Mr. M: A 74-year-old man with high-grade glioma",
+      "note": "現在我們來看第二個案例。Mr. M 是一位 74 歲男性，2025 年 6 月因為持續三週的 dysarthria（構音困難）就醫。\n大家看右邊的 brain MRI 影像，在左側大腦半球發現一個腫瘤，伴有少量 intra-tumor bleeding。2025 年 7 月接受了 craniotomy。\n病理結果是 high-grade glioma，CNS WHO grade 4，沒有 IDH mutations。之後接受了放射治療合併 temozolomide。\n2025 年 9 月，住院期間發生了肺炎合併癲癇。\n這裡的關鍵問題是：住院期間是否應該給予 VTE prophylaxis？腦部腫瘤的病人同時有高血栓風險和高出血風險，這是一個很大的挑戰。"
+    },
+    "42": {
+      "hint": "American Society of Hematology | American Society of Hematology | Venous Thrombo",
+      "note": "腦部腫瘤的 VTE 風險比其他癌症高 2-3 倍。High-grade glioma 的 VTE 發生率最高，達到 16%。\n而且有些腦部腫瘤的 intracranial hemorrhage 基線風險就很高，包括 melanoma、renal cell carcinoma、thyroid cancer 和 choriocarcinoma 的腦轉移。\nHigh-grade glioma 使用抗凝血劑後 ICH 的風險也會增加。\n治療方面也會影響 VTE 和出血風險，包括 biopsy、手術和 bevacizumab。所以我們在決定是否給予抗凝血之前，必須非常謹慎地評估。"
+    },
+    "43": {
+      "hint": "American Society of Hematology | Highlights of ASH®",
+      "note": "接下來我們要介紹一個重要的研究，來自 Karlyn Martin 等人，關於開發和驗證住院癌症病人 VTE 的風險評估模型。這是一個由多位研究者合作完成的大型研究。"
+    },
+    "44": {
+      "hint": "American Society of Hematology | Highlights of ASH®",
+      "note": "這個研究的目的是開發和驗證一個專門用於住院癌症病人的 hospital-acquired VTE 風險評估模型（RAM）。\n所謂 hospital-acquired VTE，就是在住院期間發生和診斷的 VTE。這和社區發生的 VTE 有不同的風險因子組合，所以需要專門的預測工具。"
+    },
+    "45": {
+      "hint": "American Society of Hematology | Highlights of ASH®",
+      "note": "研究方法是分析美國 6 個醫院系統、14 家醫院從 2016 到 2022 年的電子病歷數據，也就是 MITH dataset。\n納入條件是內科住院病人，包括一般內科、血液腫瘤科和內科 ICU；年齡 18 歲以上；入院時有 active cancer。排除外科住院和入院時或 24 小時內就有 VTE 的病人。"
+    },
+    "46": {
+      "hint": "American Society of Hematology | Highlights of ASH® Zakai NA et al. J Thromb Hae",
+      "note": "研究採用了三種建模策略。第一種是直接使用現有的一般內科住院病人 MITH RAM，在 validation cohort 測試。這個模型包含 7 個變數：VTE 病史、creatinine 大於 2 或洗腎、貧血、high RDW、low sodium、營養不良，以及入院 24 小時內的抗凝血程度。\n參考文獻是 Zakai 等人 2024 年發表在 J Thromb Haemost 的研究。"
+    },
+    "47": {
+      "hint": "American Society of Hematology | Highlights of ASH®",
+      "note": "第二種建模策略是在 MITH 模型的基礎上加入 cancer type 變數重新擬合。他們在 development cohort 重新擬合，然後在 validation cohort 測試。\n癌症類型包括了乳癌、CNS 腫瘤、泌尿生殖系統腫瘤、婦科腫瘤、上消化道和下消化道腫瘤、其他 GI 腫瘤（不含胰臟）、頭頸癌、血液惡性腫瘤（不含 aggressive lymphoma）、肺癌、aggressive lymphoma 和其他。"
+    },
+    "48": {
+      "hint": "American Society of Hematology | Highlights of ASH®",
+      "note": "大家看這張世代特徵表。Development cohort 有 65,626 次住院，validation cohort 有 58,124 次。病人平均年齡約 65 歲，女性約 46-48%。\n癌症類型的分布：最多的是 hematologic malignancy（不含 aggressive lymphoma）約 19-25%，其次是肺癌 17-22%、乳癌 10-12%、genitourinary 13-15%。\n約 45-46% 的病人在入院 24 小時內沒有接受任何抗凝血，35-41% 接受預防劑量，16-19% 接受治療劑量。"
+    },
+    "49": {
+      "hint": "American Society of Hematology | Highlights of ASH®",
+      "note": "來看 Model 3 也就是 de novo RAM 的變數。大家看這張表格。\nPrior VTE 的 odds ratio 最高，是 2.95，是最強的預測因子。年齡 75 歲以上反而是保護因子，OR 0.57。營養不良的 OR 是 1.52。Hematologic malignancy（不含 aggressive lymphoma）OR 1.42。Lung cancer OR 1.39。Inflammatory co-morbidity OR 1.52。\n有趣的是，入院時就已經使用全劑量抗凝血的病人 OR 是 1.57，這可能反映了這些病人本身就有較高的血栓風險。COPD 則是保護因子，OR 0.71。"
+    },
+    "50": {
+      "hint": "American Society of Hematology | Highlights of ASH®",
+      "note": "看三個模型的表現比較。Model 1 是原始 MITH RAM，在 validation cohort 的 AUC 只有 0.58，校準也不好。\nModel 2 加入了 cancer type，development AUC 0.66，validation AUC 0.60，有所改善。\nModel 3 是 de novo RAM，development AUC 0.68，validation AUC 0.64，表現最好，而且 calibration slope 0.84、intercept -0.07，校準也較好。\n雖然 AUC 還不算非常高，但這個 cancer-specific RAM 確實比一般的非癌症模型表現要好。"
+    },
+    "51": {
+      "hint": "American Society of Hematology | Highlights of ASH®",
+      "note": "這個研究的結論是：第一，cancer-specific 的 RAM 比非癌症特定的模型表現更好。第二，cancer-specific model 中的預測因子和一般內科住院病人的 RAM 不同。第三，搭配經過驗證的出血風險評估工具，下一步是要實際導入這個 HA-VTE RAM 並評估 VTE 的結局。\n這對臨床實務的意義是，我們不能簡單地把一般住院病人的風險評估工具套用在癌症病人身上，需要使用專門針對癌症設計的工具。"
+    },
+    "52": {
+      "hint": "American Society of Hematology | American Society of Hematology | Bleeding is mo",
+      "note": "這張投影片提出了一個重要的觀點：在真實世界中，癌症病人的出血比臨床試驗中更常見。\n上方是臨床試驗的 placebo arm：研究設計排除了高出血風險的病人，6 個月時 major bleeding 約 1%，CRNMB 約 3%。但這些數字因為嚴格的排除標準，可能低估了真實風險。\n下方是真實世界的前瞻性觀察研究：納入了所有病人包括高出血風險者，6 個月 major bleeding 約 5%，CRNMB 約 6%，而且 major bleeding 的 case-fatality rate 高達 10%。\n所以在給予 VTE prophylaxis 時，我們需要更精準的風險預測，而不是一概而論。"
+    },
+    "53": {
+      "hint": "American Society of Hematology | Mr. M: A 74-year-old man with high-grade glioma",
+      "note": "回到 Mr. M 的案例。他的 high-grade glioma 接受了放射治療和 temozolomide，最後一次是 2025 年 11 月。\n2025 年 12 月出現了 aphasia 和右側 hemiparesis grade IV。MRI 顯示 brain edema 和舊的 intratumor hemorrhage。目前使用 dexamethasone 和 levetiracetam 控制癲癇。\n他因為虛弱和 dysphasia 導致的憂鬱，幾乎不走路了。2025 年 12 月 17 日右腿水腫，Doppler 超音波發現右側 peroneal vein thrombosis，也就是 isolated distal DVT。\n關鍵問題：是否應該給予抗凝血劑？用哪種？劑量和療程如何決定？"
+    },
+    "54": {
+      "hint": "American Society of Hematology | American Society of Hematology | Venous Thrombo",
+      "note": "在回答這些問題之前，我們先了解腦部腫瘤的 VTE 病理生理機轉。\n大家看左邊的示意圖。High-grade glioma 會 overexpress Podoplanin（PDPN），PDPN 陽性的 microvesicles 會釋放到血液中，活化血小板，促進 fibrin 形成和血栓。\n而有 IDH1 mutations 或 CDKN2A 改變的腫瘤，PDPN 和 tissue factor 的表現反而會降低。\n另外，約 20% 的 glioma 可以在血中找到 circulating tumor cells。我們的病人沒有 IDH mutation，所以他是 VTE 高風險族群。"
+    },
+    "55": {
+      "hint": "American Society of Hematology | Isolated distal DVT in cancer is NOT benign. Hi",
+      "note": "這裡有一個很重要的觀念：isolated distal DVT 在癌症病人中並不是良性的。\n左邊的表格比較了使用 serial proximal US 和 single complete US 的結果，顯示 distal DVT 的 3 個月 VTE 復發率和 proximal DVT 相近。\n右邊是 American College of Chest Physicians（ACCP）的建議：在高風險 distal DVT 的病人應該給予抗凝血，包括 active cancer、positive D-dimer、extensive thrombosis、接近近端靜脈、沒有可逆誘因、VTE 病史、以及住院病人。Mr. M 符合其中多項條件。"
+    },
+    "56": {
+      "hint": "American Society of Hematology | American Society of Hematology | Isolated dista",
+      "note": "再看 RIETE Registry 的數據，超過 90% 接受了抗凝血治療。大家看這張表格。\n癌症合併 distal DVT 的 3 個月 VTE 復發率是 3.6%，和 proximal DVT 的 4.0% 非常接近。3 個月 major bleeding 是 2.7%。更重要的是，3 個月死亡率高達 17.4%，1 年死亡率 30.7%。\n相比之下，非癌症的 distal DVT 3 個月 VTE 復發率只有 1.1%，死亡率只有 1.22%。\n所以在癌症病人中，即使是 distal DVT 也有很高的風險，應該積極治療。"
+    },
+    "57": {
+      "hint": "American Society of Hematology | American Society of Hematology | VTE in Brain c",
+      "note": "這張投影片是針對腦癌合併 ICH 病人發生 VTE 的處理流程，來自 Leader 等人 2024 年在 Blood 發表的文章。\n大家看左邊的流程圖。如果 30 天內有 tumor-related ICH，首先評估 VTE 的部位：PE 或 proximal DVT 要考慮放 IVC filter；如果是 isolated distal DVT 或 subsegmental PE 則先暫停抗凝血，做 serial lower extremity doppler 追蹤。\n右邊整理了臨床決策的考量：血栓風險要看 distal 還是 proximal DVT、subsegmental 還是 segmental PE。出血風險要看是否有近期 ICH、ICH 體積是否大於 10 ml。\n選擇方面：出血風險高則暫停抗凝血加追蹤；血栓風險高則全劑量抗凝血；兩者都高則先低劑量抗凝血再逐步增加，或放暫時性 IVC filter。"
+    },
+    "58": {
+      "hint": "American Society of Hematology | American Society of Hematology | Bleeding Risk",
+      "note": "這張投影片比較了腦癌使用抗凝血劑的出血風險。\n在 primary brain cancer 中，使用抗凝血劑相比不使用的出血風險增加了 3.7 倍。但 DOAC 相比 LMWH 的風險反而只有 0.35 倍，也就是 DOAC 可能更安全。\n在 metastatic brain cancer 中，使用抗凝血劑的出血風險增加不顯著，只有 1.07 倍（NS）。DOAC 和 LMWH 的比較也是 1.05 倍（NS）。\n所以對 Mr. M 這樣的 primary brain cancer 病人，DOAC 似乎是比 LMWH 更好的選擇。底部建議使用 apixaban 5 mg BID 至少 3 個月。"
+    },
+    "59": {
+      "hint": "American Society of Hematology | Mr. M: A 74-year-old man with high-grade glioma",
+      "note": "回到 Mr. M。他接受了 therapeutic dose apixaban 治療 DVT，症狀改善了。\n但到了 2026 年 3 月，疾病繼續進展，開始使用 bevacizumab IV 每兩週一次。\n現在的問題是：在使用 bevacizumab 的同時，是否應該繼續抗凝血？用哪種藥物、劑量和療程？"
+    },
+    "60": {
+      "hint": "American Society of Hematology | American Society of Hematology | Bevacizumab (A",
+      "note": "Bevacizumab 是 anti-VEGF 的單株抗體，一個包含 22 個 RCTs、20,050 位病人的 meta-analysis 顯示：\nArterial thrombosis 的風險增加了 1.37 倍。Venous thrombosis 增加了 1.29 倍。但最驚人的是 major bleeding 增加了 2.74 倍。\n機轉方面，bevacizumab 造成 endothelial injury 和 dysfunction，在癌症的背景下加上 endothelial defects 促進靜脈血栓，同時 impaired wound healing 和 tumor necrosis 導致出血。\n所以 bevacizumab 同時增加了血栓和出血的風險，這使得抗凝血治療的決策更加困難。"
+    },
+    "61": {
+      "hint": "American Society of Hematology | RCT: Extended low-dose vs. Full-dose Apixaban i",
+      "note": "現在來看一個 landmark 研究：API-CAT trial，發表在 NEJM 2025 年。這是一個隨機對照試驗，比較延長低劑量和全劑量 apixaban 在 cancer VTE 的效果。\n大家看左邊的 panel A，recurrent VTE 的 cumulative incidence：reduced-dose 組 2.1%，full-dose 組 2.8%，adjusted subhazard ratio 0.76，P=0.001 達到了 non-inferiority。\n右邊 panel B，clinically relevant bleeding：reduced-dose 組 12.1%，full-dose 組 15.6%，adjusted subhazard ratio 0.75，P=0.03 達到了 superiority。\n這個研究證明了在完成 6 個月全劑量治療後，reduced-dose apixaban 2.5 mg BID 不僅在預防 VTE 復發方面不劣於全劑量，而且出血更少。"
+    },
+    "62": {
+      "hint": "American Society of Hematology | American Society of Hematology | Extended Reduc",
+      "note": "一個 meta-analysis 整合了 3 個 RCTs、共 2,361 位病人的數據，比較延長 reduced-dose 和 full-dose DOAC 在 cancer VTE 的表現。\n包括了 apixaban 2.5 mg BID（2 個試驗）和 rivaroxaban 10 mg 每天一次（1 個試驗）。\n結果顯示：VTE recurrence 加 major bleeding 的 composite，risk ratio 0.77。Major 加 CRNMB 的 risk ratio 0.76。而 VTE recurrence、major bleeding 和 mortality 沒有差異。\n所以在這個案例中，因為腫瘤仍然 active 且沒有 clinically relevant bleeding，給予 reduced-dose apixaban 是合理的選擇。"
+    },
+    "63": {
+      "hint": "American Society of Hematology | American Society of Hematology | Venous Thrombo",
+      "note": "來總結一下第二個案例中關於腦部腫瘤 VTE 的重要學習重點。\n腦部腫瘤同時有高血栓和高出血風險。需要 cancer-type specific 的風險評估模型。High-grade glioma 抗凝血後 ICH 風險增加。必須在個別病人的情況下平衡 VTE 和出血風險。\nDOAC 是首選的治療性抗凝血劑。Bevacizumab 同時增加血栓和出血風險。延長 reduced-dose DOAC 是有效且安全的。"
+    },
+    "64": {
+      "hint": "American Society of Hematology | Emphasis on low- and-middle-income countries, p",
+      "note": "在進入第三個案例之前，簡單介紹一下 Blood Global Hematology 這個期刊。它特別關注中低收入國家、醫學文獻中代表性不足的族群，以及資源有限的地區。開放取用、免投稿費、根據地理位置調整出版費用，是 Blood Journals portfolio 的一部分。"
+    },
+    "65": {
+      "hint": "American Society of Hematology | Thank you very much Highlights of ASH®",
+      "note": "感謝大家。第二部分到這裡結束，現在讓我們進入第三個案例。"
+    },
+    "66": {
+      "hint": "Mr MT PE, pulmonary embolism 71-year-old male with metastatic, castration-sensit",
+      "note": "第三個案例是 Mr. MT，71 歲男性，診斷為 metastatic castration-sensitive prostate cancer，目前使用 androgen-deprivation therapy（ADT）加上 apalutamide。\n他沒有其他共病。但看右邊的數據：體重 65 公斤、hemoglobin 110 g/L、platelets 135,000、creatinine 157 微摩爾/升、creatinine clearance 只有 35 mL/min。\n最重要的是，他被新診斷出 multiple segmental PE，也就是多處肺節段性肺栓塞。\n這個案例的挑戰在於：腎功能不好、使用 apalutamide（可能有藥物交互作用），該如何選擇抗凝血劑？"
+    },
+    "67": {
+      "hint": "Mr MT What type of anticoagulation would you recommend? 1. Apixaban 10 mg PO BID",
+      "note": "現在問大家，對於 Mr. MT，你會建議使用哪種抗凝血劑？選項包括：\n1. Apixaban 10 mg PO BID 十天然後 5 mg PO BID\n2. LMWH 五天然後 dabigatran 150 mg PO BID\n3. LMWH 五天然後 edoxaban 30 mg PO daily\n4. Rivaroxaban 15 mg PO BID 二十一天然後 20 mg PO daily\n5. Dalteparin 200 IU/kg SC daily 一個月然後 175 U/kg daily\n6. Enoxaparin 1 mg/kg SC BID 或 1.5 mg/kg daily\n7. Tinzaparin 175 IU/kg SC daily\n大家可以思考一下，考慮他的腎功能和藥物交互作用。"
+    },
+    "68": {
+      "hint": "ASH 2021 Guidelines Recommendation 20 • For patients with cancer and VTE, the AS",
+      "note": "讓我們先來看 ASH 2021 年的指引。\nRecommendation 20 指出：對於癌症合併 VTE 的病人，ASH 建議使用 DOAC（apixaban 或 rivaroxaban）或 LMWH 做初始治療。這是 conditional recommendation，證據確定性很低。\nRecommendation 23 則建議：短期治療（3-6 個月），active cancer 的病人建議使用 DOAC（apixaban、edoxaban 或 rivaroxaban）優先於 LMWH。\n但有一個重要的 fine print：GI cancer 的病人使用 DOACs 要特別小心，因為 GI bleeding 的風險較高。治療選擇必須考慮藥物交互作用、出血風險、病人偏好和費用。"
+    },
+    "69": {
+      "hint": "Choosing DOAC or LMWH High Risk of Bleeding? Hx bleeding, high risk GI lesion, p",
+      "note": "這張流程圖幫助我們決定使用 DOAC 還是 LMWH。\n第一步問：病人是否有高出血風險？包括出血病史、高風險 GI 病灶、血小板低於 50,000、腎/肝功能不全、使用抗血小板藥物。如果有，選 LMWH preferred。\n如果沒有高出血風險，第二步問：腫瘤類型？如果是未切除的 intraluminal GI 或 GU cancer，也選 LMWH preferred。\n如果也不是，第三步問：是否有和 DOACs 的強 drug-drug interaction？Strong CYP3A4 inhibitor 或 strong P-gp？如果有，選 LMWH。\n以上都沒有的話，DOAC preferred。Mr. MT 的情況比較複雜，因為他的 creatinine clearance 只有 35，而且正在用 apalutamide。"
+    },
+    "70": {
+      "hint": "Clinically relevant drug interactions Apixaban/rivaroxaban All DOACs",
+      "note": "大家看這張藥物交互作用的圖。\n左邊是 apixaban 和 rivaroxaban：strong CYP3A4 inhibitors（如 clarithromycin、ketoconazole）會增加藥物濃度；strong CYP3A4 inducers（如 phenytoin、rifampicin）會降低藥物濃度。\n右邊是所有 DOACs 都相關的：strong P-gp inhibitors（如 ketoconazole、ritonavir）會增加濃度；strong P-gp inducers（如 carbamazepine、rifampin）會降低濃度。\n對於 Mr. MT 來說，他使用的 apalutamide 是一個 strong CYP3A4 inducer 和 P-gp inducer，這會顯著降低 DOAC 的血中濃度。"
+    },
+    "71": {
+      "hint": "DDI between DOACs and ARATs Leblanc K et al. Cancers. 2024 Sep 29;16(19):3336 AR",
+      "note": "這張表格來自 Leblanc 等人 2024 年的研究，詳細列出了各種 DOAC 和 androgen receptor-axis-targeted（ARAT）藥物之間的交互作用。\n大家特別注意 apalutamide 那一欄（紅框標示）。Apixaban 配 apalutamide：Major/Catastrophic 等級，應該避免使用。Rivaroxaban 配 apalutamide 也是一樣，應該避免。Dabigatran 配 apalutamide 也是 Major/Catastrophic。Edoxaban 配 apalutamide 也要避免。\n所以 Mr. MT 在使用 apalutamide 期間，所有 DOACs 都不適合，應該選擇 LMWH。這就是為什麼了解 drug-drug interaction 在 cancer-associated thrombosis 中如此重要。"
+    },
+    "72": {
+      "hint": "American Society of Hematology | Mr MT What if Mr. MT presented with massive PE",
+      "note": "那如果 Mr. MT 是以 massive PE 或 extensive left leg DVT 表現呢？我們會建議做 thrombectomy 嗎？\n這要看 ASH 2025 年 Djulbegovic 等人的 Abstract 332 的數據。讓我們來看看。"
+    },
+    "73": {
+      "hint": "American Society of Hematology | Mechanical￿Thrombectomy Long-term￿Risk￿for￿Venous￿Thromboembolism￿Recurrence Ben",
+      "note": "這是來自 Medical University of South Carolina（MUSC）Hollings Cancer Center 的研究，由 Benjamin Djulbegovic 等人進行。題目是 Mechanical Thrombectomy 後的長期 VTE 復發風險。"
+    },
+    "74": {
+      "hint": "American Society of Hematology | Objectives • To assess the VTE recurrence after",
+      "note": "研究目的是評估 thrombectomy 後的 VTE 復發率，使用 MUSC 從 2023 年 7 月到 2024 年 12 月完成的所有連續性 thrombectomy 手術資料。"
+    },
+    "75": {
+      "hint": "American Society of Hematology | VTE recurrence after thrombectomy Raw data 21/73",
+      "note": "結果令人震驚。總共 73 個案例中，21 個（29%）發生了 VTE 復發。其中 18/21（86%）在 90 天內復發，17/21（81%）是 same site VTE。\n更嚴重的是，13/21（62%）有 1 次復發，8/21（38%）有多次復發，其中有人復發 4 次甚至 6 次。\n右邊的 Kaplan-Meier 曲線顯示，VTE 復發率（考慮 censoring 和 drop-out）大約是 45%，遠高於 categorical analysis 的 29%。\n這些數據顯示 mechanical thrombectomy 後的 VTE 復發風險非常高。"
+    },
+    "76": {
+      "hint": "American Society of Hematology | (Am Heart J 2025;281:92–102.) Highlights of ASH®",
+      "note": "目前正在進行的 DEFIANCE study 是第一個比較 mechanical thrombectomy 和單純抗凝血治療 iliofemoral DVT 的 RCT。研究設計是 1:1 隨機分配到 anticoagulation alone 或 mechanical thrombectomy 加 anticoagulation，然後追蹤到 180 天。\n這個試驗的結果將幫助我們更好地理解 thrombectomy 在 DVT 治療中的角色。在有 RCT 結果之前，考慮到很高的復發率，對於癌症病人我們還是以抗凝血為主要治療。"
+    },
+    "77": {
+      "hint": "American Society of Hematology | Mr MT BID, twice daily; DOAC, direct oral anticoagulant; LMWH, low molecular wei",
+      "note": "回到 Mr. MT 的案例。因為他正在使用 apalutamide，DOAC 有嚴重的 drug-drug interaction，所以選擇了 therapeutic dosing 的 LMWH，使用 tinzaparin 12,000 IU SC daily。\n三個月後，癌症進展了，apalutamide 被停用。和病人討論後，決定從 LMWH 轉換為 DOAC，選用 apixaban 5 mg PO BID。\n右邊的數據顯示：此時體重 61 公斤、hemoglobin 104、platelets 109,000、creatinine 170、creatinine clearance 30 mL/min。他已經完成了 6 個月的抗凝血治療。\n現在的問題是：接下來該怎麼辦？"
+    },
+    "78": {
+      "hint": "Mr MT What would you recommend? 1. Stop anticoagulation therapy 2. Continue apix",
+      "note": "大家看選項：\n1. 停止抗凝血\n2. 繼續 apixaban 5 mg PO BID\n3. 降為 apixaban 2.5 mg PO BID\n4. 轉為 rivaroxaban 10 mg PO QD\n5. Enoxaparin 40 mg SC daily\n6. Dalteparin 5000 IU SC daily\n考慮到他仍然有 active cancer（metastatic prostate cancer），VTE 復發的風險持續存在。大家覺得應該選哪個？"
+    },
+    "79": {
+      "hint": "American Society of Hematology | Duration of anticoagulation following CAT Sanfilippo KM et al. Br J Haematol. 20",
+      "note": "這張流程圖來自 Sanfilippo 等人的文章，討論 cancer-associated thrombosis 後抗凝血的療程。\n一般來說，先給 3-6 個月的抗凝血治療。之後要考慮是否延長超過 6 個月。\n左邊列出支持繼續用藥的因素：active cancer、轉移性或進展的疾病、正在接受全身性治療、高風險腫瘤類型（胰臟、胃、肺）、先前 VTE、symptomatic PE、殘餘靜脈血栓、使用抗凝血中復發 VTE。\n右邊列出支持停藥的因素：癌症完全緩解、沒有正在進行的治療、沒有遠處轉移、低風險腫瘤（乳癌、攝護腺癌）、高出血風險、生命威脅的出血事件、嚴重血小板低下、end of life。\nMr. MT 的 metastatic prostate cancer 仍然活躍，所以應該繼續抗凝血。"
+    },
+    "80": {
+      "hint": "American Society of Hematology | Therapeutic dosing of LMWH Major bleeding events Recurrent VTE Francis CW et al,",
+      "note": "在決定延長抗凝血的劑量之前，先看看 LMWH 的數據。\n左邊是 DALTECAN Study：第一個月 major bleeding 3.6%，2-6 個月降到 1.1%，7-12 個月 0.7%。VTE 復發也是第一個月最高 5.7%，之後下降。\n右邊是 TiCAT Study：major bleeding 的趨勢類似，第一個月 0.8% 然後下降。VTE 復發也是隨時間遞減。\n這些數據告訴我們，出血和復發風險在治療初期最高，6 個月後風險降低，為降低劑量提供了依據。"
+    },
+    "81": {
+      "hint": "American Society of Hematology | Therapeutic vs. prophylactic dosing of apixaban EVE Trial, N=360 Major + CRNMB:",
+      "note": "EVE Trial 比較了 apixaban 2.5 mg BID 和 5 mg BID 在 360 位癌症 VTE 病人中的效果。\n右邊有三條 Kaplan-Meier 曲線。Major + CRNMB：2.5 mg 組 8.9%，5 mg 組 12.2%，HR 0.72，P=0.39，沒有顯著差異。\nMajor bleeding：2.5 mg 組 2.8%，5 mg 組 2.2%，HR 1.26，P=0.73。\nRecurrent VTE + ATE：兩組都是 5.0%，HR 1.0。\n這個試驗顯示 reduced-dose 和 full-dose apixaban 的出血和復發率相似，但樣本量較小。"
+    },
+    "82": {
+      "hint": "American Society of Hematology | To determine, in a hierarchical test procedure, whether a reduced dose of apixab",
+      "note": "接下來看 API-CAT Study 的設計。這是一個前瞻性、隨機、雙盲研究。\n研究目的是用 hierarchical testing 來確定 apixaban 2.5 mg BID 是否在預防 VTE 復發方面 non-inferior 於 apixaban 5 mg BID，以及在 clinically relevant bleeding 方面是否 superior。\n納入的是 active cancer 的 VTE 病人，完成至少 6 個月抗凝血治療後隨機分組。按癌症部位和 index VTE 類型分層。治療期間 12 個月加上 30 天追蹤。"
+    },
+    "83": {
+      "hint": "American Society of Hematology | Apixaban reduced-dose (N=866) Apixaban full-dose (N=900) Subhazard Ratio (95% CI",
+      "note": "API-CAT 的主要療效結果：recurrent VTE 在 reduced-dose 組是 18 人（2.1%），full-dose 組是 24 人（2.8%）。Subhazard ratio 0.76，95% CI 0.41-1.41，P=0.001 for non-inferiority。\n大家看下方的曲線，兩組的累積發生率在 12 個月內非常接近。Reduced-dose 組的 VTE 復發率甚至數值上略低。所以 reduced-dose apixaban 在預防 VTE 復發方面確實 non-inferior。"
+    },
+    "84": {
+      "hint": "American Society of Hematology | Apixaban reduced-dose (N=866) Apixaban full-dose (N=900) Subhazard Ratio (95% CI",
+      "note": "關鍵的安全性結果：clinically relevant bleeding 在 reduced-dose 組是 102 人（12.1%），full-dose 組是 136 人（15.6%）。Subhazard ratio 0.75，95% CI 0.58-0.97，P=0.03 for superiority。\n大家看曲線，從第 3 個月開始兩組的差距就逐漸擴大。到 12 個月時，reduced-dose 組明顯更低。所以 reduced-dose apixaban 在出血方面確實 superior。"
+    },
+    "85": {
+      "hint": "American Society of Hematology | Apixaban reduced-dose (N=866) Apixaban full-dose (N=900) Hazard Ratio (95% CI) M",
+      "note": "看 major bleeding 的結果：reduced-dose 組 24 人（2.9%），full-dose 組 37 人（4.3%），HR 0.66，95% CI 0.40-1.10。雖然沒有達到統計顯著差異，但有明顯的趨勢是 reduced-dose 更安全。\n曲線也顯示兩組之間有分離的趨勢。綜合這些數據，對於完成 6 個月治療的 cancer VTE 病人，reduced-dose apixaban 2.5 mg BID 是一個很好的選擇。"
+    },
+    "86": {
+      "hint": "American Society of Hematology | Mr MT Choice of DOAC for extended anticoagulation Apixaban or rivaroxaban? Girar",
+      "note": "Mr. MT 的案例中，我們還需要考慮一個問題：如果要用 DOAC 做延長抗凝血，選 apixaban 還是 rivaroxaban？\n這就要看 Girard 等人在 ASH 2025 發表的 RENOVE trial 的 post-hoc analysis。"
+    },
+    "87": {
+      "hint": "American Society of Hematology | A PIXABAN OR R IVAROXABAN FOR E XTENDED A NTICOAGULATION IN P ATIENTS WITH V ENO",
+      "note": "這是 RENOVE trial 的 post-hoc analysis，在 67th ASH Annual Meeting 發表，由 Philippe Girard 等人報告。研究標題是比較 apixaban 和 rivaroxaban 在 VTE 病人延長抗凝血中的效果。\n值得注意的是 Girard 醫師已過世，這是以紀念他的方式發表的。"
+    },
+    "88": {
+      "hint": "American Society of Hematology | RENOVE study design - trial Design : academic, multicenter, randomized, open, bl",
+      "note": "RENOVE trial 的設計：這是一個學術性、多中心、隨機、open-label、blinded endpoint 的試驗，來自法國 47 個中心，共 2,774 位病人。\n納入的是 VTE 復發高風險病人，已經完成 6-24 個月的抗凝血治療，然後隨機分到 reduced-dose 或 full-dose DOAC。\nReduced-dose 是 apixaban 2.5 mg BID 或 rivaroxaban 10 mg OD。Full-dose 是 apixaban 5 mg BID 或 rivaroxaban 20 mg OD。\n主要目的是證明 reduced-dose 在預防 recurrent VTE 方面 non-inferior，次要目標是在 major bleeding 或 CRNMB 方面 superior。"
+    },
+    "89": {
+      "hint": "American Society of Hematology | Post-hoc analysis - trial Objectives Primary objective : to determine whether th",
+      "note": "這個 post-hoc analysis 的主要目的是比較在延長治療期間，rivaroxaban 和 apixaban 之間 clinically relevant bleeding 的風險是否有差異。\n次要目的包括比較兩藥之間的 recurrent VTE 風險、net clinical benefit 和 serious adverse events。\nOutcome 包括 clinically relevant bleeding（MB + CRNMB）、recurrent VTE、composite、以及 serious adverse events（作為 negative control outcome 來檢測 residual confounding）。"
+    },
+    "90": {
+      "hint": "American Society of Hematology | - trial Study population Rivaroxaban (N=1513) Apixaban (N=1255) Age - mean (SD),",
+      "note": "研究人群方面，rivaroxaban 組 1,513 位，apixaban 組 1,255 位。Rivaroxaban 組平均 61 歲，apixaban 組 64.5 歲，apixaban 組略年長。\n女性比例：rivaroxaban 32.1%，apixaban 38.7%。BMI 兩組相似約 28。\nApixaban 組有較多腎功能不全的病人：CrCl < 50 的比例是 8.8% vs 4.4%。Active cancer 方面 apixaban 組也稍多：4.1% vs 1.3%。\n約 85-87% 的 index event 是 symptomatic PE。這些基線差異反映了真實世界中醫師的用藥偏好。"
+    },
+    "91": {
+      "hint": "American Society of Hematology | - trial Patients with reduced or full dose DOAC Rivaroxaban Apixaban All RENOVE",
+      "note": "首先看整體的 clinically relevant bleeding 結果。在所有 RENOVE 病人中，不分劑量：rivaroxaban 132 人（11.7%），apixaban 118 人（13.7%）。HR 0.85，adjusted HR 0.90，信賴區間都跨過 1。\n也就是說，兩藥之間的 clinically relevant bleeding 風險沒有顯著差異。"
+    },
+    "92": {
+      "hint": "American Society of Hematology | - trial Patients with reduced or full dose DOAC Full dose Reduced dose Rivaroxab",
+      "note": "進一步按劑量分層來看。Full dose 組：rivaroxaban 14.0%，apixaban 16.5%，adjusted HR 0.99。Reduced dose 組：rivaroxaban 9.0%，apixaban 11.0%，adjusted HR 0.81。\nIPTW 分析也顯示類似結果：全組 HR 0.92，full dose HR 0.99，reduced dose HR 0.82。\n所以不管是全劑量還是低劑量，rivaroxaban 和 apixaban 之間的 clinically relevant bleeding 風險都相當。"
+    },
+    "93": {
+      "hint": "American Society of Hematology | - trial Patients with reduced or full dose DOAC Full dose Reduced dose Rivaroxab",
+      "note": "看 major bleeding 的數據。整體：rivaroxaban 2.5%，apixaban 3.9%，HR 0.72，adjusted HR 0.82。兩者都不顯著。\nFull dose：rivaroxaban 3.5%，apixaban 4.6%，adjusted HR 0.79。Reduced dose：rivaroxaban 1.6%，apixaban 3.0%，adjusted HR 0.87。\n雖然數值上 rivaroxaban 的 major bleeding 略低，但信賴區間都很寬，沒有統計學差異。"
+    },
+    "94": {
+      "hint": "American Society of Hematology | - trial Patients with reduced or full dose DOAC Full dose Reduced dose Rivaroxab",
+      "note": "最後看 recurrent VTE。整體：rivaroxaban 2.2%，apixaban 1.7%，HR 1.19，adjusted HR 1.15，沒有顯著差異。\nFull dose 組 HR 1.08，reduced dose 組 HR 1.20，都跨過 1。\n所以兩種 DOAC 在預防 VTE 復發方面效果相當。"
+    },
+    "95": {
+      "hint": "American Society of Hematology | - trial Conclusions • Rivaroxaban and apixaban showed comparable risks of clinic",
+      "note": "RENOVE post-hoc analysis 的結論：Rivaroxaban 和 apixaban 在 clinically relevant bleeding 和 recurrent VTE 的風險方面是相當的，無論是 crude、adjusted 還是 IPTW 分析。\n但有一個重要發現：negative control outcome 顯示 rivaroxaban 組的 serious adverse events 顯著較低，暗示有 residual confounding 可能與 treatment channeling 有關。\n總體而言，這些發現支持兩種 DOAC 在實務上是等效的，但非隨機的治療分配可能影響了某些觀察到的差異。"
+    },
+    "96": {
+      "hint": "American Society of Hematology | Mr MT He was maintained on apixaban 2.5 mg PO BID for secondary prevention Weigh",
+      "note": "回到 Mr. MT。他目前使用 apixaban 2.5 mg PO BID 做 secondary prevention。但現在又有新的問題了。\n因為最近發生了 NSTEMI，內科治療後開始使用 aspirin 81 mg daily。問題是：加上 aspirin 之後，是否會改變他的出血風險或 VTE 復發風險？\n右邊的數據顯示他的狀況進一步惡化：體重降到 58 公斤、hemoglobin 198（polycythemia？）、platelets 100,000、creatinine 180、creatinine clearance 只剩 28 mL/min。\n這引出了 Saad 等人在 ASH 2025 Abstract 741 的研究。"
+    },
+    "97": {
+      "hint": "American Society of Hematology | Impact of Concurrent Antiplatelet Use on the Safety and Efficacy of Thromboproph",
+      "note": "這個研究來自 University of Ottawa，由 Mysa Saad 主導，是 AVERT Trial 的 post-hoc analysis。\n研究標題是「Concurrent Antiplatelet Use 對 Cancer Patients 使用 Apixaban Thromboprophylaxis 安全性和有效性的影響」。\nAVERT Trial 原本是比較 apixaban 預防劑量和 placebo 在高風險癌症門診化療病人的 VTE 預防。"
+    },
+    "98": {
+      "hint": "American Society of Hematology | Study Population Apixaban n = 288 Placebo n = 275 Yes n = 99 (34.4%) No n = 189",
+      "note": "大家看研究人群的分布。Apixaban 組 288 位病人中，34.4%（99 位）同時使用具有抗血小板特性的藥物，包括 antiplatelet agents 55 位、NSAIDs 36 位、兩者都用 6 位。\nPlacebo 組 275 位中，30.9%（85 位）同時使用抗血小板藥物。\n所以大約有三分之一的癌症病人同時在使用具有抗血小板效果的藥物，這在臨床實務中非常常見。"
+    },
+    "99": {
+      "hint": "American Society of Hematology | Baseline Characteristics Apixaban arm: • Patients using concurrent drugs with an",
+      "note": "基線特徵方面，在 apixaban 組中，使用抗血小板藥物的病人體重較重（平均 84.0 vs 78.2 公斤），而且 multiple myeloma 病人中使用的比例較高。\n在 placebo 組中，使用抗血小板藥物的病人較年長（平均 64.0 vs 60.6 歲）。\n其他基線特徵在各組間相似。"
+    },
+    "100": {
+      "hint": "American Society of Hematology | Subgroup Outcomes – Apixaban Arm Concurrent use of antiplatelet agents was assoc",
+      "note": "重點結果來了。在 apixaban 組中，同時使用抗血小板藥物的影響：\nClinically relevant bleeding 顯著增加，HR 2.02，95% CI 1.29-3.18。CRNMB 也顯著增加，HR 2.63，95% CI 1.59-4.35。\n但 major bleeding 沒有顯著差異，HR 0.74，CI 很寬。VTE 的發生率也沒有差異，HR 0.73。\n所以同時使用抗血小板藥物主要是增加了 clinically relevant 的出血，特別是 CRNMB。這對 Mr. MT 來說是一個重要的警訊。"
+    },
+    "101": {
+      "hint": "American Society of Hematology | Conclusions • The combined use of drugs with antiplatelet properties and prophyl",
+      "note": "這個研究的結論很明確：同時使用具有抗血小板特性的藥物和預防劑量的 apixaban，會增加癌症病人的出血風險。\n臨床建議是：在開始 thromboprophylaxis 時，應該重新評估抗血小板藥物和 NSAID 的使用必要性。如果不是絕對需要，可以考慮停用。\n對 Mr. MT 來說，需要和心臟科討論 aspirin 的必要性，權衡心血管風險和出血風險。"
+    },
+    "102": {
+      "hint": "American Society of Hematology | Mr MT He was maintained on apixaban 2.5 mg PO BID for secondary prevention Weigh",
+      "note": "Mr. MT 的病情持續惡化。他繼續使用 apixaban 2.5 mg PO BID 做 secondary prevention。但現在他因為全身狀況惡化需要再次住院。\n和 Mr. MT 及家人討論後，決定轉到 palliative care hospital 進行末期照護。\n右邊的數據顯示：體重 58 公斤、hemoglobin 198 g/L、platelets 100,000、creatinine 180、creatinine clearance 28 mL/min。\n這就帶出了最後一個臨床問題。"
+    },
+    "103": {
+      "hint": "American Society of Hematology | Mr MT What would you recommend upon transfer to a palliative care hospital? 1. S",
+      "note": "轉到 palliative care hospital 時，你會建議什麼？\n1. 停止抗凝血\n2. 轉為預防劑量 LMWH（dalteparin 5000 IU daily、enoxaparin 40 mg daily、tinzaparin 4500 IU daily）\n3. 繼續預防劑量 DOAC（apixaban 2.5 mg BID、edoxaban 30 mg daily、rivaroxaban 10 mg daily）\n4. 轉為治療劑量 LMWH 或 DOAC\n這是一個需要在末期照護情境下，權衡治療負擔和潛在效益的困難決定。"
+    },
+    "104": {
+      "hint": "American Society of Hematology | Management of anticoagulation at end of life Noble S et al. BMJ Supportive & Pal",
+      "note": "Noble 等人 2019 年在 BMJ Supportive & Palliative Care 發表的研究提供了重要的數據。\n457 位 cancer-associated thrombosis 的病人中，214 位在兩年內死亡。大家看左邊的長條圖，顯示從死亡倒數不同時間點，有多少病人仍在使用抗凝血。大量病人一直使用到死亡前。\nCRNMB 整體發生率是 5.5%。但出血率隨著接近死亡而增加，11/12（92%）的出血事件發生在最後 7 天。\n重要的是，沒有 recurrent VTE 或 major bleeding 的證據。\n所以在接近生命末期時，持續使用抗凝血可能增加無謂的出血風險，而 VTE 復發的風險在這個階段已經不太重要了。應該和病人及家屬討論，考慮降低劑量或停止抗凝血。"
+    },
+    "105": {
+      "hint": "American Society of Hematology | Case summary • The choice between LMWH and a DOAC for the treatment of CAT depen",
+      "note": "最後來總結今天第三個案例的要點。\n第一，LMWH 和 DOAC 的選擇取決於腫瘤類型、出血風險和 drug-drug interactions。像 Mr. MT 最初因為 apalutamide 的交互作用必須使用 LMWH，停用 apalutamide 後才能轉為 DOAC。\n第二，大多數 cancer-associated thrombosis 的病人需要延長抗凝血治療，除非有明確的癌症緩解證據。\n第三，完成 6 個月全劑量治療後，如果沒有復發，DOAC 劑量通常可以減半。API-CAT 和 RENOVE 等研究都支持 reduced-dose 的安全性和有效性。\n感謝各位的聆聽，希望今天的三個案例和最新的 ASH 2025 研究數據，能幫助大家在臨床上更好地處理癌症相關血栓的各種挑戰。"
+    }
+  }
+}

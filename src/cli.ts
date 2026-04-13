@@ -1,9 +1,9 @@
-import { existsSync, readFileSync } from "node:fs";
-import { basename, relative } from "node:path";
+import { existsSync, readFileSync, statSync } from "node:fs";
+import { basename, relative, resolve } from "node:path";
 import { Command, Option } from "commander";
 import open from "open";
 import { generateNotesTemplate } from "./generate-notes.js";
-import { startServer } from "./server.js";
+import { startServer, startDirectoryServer } from "./server.js";
 import { findAvailablePort, notesPathFor, resolvePdfPath } from "./utils.js";
 import pkg from "../package.json" with { type: "json" };
 
@@ -28,7 +28,7 @@ export async function runCli(argv: string[]): Promise<void> {
       "Serve a PDF as browser slides with a full presenter mode (notes, next preview, timer).",
     )
     .version(VERSION, "-v, --version")
-    .argument("<file>", "Path to the PDF file")
+    .argument("<file>", "Path to a PDF file or a directory of PDFs")
     .addOption(new Option("-p, --port <port>", "Server port").default("3000"))
     .option("--no-open", "Don't auto-open browser")
     .option("--presenter", "Open directly in presenter mode", false)
@@ -42,6 +42,13 @@ export async function runCli(argv: string[]): Promise<void> {
     .option("--force", "Overwrite existing notes file when used with -gn", false)
     .action(async (file: string, options: ServeOptions) => {
       try {
+        // Check if the argument is a directory → directory listing mode
+        const abs = resolve(file);
+        if (existsSync(abs) && statSync(abs).isDirectory()) {
+          await runDirectoryServe(abs, options);
+          return;
+        }
+
         const pdfPath = resolvePdfPath(file);
 
         if (options.generatePresenterNoteTemplate) {
@@ -127,6 +134,56 @@ async function runServe(
   if (options.open) {
     const target = options.presenter ? presenterUrl : url;
     open(target).catch(() => {
+      /* ignore browser open failures */
+    });
+  }
+
+  const shutdown = async (signal: string): Promise<void> => {
+    process.stdout.write(`\nReceived ${signal}, shutting down...\n`);
+    try {
+      await server.stop();
+    } catch {
+      /* ignore */
+    }
+    process.exit(0);
+  };
+
+  process.on("SIGINT", () => void shutdown("SIGINT"));
+  process.on("SIGTERM", () => void shutdown("SIGTERM"));
+}
+
+async function runDirectoryServe(
+  dirPath: string,
+  options: ServeOptions,
+): Promise<void> {
+  const startPort = Number.parseInt(options.port, 10);
+  if (!Number.isFinite(startPort) || startPort <= 0) {
+    throw new Error(`Invalid --port value: ${options.port}`);
+  }
+
+  let timerMinutes: number | undefined;
+  if (options.timer !== undefined) {
+    const t = Number.parseFloat(options.timer);
+    if (!Number.isFinite(t) || t <= 0) {
+      throw new Error(`Invalid --timer value: ${options.timer}`);
+    }
+    timerMinutes = t;
+  }
+
+  const port = await findAvailablePort(startPort);
+  const server = await startDirectoryServer({ dirPath, port, timerMinutes });
+
+  const url = `http://localhost:${port}`;
+
+  process.stdout.write(
+    `\n🎯 pdf-presenter v${VERSION} (directory mode)\n\n` +
+      `   Listing: ${url}/list\n\n` +
+      `   Directory: ${basename(dirPath)}/\n` +
+      `\n   Press Ctrl+C to stop.\n\n`,
+  );
+
+  if (options.open) {
+    open(`${url}/list`).catch(() => {
       /* ignore browser open failures */
     });
   }

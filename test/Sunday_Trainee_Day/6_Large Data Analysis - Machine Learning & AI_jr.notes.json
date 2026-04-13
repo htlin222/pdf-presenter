@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "pdf": "6_Large Data Analysis - Machine Learning & AI_jr.pdf",
+    "totalSlides": 61,
+    "generatedAt": "2026-04-12T19:14:48.756Z",
+    "generator": "pdf-presenter"
+  },
+  "notes": {
+    "1": {
+      "hint": "American Society of Hematology | Large Data Analysis - Machine Learning & AI Joh",
+      "note": "大家好，歡迎來到今天的 ASH Clinical Research Trainee Day in Asia Pacific 課程。我是 John Reynolds，來自澳洲 Melbourne 的 Monash University。\n\n今天我要跟大家談的主題是 Large Data Analysis，特別是 Machine Learning 和 AI 在血液學研究中的應用。這個主題在現在的研究環境裡越來越重要，我希望能夠讓大家對這些工具有一個基本的認識，了解它們能做什麼、不能做什麼，以及我們在臨床研究中如何運用它們。"
+    },
+    "2": {
+      "hint": "American Society of Hematology | American Society of Hematology | Speaker Disclo",
+      "note": "首先按照 ASH 的規定，讓我先做一下 disclosure。我目前任職於 Alfred Health，也就是現在的 Bayside Health，同時也是 Monash University 的 Adjunct Associate Professor。之前我也在 Deakin University、Novartis 以及 Peter MacCallum Cancer Centre 工作過。\n\n我有收到 NHMRC、MRFF 跟 Victorian Cancer Agency 的 grant support，也有多家藥廠的 research support，包括 Abbvie、Amgen、BMS、Celgene 等等。詳細的資訊大家可以看投影片上的列表。"
+    },
+    "3": {
+      "hint": "American Society of Hematology | American Society of Hematology | Disclaimers an",
+      "note": "在正式開始之前，我要先坦白說，我並不是 machine learning 的專家，但我是一個使用者。對於 AI，我知道的更少，但我也算是一個附帶的使用者。\n\n今天演講中 machine learning 的部分，有些投影片是我的同事 A/Prof Shaun Fleming 慷慨提供的，他是 Melbourne Alfred Health 的 Myeloid Diseases Service 的負責人。而 AI 的部分，有些投影片則是來自 Dr Megan Othus，她是 Seattle Fred Hutch Cancer Center 的 Biostatistics Program 教授。在此特別感謝他們。\n\n另外提醒大家，今天表達的觀點是我個人的看法，不代表 ASH、Bayside Health 或 Monash University 的立場。"
+    },
+    "4": {
+      "hint": "American Society of Hematology | PART 1: LARGE DATA ANALYSIS – MACHINE LEARNING",
+      "note": "好，那我們就進入第一個部分：Large Data Analysis 跟 Machine Learning。"
+    },
+    "5": {
+      "hint": "American Society of Hematology | American Society of Hematology | Large Data Ana",
+      "note": "首先我們來定義一下什麼叫做 large data。在統計學裡，我們用 n 代表病人數目，p 代表變數的數目。\n\n如果 n 大於 p，不管 n 有多大，傳統的統計方法通常就夠用了，像是 regression、mixed models、principal components analysis 這些方法。\n\n但如果 n 小於 p，很多傳統統計方法就會 break down，因為當變數比病人還多的時候，可能找不到唯一的最佳模型。\n\n更極端的情況是 n 遠小於 p，比如說你有 100 個病人但有 20,000 個 gene expression measurements，這時候我們就需要其他的方法了。這就是 machine learning 派上用場的時候。"
+    },
+    "6": {
+      "hint": "American Society of Hematology | American Society of Hematology | Machine Learni",
+      "note": "Machine learning 基本上可以分成兩大類：supervised 跟 unsupervised。\n\n在 supervised ML 裡，我們人類會先定義一個想要的結果，也就是所謂的 labels，然後給它一組可能的 predictors，也就是 features，讓演算法去探索。ML 會把新的資料對應到預期的結果，做出預測，然後評估 goodness of fit。你可以把它想成是 diagnostic trees 跟 expert systems 的進化版。例子包括 pattern recognition、image recognition、疾病診斷、語音辨識、PFS 的預測等等。不過要注意的是，supervision 可能會引入 bias。\n\n另一方面，unsupervised ML 是在沒有預設結果的情況下，在資料中尋找 structure 或 clusters。它用的是 unlabelled data，靠的是像 cluster analysis 這樣的方法去找出資料中的 patterns 跟 relationships。像 image generation、speech synthesis、large language models 都屬於這類。\n\n當然，有些應用其實是兩者的混合。"
+    },
+    "7": {
+      "hint": "American Society of Hematology | American Society of Hematology | Machine Learni",
+      "note": "接下來我想談一下 Machine Learning 跟 Statistical Learning 的差異。\n\nML 主要強調的是 prediction，也就是建立一個系統，隨著資料的累積不斷更新預測。而 Statistical Learning 則更強調搜尋 associations、做 inferences、建立跟測試 predictive models，也做 dimension reduction。簡單來說，ML 著重在預測，SL 則同時重視理解跟預測。\n\n不過這兩個「文化」其實共用很多基本工具，包括 Logistic Regression、Classification and Regression Trees（也就是 CART）、Random Forests、Random Survival Forests、還有 Cluster Analysis。今天我會重點介紹紅色標示的 CART 跟 Random Forests，因為這些是我自己研究中最常用到的。"
+    },
+    "8": {
+      "hint": "American Society of Hematology | American Society of Hematology | Statistical Le",
+      "note": "在這邊我想推薦一本很好的參考書。大家看投影片左邊，這本是 Gareth James、Daniela Witten、Trevor Hastie 跟 Robert Tibshirani 寫的 An Introduction to Statistical Learning，由 Springer 出版，副標題是 with Applications in R。\n\n第二版在 2021 年出版，已經翻譯成好幾種語言，包括中文、義大利文、日文、韓文、蒙古文、俄文跟越南文。最棒的是，PDF 版本可以從作者的網站 statlearning.com 免費下載，而且網站上還有配套的線上課程。如果大家想深入學習 statistical learning，我非常推薦這本書。"
+    },
+    "9": {
+      "hint": "American Society of Hematology | American Society of Hematology | Classification",
+      "note": "好，我們來看 Classification and Regression Trees，簡稱 CART。\n\nCART 是一種 machine learning 或 statistical learning 的演算法，核心概念是 recursive partitioning，也就是遞迴分割。它會找出哪些 factors 最能把想要的 outcome 做二分法的分類。在每一步，演算法會選擇在該步驟影響最大的 factor 來分割，然後再用其他 factors 繼續往下細分。\n\n大家看右邊的圖，從 Whole Group 開始，先用 Factor 1 分成正負兩組，然後 Factor 1 positive 的那組再用 Factor 2 繼續分，以此類推，最後形成一棵 decision tree。這張圖是 Shaun Fleming 提供的。"
+    },
+    "10": {
+      "hint": "American Society of Hematology | American Society of Hematology | CART • Advanta",
+      "note": "CART 有幾個明顯的優點。第一，它可以偵測到 threshold effects，也就是臨界值效應。第二，它可以偵測到 nested effects 跟 complex interactions。第三，它可以處理 missing values，不會因為缺值就跑不動。第四，它可以 uncouple 部分 confounded 的 predictors。第五，即使是小樣本也可以使用。\n\n但它也有缺點。你需要調整一些 parameters，像是 minimum bucket size 跟 complexity parameter。另外，它的 dichotomisation 可能不一定是最佳的做法。而且模型可能會變得很複雜。"
+    },
+    "11": {
+      "hint": "American Society of Hematology | American Society of Hematology | CART – small e",
+      "note": "接下來讓我用一個小例子來說明 CART 的實際應用。這篇論文發表在 Leukemia 2019 年，標題是 Monitoring tumour burden and therapeutic response through analysis of circulating tumour DNA and extracellular RNA in multiple myeloma patients。作者包括 Sridurga Mithraprabhu、我自己 John Reynolds、還有 Andrew Spencer。\n\n這個研究是在一個 Phase Ib trial 中進行的，有 24 位 relapsed/refractory 的 multiple myeloma 病人，接受口服 azacitidine 合併 lenalidomide 跟 dexamethasone 的治療。研究團隊在 screening/baseline 跟 cycle 1 第五天（C1D5）取樣，評估了 16 個候選 biomarkers 的 exRNA transcripts，看它們跟 PFS 和 OS 的關聯。"
+    },
+    "12": {
+      "hint": "American Society of Hematology | American Society of Hematology | CART – small e",
+      "note": "大家看右邊的表格，這裡列出了在 extracellular RNA 中被選來研究的基因，以及選擇它們的理由。包括 CRBN（Cereblon）、IKZF1（Aiolos）、IKZF3（Ikaros）等等，這些都是已知跟 lenalidomide 治療機轉相關的重要 targets。\n\n這個例子中，我們有 n 等於 21，p 等於 16，所以樣本數其實是非常小的。我想請大家想一個問題：這是 supervised 還是 unsupervised learning 的例子？答案是 supervised，因為我們有預先定義的 outcome，就是 PFS 和 OS。"
+    },
+    "13": {
+      "hint": "American Society of Hematology | CART - small, very small, data example Best-fit",
+      "note": "大家看這張圖，左邊是 CART 產生的 classification tree，右邊是對應的 Kaplan-Meier survival curve。\n\n這棵 classification tree 的結果告訴我們，IKZF1 的 fold change 大於等於 0.05 再加上 TGFB1 的 fold change 大於等於 0.081 的病人，跟比較長的 OS 有關，relative risk 是 0.42。而 IKZF1 fold change 小於 0.05 的病人，則跟比較短的 OS 有關，relative risk 是 2.7。\n\n右邊的 Kaplan-Meier plot 是根據 classification tree 定義的分組來畫的，p 值達到 0.0001，說明在 C1D5 時 IKZF1 有增加的病人確實有比較長的 OS。雖然樣本很小，但結果是有統計意義的。"
+    },
+    "14": {
+      "hint": "American Society of Hematology | American Society of Hematology | CART – small e",
+      "note": "現在我想請大家一起來思考幾個問題。\n\n第一，這棵 decision tree 有用嗎？它確實找到了一些有意義的 patterns。\n\n第二，這個分析有什麼弱點？有沒有什麼你不太喜歡的地方？樣本量只有 21 個病人，這是一個明顯的限制。\n\n第三，還有什麼其他的分析可以做或應該做的？這些都是在評估 machine learning 結果時很重要的批判性思考。"
+    },
+    "15": {
+      "hint": "American Society of Hematology | American Society of Hematology | CART – small e",
+      "note": "讓我們回到這篇論文的 abstract 來看看最終的結論。\n\n論文發現 IKZF1 fold-change 小於 0.05 在 C1D5 的時候，跟比較短的 PFS（p 等於 0.0051）和 OS（p 等於 0.0001）顯著相關。而且，baseline CRBN 高加上 C1D5 fold-change 低的病人，有最高的 progression 風險，p 值也是 0.0001。\n\n這個 exploratory analysis 是第一個在 multiple myeloma 中展示 ctDNA 可以預測疾病結果，以及 exRNA 可以作為治療反應 biomarker 的研究。這是一個很好的例子，說明即使在小樣本中，CART 也能發現有意義的 patterns。"
+    },
+    "16": {
+      "hint": "American Society of Hematology | American Society of Hematology | CART – small e",
+      "note": "這張投影片展示的是這篇論文的統計方法。\n\n他們用了 R 語言的 randomForestSRC package（版本 2.4.1）來做 random survival forests 分析，找出跟 PFS 和 OS 最相關的 exRNA。他們比較了 baseline 的 exRNA 水平以及 C1D5 相對於 baseline 的 fold changes。\n\n大家注意看綠色標示的部分：variable importance 最高的前五到六個 exRNAs 會被選出來，放進一個 classification tree 裡做分析。他們用的是 R 裡面的 rpart function，minimum bucket size 設定為三個病人。分出來的 nodes 定義了不同 progression 或死亡風險的病人群組，再用 Kaplan-Meier method 畫 survival curves，最後用 log-rank test 來比較各組之間的差異，作為 grouping factor 的 goodness of fit 指標。"
+    },
+    "17": {
+      "hint": "American Society of Hematology | Random forests ( Thanks SF ) Run 1 Run 2 Run 3",
+      "note": "接下來我們來談 Random Forests。\n\nRandom Forests 的核心概念是，它會找出在 decision tree 中最重要的 factors，並提供 importance measures。它被設計來避免 decision tree 對 training data 的 overfitting 問題。\n\n大家看右邊的圖，Random Forests 的做法是：它不只建一棵樹，而是跑很多次（Run 1、Run 2、Run 3 等等），每次隨機選取不同的 cases 和不同的 variables 來建樹。這樣做的好處是可以提高分析的 generalizability，而且可以展示 decision tree 的正確預測率。\n\n簡單來說，Random Forests 就是用大量的隨機 decision trees 來取得更穩定、更可靠的結果。這張投影片也是 Shaun Fleming 提供的。"
+    },
+    "18": {
+      "hint": "American Society of Hematology | Random Forests and CART – large data set 63rd A",
+      "note": "現在讓我們從小樣本跳到大樣本的例子。這是 Fleming 等人在第 63 屆 ASH Annual Meeting 上發表的 oral abstract，發表在 Blood 2021 年。\n\n這個研究的標題很長但很重要：Machine Learning of Genomic Factors in 1,961 Patients with Acute Myeloid Leukemia Identifies Patients with Very Good or Very Poor Prognosis Who Do Not Benefit from Allogeneic Hematopoietic Cell Transplant in First Remission。\n\n作者包括 Shaun Fleming、Cheng-Hong Tsai、Hartmut Dohner、Konstanze Dohner、Elli Papaemmanuil、Hwei-Fang Tien、我自己 John Reynolds、Andrew Wei 跟 Hsin-An Hou。大家可以看到這是一個跨國的合作，涵蓋了澳洲、台灣、德國跟美國的研究機構。"
+    },
+    "19": {
+      "hint": "American Society of Hematology | Random Forests and CART – large data set Genomi",
+      "note": "這個研究的背景是，genomic profiling 對於評估 AML 病人是否適合做 allogeneic hematopoietic cell transplant 很重要。ELN 2017 的 AML risk classification 把病人分成 favorable、intermediate 跟 adverse risk。\n\n他們用 supervised machine learning 來做 prognostic risk stratification，探討不同 prognostic groups 的病人在 first complete remission（CR1）時是否能從 alloHCT 中獲益。總共有 1,961 位病人，來自 German AMLSG（n=1315）跟 National Taiwan University Hospital NTUH（n=646）。\n\n重點是他們用了 R 語言裡的 RandomForestSRC 跟 Rpart module，結合 random forest analysis 跟 recursive partitioning，把病人依據 4 年 OS 分成五個 prognostic groups：very poor、poor、intermediate、good 跟 very good。最後還用 Montreal 的 Leucegene cohort 做了 validation。"
+    },
+    "20": {
+      "hint": "American Society of Hematology | American Society of Hematology | R Training dat",
+      "note": "這張投影片列出了研究的基本架構。Training datasets 包括 German AML Study Group（AMLSG）和 National Taiwan University Hospital（NTUH）的資料。Validation dataset 則是用 University of Montreal 的 Leucegene cohort。\n\nCohort parameters 方面，收案的是 18 到 70 歲的 de novo AML 病人，接受過 intensive chemotherapy。\n\nAnalytical parameters 方面，納入分析的 mutations 是從 TCGA 中最常見的突變基因加上 ELN 用來判斷預後的基因裡挑選的。Karyotypic abnormalities 則考慮了 ELN 和 modified MRC classification 中的 prognostic karyotypes。Complex cytogenetics 定義為三個或以上不相關的 cytogenetic abnormalities。"
+    },
+    "21": {
+      "hint": "American Society of Hematology | ⅔ ⅓ Random Composite dataset Training dataset V",
+      "note": "大家看這張流程圖，它清楚地展示了整個分析的步驟。\n\n首先，composite dataset 被隨機分成三分之二的 training dataset 跟三分之一的 validation dataset。Training dataset 先用 Random Forest 來 identify prognostic variables，然後用 Recursive Partitioning 建立初步的 decision tree。接著再用 Random Forest 排除 non-prognostic variables，然後再做一次 Recursive Partitioning，得到 final decision tree。\n\n最後，用那三分之一的 validation dataset 來驗證 prognostic groups 的預測能力，同時也用獨立的 Montreal cohort 來做額外的 validation。這是一個非常嚴謹的方法學設計。"
+    },
+    "22": {
+      "hint": "American Society of Hematology | American Society of Hematology | Fleming et al,",
+      "note": "這張投影片展示的是 Fleming 等人用 CART 跟 Random Forests 產生的完整 decision tree。大家可以看到這棵樹非常複雜。\n\n從最上面的 Whole cohort（n=1320）開始，先分成 Non-complex karyotype 跟 Complex karyotype 兩大組。Non-complex 的那邊又根據 inv(16)/t(16;16)、CEBPAlpha mutation、inv(3)/t(3;3)、spliceosome mutation、FLT3-ITD、NPM1 等一系列基因特徵繼續細分。Complex karyotype 那邊則看 del(7q)、TP53 mutation、minus 7 等等。\n\n每個方塊的顏色代表不同的 prognostic group，最後產生了多個終端節點，每個節點都有不同的預後意義。這棵樹的複雜度反映了 AML 基因組學的複雜性。"
+    },
+    "23": {
+      "hint": "American Society of Hematology | American Society of Hematology | Prognostic gro",
+      "note": "大家看這張表格，它整理了 machine learning 分析出來的五個 prognostic groups。\n\n最上面是 very good risk，4 年 OS 超過 80%，包括 CEBPAdmut 加 NRASmut，或是 NPM1mut 加 NRASmut 加 Cohesin mutation 的組合。\n\n然後是 good risk，4 年 OS 60-80%，包括 inv(16)、CEBPAdmut 加 NRASwt、t(8;21) 加 KITwt 等等。\n\nIntermediate risk 是 40-60%，poor risk 是 20-40%，而 very poor risk 低於 20%，包括 spliceosome mutation 加 ASXL1mut、inv(3)/t(3;3)、complex karyotype 加 TP53mut 等等。\n\n這個分類比傳統的 ELN 三分法更細緻，能更好地區分病人的預後。"
+    },
+    "24": {
+      "hint": "American Society of Hematology | American Society of Hematology | \"Adverse tripl",
+      "note": "這張投影片特別highlight了一個很重要的發現，就是所謂的 adverse triplet：DNMT3A、NPM1 跟 FLT3-ITD 三個突變同時存在的情況。\n\n這個 triple mutant AML 跟 poor prognosis 有關，而且不管 FLT3-ITD 的 allelic burden 高低都一樣。Bezerra 等人在 Blood 2020 年也已經指出這是一個 poor prognostic group。\n\n大家看右邊的 survival curve，這個三重突變組合的預後比任何單一突變都差。它的 remission rate 比較低（50% vs 72%），median disease free survival 也比較差（19% vs 42%）。這個 triple mutant group 可以說是 AML 裡一個獨特的 prognostic subtype，這是我們的 machine learning 分析獨立驗證的重要發現。"
+    },
+    "25": {
+      "hint": "American Society of Hematology | American Society of Hematology | Cohesin mutati",
+      "note": "另一個很有意思的發現是關於 Cohesin mutations。我們的 machine learning 分析發現 cohesin mutations 出現在三個不同的 prognostic groups 裡，扮演著調節預後的角色。\n\n第一，cohesin mutation 單獨存在時，被歸類為 intermediate risk。第二，跟 NPM1 和 NRAS mutations 一起出現時，卻是 very good risk。第三，它在 NPM1mut FLT3-ITD positive 的 AML 中也有調節風險的作用。\n\n有趣的是，Tsai 等人在 Blood Cancer Journal 2017 年的一篇較小規模的研究中，也觀察到帶有 cohesin mutations 的病人預後比 wild-type 好。不過那篇研究因為樣本量小，沒辦法識別出 gene interactions 對預後的影響。我們的大規模分析則成功地揭示了這些交互作用。"
+    },
+    "26": {
+      "hint": "American Society of Hematology | American Society of Hematology | IDH2 mutations",
+      "note": "再來看 IDH2 mutations 跟 spliceosome mutations 的交互作用。\n\n我們發現 IDH2 mutations 在有 spliceosome mutations 的病人身上，似乎能帶來比較好的預後。這個發現其實是有先例的。Papaemmanuil 等人之前就指出 IDH2 R172 mutations 在沒有其他 class defining lesions 的情況下，是一個 favourable prognostic group。\n\n另外，Lachoweiz 等人探討過 splicing factor mutations 在接受 hypomethylating agents 和 venetoclax 治療的病人中的影響。他們發現雖然 spliceosome mutations 整體對預後影響不大，但特定的 mutational pairs 就有 prognostic significance。特別是 SRSF2mut 加 IDH2mut 的組合，median 1-year OS 是 100%，2-year OS 是 88%。而且重點是這個特定組合，而非 IDH2 mutation 單獨存在，才跟好的預後有關。"
+    },
+    "27": {
+      "hint": "American Society of Hematology | Overall survival – ELN classification Overall s",
+      "note": "大家看這張很重要的對比圖。左邊是用傳統 ELN classification 畫的 overall survival curve，分成三組：good、intermediate 跟 poor。右邊則是用我們新的 machine learning classification 畫的，分成五組：very good、good、intermediate、poor 跟 very poor。\n\n可以很明顯地看到，右邊新的分類法把病人分得更細，五條曲線之間的區分度更好。特別是在兩個極端：very good risk 的病人預後非常好，而 very poor risk 的病人預後非常差。這些資訊對於臨床決策，特別是要不要做 transplant，是非常有價值的。"
+    },
+    "28": {
+      "hint": "American Society of Hematology | THE MODEL REMAINED PREDICTIVE WITH A SIMILAR ER",
+      "note": "非常重要的是，這個模型在 Montreal validation cohort 中也維持了 predictive 的能力，error rate 也類似。\n\n大家看中間的圖，這是 variable importance 的排列，FLT3 High 排在最前面，然後是 t(8;21)、mono17/17p/abn(17p)、inv16/t(16;16)、CEBPAd、DNMT3A、TP53 等等。左邊的圖顯示 error rate 隨著 tree 數量增加而趨於穩定。\n\n右邊的 survival curve 是 validation set 的結果，可以看到五個 prognostic groups 的曲線分離得很清楚，證明這個模型的 generalizability 是好的。能在獨立的 cohort 中重現結果，這對任何 predictive model 來說都是最關鍵的驗證。"
+    },
+    "29": {
+      "hint": "American Society of Hematology | Conclusions and Comments • Statistical Learning",
+      "note": "來做一下第一部分的總結。\n\n第一，Statistical Learning，也就是 supervised machine learning，用 recursive partitioning 和 random forests analysis，可以成功地在 AML 中識別 prognostic groups。第二，這個方法在預測大數據集和 validation dataset 的 outcome 方面，表現優於當時的 ELN guidelines。\n\n第三，Statistical Learning 不只可以用來做 prediction，也可以用來增進 understanding。像 cohesin mutations 的角色、adverse triplet 的發現，都是很好的例子。\n\n最後一個問題：learning 什麼時候停止？答案是：永遠不會停止。隨著更多資料的累積，模型會持續更新和改進。"
+    },
+    "30": {
+      "hint": "American Society of Hematology | Further Reading • Shouval , R., Fein, J.A., Sav",
+      "note": "如果大家對這個領域有興趣，這裡有一些推薦的延伸閱讀。\n\n第一篇是 Shouval 等人 2021 年在 British Journal of Haematology 發表的 review，很好地回顧了 machine learning 和 AI 在血液學中的概念和定義，例子主要來自 BMT 的研究。\n\n第二篇是 Walter 等人 2023 年在 Blood Reviews 發表的文章，探討 AI 在血液學診斷中到底是 game changer 還是只是個 gadget。\n\n第三篇也是 Walter 等人 2021 年在 Oncogene 的文章，討論 AI 在近未來可能如何改變血液學的診斷。這些都是很值得一讀的好文章。"
+    },
+    "31": {
+      "hint": "American Society of Hematology | PART 2: ARTIFICIAL INTELLIGENCE",
+      "note": "好，那我們現在進入第二個部分：Artificial Intelligence。"
+    },
+    "32": {
+      "hint": "American Society of Hematology | American Society of Hematology | (Generative) A",
+      "note": "在開始之前，我要再次感謝 Dr Megan Othus，她是 Seattle Fred Hutch Cancer Center 的 Biostatistics Program 教授。接下來很多關於 generative AI 的投影片是她慷慨提供的。"
+    },
+    "33": {
+      "hint": "American Society of Hematology | First – we all have lots of experience with AI",
+      "note": "首先我想提醒大家，其實我們都已經有很多跟 AI 互動的經驗了。\n\n大家看這條時間軸。1990 年代就有了報紙的 optical character recognition 和西洋棋 AI。到了 2000 年代，有了 email spam checker 和電影推薦系統。2010 年代出現了 facial recognition 和 voice control。到了 2020 年代，我們有了 self-driving cars。\n\n所以 AI 並不是什麼全新的東西，它已經融入我們的日常生活很久了。差別只是最近的發展讓我們更直接地感受到它的存在。"
+    },
+    "34": {
+      "hint": "American Society of Hematology | American Society of Hematology | What is newer",
+      "note": "那最近比較新的是什麼呢？就是所謂的 generative AI。\n\nChatGPT 和其他 generative AI algorithms 已經徹底改變了我們跟 AI 互動和思考 AI 的方式。我們現在可以跟這些演算法進行「自然對話」，叫它們幫我們做各種事情，像是摘要文件、產生新的文件或圖像或影片、或者產生程式碼片段。\n\n所有這些 generative AI 演算法都是基於一種叫做 neural networks 的統計/電腦科學方法。這個概念的 idea 其實從 1800 年代就有了，1960 到 1970 年代有了很多重要的 computational development。\n\n那為什麼 ChatGPT 的革命沒有更早發生呢？答案是：因為需要的 computing power 太大了，而且可用來訓練的大規模文本資料也不夠多。"
+    },
+    "35": {
+      "hint": "American Society of Hematology | How to AI and Machine Learning Intersect? LLM •",
+      "note": "大家看這張 Venn diagram，它清楚地顯示了 AI 跟 Machine Learning 的關係。\n\n最外層黃色的圈是 Artificial Intelligence，這是最大的概念。裡面藍色的圈是 Machine Learning，它是 AI 的一個子集。然後最裡面紅色的是 LLMs，也就是 Large Language Models，它是 machine learning 的一個子集。\n\n所以簡單來說，machine learning 的方法是 AI 的一部分，而 LLMs（包括 generative AI）又是 machine learning 的一部分。它們是層層嵌套的關係。"
+    },
+    "36": {
+      "hint": "American Society of Hematology | American Society of Hematology | AI, Machine Le",
+      "note": "那 AI、Machine Learning 跟 Data Analysis 到底有什麼關係呢？\n\nMachine learning 方法在從大量資料中提取有用資訊方面特別有用。這裡的「大量資料」有時候是指純粹資料量很大，比如 electronic health records 或者科技平台上所有使用者的資料，也就是 large sample size 加上 large number of covariates 的組合。\n\n但有時候也可能是指在適中的樣本量上有大量的 covariates，比如 genomic data。我們前面看的 multiple myeloma 的例子就是後者的情況，只有 21 個病人但有 16 個基因的表現量。"
+    },
+    "37": {
+      "hint": "American Society of Hematology | What are these machine learning algorithms doin",
+      "note": "那這些 machine learning algorithms 到底在做什麼呢？\n\n簡單來說，它們就是在資料集中尋找 patterns。大家看左邊這張圖，是一堆不同的海洋生物玩具模型。我們人類用眼睛和大腦看，在數量不多的時候，很容易就能把它們分類。\n\n但問題是：你能想到多少不同的 features 來分類這些生物？顏色？大小？腳的數量？有沒有殼？這些都是 features。當 features 很多、生物也很多的時候，人腦就處理不過來了，這就是 machine learning 大顯身手的地方。"
+    },
+    "38": {
+      "hint": "American Society of Hematology | American Society of Hematology | Data Analysis:",
+      "note": "那 machine learning 什麼時候最有用呢？就是在資料規模很大、需要找出 patterns 和 associations 的時候。\n\n這裡有幾個值得思考的問題。普通的 linear regression 算不算 machine learning？如果算的話，它是 supervised 還是 unsupervised？Logistic regression 其實是 neural network 裡一個 neuron 的基本建構單元。\n\n那 generative AI models 到底怎麼運作的呢？它是由多層的 neurons（logistic regression models）組成的，每一層觸發後把預測傳給下一層。ChatGPT 有超過 1750 億個 parameters。這些模型會隨著資料更新而持續更新嗎？我們怎麼知道 training 是不是最新的？\n\n最後一個大哉問：我們真的需要知道它怎麼運作嗎？"
+    },
+    "39": {
+      "hint": "American Society of Hematology | American Society of Hematology | Where is the i",
+      "note": "那 generative AI 跟 data analysis 的交集在哪裡呢？\n\n答案很簡單：就是給你 example code。有了 generative AI，你自己開始寫程式的門檻變得低非常多。以前你可能需要花很長時間學習 R 或 Python 的語法，現在你可以直接問 AI 幫你寫，然後在那個基礎上做修改。\n\n這對於剛開始接觸 data analysis 的 trainee 來說是一個巨大的幫助。"
+    },
+    "40": {
+      "hint": "American Society of Hematology | American Society of Hematology | Example: singl",
+      "note": "舉一個具體的例子：single-cell RNA sequencing。\n\n現在已經有很多 user-friendly 的程式，不需要太多 coding 經驗就能上手。你不需要 PhD-level 的計算方法訓練才能用這些 open-source 的免費演算法。\n\n而且現在還可以針對這些程式開發 chatbots 來幫你 troubleshoot。比如 R 語言裡的 SeuratExtend 就是一個很好的例子，大家可以在 GitHub 上找到它。這說明了 AI 不只是一個分析工具，它也可以幫助你學習和使用其他分析工具。"
+    },
+    "41": {
+      "hint": "American Society of Hematology | American Society of Hematology | Generative AI",
+      "note": "除了 data analysis 之外，generative AI 還有很多其他有用的應用。\n\n你可能已經用它來幫你寫論文摘要、翻譯成其他語言、產生 visual abstract、提供 example code、做文獻搜尋等等。\n\n另一個很有趣的應用是寫那些有標準格式的例行文件。比如說臨床試驗的 Statistical Analysis Plan（SAP），因為這類文件格式固定，genAI 的大量訓練資料中一定有很多先例，所以它可以產生不錯的初稿。最近 Landman 等人在 Clinical Trials 2026 年發表了一篇文章，就是探討用 generative AI 來改進 SAP 的撰寫流程。"
+    },
+    "42": {
+      "hint": "American Society of Hematology | American Society of Hematology | Generative AI",
+      "note": "但是，generative AI 並不是完美的。有四個大問題大家一定要注意。\n\n第一，它會犯錯。第二，它會 hallucinate，也就是編造不存在的東西。第三，它只知道訓練時的資料，所以比較新的資訊它可能不知道。比如說 Megan Othus 提到，她在 2025 年 2 月問 AI Seattle 的平均溫度，AI 就沒辦法準確回答，因為它是用比較舊的資料訓練的。第四，如果 AI 的訓練資料本身就有 bias，那演算法的輸出也會包含這些 bias。\n\n此外還有一些其他的挑戰跟限制。AI 的產出是學到的 patterns，不太可能是真正的 innovation。決策過程缺乏透明度也是一個問題。還有智慧財產權的爭議，以及大型 data centers 對環境的衝擊。"
+    },
+    "43": {
+      "hint": "American Society of Hematology | American Society of Hematology | Generative AI",
+      "note": "關於 generative AI 的 take home messages，我想強調兩點。\n\n第一，any power tool can be dangerous in untrained hands，尤其是一個有瑕疵的工具。AI 就像是一個很強力的電動工具，你必須知道怎麼正確使用它，也要知道它的局限性。\n\n第二，像 ASH 跟 EHA 這樣的組織，有一個很重要的角色，就是為血液科醫師和研究者提供基於 curated data domains 的 AI 工具，確保這些工具在有經驗的使用者手中有一定的安全保障。\n\n未來的一個重要議題是 AI 工具的 credentialing 以及 training datasets 的持續更新和演進。"
+    },
+    "44": {
+      "hint": "American Society of Hematology | American Society of Hematology | Things (in my",
+      "note": "根據我個人的經驗，有些東西你絕對不應該直接從 generative AI copy and paste 而不去 double-check。\n\n第一是 citations，也就是引用文獻。AI 會編造完全虛構但聽起來非常可信的 references，這是一個非常知名的問題。\n\n第二是 trial designs。我自己的經驗是，我沒辦法讓 AI 可重複地計算出我設計的臨床試驗的正確 sample size 和 power。\n\n第三是 formulas。AI 有時候會讀錯公式，就在上禮拜才發生在我身上。\n\n最大的問題是什麼？就是 generative AI 在錯的時候，它表現得非常有自信。這一點是 Megan Othus 特別強調的，也是我們使用 AI 時最需要警惕的。"
+    },
+    "45": {
+      "hint": "American Society of Hematology | American Society of Hematology | ChatGPT for Bi",
+      "note": "接下來介紹一篇很有參考價值的文章。Dobler、Binder、Boulesteix 等人在 Statistics in Medicine 2025 年發表了一篇 tutorial，標題是 ChatGPT as a Tool for Biostatisticians: A Tutorial on Applications, Opportunities, and Limitations。\n\n這篇文章探討了 LLMs 在 drafting protocols、writing software code、statistical analyses 和 report-writing 方面的應用。他們也比較了不同的 prompting strategies，是用一個精心設計的長 prompt 好，還是用多個短的 nested prompts 好。\n\n他們測試了 8 種不同的 use cases，包括 data extraction、sample size planning、meta analysis、simulation、不同程式語言之間的翻譯、latent class analysis 等等，每個 use case 做了 10 次獨立的 chats。結果高度不穩定。他們的建議是，一定要搭配足夠的 background knowledge 才能使用，使用者必須持續驗證 LLM 的 outputs 來建立信任。"
+    },
+    "46": {
+      "hint": "American Society of Hematology | American Society of Hematology | ChatGPT for Bi",
+      "note": "這篇文章的結論非常值得大家記住。我唸一下投影片上標注的重點：\n\n「One important conclusion from these findings on ChatGPT is that numerous pitfalls exist within the details of statistical analyses -- often inadequately addressed by LMMs. When it comes to such details, carefully supervising the AI's results and adjusting the prompts if needed, is of the essence.」\n\n然後特別注意這段藍色標注的部分：「We strongly warn about the non-skeptical use of LLMs. Relying naively on the correctness of their output is irresponsible, and statistical studies can be seriously corrupted.」\n\n這篇文章的核心訊息就是：biostatisticians 的專業知識仍然不可或缺，面對 AI 的輸出一定要保持質疑的態度。"
+    },
+    "47": {
+      "hint": "American Society of Hematology | American Society of Hematology | Generative AI",
+      "note": "這張投影片比較了不同的 generative AI 工具。這是 Humphries 等人 2023 年 9 月在 Nature 發表的文章，標題叫 Speed dating with AI for research。\n\n大家看這張表格。Bard 的優點是可以 access 網路上的最新資訊，而且會承認它不知道的事情，但缺點是需要很特定的 prompt，有時候會 misinterpret code。ChatGPT 寫英文非常流暢，code 也寫得不錯，但問題是它會把準確跟不準確的陳述混在一起。Llama 能寫出合理的 code，但 code 有時候難以 parse。Phind 是為 software development 設計的，會提供多個解決方案加連結，但容易有 plagiarism 的問題，在 coding 以外不太有用。\n\n所以不同的 AI 工具各有特長，大家要根據自己的需求來選擇。"
+    },
+    "48": {
+      "hint": "American Society of Hematology | American Society of Hematology | Aside: Try usi",
+      "note": "這邊有一個有趣的小練習。挑一個你最喜歡的 AI tool，叫它寫一段關於「你自己」的摘要。為什麼呢？因為你自己是最有資格評估它寫得好不好、有沒有亂編的人。\n\nGoogle AI 可能是一個不錯的選擇，因為它可以搜尋到比較多關於你的公開資訊。\n\n但你也可以選一個你的 mentor 或者同事，一個你覺得 AI 可能有比較多資料的人，但同時又是你足夠了解、能夠批判性評估結果的人。試試看，你可能會發現一些很有趣的事情。"
+    },
+    "49": {
+      "hint": "American Society of Hematology | American Society of Hematology | Exercise: Ask",
+      "note": "再來一個好玩的練習。問 ChatGPT 或你喜歡的 AI tool 這兩個問題：第一，當一隻狗是什麼感覺？第二，當一個 biostatistician 是什麼感覺？\n\n這些看起來很輕鬆的問題，其實可以幫助你了解 AI 是怎麼處理不同類型問題的，它的回答方式、它的限制、它可能會 hallucinate 的地方都會很明顯。"
+    },
+    "50": {
+      "hint": "American Society of Hematology | American Society of Hematology | Google AI (07J",
+      "note": "我來分享一下 Google AI 的回答結果。這是 2026 年 1 月 7 日的回覆。\n\n關於「當一隻狗是什麼感覺」，Google AI 說了一段蠻有詩意的回答，大家看黃色標注的部分：透過感官尤其是嗅覺來體驗世界、對家人有深厚的忠誠跟喜悅等等。綠色標注的部分則說這是一種充滿感官輸入、情感連結和簡單快樂的生活。聽起來不錯對吧？但這當然都是 AI 基於現有文本推測出來的。\n\n關於「當一個 biostatistician 是什麼感覺」的回答就比較實際了。它提到要用數學跟統計模型解決醫學、生物學、公共衛生的複雜問題，每天都在寫 code、跟醫師合作等等。黃色標注的部分提到大部分 biostatistician 每週在辦公室工作 40 小時，偶爾出差開會。嗯，這個描述嘛，大家可以自己評估一下準不準確。"
+    },
+    "51": {
+      "hint": "American Society of Hematology | American Society of Hematology | Let's design a",
+      "note": "好，接下來讓我們做一個更實際的測試。我們來試試看用 AI 設計一個臨床試驗。\n\n題目是這樣的：一個 single-arm trial，binary endpoint，null hypothesis rate 是 5%，alternative rate 是 30%，type-1 error（alpha）是 10%，power 是 85%。我們先從 single-stage single-arm trial 開始，把 two-stage designs 的複雜度先移除。\n\n大家可以拿出自己的手機或電腦，試試看你最喜歡的 AI tool 會給你什麼答案。"
+    },
+    "52": {
+      "hint": "American Society of Hematology | American Society of Hematology | This design sh",
+      "note": "這個設計其實應該有 exact 的解，也就是我們應該可以算出非常精確的答案。因為病人數不可能有小數點，sample size 的計算應該非常直接。\n\n那正確答案是什麼呢？Exact calculation 告訴我們：sample size 是 11 個病人，如果觀察到 11 個病人中有 2 個或更多 responses，試驗就是 positive 的，alpha 是 10.2%，power 是 88.7%。\n\n那 AI 給的答案跟這個一樣嗎？讓我們來看看。"
+    },
+    "53": {
+      "hint": "American Society of Hematology | Phind (many people like for code) • Gives me co",
+      "note": "我用 Phind 這個很多人喜歡用來寫 code 的 AI 來測試。結果它給了我矛盾而且錯誤的答案，說我需要 5 個或者 50 個病人。\n\n大家看右邊的螢幕截圖，上面那個結果說 required sample size 是 5 patients，actual power achieved 90%。下面的 exact binomial calculation 卻說 required sample size 是 50 patients，actual power achieved 99.9%。一個 AI 在同一次回答裡給了兩個完全不同的答案！\n\n而且兩個都是錯的。正確答案是 11 個病人。這就是為什麼我剛才說你不能盲目信任 AI 的計算結果，特別是在 trial design 方面。"
+    },
+    "54": {
+      "hint": "American Society of Hematology | American Society of Hematology | Aside: AI is S",
+      "note": "順帶一提，Royal Statistical Society 在 2026 年 3 月 2 日發表了一個重要的聲明，標題就是 AI is fundamentally statistical in nature。\n\n他們主張 AI systems 應該被視為 probabilistic、data-driven 的工具，而不是 human-like intelligence。\n\n聲明裡有幾個重要觀點。第一，AI 就是 statistical pattern recognition，LLMs 是靠在大量資料中辨識 patterns 來工作的，不是靠真正的 reasoning。第二，我們需要 statistical thinking 來評估 training data、model performance 和 potential biases。第三，需要嚴格的 evaluation and governance，特別是當應用環境跟 training data 不同的時候，也就是所謂的 distribution shift。第四，AI 和 data literacy 應該成為教育的核心。"
+    },
+    "55": {
+      "hint": "American Society of Hematology | Summary • Machine learning (ML) techniques have",
+      "note": "讓我來做一個整體的總結。\n\nMachine learning 技術已經在罕見血液癌症（如 MM）的 outcome exploration 和 AML 的 risk classification 補充方面展現了它的適用性和價值。\n\n對於那些 targeted、multi-agent、sequential therapies 快速演進的血液癌症，如果要讓 ML 能持續發揮 best practice 的影響力，就需要更多、更即時的資料更新。像 AML 的 INTERCEPT platform、MM 的 ZEPFHR-MM platform 都是這方面的努力。\n\nML 作為研究工具已經很成熟了，但在行銷和金融以外的領域，似乎還沒有被常規地嵌入到 best practice guidelines 裡面。\n\n至於 GenAI，雖然越來越容易取得，但目前在研究中的用途可能還限於快速產生 protocols、research summaries、R programs 和 PowerPoint presentations 的初稿。在研究領域，GenAI 是一個 helper，所有的輸出都需要由更有專業知識的使用者來評估。"
+    },
+    "56": {
+      "hint": "American Society of Hematology | American Society of Hematology | Resources – fo",
+      "note": "接下來幾張投影片是一些學習資源。首先是關於寫分析用的 computer code。\n\nPhind.com 這個網站特別適合幫你寫好的 R code，我喜歡它常常提供多個不同的解決方案。\n\n很多人覺得 AI 在幫你 debug 方面比幫你從零開始寫 code 更好用。就像有人說的：ChatGPT 通常可以解讀和解釋一個 error message，這如果靠我自己可能要花半小時才能搞懂。但另一方面，AI 沒辦法做那種需要分解成很多步驟的複雜 computational thinking。"
+    },
+    "57": {
+      "hint": "American Society of Hematology | American Society of Hematology | Resources: lea",
+      "note": "如果大家想學更多關於 AI 的知識，這裡有一個很好的資源：Fred Hutch Data Science 的網站，hutchdatascience.org/AI_for_Decision_Makers。這是由 Megan Othus 提供的推薦。"
+    },
+    "58": {
+      "hint": "American Society of Hematology | American Society of Hematology | Resources: AI",
+      "note": "關於 AI in Haematology，我推薦 Chen 和 Gale 2026 年在 Leukemia 發表的這篇 perspectives 文章。\n\n他們討論了幾個重要的面向。第一，AI 可以提升基本的醫療水準，等於是在 physician-substituting 的角色上幫助那些經驗較少的血液科醫師。第二，它可以提升 best practice，也就是 physician-complementing，幫助已經很有經驗的醫師更上一層樓。第三，precision medicine 可以基於病人獨特的 genetic variant topography 和 co-morbidities 來做個人化的治療決策。\n\n有了 AI/ML 的幫助，在選擇治療方案時可以考慮更多的 covariates，克服人腦的限制。最後一個很有意思的問題：AI 到底是 pilot 還是 co-pilot？我個人傾向認為目前它應該是 co-pilot。"
+    },
+    "59": {
+      "hint": "American Society of Hematology | American Society of Hematology | Resources: lea",
+      "note": "如果大家想學 R 語言，這裡有幾個免費的線上資源：hutchdatascience.org 上有 Intro to R 和 SeattleStatSummer R 的課程，jhudatascience.org 也有 intro to R 的課程。這些都是 Megan Othus 推薦的好資源。"
+    },
+    "60": {
+      "hint": "American Society of Hematology | American Society of Hematology | Resources: lea",
+      "note": "關於 data science 的學習資源，這裡也列出了幾個好的網站。jhudatascience.org/courses.html 有完整的課程列表。leanpub.com/c/datatrail 和 datatrail.org/resources/courses 也都是很好的免費學習資源。"
+    },
+    "61": {
+      "hint": "American Society of Hematology | American Society of Hematology | Resources: lea",
+      "note": "最後，如果大家想更深入學習不同的 machine learning algorithms，Coursera 上有一個很好的課程：practical machine learning，是 JHU data science specialization 的一部分。\n\n好，以上就是今天的全部內容。希望大家對 machine learning 和 AI 在血液學研究中的應用有了更好的理解。最重要的 take home message 就是：這些都是很強大的工具，但一定要帶著批判性的眼光來使用它們。謝謝大家！"
+    }
+  }
+}

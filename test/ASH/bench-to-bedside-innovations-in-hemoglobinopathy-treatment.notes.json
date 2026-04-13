@@ -1,0 +1,478 @@
+{
+  "meta": {
+    "pdf": "bench-to-bedside-innovations-in-hemoglobinopathy-treatment.pdf",
+    "totalSlides": 117,
+    "generatedAt": "2026-04-12T19:14:42.812Z",
+    "generator": "pdf-presenter"
+  },
+  "notes": {
+    "1": {
+      "hint": "American Society of Hematology | American Society of Hematology | Bench to Bedsi",
+      "note": "各位好，歡迎大家來到今天的 Highlights of ASH Asia Pacific 專題演講。今天這個 session 的主題是 Bench to Bedside: Innovations in Hemoglobinopathy Treatment，也就是從基礎研究到臨床應用，探討 hemoglobinopathy 治療的最新創新。\n\n這是一個非常重要的議題，特別是對我們亞太地區而言，因為 hemoglobinopathy 在這個區域的疾病負擔是全球最重的。今天我們會涵蓋從 thalassemia 到 sickle cell disease 的最新治療進展，包括新的藥物、基因治療以及移植方面的突破。"
+    },
+    "2": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "今天很榮幸為大家介紹我們的兩位講者。左邊是 Dr. Payal Desai，她來自美國 North Carolina 的 Levine Cancer Institute，隸屬於 Atrium Health。右邊是 Dr. Prantar Chakrabarti，他是 Sugah Healthcorp 的 Chief Medical Director，同時也是 Kolkata NRS Medical College 血液科的前教授兼主任。\n\n兩位講者都在 hemoglobinopathy 領域有非常豐富的臨床和研究經驗，今天將從不同的角度來為大家分享最新的 ASH 研究成果。"
+    },
+    "3": {
+      "hint": "American Society of Hematology | American Society of Hematology | American Socie",
+      "note": "在開始之前，按照 ACCME 的規定，我們需要先做利益衝突的揭露。Dr. Payal Desai 的 disclosure 包括 Agios 的 consultancy、Vascarta 的 advisory committee membership，以及 Novartis 的 research funding。Dr. Prantar Chakrabarti 則有 Zoho Corporation India 的 consultancy 以及 Novo Nordisk India 的 speakers bureau。\n\n另外也要特別提醒大家，今天的演講中會討論到 thalidomide 的 off-label 使用，因為 thalidomide 目前在大多數國家尚未獲得 thalassemia 的適應症核准。"
+    },
+    "4": {
+      "hint": "American Society of Hematology | American Society of Hematology | American Socie",
+      "note": "這張投影片列出了今天的 learning objectives。第一，我們要回顧近期在了解 hemoglobinopathy 臨床表現背後機轉方面的重大突破。第二，我們要理解新型 disease-modifying therapies 在 thalassemia 和 hemoglobinopathy 管理中的角色。第三，我們要描述 sickle cell disease 和 beta thalassemia major 的 transformative therapies 的機轉、臨床結果，以及取得這些治療的相關議題。\n\n簡單來說，今天的目標是讓大家對這個領域的最新進展有一個全面的了解。"
+    },
+    "5": {
+      "hint": "American Society of Hematology | Highlights of ASH",
+      "note": "大家看這張投影片，這裡把三大類 hemoglobinopathy 做了一個很清楚的整理。左邊是 Beta Thalassemia，它的特徵是 beta-globin chain 的合成減少或完全缺失，臨床表現從無症狀的 carrier 到需要終生輸血和 iron chelation 的 transfusion-dependent thalassemia 都有。\n\n中間是 Alpha Thalassemia，由 alpha-globin gene 的 deletion 所驅動，在東南亞特別盛行。嚴重的 non-deletional mutation 會導致 HbH disease 甚至致命的 hydrops fetalis。\n\n右邊是 Sickle Cell Disease，特徵是 HbS gene 的存在，會造成嚴重的 vaso-occlusive crises 和器官損傷。在我們亞太地區，還有像 HbE 這樣的 structural variant，它作為一個重要的 disease modifier 存在。"
+    },
+    "6": {
+      "hint": "American Society of Hematology | Highlights of ASH",
+      "note": "這張地圖非常重要，它告訴我們一個關鍵的事實：全球超過 80% 的 hemoglobin disorders 患者，如果不算非洲的話，是出生並生活在南亞和西太平洋地區。\n\n大家看 India 的數據，Beta Thalassemia 的 carrier rate 平均是 3.9%，某些地區高達 18.1%；SCD 的 carrier rate 平均 3%，在某些部落族群中甚至高達 40%。Thailand 的 Alpha Thalassemia carrier rate 是 20-30%，HbE 的 carrier rate 更是高達 5-50%。Malaysia 和 Indonesia 也都有相當高的 carrier rate。\n\n這就是為什麼我們在亞太地區特別需要關注這些疾病。"
+    },
+    "7": {
+      "hint": "American Society of Hematology | Highlights of ASH",
+      "note": "這張表格把各國的數據做了更詳細的整理。大家看右邊的 Estimated Patient Burden 欄位。India 估計有 10 萬到 15 萬 Beta Thalassemia 患者、12.5 萬 SCD 患者，每年大約有 1.5 萬名受影響的新生兒。Thailand 有大約 10 萬名 transfusion-dependent 的患者，加上 NTDT 患者總數超過 40 萬，每年有將近 1 萬名受影響的新生兒。\n\nIndonesia 有超過 1.3 萬名登記患者，估計每年有 6000 多名受影響的新生兒。Malaysia 有 9342 名登記患者，其中 5442 名是 TDT，3900 名是 NTDT。這些數字非常驚人，而且很可能還是被低估的。"
+    },
+    "8": {
+      "hint": "American Society of Hematology | Highlights of ASH",
+      "note": "這張 Venn diagram 帶出了一個非常重要的概念。在我們這個地區，Alpha Thalassemia 和 Beta Thalassemia 以及它們的 variants 會互相重疊。當高頻率的 carrier 族群互相通婚，產生的複雜基因型會對區域醫療系統造成指數級而非線性的壓力。\n\n特別值得注意的是右下方的 HbE/Beta-Thalassemia，它在某些地區佔了 hemoglobin disorders 的 46-58%。這些患者一開始可能是 NTDT，但隨著年齡增長或出現併發症，會逐漸轉變為 TDT。左上方的 HbH Disease 也是，當 a0-thalassemia 和 non-deletional mutation 交互作用時，會產生嚴重的、需要輸血的表型。"
+    },
+    "9": {
+      "hint": "American Society of Hematology | Highlights of ASH",
+      "note": "這張投影片談的是輸血需求的問題，這對我們地區來說是一個非常實際的挑戰。大家看右邊的數字，Thailand 每千人口有 33.15 個紅血球單位，這是可持續的水準。但是 Indonesia 只有 11.18，已經是吃緊的狀態。而 India 和 Malaysia 每年有超過 1.5 萬個嚴重 hemoglobinopathy 的新生兒出生，造成巨大的血液供應壓力。\n\n左邊的圖表顯示，隨著大量 NTDT 患者逐漸轉變為 TDT，輸血需求會急劇上升。目前安全血液的供應只有在 1-3% 的人口定期捐血的情況下才能滿足。底部的訊息很明確：東南亞必須大幅擴展自願無償捐血網絡，才能應對這個日益加重的危機。"
+    },
+    "10": {
+      "hint": "American Society of Hematology | Sickle Cell Therapies—The Who, What, When, and",
+      "note": "這張投影片列出了今天會參考的幾篇重要的 ASH Education Program 文章，包括 Sickle Cell Therapies 的 who, what, when, and where、managing iron overload in transfused hemoglobinopathies、the untransfusable patient、hemoglobinopathies and increased risk of venous thromboembolism，以及 proactive management to improve outcomes of high-risk pregnancy in people with sickle cell disease。\n\n右邊大家可以看到 Hematology 2025 教育書的封面。這些都是 ASH 67th Annual Meeting 的重要教育資源，建議大家有時間可以去線上閱讀完整的內容。"
+    },
+    "11": {
+      "hint": "American Society of Hematology | American Society of Hematology | Case 1 • A you",
+      "note": "好，現在我們進入第一個臨床案例。這是一對年輕的泰國夫妻，最近移民到美國，到當地的家庭醫學中心就醫。夫妻都是 22 歲。\n\n在篩檢的抽血中，太太被發現有中度貧血，Hemoglobin 只有 9 g/dL，MCV 是 70，這是一個典型的小球性貧血。先生的 hemoglobin 則在正常範圍內。這樣的表現在來自泰國的年輕女性身上，我們馬上要想到 thalassemia 的可能性。"
+    },
+    "12": {
+      "hint": "American Society of Hematology | American Society of Hematology | Case Continued",
+      "note": "案例繼續。她的飲食很均衡，肉類和綠色蔬菜都有吃，所以營養性的缺鐵可能性不高。Iron studies 顯示 ferritin 175、iron saturation 40%，這也不支持缺鐵性貧血的診斷。\n\n接著做了 Hemoglobin Electrophoresis 和基因檢測，結果確認是 Beta Thalassemia Intermedia，基因型是 b+/b0。她對這個診斷感到很緊張，想知道會有什麼潛在的併發症和治療選擇。她也問了如果不治療的話，會有什麼風險。這是一個非常典型的臨床場景，我們接下來就會看到 NTDT 患者面臨的各種問題。"
+    },
+    "13": {
+      "hint": "American Society of Hematology | American Society of Hematology | Thalassemia re",
+      "note": "大家看這張圖，它很清楚地呈現了 thalassemia 是一個表型的 spectrum。左邊是 non-transfusion-dependent thalassemia，也就是 NTDT，包括很少需要輸血的 thalassemia minor，以及偶爾或間歇性需要輸血的 thalassemia intermedia。右邊是 transfusion-dependent thalassemia，也就是 TDT，包括需要終生規律輸血的 thalassemia major。\n\n在 NTDT 的範疇下，你可以看到 alpha-thalassemia trait、beta-thalassemia trait、mild HbE/beta-thalassemia、deletional HbH 等等。而 TDT 則包括 non-deletional HbH、survived Hb Bart's hydrops、beta-thalassemia major 和 severe HbE/beta-thalassemia。重要的是，患者可以沿著這個 spectrum 移動，從 NTDT 轉變為 TDT。"
+    },
+    "14": {
+      "hint": "American Society of Hematology | High morbidity in adults with non- transfusion-",
+      "note": "接下來我們要看一篇非常重要的研究，Abstract #1141，由 A. Cheng、S. Peslak、S. Sheth、F. Sayani 和 A. Lal 發表。這篇研究探討的是成人 NTDT 患者被轉介到美國專科中心時的高 morbidity 問題。\n\n這個研究的重要性在於，它告訴我們即使是所謂「不需要輸血」的 thalassemia 患者，如果沒有被適當管理，也會有很高的疾病負擔。"
+    },
+    "15": {
+      "hint": "American Society of Hematology | American Society of Hematology | Multi-center s",
+      "note": "這是一個多中心的研究，由三個著名的醫學中心合作進行：UCSF Benioff Children's Hospitals、Weill Cornell Medicine 和 Penn Medicine。\n\n收錄標準包括年齡 18 歲以上、臨床診斷為 NTDT、在 2013 到 2023 年間被轉介到這三個中心之一。他們詳細記錄了每位患者的實驗室和臨床特徵。按基因型分類，包括 Heterozygous Beta Thalassemia 9 例、HbE/Beta Thalassemia 11 例、Beta/Beta Thalassemia 23 例、Nondeletional Hemoglobin H 16 例，以及 Deletional Hemoglobin H 17 例。"
+    },
+    "16": {
+      "hint": "American Society of Hematology | American Society of Hematology | Hb varies by g",
+      "note": "大家看這張投影片的兩個圖。左邊的 box plot 顯示 hemoglobin 會隨基因型而有所不同。紅色虛線大約在 8 g/dL 的位置，很多患者的 hemoglobin 都落在 8 到 10 之間。Deletional HbH 的 hemoglobin 相對較高，而 HbE/Beta Thalassemia 和 Beta/Beta Thalassemia 的分布範圍比較廣。\n\n右邊的 heatmap 是重點，它顯示臨床併發症在 NTDT 患者中是非常常見的。可以看到 arrhythmia、diabetes、hypogonadism、hypothyroid、low bone density、paraSpinal masses、pulmonary hypertension、splenectomy 和 thrombosis，在各種基因型中都有不同程度的盛行率。HbE/Beta Thalassemia 的併發症特別多樣。這告訴我們 NTDT 絕對不是一個良性的疾病。"
+    },
+    "17": {
+      "hint": "American Society of Hematology | American Society of Hematology | Iron overload",
+      "note": "這張投影片講的是 iron overload 的問題，而且標題說得很清楚：iron overload is common and undertreated。\n\n左邊是 Liver iron content 的 box plot，右邊是 Cardiac T2* 的數據。底下列出了幾個令人擔憂的數字：38% 的患者 ferritin 超過 800 ng/mL，但在第一次評估時只有 22.6% 在使用 iron chelation。50% 的患者已知 LIC 大於 5 mg iron/g dry liver weight，但只有 24% 在使用 chelation。更令人擔心的是，有 3 位患者的 cardiac T2* 小於 20 msec，代表心臟已經有 iron overload，但沒有任何一位在做 chelation。\n\n這是一個非常嚴重的治療不足的問題。"
+    },
+    "18": {
+      "hint": "American Society of Hematology | American Society of Hematology | RBC Transfusio",
+      "note": "這張投影片告訴我們一個重要的觀念：RBC 輸血的需求是動態的，不是靜態的。在 82 位 NTDT 患者中，有 40 位，也就是 49%，在評估後被建議開始規律輸血。\n\n在有記錄原因的 37 位患者中，49% 是因為有症狀的貧血或疲勞，40% 是因為 extramedullary hematopoiesis 或 ineffective erythropoiesis，16% 是因為 pulmonary hypertension、heart failure 或心肺症狀，5% 是因為懷孕。另外有 6 位患者，也就是 16%，有超過一個原因需要輸血。\n\n所以大家要記住，NTDT 這個分類不代表永遠不需要輸血，將近一半的患者最終會轉變為需要規律輸血。"
+    },
+    "19": {
+      "hint": "American Society of Hematology | American Society of Hematology | Conclusions •",
+      "note": "讓我們來看這篇研究的結論。第一，NTDT 是異質性的，如果沒有早期管理，morbidity 會很高。第二，thalassemia 併發症的 under-recognition 會延誤適當的早期介入。第三，在成年才被轉介的患者中，併發症的盛行率很高。第四，很多患者會隨著年齡增長而變得需要輸血。第五，iron overload 很常見，而且可能被 under-screened 和 under-treated。\n\n特別要注意的是，即使是 heterozygous beta thalassemia，當它和其他遺傳修飾因子共遺傳時，也可以導致 thalassemia syndrome。最後，底部用粗體字強調：以減少輸血為目標的管理策略仍在發展中。這就帶我們進入後面關於新型治療的討論。"
+    },
+    "20": {
+      "hint": "American Society of Hematology | American Society of Hematology | Case Continued",
+      "note": "回到我們的案例。進一步追問後，發現患者有持續性的背痛。影像學檢查顯示腰椎有 extramedullary hematopoiesis。她被開始了輸血計畫，同時也開始服用 Hydroxyurea 500mg 每天。\n\n現在他們夫妻正在考慮懷孕，她想知道我們該如何處理她目前的治療。這就帶出了一個很重要的臨床問題：thalassemia 患者在懷孕期間的管理，以及 hydroxyurea 在懷孕期間的安全性。"
+    },
+    "21": {
+      "hint": "American Society of Hematology | American Society of Hematology | Pregnancy and",
+      "note": "這張投影片談的是 Pregnancy and Thalassemia 的管理原則。輸血的目標是維持 Hemoglobin 大於 10 g/dL。\n\nChelation 方面，應該在懷孕前 3 個月停用，並至少持續停用到第二孕期的後期。管理上需要特別注意的問題包括：篩檢 diabetes、監測 thrombosis 的風險，以及監測心肺狀態。這些都是 thalassemia 患者懷孕時需要特別留意的併發症。"
+    },
+    "22": {
+      "hint": "American Society of Hematology | Outcomes of Pregnancies in Sickle Cell Patients",
+      "note": "接下來我們看一篇關於 SCD 患者懷孕結果的重要研究。這是 ESCORT-HU Cohort Studies 的研究成果，由 Anoosha Habibi 領導的一個大型歐洲多中心團隊發表。\n\n這篇研究的重要性在於，它提供了目前最大規模的關於 hydroxyurea 暴露對 SCD 患者懷孕影響的前瞻性數據。"
+    },
+    "23": {
+      "hint": "American Society of Hematology | SCD (n = 502) Chronic myeloid leukemia (n = 26)",
+      "note": "在進入 ESCORT-HU 之前，先看一下背景文獻。上方是一篇 systematic review，回顧了 hydroxyurea 在懷孕期間的安全性。在 567 例懷孕中，SCD 佔了 502 例，結論是在胎兒身上既沒有觀察到致畸效應，也沒有不良的血液學影響。\n\n下方是 Kroner 等人的研究，追蹤了 1780 次懷孕，其中 241 次有 hydroxyurea 暴露。結果顯示，懷孕早期暴露確實有較高的流產和胎兒死亡率，但在第二和第三孕期，反而有更好的懷孕結果。這些背景數據對我們理解 ESCORT-HU 的發現非常重要。"
+    },
+    "24": {
+      "hint": "American Society of Hematology | American Society of Hematology | ESCORT-HU & ES",
+      "note": "ESCORT-HU 全名是 European Scd COhoRT-HydroxyUrea，是一個應 European Medicines Agency 的要求而啟動的風險管理計畫。它是一個前瞻性、非介入性的歐洲多中心研究，涵蓋法國、德國、希臘和義大利，累積了超過 15000 patient-years 的安全性數據。\n\n原始的 ESCORT-HU 從 2009 年開始，到 2020 年後又有了 ESCORT-HU Extension，一直延伸到 2025 年。這是一個非常長期的追蹤研究。"
+    },
+    "25": {
+      "hint": "American Society of Hematology | American Society of Hematology | 3145 patients",
+      "note": "ESCORT-HU 和其延伸研究共納入了 3145 位患者，其中 1412 位男性佔 45%，1733 位女性佔 55%。在女性中，有 785 位是青春期後的女性，其中有 183 位患者共發生了 245 次懷孕。\n\n大家看右邊的流程圖，在 245 次懷孕中，207 次有 hydroxyurea 暴露，36 次沒有暴露，2 次不清楚，1 次仍在進行中。一個重要的發現是，大多數女性即使在使用 hydroxyurea 的情況下也沒有使用避孕措施，而且 49.9% 的女性至少有一個孩子。左邊的柱狀圖顯示患者年齡分布主要集中在 18-45 歲，也就是生育年齡。"
+    },
+    "26": {
+      "hint": "American Society of Hematology | HU Exposure During Pregnancy *** 84% of patient",
+      "note": "這張投影片的重點是 hydroxyurea 在懷孕期間的暴露情況。84% 的患者在懷孕期間有 HU 暴露，但大多數是在第一孕期就停藥了。\n\n大家看左邊的數據：61.8% 在第一孕期停藥，6.5% 在第二孕期停藥，2% 在第二孕期才開始使用，9.3% 整個懷孕期間都持續使用，15.4% 沒有暴露，3.7% 暴露狀態不明。\n\n右邊特別標出，只有 1 例 pyelocalyceal junction abnormality 的先天異常，而且那位患者只在懷孕最初 2 週有 HU 暴露。除此之外，沒有觀察到其他可歸因於 hydroxyurea 的先天畸形。"
+    },
+    "27": {
+      "hint": "American Society of Hematology | Outcome HU Exposure Non HU exposure unknown N=2",
+      "note": "大家看這張懷孕結果的比較表。在有 HU 暴露的 207 次懷孕中，maternal mortality 是 0%，live birth 是 74%，prematurity 17%，miscarriage 17%，stillbirth 只有 1 例，voluntary abortion 12%，therapeutic abortion 2 例。\n\n在沒有 HU 暴露的 36 次懷孕中，同樣沒有 maternal mortality，live birth 也是 74%，prematurity 11%，miscarriage 反而較高達 22%。右上角還特別提到，有 9 次懷孕是整個孕期都暴露在 HU 下的，這些患者都有 DHTR 的病史，結果是 5 例正常出生、4 例早產。\n\n整體來看，HU 暴露組的結果並沒有比非暴露組差。"
+    },
+    "28": {
+      "hint": "American Society of Hematology | ESCORT CONCLUSION • Pregnancy in women with SCD",
+      "note": "ESCORT 的結論非常重要。第一，SCD 女性的懷孕仍然是具有挑戰性的。第二，在 245 次有 hydroxyurea 暴露的懷孕中，沒有 maternal death，也沒有可歸因於 HU 的先天畸形。第三，有 HU 暴露的懷孕結果並沒有更差，早期或意外使用可能比我們擔心的危害要小。\n\n第四點特別重要，在缺乏輸血條件的低資源環境中，是否繼續或停止 HU 的決定至關重要。第五，仍需要更大規模的 cohort 和更長期的追蹤來進一步確認這些發現。\n\n這些數據對於我們亞太地區的臨床實踐特別有意義，因為很多地方的輸血資源有限。"
+    },
+    "29": {
+      "hint": "American Society of Hematology | American Society of Hematology | American Socie",
+      "note": "回到我們的案例。患者問到有沒有什麼新的治療選擇。這是一個很好的問題，因為近年來在 hemoglobinopathy 的治療方面確實有很多令人興奮的進展。接下來我們就要介紹幾個重要的新型治療。"
+    },
+    "30": {
+      "hint": "Pyruvate Kinase Receptor Activators ADP, adenosine diphosphate; ATP, adenosine t",
+      "note": "首先來看 Pyruvate Kinase Receptor Activators，也就是 PKR activators。大家看這張機轉圖，PKR 是紅血球中負責將 PEP 轉換為 pyruvate 的關鍵酵素。\n\n當 PKR activator 像是 Mitapivat 或 Etavopivat 作用在 PKR 上時，會促進 ADP 轉換為 ATP，增加細胞能量。這帶來兩個重要的效果：第一，增加 RBC membrane integrity，讓紅血球更穩定不容易被破壞。第二，降低 2,3-DPG 的含量，進而減少 HbS polymerization，這對 sickle cell disease 特別有意義。\n\n同時 hemoglobin 的氧氣親和力也會改變，減少 deoxy-Hb 的形成。這是一個從根本上改善紅血球功能的治療策略。"
+    },
+    "31": {
+      "hint": "Efficacy of mitapivat in patients with transfusion- dependent alpha-thalassemia:",
+      "note": "接下來看 mitapivat 在 transfusion-dependent alpha-thalassemia 的療效數據。這是 ENERGIZE-T 試驗的 subgroup analysis。ENERGIZE-T 是第一個也是目前唯一針對 TDT 患者的 PKR activator 的 Phase 3 隨機對照試驗。\n\n下方還有另一篇關於 ENERGIZE-T open-label extension 的長期數據，探討 mitapivat 在 alpha 或 beta thalassemia 患者中的 long-term transfusion-free duration 和對 transfusion burden 的影響。"
+    },
+    "32": {
+      "hint": "Highlights of ASH Background Screening period (up to 8 weeks) Double-blind perio",
+      "note": "大家看 ENERGIZE-T 的研究設計。這是一個經過 screening period、然後進入 48 週的 double-blind period 的隨機對照試驗，隨機比例是 2:1，mitapivat 100mg 每天兩次對上 placebo。之後所有患者都可以進入最長 5 年的 open-label extension，使用 mitapivat 100mg 每天兩次。\n\n收錄條件包括 18 歲以上、確診 thalassemia、transfusion-dependent，也就是在隨機化前 24 週輸注了 6-20 單位 RBC。排除條件包括之前接受過 gene therapy 或 HSCT、homozygous 或 heterozygous 的 HbS 或 HbC。隨機化分層因素包括 thalassemia genotype 和地理區域。"
+    },
+    "33": {
+      "hint": "Primary endpoint Endpoint depiction a Highlights of ASH KEY = Units of RBCs tran",
+      "note": "這張投影片詳細說明了 ENERGIZE-T 的 endpoints。Primary endpoint 是 Transfusion Reduction Response，也就是 TRR，定義為在任何連續 12 週期間達到輸血量減少 50% 以上且減少 2 個單位以上。\n\nKey secondary endpoints 包括 TRR2，在任何連續 24 週期間達到 50% 以上的減少；TRR3，在固定 36 週期間達到 33% 以上的減少；以及 TRR4，在固定 36 週期間達到 50% 以上的減少。這些不同時間窗的 endpoints 讓我們能更全面地評估 mitapivat 的療效持續性。"
+    },
+    "34": {
+      "hint": "α-thalassemia Results 77.8%, 66.7%, and 66.7% of patients with α -thalassemia in",
+      "note": "現在來看 alpha-thalassemia 的結果，這是非常令人振奮的。在 mitapivat 組的 9 位 alpha-thalassemia 患者中，77.8% 達到了 primary endpoint TRR，而 placebo 組 3 位患者中是 0%。\n\n大家看右邊的 Figure 2B，key secondary endpoints 的結果同樣出色。TRR2 方面，mitapivat 組 77.8% 對比 placebo 組 0%。TRR3 和 TRR4 也都是 66.7% 對比 0%。雖然樣本量不大，但差異是非常明顯的，95% confidence interval 的下界都在正值。"
+    },
+    "35": {
+      "hint": "Highlights of ASH Conclusions • Mitapivat reduced the transfusion burden of pati",
+      "note": "Mitapivat alpha-thalassemia subgroup 的結論是：mitapivat 顯著降低了 transfusion-dependent alpha-thalassemia 患者的輸血負擔。大比例的 mitapivat 治療患者達到了 primary 和 key secondary endpoints，包括 TRR、TRR2、TRR3、TRR4，以及 protocol-defined transfusion independence，而 placebo 組則完全沒有達標。\n\n這些數據與整體 ENERGIZE-T 人群的結果一致，支持 mitapivat 在 alpha-thalassemia 患者中減少輸血的有益效果。這對我們地區特別重要，因為 alpha-thalassemia 在東南亞非常盛行。"
+    },
+    "36": {
+      "hint": "Highlights of ASH Background • In the DBP, the primary and key secondary endpoin",
+      "note": "接下來看 ENERGIZE-T 的 transfusion independence 數據。在 double-blind period 中，primary 和 key secondary endpoints 都達到了。Transfusion independence 是一個 secondary endpoint，定義為在 DBP 的 Week 48 之前有連續 8 週以上不需要輸血。\n\n結果顯示，mitapivat 組有 17 位患者，也就是 9.9%，達到了 protocol-defined TI，而 placebo 組只有 1 位，也就是 1.1%。Adjusted difference 是 9%，95% CI 是 4% 到 14%。其中 3 位患者在整個 48 週的 DBP 期間都維持不需要輸血。"
+    },
+    "37": {
+      "hint": "Highlights of ASH Background Figure 3. A higher proportion of patients in the mi",
+      "note": "大家看 Figure 3 這個柱狀圖，很直觀地呈現了差異。Mitapivat 組 171 位患者中有 9.9% 達到了 TI，placebo 組 87 位患者中只有 1.1%。Adjusted difference 的 95% CI 是 3.8 到 13.8，統計上是顯著的。\n\n更重要的是，在達到 TI 的 17 位患者中，有 3 位在整個 48 週 DBP 期間都維持不需要輸血。這代表 mitapivat 不只是暫時減少輸血，對某些患者來說，真的有可能達到完全不需要輸血的狀態。"
+    },
+    "38": {
+      "hint": "Highlights of ASH Methods • The longest transfusion-free period was evaluated fo",
+      "note": "這是一個 post hoc exploratory analysis，評估那 17 位在 DBP 達到 TI 的 mitapivat 患者在更長期追蹤中的 transfusion-free duration。他們使用 DBP 加上 OLE 的累積數據，評估從第一劑 mitapivat 開始到 OLE 最後一位患者首劑後 90 天的數據截止日的最長 transfusion-free period。\n\n他們還計算了 transfusion burden 的實際影響，假設每次輸血要花 7 小時，每單位 PRBC 含有 200 mg 的鐵。這些假設讓我們能夠把 transfusion reduction 轉換成對患者生活品質和 iron loading 的實際影響。"
+    },
+    "39": {
+      "hint": "Highlights of ASH Results • The 17 patients who achieved protocol-defined TI in",
+      "note": "結果非常令人鼓舞。這 17 位患者在 DBP+OLE 期間的 median mitapivat 暴露時間是 72 週。在 DBP 期間，最長 transfusion-free period 的平均持續時間是 21.69 週，最長可達 59.9 週。\n\n大家看右邊的 Figure 4，在 DBP+OLE 期間，平均 transfusion-free period 增加到了 30.49 週，最長更達到 84.3 週，這相當於將近一年半不需要輸血。那 3 位在 48 週 DBP 期間完全不需要輸血的患者，在整個 DBP+OLE 評估期間也持續維持不需要輸血。"
+    },
+    "40": {
+      "hint": "Highlights of ASH Results • For the 17 patients who achieved protocol-defined TI",
+      "note": "再來看 transfusion visits 的減少。在這 17 位達到 TI 的患者中，年化輸血次數從 baseline 的 12.9 次減少到 DBP+OLE 期間的 5.7 次，減少了 56%。大家看右邊的圖，如果每次輸血需要 7 小時，那每年可以節省 50.2 小時在輸血上花費的時間。\n\n從 baseline 每年 90.4 小時減少到 40.2 小時，這對患者的生活品質改善是非常顯著的。想想看，每年少花 50 個小時在醫院輸血，對工作和日常生活的影響有多大。"
+    },
+    "41": {
+      "hint": "Highlights of ASH Results • For the 17 patients who achieved protocol-defined TI",
+      "note": "接著看 PRBC 單位數和鐵負荷的減少。每年輸注的 PRBC 單位數從 baseline 的 22.0 單位減少到 DBP+OLE 期間的 8.0 單位，減少了 63.6%。\n\n大家看右邊的圖，假設每單位 PRBC 含 200 mg 鐵，年化輸血鐵攝入量從 baseline 的 4399 mg 減少到 1597.6 mg，每年少了約 2802 mg 的鐵攝入。這個數字非常有意義，因為 iron overload 是 thalassemia 患者主要的長期併發症來源。減少鐵攝入意味著可能需要更少的 chelation，也降低了器官損傷的風險。"
+    },
+    "42": {
+      "hint": "Conclusions • The mean duration of transfusion-free period increased in the DBP+",
+      "note": "ENERGIZE-T 長期數據的結論是：第一，在 DBP 達到 TI 的 17 位患者，在 DBP+OLE 期間的 transfusion-free period 平均持續時間進一步增加，最長可達 84.3 週。\n\n第二，這種長期的 transfusion-free period 展現了 mitapivat 在改善臨床和生活品質相關的 transfusion burden 方面的潛力，包括減少輸血次數、節省時間和減少鐵攝入。\n\n第三，這些結果進一步支持 mitapivat 作為一種有效的口服 disease-modifying therapy，適用於 transfusion-dependent 的 alpha 或 beta thalassemia 成人患者。一個口服藥就能達到這樣的效果，這真的是很大的進步。"
+    },
+    "43": {
+      "hint": "Luspatercept in \u001d獰 -thalassemia: Meta-analysis of efficacy and safety across tra",
+      "note": "接下來看另一個重要的 disease-modifying therapy：Luspatercept。這是一篇 meta-analysis，由 Guntupalli 等人發表，分析了 luspatercept 在 beta-thalassemia 中的療效和安全性，涵蓋了 transfusion-dependent 和 non-transfusion-dependent 兩個族群。"
+    },
+    "44": {
+      "hint": "Background & Objective Background ● Luspatercept is a first-in-class erythroid m",
+      "note": "先看背景。Luspatercept 是一個 first-in-class 的 erythroid maturation agent，已獲准用於成人 transfusion-dependent beta-thalassemia。它的作用機轉是結合 TGF-beta superfamily ligands，抑制 SMAD2/3 signaling，從而促進晚期紅血球的成熟。Phase III 試驗 BELIEVE 已經證明它能顯著減少輸血需求。\n\n這篇 meta-analysis 的目的是量化 luspatercept 在 TDT 和 NTDT 兩個族群中的 pooled efficacy 和 safety。研究設計是 systematic review 加 meta-analysis，納入了 4 個前瞻性試驗，共 393 位患者。"
+    },
+    "45": {
+      "hint": "Results: Pooled TDT Efficacy: ● 74% achieved ≥ 33% reduction in transfusion burd",
+      "note": "大家看這些結果。在 TDT 患者的 pooled efficacy 中，74% 達到了輸血量減少 33% 以上，27% 達到了 50% 以上的減少。在 BELIEVE 試驗中，luspatercept 組達到 33% 以上減少的機率是 placebo 的約 6 倍，odds ratio 是 5.8。\n\n在 NTDT 方面，78% 達到了 Hb 增加 1.0 g/dL 以上，54% 達到了 1.5 g/dL 以上的增加。在 BEYOND 試驗中，77.1% 達到了 1.0 g/dL 以上的 Hb 增加，而 placebo 組是 0%。\n\n安全性方面，98% 有 treatment-emergent adverse event，24% 有 Grade 3 以上的嚴重不良事件，但最常見的只是肌肉骨骼疼痛、頭痛和關節痛，沒有新的安全性信號。"
+    },
+    "46": {
+      "hint": "● Luspatercept demonstrates substantial and consistent benefit in both TDT and N",
+      "note": "Luspatercept meta-analysis 的結論很明確：luspatercept 在 TDT 和 NTDT beta-thalassemia 中都展現了實質性且一致的效益。在 TDT 中，它顯著減少輸血負擔。在 NTDT 中，它顯著增加 hemoglobin 水平。安全性 profile 是可接受且可管理的。\n\n這些發現支持 luspatercept 作為 beta-thalassemia 的 transformative therapy。對於我們臨床醫師來說，現在在 disease-modifying therapy 方面有了更多選擇。"
+    },
+    "47": {
+      "hint": "Efficacy and Safety of Osivelotor in Participants With Sickle Cell Disease in a",
+      "note": "現在我們轉到 sickle cell disease 的新藥。這是 Osivelotor 的 Phase 2 試驗結果，Abstract #4728，由 Santosh Saraf 等人在 ASH 2025 年會上發表。\n\nOsivelotor 是一個 HbS polymerization inhibitor，也就是直接抑制鐮狀血紅素聚合的藥物。這個 Phase 2 研究是一個 12 週、多中心、open-label 的劑量探索試驗，還包括了一個 extension study。"
+    },
+    "48": {
+      "hint": "48 HbS, sickle hemoglobin; OLE, open-label extension; SCD, sickle cell disease O",
+      "note": "Osivelotor 的研究目標很明確：報告 12 週 Phase 2 研究的最終分析結果，以及 open-label extension 的較長期數據。\n\n這個藥物的機轉是直接抑制 HbS polymerization，這是 SCD 病理的核心事件。如果能有效抑制 HbS 聚合，理論上就能減少紅血球鐮狀化、減少 vaso-occlusive crises 和溶血。"
+    },
+    "49": {
+      "hint": "49 CFB, change from baseline; Hb, hemoglobin; HbSS, homozygous hemoglobin S geno",
+      "note": "大家看研究設計。這是一個 1:1 隨機的 open-label 研究，54 位參與者被隨機分配到 osivelotor 100mg 或 150mg 兩個劑量組，各 27 人。完成 12 週的參與者可以進入 open-label extension，100mg 組 23 人、150mg 組 23 人。\n\n收錄條件包括 18-65 歲、HbSS 或 HbS-beta0 基因型、Hb 5.5-10.5 g/dL、篩檢前 12 個月內 VOC 不超過 10 次。Primary endpoint 在 Phase 2 是 Hb 從 baseline 的改變，在 OLE 是安全性。兩組的 baseline 特徵，包括年齡、基因型、先前 VOC 次數和 DMT 使用，都很相似。"
+    },
+    "50": {
+      "hint": "50 At Week 12 of the Phase 2 Study, Substantial Increases From Baseline in Hb We",
+      "note": "結果非常令人印象深刻。在 Phase 2 研究的第 12 週，兩個劑量組都觀察到 Hb 從 baseline 的顯著增加。150mg 組的 LS mean Hb 增加是 3.35 g/dL，95% CI 2.81-3.89。100mg 組則是 2.58 g/dL，95% CI 2.05-3.11。\n\n右邊的重點包括：藥物耐受性良好，大多數不良事件只有 Grade 1-2。有減少 pain crisis events 的趨勢。超過 70% 的參與者 Hb 增加超過 2 g/dL，而且這個改善在 open-label extension 中持續維持。Hemolysis markers 也改善了。這是一個非常有前景的新藥。"
+    },
+    "51": {
+      "hint": "Conclusions Overall, these results support ongoing clinical development of osive",
+      "note": "Osivelotor 的結論分為三個方面。第一，在 SCD 成人中，osivelotor 在 12 週 Phase 2 試驗和 OLE 中都被良好耐受。第二，osivelotor 治療帶來了實質性且具臨床意義的 Hb 增加，伴隨溶血指標的改善，且 Hb 的改善在 OLE 中持續維持。第三，在 Phase 2 和 OLE 中，與治療前 12 個月相比，VOC 發生率有所下降。\n\n底部的結論是：這些結果支持繼續開發 osivelotor 作為 SCD 的潛在治療。我們期待看到更大規模的 Phase 3 試驗結果。"
+    },
+    "52": {
+      "hint": "Key Points • TDT and NTDT represent a large spectrum of conditions that may lead",
+      "note": "這張投影片做了一個很好的階段性總結。TDT 和 NTDT 代表了一大類可能導致 morbidity 和 mortality 的疾病，主要通過嚴重貧血、ineffective erythropoiesis、iron overload 和其他器官損傷。\n\n特別推薦大家去看 Abstract #0176，那是一篇由 Carlo Castruccio Castracani 等人發表的關於 curative 和 disease-modifying therapies 對 beta-thalassemia 中 ineffective erythropoiesis 的 real-world comparative effects 的研究。\n\n最後要強調的是，RBC transfusion、luspatercept 和 mitapivat 都是已經獲得核准的 disease-modifying therapies。特別是 mitapivat 在 2025 年 12 月獲准用於 TDT 和 NTDT。"
+    },
+    "53": {
+      "hint": "American Society of Hematology | American Society of Hematology | Case continued",
+      "note": "回到我們的案例。患者在懷孕期間接受了 simple transfusions 的支持，順利度過了一個沒有併發症的足月妊娠，生下了一個健康的女嬰。\n\n但幾週後，新生兒篩檢結果讓她很驚訝，寶寶被發現也是 beta-zero/beta-zero 的基因型。原來寶寶的父親之前不知道自己帶有 beta thalassemia trait。現在患者想了解她女兒有什麼潛在的根治性治療選擇。這裡也帶出了 genetic counseling 在 hemoglobinopathy 管理中的重要角色。"
+    },
+    "54": {
+      "hint": "American Society of Hematology | American Society of Hematology | Transformative",
+      "note": "現在我們進入 transformative therapies 的討論。對於 thalassemia 和 SCD，standard of care 仍然是 matched sibling donor 的造血幹細胞移植，但大多數人找不到合適的配對捐贈者。\n\nHaploidentical donor、matched unrelated donors 和 gene therapy 是可能的替代方案。目前有 2 個已獲核准的產品同時用於 SCD 和 TDT：Lovotibeglogene autotemcel，也就是 Lovo-cel，以及 Betibeglogene autotemcel，也就是 Beti-cel；另一個是 Exagamglogene autotemcel，也就是 Exa-cel。"
+    },
+    "55": {
+      "hint": "American Society of Hematology | First Results of Exagamglogene Autotemcel in Pe",
+      "note": "接下來看一篇非常重要的研究：Exa-cel 在 5-11 歲兒童中的首次結果。這是 Abstract abs25-8416，由 Haydar Frangoul 領導的大型國際團隊發表。\n\n這篇研究涵蓋了 transfusion-dependent beta-thalassemia 和有反覆 vaso-occlusive crises 的 sickle cell disease 的 5-11 歲兒童。這是 exa-cel 在更年幼的兒童群體中的第一批臨床數據，具有里程碑意義。"
+    },
+    "56": {
+      "hint": "American Society of Hematology | Exa-cel: The First Approved CRISPR/Cas9 Gene Ed",
+      "note": "大家看左邊的機轉圖。Exa-cel 是第一個也是目前唯一獲准的 CRISPR/Cas9 gene editing therapy，商品名是 Casgevy，核准用於 12 歲以上的 TDT 和有反覆 VOC 的 SCD 患者。\n\n它的原理是在體外對 CD34+ HSPCs 進行 non-viral 的 ex vivo editing，靶向 BCL11A 基因的 erythroid-specific enhancer region，降低 BCL11A 在紅血球系的表達。BCL11A 正常功能是抑制 gamma-globin 的表達，所以當 BCL11A 被抑制後，HbF 的合成就會被重新啟動。\n\n之前在 12-17 歲青少年的 Phase 1/2/3 數據，包括 CLIMB TDT-111 和 CLIMB SCD-121，已經證明 HbF 的提升能夠消除 TDT 患者的輸血需求和 SCD 患者的 VOC。"
+    },
+    "57": {
+      "hint": "American Society of Hematology | TDT: Transformative and Durable Efficacy Across",
+      "note": "大家看這張非常詳細的 swimmer plot。上半部是 12-17 歲青少年在 CLIMB THAL-111 中的數據，下半部是 5-11 歲兒童在 CLIMB THAL-141 中的數據。\n\n右邊的重點：在 CLIMB THAL-141 中，6/6，也就是 100% 的可評估參與者達到了 TI12，即連續 12 個月以上不需要輸血且 Hb 維持在 9 g/dL 以上。Mean transfusion independence 持續時間是 19.8 個月，範圍 14.0-22.5 個月。12/13 的參與者在 exa-cel 輸注後平均 1.3 個月就停止了 RBC 輸血。Transfusion-free 持續時間從 2.3 到 22.5 個月不等。這些結果和青少年組非常相似。"
+    },
+    "58": {
+      "hint": "American Society of Hematology | SCD: Transformative and Durable Efficacy Across",
+      "note": "SCD 方面的結果同樣令人振奮。在 CLIMB SCD-151 中，4/4，也就是 100% 的 5-11 歲可評估參與者達到了 VF12 和 HF12，即連續 12 個月以上沒有嚴重 VOC 且不需要住院。\n\n更重要的是，在 5-11 歲組中，沒有任何參與者在 exa-cel 輸注後發生過 VOC。VOC-free 持續時間從 3.2 到 24.1 個月。而且兒童和青少年參與者在 exa-cel 之後的 VOC 事件比成人參與者更少，這與在慢性器官損傷發生之前就進行治療的理念一致。\n\n這告訴我們，越早介入，效果可能越好。"
+    },
+    "59": {
+      "hint": "American Society of Hematology | Durable Increases in Total Hb and HbF in Partic",
+      "note": "這張投影片顯示了 Hb 和 HbF 的持續性改善。上方兩張圖是 TDT 的數據，下方兩張是 SCD 的數據。左側是 total Hb，右側是 HbF。\n\n在 TDT 和 SCD 中，5-11 歲兒童的 mean total Hb 都增加到了正常年齡調整範圍。HbF 在兒童和青少年組的增加幅度也很相似。特別值得注意的是 pancellular HbF 的分布，在 6 個月後 F-cells 的平均比例超過 99%。\n\n這意味著幾乎所有的紅血球都在表達 HbF，而不只是少數細胞，這對於長期療效的維持非常重要。"
+    },
+    "60": {
+      "hint": "American Society of Hematology | • Exa-cel is the first and only approved CRISPR",
+      "note": "Exa-cel 兒童數據的結論非常有力。第一，exa-cel 是第一個也是唯一核准的 CRISPR/Cas9 gene editing therapy。第二，5-11 歲兒童和 12-17 歲青少年相比，需要更少的 mobilization/apheresis cycles 才能獲得足夠的 drug product。\n\n第三，5-11 歲兒童在超過 2 年的追蹤中達到了持久的臨床效益。TDT：6/6 100% 達到 transfusion independence。SCD：4/4 100% 達到 VOC independence。兩者都有 pancellular HbF 的持久增加，total Hb 正常化，以及骨髓和周邊血中穩定的 allelic editing。\n\n底部用大字特別強調：exa-cel 有潛力為 5-11 歲的 TDT 或 SCD 兒童提供一次性的 functional cure，而且在慢性器官損傷發生之前就治療，可能有更大的效益。"
+    },
+    "61": {
+      "hint": "Reduced Intensity Conditioning for Haploidentical Bone Marrow Transplantation in",
+      "note": "接下來看另一個重要的 curative approach：haploidentical bone marrow transplantation。這是 BMT CTN 1507 試驗，由 Mark C. Walters、Adetola Kassim、Robert Brodsky 和 Michael DeBaun 代表 BMT CTN 1507 investigators 發表。\n\n這個研究探討的是在有症狀的 SCD 兒童中使用 reduced intensity conditioning 進行 haploidentical BMT 的結果。Haploidentical 移植的優勢是幾乎每個患者都能找到捐贈者，因為父母就是 haploidentical match。"
+    },
+    "62": {
+      "hint": "Protocol Synopsis • Phase II, single arm, multi-center trial with adult and pedi",
+      "note": "這是一個 Phase II、single arm、multi-center 的試驗，分成成人和兒童兩個分層。Haploidentical BMT 用於 SCD 患者，Stratum 1 是成人，15-45.99 歲；Stratum 2 是兒童，5-14.99 歲。今天展示的是兒童分層的結果。\n\n目標收錄數是每個分層 40 位移植參與者，追蹤時間是移植後 2 年。所有捐贈者都是 HLA-haploidentical 的親屬。"
+    },
+    "63": {
+      "hint": "Demographic and Clinical Characteristics (N=39) Demographics • 61.5% Male • 92.3",
+      "note": "兒童分層共納入 39 位參與者。Demographics 方面，61.5% 是男性，92.3% 是 Black 或 African American，中位年齡 12.5 歲。臨床方面，97.4% 是 Hemoglobin SS Disease，82.1% 的 Lansky/Karnofsky Score 是 90-100，82.1% 的 HLA Match Score 是 4/8。\n\n所有參與者之前都沒有做過移植，所有捐贈者都是 related HLA-haploidentical。Safety stopping criteria，包括 day 100 前的 graft failure、嚴重急性 GVHD、嚴重慢性 GVHD 或 day 180 前的 mortality，都沒有被觸發。"
+    },
+    "64": {
+      "hint": "Primary Objective: Event-Free Survival at 2 years post-transplant • 2-year EFS :",
+      "note": "大家看 primary objective 的結果。2-year event-free survival 是 79.3%，95% CI 62.8% 到 89.1%。右邊的 Kaplan-Meier 曲線可以看到，大部分的 events 發生在移植後的前 6 個月。\n\n共有 8 個 qualifying events：2 例死亡、2 例 primary graft failure、4 例 secondary graft failure。Graft failure 的比例是需要關注的問題，特別是 secondary graft failure，意味著初期植入成功但之後失敗。"
+    },
+    "65": {
+      "hint": "Secondary Endpoint: 2-year Overall Survival • 2-year OS: 94.5% • 95%CI [79.7%, 9",
+      "note": "Secondary endpoint 的 2-year overall survival 是 94.5%，95% CI 79.7% 到 98.6%，這個數字是不錯的。但有 2 例死亡，死因分別是 Day 170 的 adenoviral infection 和 Day 430 的 progressive respiratory failure with fungal infection。兩位死亡的患者都在接受 GVHD 的治療。\n\n大家看右邊的 survival curve，整體存活率維持得相當平穩，但每一例死亡在兒童群體中都是令人痛心的。"
+    },
+    "66": {
+      "hint": "American Society of Hematology | American Society of Hematology | GVHD Post-Tran",
+      "note": "GVHD 的發生率也需要關注。Acute GVHD 方面，39 位患者中有 7 位 Grade I，4 位 Grade II，2 位 Grade III，沒有 Grade IV。Grades II-IV 的累積發生率是 15.5%。\n\n慢性 GVHD 方面，4 位 mild、5 位 moderate、3 位 severe。任何嚴重度的慢性 GVHD 的累積發生率在 6 個月時是 10.5%，1 年時 16.0%，2 年時 30.6%。兩年時 30% 的慢性 GVHD 發生率對兒童來說是需要認真考慮的長期影響。"
+    },
+    "67": {
+      "hint": "American Society of Hematology | Summary of Infections 62 Infection Events Occurred in 23 of 39 patients • 25 Bac",
+      "note": "感染是另一個重要的議題。39 位患者中有 23 位，也就是 59%，發生了感染，總共 62 次感染事件。其中 25 次是細菌感染、33 次是病毒感染、3 次是真菌感染。6 例是 Grade 3 的嚴重感染。\n\n大家看右邊的表格，29 次感染發生在移植後 100 天內，33 次在 100 天之後。值得注意的是 viral infections 最為常見，有 33 次事件影響了 19 位患者。這反映了 haploidentical 移植後免疫重建較慢的問題。"
+    },
+    "68": {
+      "hint": "American Society of Hematology | Hospitalizations Summary • 92 Hospital Re-admissions • 30 participants (76.9%) e",
+      "note": "住院的數據也值得關注。共有 92 次再入院，76.9% 的參與者至少有過一次再入院。35.9% 在移植後 31-60 天再入院，41% 在 100 天後再入院。\n\n再入院的主要原因：31.5% 是感染、30.4% 是發燒、14.1% 是 GVHD、其他原因佔 15.2%。這些數字告訴我們，haploidentical BMT 雖然可以提供 curative 的機會，但移植後的照護負擔是相當大的。"
+    },
+    "69": {
+      "hint": "American Society of Hematology | Summary and Conclusions • Overall survival appeared similar to HLA-ID sibling BM",
+      "note": "BMT CTN 1507 兒童分層的結論是：整體存活率與 HLA-identical sibling BMT 相似，優於 unrelated donor BMT。但感染、再入院和 GVHD 的發生率高，且有 2 位在接受 GVHD 治療的患者因感染死亡。\n\n最令人擔憂的是，兒童分層中 graft failure 的發生率是不可接受的，疾病復發導致 EFS 降低。這在 Vanderbilt Consortium 之前使用類似 conditioning 的研究中也有報告。\n\n結論強調，在廣泛推廣這個治療平台之前，迫切需要探索降低 graft failure、感染和 GVHD 的策略。這是一個很重要的提醒：curative therapy 不等於零風險。"
+    },
+    "70": {
+      "hint": "American Society of Hematology | American Society of Hematology | Potential Risk",
+      "note": "這張投影片總結了 curative 和 transformative therapies 的潛在風險。化療的毒性包括不孕、感染、VOD 和繼發性惡性腫瘤。\n\n還有一個重要議題是 clonal hematopoiesis，特別推薦大家參考 Abstract #0008，Lachelle Weeks 等人的研究，發現 SCD 與涉及 DNA damage response pathway mutations 的早發性 clonal hematopoiesis 相關。\n\n另外當然還有 GVHD 的風險，我們在前面的 BMT CTN 1507 數據中已經看到了。這些風險需要在臨床決策中與潛在的治癒性效益進行仔細的權衡。"
+    },
+    "71": {
+      "hint": "American Society of Hematology | American Society of Hematology | Case Concludes",
+      "note": "案例進入結尾。患者和家人聽到了這些治療選項後非常高興，也對未來 disease-modifying 和 transformative therapies 的進一步發展充滿希望。\n\n現在問大家一個問題：在目前的情況下，你會建議什麼管理策略？A 是搜尋 matched donor 進行 allogeneic transplant。B 是開始 chronic transfusion program 並做好 chelation，目標 ferritin 小於 1000。C 是等基因治療的兒童試驗開放再轉介。D 是臨床觀察直到寶寶出現併發症。\n\n大家可以想一想你的答案。"
+    },
+    "72": {
+      "hint": "American Society of Hematology | American Society of Hematology | Key points • S",
+      "note": "第一部分的 key points 總結。第一，已有多種核准和新興的治療選擇可供對 transformative therapies 有興趣的家庭使用。第二，對於沒有 HLA-matched related 或 unrelated donor 的個體，選擇正在增加，包括 haploidentical transplant 和 gene therapy。第三，gene therapy 在年幼兒童中的初步研究結果令人鼓舞。\n\n這些進展對我們的患者來說是好消息，但我們也要記住，每種治療都有其風險和限制，需要個體化的決策。"
+    },
+    "73": {
+      "hint": "American Society of Hematology | Highlights of ASH",
+      "note": "好，現在我們進入第二位講者 Dr. Prantar Chakrabarti 的部分。他將從一個完全不同的角度，也就是資源有限地區的臨床實踐角度，來討論 hemoglobinopathy 的管理挑戰。"
+    },
+    "74": {
+      "hint": "American Society of Hematology | What if this was a Bengali lady visiting NRS Me",
+      "note": "Dr. Chakrabarti 一開始就提出了一個非常好的問題：如果前面那個案例不是在美國，而是一位 Bengali 女性到 Kolkata 的 NRS Medical College 就診呢？\n\n她被診斷為 Hb E Beta Thalassemia。她的脾臟巨大，之前一直沒被發現。理學檢查發現下肢無力，原因是 extramedullary mass 導致的 compressive myelopathy。考慮到情況的緊急性，她接受了低劑量放射治療 20-30 Gy，加上規律輸血和 Hydroxyurea。\n\n這個案例完美地說明了同樣的疾病，在不同的醫療環境下面臨完全不同的挑戰。"
+    },
+    "75": {
+      "hint": "American Society of Hematology | American Society of Hematology | The dilemmas w",
+      "note": "這張投影片列出了在資源有限的環境中，當這樣的患者來看診時，我們面臨的臨床困境。要不要輸血？如何取得 leukodepleted、phenotype matched、irradiated packed cells？輸多少？能不能用其他藥物來改善病情？以及如何做 iron chelation？\n\n這些在已開發國家可能是理所當然的事情，在很多亞太地區的國家卻是每天都在面對的巨大挑戰。接下來我們就逐一來探討。"
+    },
+    "76": {
+      "hint": "American Society of Hematology | American Society of Hematology | American Socie",
+      "note": "這張投影片是一個過渡頁，標示我們正式進入從印度和南亞視角來討論 NTDT 管理的部分。"
+    },
+    "77": {
+      "hint": "American Society of Hematology | American Society of Hematology | The dilemmas w",
+      "note": "再次回到那五個核心問題，現在我們要聚焦在第一個：要不要輸血？這個看似簡單的問題，在 NTDT 的背景下其實非常複雜。大家看這張投影片，這是對我們案例患者的分析。她是 22 歲女性，診斷 Hb E beta-thalassemia，屬於 mild-to-moderate NTDT，目前 Hemoglobin 是 9.0 g/dL。\n\n右邊的儀表盤很直觀地顯示，Hb 低於 10.0 g/dL 是一個需要警覺的閾值。研究數據告訴我們，NTDT 患者如果 Hb 持續低於 10.0 g/dL，會面臨顯著較高的嚴重 morbidity 和 mortality 風險。如果持續降到 7.0 g/dL 以下，加上嚴重疲勞和呼吸困難的症狀，就是一個關鍵的轉折點。"
+    },
+    "78": {
+      "hint": "American Society of Hematology | 1. Taher AT, Musallam KM, Cappellini MD. Guidel",
+      "note": "這張投影片介紹了一個非常重要的概念：phenoconversion phenomenon。所謂 phenoconversion，就是從 non-transfusion-dependent 的狀態轉變為需要規律、終生輸血的狀態，以抑制 ineffective erythropoiesis。\n\n大家看這張圖，觀察性研究揭示，大約 13% 的 NTDT 患者在 10 年內會發生 phenoconversion。右下角有一個重要的提醒：Non-transfusion-dependent 不等於 never transfused。這個分類是高度動態的。\n\n所以當我們面對一位目前 Hb 9.0 的 NTDT 患者時，不能只看現在的狀態，還要考慮她未來 phenoconversion 的風險。"
+    },
+    "79": {
+      "hint": "American Society of Hematology | 1. Taher AT, Musallam KM, Cappellini MD. Guidel",
+      "note": "這張表格很清楚地比較了 steady-state NTDT 和 phenoconverted TDT 之間的功能性差異。\n\n在輸血需求方面，NTDT 是偶爾或不需要，TDT 是每 2-5 週規律輸血。Erythropoiesis 狀態方面，NTDT 是高度無效且有病理性骨髓擴張，TDT 則被外源性輸血所抑制。Iron overload 的來源也不同：NTDT 主要是透過腸道的鐵過度吸收，TDT 則是輸血帶來的鐵堆積。主要的 morbidity profile 也不同：NTDT 是 extramedullary hematopoiesis、pulmonary hypertension、leg ulcers、thrombosis；TDT 則是 heart failure、endocrine failure 等 hemosiderosis 的表現。\n\n這些差異對臨床管理有非常重要的指導意義。"
+    },
+    "80": {
+      "hint": "American Society of Hematology | Highlights of ASH",
+      "note": "這張投影片展示了 Clinical Triggers for Transfusion Dependence。大家看這個人體圖，從上到下列出了可能觸發 NTDT 患者轉變為需要輸血的臨床情境。\n\n頭部是 thromboembolic events，包括腦血管疾病和靜脈血栓。胸部右側是 pulmonary hypertension，常伴隨右心衰竭。左側是 hypersplenism，脾臟巨大伴隨 hemoglobin 進行性下降。右側軀幹是 extramedullary hematopoiesis，骨髓外的造血組織形成腫塊，包括可能導致脊髓壓迫的 paraspinal pseudotumors。下肢是 chronic leg ulcers，由組織缺氧驅動的難以癒合的傷口。\n\n當出現這些情況時，就需要認真考慮開始規律輸血。"
+    },
+    "81": {
+      "hint": "American Society of Hematology | Highlights of ASH",
+      "note": "懷孕是另一個重要的觸發因素。這張投影片叫做 The Pregnancy Catalyst。正常懷孕的生理性貧血在 NTDT 患者中會被嚴重放大。指引嚴格要求維持 maternal Hb 大於 10.0 g/dL 以確保胎兒氧合、預防 intrauterine growth restriction 和早產。\n\n大家看右邊的圖，隨著懷孕進展，Hb 會持續下降，到第三孕期可能遠低於臨床閾值。現實是：56-57% 原本不需要輸血的 NTDT 女性在懷孕期間需要輸血來達到這個嚴格的目標。這再次說明了 NTDT 分類的動態性質。"
+    },
+    "82": {
+      "hint": "American Society of Hematology | 1. Taher AT, Musallam KM, Cappellini MD. Guidel",
+      "note": "推動 phenoconversion 的底層驅動因素有兩個：年齡和遺傳。\n\n左邊是 advancing age 的影響。隨著年齡增長，身體的 erythropoietin 產生能力會獨立地改變。她的身體對慢性貧血的代償能力會不可避免地衰退。\n\n右邊是 genetic blueprint。有保護性因素，比如 co-inheritance alpha-thalassemia traits 可以減少 globin chain 的不平衡。有調節性因素，特別是 BCL11A 和 XmnI 的多型性，它們調控 fetal hemoglobin 的產生，作為對抗嚴重貧血的內在緩衝器。\n\n了解這些因素有助於我們預測哪些患者更可能發生 phenoconversion。"
+    },
+    "83": {
+      "hint": "American Society of Hematology | Highlights of ASH",
+      "note": "The Multidisciplinary Shield 這張投影片提出了一個兩階段的管理策略。\n\nPhase 1 是 Longitudinal Monitoring，也就是長期監測，包括常規 CBC、年度心臟超音波測量 tricuspid regurgitant velocity 以篩檢 pulmonary hypertension、以及定期 MRI T2* 評估肝臟和心臟的 iron overload。\n\nPhase 2 是 Disease-Modifying Interception，也就是在臨床狀態惡化但尚未出現不可逆器官損傷時介入。可以使用 fetal Hb inducers 如 Hydroxyurea，或 erythroid maturation agents 如 Luspatercept，來延緩 transfusion dependence 的發生。\n\n這個監測加介入的循環模型非常實用。"
+    },
+    "84": {
+      "hint": "American Society of Hematology | Highlights of ASH",
+      "note": "現在回到第二個困境：輸多少？這張投影片整理了 NTDT 的 transfusion management guidelines。\n\n左邊是 Chronic Management Guidelines：當 Hb 持續低於 7.0 g/dL 或伴隨生長遲緩時，應啟動規律輸血。Standard target 是維持 pre-transfusion Hb 在 9.5-10.5 g/dL。Suppression target 是大於 10.0 g/dL，用於抑制 ineffective erythropoiesis 和逆轉嚴重併發症如 pulmonary hypertension。\n\n右邊是特殊情境目標：懷孕時要大於 10.0 g/dL，急性壓力如手術或感染時維持在 7.0-8.0 g/dL。這些具體的數字對臨床實踐很有幫助。"
+    },
+    "85": {
+      "hint": "American Society of Hematology | American Society of Hematology | The dilemmas w",
+      "note": "現在我們來看第二個困境：如何取得 leukodepleted、phenotype matched、irradiated packed cells？這在資源有限的環境中是一個巨大的挑戰。接下來的幾張投影片會探討東南亞地區在血液供應方面面臨的結構性問題。"
+    },
+    "86": {
+      "hint": "American Society of Hematology | Global Thalassaemia Review 2024. Thalassemia In",
+      "note": "這張投影片列出了東南亞地區 thalassemia 輸血面臨的五大關鍵挑戰。第一是次優的血液安全和處理，缺乏普遍的 NAT screening、leukodepletion 和 phenotype matching。第二是不夠的 pre-transfusion hemoglobin 水平，超過 58% 的患者維持在建議的 9 g/dL 以下。第三是專業知識的不足，當地輸血醫學專業人員對國際指引的遵循有限。第四是地理和季節性的不平等，城市和偏遠農村之間的血液分配差距巨大。第五是嚴重的社會經濟負擔，患者面臨高額的自費支出和有限的醫療保險覆蓋。\n\n這些都是我們在亞太地區需要正視的結構性問題。"
+    },
+    "87": {
+      "hint": "American Society of Hematology | Global Thalassaemia Review 2024. Thalassemia In",
+      "note": "這張投影片用一個非常直觀的對比說明了血液供應的巨大不平等。Thailand 每千人口有 33.15 個紅血球單位，而 Timor-Leste 只有 2.56。\n\n血液的可及性在整個地區差異極大，使得存活取決於你住在哪裡，而不是你的醫療需求。更令人擔憂的是，像 Bangladesh 和 Maldives 這樣的國家，70-80% 的血液供應不是來自自願的公共捐血，而是依賴家人和朋友的 replacement donation。這種脆弱的血液供應系統是不可持續的。"
+    },
+    "88": {
+      "hint": "American Society of Hematology | Global Thalassaemia Review 2024. Thalassemia In",
+      "note": "數據更讓人擔憂。38.6% 的患者接受的輸血治療是不足的、中斷的或延遲的。58.2% 的患者全年無法維持足夠的 pre-transfusion hemoglobin 水平。72.6% 的患者完全不知道他們接受的血液是如何處理、儲存或運輸的。\n\n底部的結論一語中的：危機是雙重的，既有嚴重的血量不足，又有血液處理和安全性方面的透明度和品質嚴重缺失。"
+    },
+    "89": {
+      "hint": "American Society of Hematology | Global Thalassaemia Review 2024. Thalassemia In",
+      "note": "The Fatal Map 這張投影片用一個蹺蹺板的意象來說明地理決定存活的殘酷現實。Jakarta 的血液供應有 60% 的過剩，而同一個國家的 West Papua 卻有 96.3% 的短缺。\n\n分散的地理環境，像是 Indonesia 和 Maldives 的廣闊群島，或是 Nepal 的偏遠山區，使得持續性的照護幾乎不可能。結果就是同時存在區域性的囤積和區域性的致命短缺。這就是為什麼我們需要全面的解決方案，而不只是增加總量。"
+    },
+    "90": {
+      "hint": "American Society of Hematology | American Society of Hematology | The dilemmas w",
+      "note": "接下來探討第四個困境：能不能用其他藥物來改善病情？在資源有限的環境中，如果無法提供充足的輸血，那我們有什麼替代策略？這就帶出了 HbF induction 的概念。"
+    },
+    "91": {
+      "hint": "American Society of Hematology | Highlights of ASH ®",
+      "note": "Sri Lanka 的一篇重要研究，發表在 Lancet Global Health，追蹤了 Hemoglobin E thalassemia 患者的長期存活和併發症。這是一個前瞻性的縱向 cohort study，從 1997 到 2001 年，在 Kurunegala 的 National Thalassemia Centre 進行。\n\n109 位患者被追蹤了中位數 18 年。結果顯示，HbE thalassemia 患者確實會有併發症和縮短的壽命，而 Hb 低於 4.5 g/dL、ferritin 超過 1300、LIC 超過 5 mg/g 都與較差的存活相關。這篇研究為我們地區的 HbE thalassemia 管理提供了重要的 evidence base。"
+    },
+    "92": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "現在來看一個在我們地區非常實用的治療策略：Inducing Fetal Hemoglobin。大家看這張圖，顯示了 gamma-globin 和 beta-globin 在發育過程中的 globin switching。出生後 gamma-globin 下降，beta-globin 上升。\n\n左邊是 biological blueprint：Hereditary Persistence of Fetal Hemoglobin，也就是 HPFH，會導致較溫和的表型。中間是 mechanism：藥物可以中和 gamma-promoter 的 molecular silencers 如 BCL11A，在化學上模擬 HPFH。右邊是 result：誘導出的 HbF 可以作為缺失的 beta chains 的生理性替代品，吸收有毒的 alpha chains 並拯救前驅細胞的存活。"
+    },
+    "93": {
+      "hint": "American Society of Hematology | American Society of Hematology | The dilemmas w",
+      "note": "這張投影片介紹了 Thalidomide 作為 epigenetic switch 的機轉。它通過四種途徑發揮作用。\n\n第一是 Repressor Suppression，直接抑制 BCL11A 和 KLF1，這是 gamma-globin 的主要發育性沉默因子。第二是 Chromatin Opening，促進 histone H4 acetylation，創造開放的 chromatin 構型，讓 gamma-promoter 可以被訪問。第三是 Signaling Activation，增加 ROS-mediated p38 MAPK signaling 來促進 gamma-globin 表達。第四是 Inflammation Control，抑制 NF-kB 的活化和 TNF-alpha 等炎性 cytokines。\n\n在左邊的示意圖中可以看到 thalidomide 如何解除 BCL11A 和 KLF1 silencer 對 gamma-promoter 的抑制。"
+    },
+    "94": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "這裡要特別提醒，thalidomide 在大多數國家不是 thalassemia 的核准用藥，這是 off-label use 的討論。\n\n這張投影片展示的是 Dr. Chakrabarti 團隊在 NRS Medical College 的經驗，一篇發表在 Blood Cells, Molecules, and Diseases 的 pilot study，比較 thalidomide 和 hydroxyurea 在 HbE beta-thalassemia 患者中的療效和安全性。45 位患者分為三組：thalidomide 加 folic acid、HU 加 folic acid、和單純 folic acid。\n\n結果顯示 thalidomide 組的 Hb increment 顯著優於 HU 組，100% 是 responder，66.67% 是 major responder。而 HU 組只有 40% respond，folic acid 組 0%。差異有統計學意義，p 值小於 0.0001。"
+    },
+    "95": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "大家看 Thalidomide 在 TDT 中的療效數據。這些數據來自 532 位患者的 Thal-Thalido Study 和 meta-analyses。\n\n最令人印象深刻的數字是：76.7% 在 6 個月時達到了 transfusion independence。Overall Response Rate 是 85%，Complete Response Rate 是 54%。Hemoglobin 平均上升 2 g/dL 以上。而且臨床反應可以持續長達 30 個月。在兒童 cohort 中，66.2% 在 6 個月時也達到了 transfusion-free。\n\n對於資源有限的地區，這些數字非常有吸引力，因為 thalidomide 是一個口服藥，成本相對較低。"
+    },
+    "96": {
+      "hint": "American Society of Hematology | Thalidomide Our Experience Highlights of ASH",
+      "note": "這張表格比較了 Hydroxyurea 和 Thalidomide 的特性。機轉方面，HU 是透過 stress erythropoiesis 和 NO donation，而 thalidomide 是透過 epigenetic BCL11A/KLF1 suppression。\n\n適合的患者 profile 也不同：HU 最適合 NTDT 和初始治療，thalidomide 更適合 HU-refractory 的 TDT 和嚴重表型。Efficacy ceiling 方面，HU 受限於嚴重的 beta-mRNA 缺乏，44% 的 TDT 患者不反應；thalidomide 的上限更高，在 TDT cohort 中 76.7% 達到 TI。\n\n但 thalidomide 也有重要的限制：neurotoxicity、teratogenicity 和 thrombosis。這些風險需要嚴格的監測和管理。"
+    },
+    "97": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "組合治療的力量是一個令人興奮的概念。這張投影片展示了 Hydroxyurea 加 Thalidomide 的 combination therapy。左邊是 outcomes of synergy：77.8% 的反應率，median Hb 在 6 個月內上升到 8.7-9.35 g/dL，平均輸血量從 baseline 的 1106 mL 大幅減少到 315 mL。\n\n右邊更有意思：The Genetic Rescue。組合治療能夠克服遺傳上的非反應性。Thalidomide 可以在缺乏 XmnI polymorphism 的患者中拯救表型。80% 的組合治療 responders 是 XmnI negative 的。這意味著即使患者的遺傳背景不利於 HU 單獨使用，加上 thalidomide 後仍然有機會反應。"
+    },
+    "98": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "這張投影片引用了 Shah 等人和 Ansari 等人的研究，進一步支持 HU 加 thalidomide 組合的臨床證據。\n\n整個 infographic 從三個方面呈現：左邊是 NTDT 中的臨床證據，包括印度和中國的觀察性研究和 pilot studies。中間是作用機轉，兩種藥物都能觸發 fetal hemoglobin 的誘導，且通過不同的分子機制達到協同的 globin chain correction。右邊是在 TDT 中的療效，overall response rate 63.4%，在之前 HU 單獨使用無效的患者中也有顯著成功。\n\n安全性方面，回顧性評估顯示組合治療有效且沒有重大的不良反應。"
+    },
+    "99": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "這張投影片展示了 Precision Medicine 的概念應用在 thalidomide 治療中。關鍵的 genetic loci 如 XmnI、BCL11A 和 HBS1L-MYB 決定了 baseline HbF 的潛力，可以讓臨床醫師在治療前預測反應。\n\n大家看這個 Genotype Sensitivity Heatmap。Highly Sensitive 的基因型如 betaCD41-42/betaCD17 和 betaCD41-42/beta-28，可以在 1-3 個月內達到 transfusion independence，Hb 上升約 29.8 g/L。Good/Moderate Response 的基因型如 betaCD17/beta-29 需要約 6 個月。Slow Response 的基因型如 betaCD17/beta-28 反應較慢。\n\n這種基因型指導的精準醫療方法可以幫助我們選擇最適合的治療策略。"
+    },
+    "100": {
+      "hint": "American Society of Hematology | Shah S, Sheth R, Shah K, Patel K. Safety and ef",
+      "note": "這張投影片提供了 HU 加 thalidomide 組合治療的實際 dosing 和 titration protocol。\n\n第一步 Initiate：HU 10-20 mg/kg/day，兒童體重 30 公斤以下用 500mg 隔日，30 公斤以上用 500mg 每日。Thalidomide 從 1-2.5 mg/kg/day 或 50mg flat dose 睡前開始，要謹慎起始。第二步 Adjunct Care：加上低劑量 aspirin 100mg/day 預防血栓。第三步 Monitor and Escalate：2-3 個月評估反應，不足則 thalidomide 每次增加 1 mg/kg，上限 4-5 mg/kg/day 或 150mg/day。第四步 Taper and Maintain：Hb 達到 9-10 g/dL 且 transfusion-free 12 個月後，逐漸減量到最低有效劑量，維持劑量可以低至 25mg daily 或隔日。"
+    },
+    "101": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "但 thalidomide 的使用需要嚴格的安全監測。這張投影片用天平的意象表達了效益和風險的平衡。一端是 transfusion independence、iron reduction 和 normalized growth；另一端是 peripheral neuropathy（16% polyneuropathy、35% motor neuropathy）、teratogenicity 和 thrombosis、myelosuppression。\n\n右邊列出了 mandatory monitoring 的時程：每月要做 CBC with ANC 和嚴格的 pregnancy test。每三個月做 serum ferritin、liver function、renal function、兒童生長速度和性腺功能。每 6-12 個月做 nerve conduction velocity 來篩檢不可逆的無症狀 neuropathy。這些監測對確保安全使用至關重要。"
+    },
+    "102": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "現在回到困境清單的第三個問題：能不能用其他藥物來改善病情？前面我們已經看了 HbF inducers 的數據。接下來要進入最後一個也是非常重要的問題：如何做 iron chelation？\n\n在資源有限的環境中，iron chelation 的管理面臨著獨特的挑戰。"
+    },
+    "103": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "首先要理解為什麼 NTDT 的 iron overload 如此隱蔽。這張投影片的標題是 The Hidden Iron Burden，副標題是：為什麼 Serum Ferritin 會危險地低估 NTDT 中的 iron overload。\n\n這是一個需要重新評估資源有限環境中臨床閾值的問題。大家看這張肝臟的示意圖，鐵質悄悄地在肝臟中積累，但 serum ferritin 可能看起來還在「可接受」的範圍。"
+    },
+    "104": {
+      "hint": "American Society of Hematology | American Society of Hematology | The dilemmas w",
+      "note": "大家看這張非常直觀的比較圖。兩支試管顯示的 Serum Ferritin 都是 1000 ng/mL，但左邊 TDT 患者的 LIC 大約是 9 mg Fe/g dry weight，屬於 actionable 的程度；而右邊 NTDT 患者的 LIC 卻高達 15 mg Fe/g dry weight，已經是 severe/high risk。\n\n底部的訊息非常關鍵：在 NTDT 中，spot measurements of Serum Ferritin drastically underestimate the actual iron burden stored in the tissue。同樣的 ferritin 數值，在 NTDT 和 TDT 中代表的意義完全不同。"
+    },
+    "105": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "這張投影片解釋了為什麼會有這種差異，這就是 Iron Partitioning Model。\n\n在 NTDT 中，ineffective erythropoiesis 和 chronic hypoxia 會抑制 hepcidin。Hepcidin 被抑制後，腸道的鐵吸收變得不受調控，鐵質繞過 reticuloendothelial system。鐵質優先積累在肝細胞中，flooding hepatocytes。\n\n結果是什麼？Macrophages 缺乏鐵質。因為分泌 Serum Ferritin 的主要是 macrophages，所以血液中的 ferritin 水平看起來騙人地低，但肝細胞已經有大量的鐵堆積，造成嚴重的肝臟毒性。Depleted Macrophages 等於 Low Serum Ferritin，Saturated Hepatocytes 等於 Severe Liver Damage。"
+    },
+    "106": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "大家看右邊的散布圖，它清楚地顯示了 TI（thalassemia intermedia）和 TM（thalassemia major）在 ferritin 和 LIC 之間關係的差異。TI 的點（三角形）在同樣的 LIC 水平下，ferritin 明顯低於 TM 的點（圓圈）。兩條回歸線的斜率不同，TI 的線更平坦。\n\n左邊的表格列出了比較的維度：Primary Iron Source、Primary Deposition Site、Ferritin Secretion 和 SF-to-LIC Ratio。在 NTDT 中，鐵主要來自腸道吸收，主要沉積在肝細胞中，而不是 macrophages，所以 ferritin 與 LIC 的比值偏低。這就是為什麼不同的 phenotype 需要不同的診斷 paradigm。"
+    },
+    "107": {
+      "hint": "American Society of Hematology | Highlights of ASH",
+      "note": "這張投影片展示了 misapplied guidelines 的危險性。大家看這個 sliding scale of damage。\n\n當 SF 大約 500 ng/mL 時，肝臟已經開始無聲地 loading。當 SF 到 800 ng/mL 且 LIC 超過 5 mg 時，這是 hidden tipping point，細胞毒性已經開始。但如果臨床醫師按照 TDT 的標準在等 ferritin 繼續上升才開始 chelation，結果就是延遲治療，最終導致 fibrosis、cirrhosis、hepatocellular carcinoma 和 endocrinopathies 的爆發。\n\n底部的結論是：延遲 chelation therapy 直接導致不可逆器官損傷的發生。"
+    },
+    "108": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "心臟方面也有一個 blind spot。即使 ferritin 是 1000 ng/mL，看起來 acceptable 和 stable，但 ferritin trends 在 64% 的情況下無法預測 cardiac T2* 的變化。更令人擔憂的是，29% 的連續測量中，ferritin 在下降，但 cardiac iron 卻在惡化。\n\n右上角可以看到 cardiac MRI T2* 的示意圖和衰減曲線。底部的訊息很清楚：maintaining a low or acceptable ferritin level does not completely exclude the possibility of silent, fatal cardiac iron overload。這就是為什麼 MRI T2* 的評估如此重要。"
+    },
+    "109": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "這張投影片比較了兩種鐵評估工具。左邊是 gold standard，也就是 MRI T2*/R2 assessment。可以看到不同 TE 值的肝臟 MRI 影像和 T2* 衰減曲線。它能直接、準確地測量 LIC 和 cardiac iron。\n\n右邊是 clinical reality，也就是 Serum Ferritin measurement。它廣泛可用但根本上不完美。在資源有限的環境中，很多地方根本沒有 MRI T2* 的能力。所以 mandate 是：如果只能用 serum ferritin，就必須嚴格採用重新校準的、NTDT-specific 的介入閾值來確保患者安全。不能用 TDT 的標準來管理 NTDT 患者的 iron overload。"
+    },
+    "110": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "這張投影片很清楚地呈現了偏斜比率的臨床意義。大家看圖表，同樣是 Serum Ferritin 800-1000 ng/mL，在 NTDT 患者中對應的 LIC 可能是 15-20 mg Fe/g dw，已經是嚴重程度；而 TDT 患者可能只有 9 mg。\n\n右邊的文字框總結得很好：不能用同一把尺來量兩種疾病。用 TDT 的 ferritin 閾值來管理 NTDT 患者，保證會低估他們的總體鐵負荷。這個概念對於我們在臨床實踐中非常重要。"
+    },
+    "111": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "最後這張投影片給出了非常實用的 NTDT Action Blueprint。三個層級的行動方案：\n\n第一，INITIATE Chelation：當 Serum Ferritin 達到 800 ng/mL 以上時。這個閾值高度預測 LIC 已經達到 5 mg Fe/g dw 以上。第二，ESCALATE Dose：當 Serum Ferritin 超過 2000 ng/mL 時，表示有高風險的進行性器官損傷。第三，INTERRUPT Chelation：當 Serum Ferritin 降到 300 ng/mL 以下時，作為預防 over-chelation 毒性的安全緩衝。\n\n底部的訊息是核心原則：治療機轉，不只是數字。把你的閾值校準到 NTDT。"
+    },
+    "112": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "這張投影片是第五個困境的總結。回到那五個困境，現在所有的都被討論過了：要不要輸血、如何取得合適的血液、輸多少、能不能用其他藥物、以及如何做 chelation。每一個在資源有限的環境中都有其獨特的挑戰和解決方案。"
+    },
+    "113": {
+      "hint": "American Society of Hematology | Highlights of ASH",
+      "note": "這張投影片展示了 NTDT iron chelation 的具體建議。在只有 serum ferritin 可用的情況下，NTDT 的 chelation 啟動閾值應該是 ferritin 大於等於 800 ng/mL，而不是像 TDT 那樣等到更高。\n\n如果有 MRI T2* 的條件，LIC 大於等於 5 mg Fe/g dw 就應該開始 chelation。目標是將 LIC 控制在 3 mg 以下。Chelation 的藥物選擇和劑量調整也需要根據 NTDT 的特殊性來考量。"
+    },
+    "114": {
+      "hint": "American Society of Hematology | How are we trying to change ? • Looking at the",
+      "note": "這張投影片是一個很好的思維轉變的總結。左邊是傳統的做法，右邊是我們應該努力的方向。\n\n從看群體到看個體。從只考慮患者今天的狀態到考慮患者的整個旅程。從經驗性地管理 iron overload 到管理 iron overload profile。從治療一個病人到支持一個人。從作為一個獨立的醫師到作為一個團隊。從獨立的專家意見到 evidence-based practice。\n\n這些轉變反映了整個 hemoglobinopathy 管理從疾病中心到患者中心的理念轉換。"
+    },
+    "115": {
+      "hint": "American Society of Hematology | Humans Matter Highlights of ASH",
+      "note": "Humans Matter。這張投影片展示了在 Sri Lanka 的 National Thalassemia Centre 和其他地方實際工作的照片。左邊可以看到 Thalassemia Free New Sri Lanka 的目標和全國的 thalassemia 分布圖。右邊是醫療團隊和患者互動的照片。\n\n這些照片提醒我們，在所有的數據和研究背後，最重要的是每一個受到 hemoglobinopathy 影響的人。我們的工作不只是治療疾病，而是改善人的生活。"
+    },
+    "116": {
+      "hint": "American Society of Hematology | American Society of Hematology | Think of the b",
+      "note": "Think of the bigger picture。這張照片非常有力量。一個患有 thalassemia 的男孩站在欄杆旁，望向窗外的街道。他的腹部明顯膨脹，提示脾臟腫大。\n\n這張照片提醒我們，在我們討論最新的基因治療和精準醫療的同時，世界上還有無數像這個男孩一樣的患者，他們甚至連基本的輸血和 chelation 都無法獲得。我們需要同時推動前沿的創新治療和基本照護的普及。"
+    },
+    "117": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "最後一張投影片，感謝大家的聆聽。今天我們涵蓋了非常多的內容，從 NTDT 的 morbidity 數據、pregnancy management、新型 disease-modifying therapies 如 mitapivat 和 luspatercept、gene therapy 如 exa-cel、haploidentical BMT、到資源有限環境中的實際管理挑戰，包括 thalidomide 的使用和 iron chelation 的特殊考量。\n\n希望今天的內容對大家的臨床實踐有所幫助。如果有任何問題，歡迎提出討論。謝謝大家。"
+    }
+  }
+}

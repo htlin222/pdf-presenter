@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "pdf": "evolving-myeloma-treatment-paradigm-applying-new-evidence-across-the-disease-continuum.pdf",
+    "totalSlides": 76,
+    "generatedAt": "2026-04-12T19:14:43.657Z",
+    "generator": "pdf-presenter"
+  },
+  "notes": {
+    "1": {
+      "hint": "American Society of Hematology | Evolving Myeloma Treatment Paradigm: Applying N",
+      "note": "各位好，歡迎大家參加今天的 Highlights of ASH 演講。今天這場演講的主題是「Evolving Myeloma Treatment Paradigm: Applying New Evidence Across the Disease Continuum」，也就是多發性骨髓瘤治療典範的演進，以及如何將最新的證據應用在疾病的各個階段。\n\n今天非常榮幸能與兩位傑出的講者一同為大家報告。我是 Gin Gin Gan，來自馬來西亞 Universiti Malaya。與我一起報告的是來自美國 Mayo Clinic 的 Shaji Kumar 教授，以及來自澳洲 Melbourne St. Vincent's Hospital 的 Hang Quach 教授。\n\n我們將從新診斷的 multiple myeloma 開始，涵蓋 transplant eligible 和 transplant ineligible 的病人，一路討論到 relapsed/refractory 的治療策略，希望能帶給大家最新、最實用的臨床資訊。"
+    },
+    "2": {
+      "hint": "American Society of Hematology | Disclosures In compliance with ACCME policy, AS",
+      "note": "在開始之前，依照 ACCME 的規定，我們需要揭露相關的利益衝突。大家可以在這張投影片上看到三位講者的 disclosures，包括 honoraria、advisory committee membership、research funding 等資訊。此外，今天的演講也會涉及一些 off-label drug use 的討論，包括 teclistamab 和 daratumumab 的組合、cevostamab 在 BCMA CAR-T 後的使用、ISB3003、venetoclax 以及 iberdomide 等。請大家留意。"
+    },
+    "3": {
+      "hint": "American Society of Hematology | American Society of Hematology | Learning Objec",
+      "note": "今天的演講有三個主要的學習目標。第一，我們要了解 sustained MRD negativity 在新診斷多發性骨髓瘤中的臨床意義。第二，我們要比較和整合目前新興的第一線治療方案。第三，我們要討論在 relapsed/refractory multiple myeloma 中，新的免疫治療策略有哪些進展。\n\n這三個面向基本上涵蓋了目前 myeloma 治療最重要的議題，接下來讓我們透過臨床案例來一步步探討。"
+    },
+    "4": {
+      "hint": "American Society of Hematology | Clinical Case • 64 year old man • PH: hypertens",
+      "note": "我們先從一個臨床案例開始。這是一位 64 歲的男性病人，過去病史只有高血壓，因為背痛來就診，ECOG performance status 是 1。\n\n大家看一下他的實驗室數據：hemoglobin 90 g/L，有貧血；serum creatinine 1.8 mg/dL，腎功能有些受損；beta-2 microglobulin 4.0 mg/L；LDH 正常；serum protein electrophoresis 顯示 M protein 46 g/L，是 IgG kappa 型；calcium 2.7 mmol/L，稍微偏高；albumin 3.3 g/L。\n\n影像學方面，MRI 顯示在 thoracolumbar 和 sacral spine 有 ill-defined 的 lytic lesions。骨髓檢查顯示 plasma cell 佔 25%，FISH 檢查是正常的。\n\n所以綜合來看，這位病人的診斷是 multiple myeloma，而且是 standard risk。這是一個非常典型的 transplant eligible 的新診斷病人。"
+    },
+    "5": {
+      "hint": "American Society of Hematology | American Society of Hematology | 64 year-old ma",
+      "note": "好，現在要問大家一個問題。針對這位 64 歲、新診斷 standard risk 的 multiple myeloma 病人，你會選擇什麼治療方案？\n\n選項包括：A. D-VRD，也就是 daratumumab 加上 VRD；B. D-VTD；C. Isa-VRD，isatuximab 加上 VRD；D. 單純的 VRD；還有 E. KRD，carfilzomib 加上 lenalidomide 和 dexamethasone。\n\n大家可以先想一想，接下來我們會看看目前的證據是怎麼說的。"
+    },
+    "6": {
+      "hint": "American Society of Hematology | Lisa K. Hicks et al. Treatment of Multiple Myel",
+      "note": "這張投影片是來自 Lisa K. Hicks 等人發表的 ASCO-Ontario Health Living Guideline，整理了 transplant eligible 新診斷多發性骨髓瘤的 induction therapy 關鍵隨機對照試驗結果。\n\n大家看這張表格，三個重要的試驗列在這裡。CASSIOPEIA 試驗比較了 daratumumab 加上 bortezomib、thalidomide、dexamethasone 和對照組，OS 的 HR 是 0.43，PFS 的 HR 是 0.47，都有 moderate certainty 的證據。GRIFFIN 和 PERSEUS 試驗則是比較 daratumumab 加上 bortezomib、lenalidomide、dexamethasone，PFS 的 HR 是 0.43，有 high certainty 的證據。GMMG-HD7 試驗則是看 isatuximab 加上 VRd 的組合。\n\n整體來看，加入 anti-CD38 monoclonal antibody 的四藥組合，不管是 daratumumab 或 isatuximab，都顯示出在 PFS 上的明顯優勢。"
+    },
+    "7": {
+      "hint": "American Society of Hematology | CASSIOPEIA PERSEUS Moreau, Philippe et al. The",
+      "note": "這張投影片同時呈現了兩個重要試驗的結果。左邊是 CASSIOPEIA 試驗，右邊是 PERSEUS 試驗。\n\n先看左邊的 CASSIOPEIA，上面的圖是 PFS，D-VTd 相比 VTd，HR 是 0.61，p 值小於 0.0001，非常顯著。下面是 OS，HR 0.55，也達到統計顯著差異。這是來自 Moreau 等人在 Lancet Oncology 2024 發表的數據。\n\n右邊的 PERSEUS 試驗，D-VRd 對比 VRd，PFS 的 HR 是 0.42，p 值小於 0.001，差異更加明顯。而且在 response 方面，D-VRd 的 CR 率達到 87.9%，對比 VRd 的 70.1%；MRD negativity 率是 75.2% 對比 47.5%，這些數據都發表在 Sonneveld 等人 NEJM 2024 的文章。\n\n這兩個試驗清楚地告訴我們，在 transplant eligible 的病人中，加入 daratumumab 確實能帶來更好的療效。"
+    },
+    "8": {
+      "hint": "American Society of Hematology | Carfilzomib, lenalidomide, and dexamethasone (",
+      "note": "接下來是一個非常重要的新試驗 -- COBRA trial。這是由 Dominik Dytfeld 等人主持，來自 UChicago Medicine 和 Polish Myeloma Consortium 的合作。\n\n這是一個 phase 3 的 randomized, open-label, multicenter 試驗，比較 KRd，也就是 carfilzomib、lenalidomide、dexamethasone，和 VRd 在新診斷多發性骨髓瘤病人中的療效。這是第一個直接比較 KRd 和 VRd 的 head-to-head randomized trial，這在之前是缺乏的。"
+    },
+    "9": {
+      "hint": "American Society of Hematology | American Society of Hematology | COBRA Multicen",
+      "note": "大家看一下 COBRA 試驗的設計。這是一個 multicenter、randomized、open-label 的 phase 3 試驗，收案條件包括新診斷的 multiple myeloma，IMWG frailty score 小於 2。\n\n病人 1:1 隨機分配到 KRd 組或 VRd 組。KRd 組接受 28 天為一個週期，共 24 個 cycles，carfilzomib 劑量是 56 mg/m2，第一個 cycle 第一天用 20 mg。VRd 組則是 21 天一個週期，共 8 個 cycles，之後轉為 Rd 維持。兩組在 induction 結束後都接受 lenalidomide maintenance 直到疾病進展。\n\n值得注意的是，stem cell collection 是在第 4 個 cycle 之後進行。Co-primary endpoints 是 12 個月時達到 CR 加上 MRD negativity 10 的負五次方，以及 PFS。總共收了 250 位病人。"
+    },
+    "10": {
+      "hint": "American Society of Hematology | CR% OR = 2.11 95% CI: 1.26–3.56; p= 0.005 inten",
+      "note": "來看 COBRA 試驗的結果。左邊是 overall response rate，兩組都很高，VRd 是 91.1%，KRd 是 94.4%，差異不大。但如果我們看 CR 的比率，KRd 明顯優於 VRd，CR 的 odds ratio 是 2.11，p 值 0.005。KRd 組的 sCR 率達到 38.9%，明顯高於 VRd 的 19.4%。\n\n右邊的 PFS 曲線非常重要。在 median follow-up 53 個月的情況下，KRd 組的 HR 是 0.57，95% CI 0.37-0.88，p 值 0.0095。KRd 組 progression 或 death 的事件只有 35 例，佔 28%，median PFS 尚未達到；而 VRd 組則有 51 例，佔 41%，median PFS 是 48.8 個月。\n\n這個結果非常令人鼓舞，KRd 在 PFS 上展現了明顯的優勢。"
+    },
+    "11": {
+      "hint": "American Society of Hematology | Standard risk High risk HR 0.59 (95% CI: 0.36-0",
+      "note": "進一步看 PFS 的亞組分析。左邊是 standard risk 的病人，KRd 對比 VRd 的 HR 是 0.59，95% CI 0.36-0.98，p 值 0.04，KRd 的 median PFS 未達到，而 VRd 是 48.8 個月。\n\n右邊是 high risk 的病人，雖然人數較少，但趨勢也是一致的，HR 0.52，不過 p 值是 0.12，沒有達到統計顯著。KRd 組 median PFS 同樣未達到，VRd 組是 34.9 個月。\n\n值得注意的是，在 high risk 病人中，VRd 的 PFS 只有 34.9 個月，相對較短，而 KRd 似乎能提供更好的控制，雖然因為人數限制，統計上的差異不顯著。"
+    },
+    "12": {
+      "hint": "American Society of Hematology | American Society of Hematology | OR=2.08 95%CI:",
+      "note": "再來看 MRD 的結果。左邊的圖是 12 個月時 CR 加上 MRD negativity 10 的負五次方，KRd 是 31.0%，VRd 是 17.7%，OR 2.08，p 值 0.016，差異顯著。\n\n右邊更重要的是 10 的負六次方的深度 MRD，KRd 達到 19.0%，VRd 只有 7.3%，OR 3.01，p 值 0.008。這告訴我們 KRd 不僅能達到更高的 MRD negativity 率，而且能達到更深層的 MRD response。\n\n這個 MRD 數據支持了 KRd 在 induction 階段能帶來更深的治療反應。"
+    },
+    "13": {
+      "hint": "American Society of Hematology | American Society of Hematology | Median follow",
+      "note": "不過，我們來看 overall survival 的結果。在 median follow-up 53 個月的情況下，OS 的 HR 是 1.05，95% CI 0.56-2.00，p 值 0.87，兩組沒有差異。KRd 組死亡 20 例，佔 16%，VRd 組死亡 18 例，佔 15%，兩組的 median OS 都尚未達到。\n\n所以目前來看，雖然 KRd 在 PFS 和 MRD 上有優勢，但 OS 目前沒有看到差異。這可能需要更長的追蹤時間，也可能反映了後續治療的影響。不過 COBRA 試驗確實為我們提供了一個重要的參考，特別是在沒有 anti-CD38 antibody 可用的情況下。"
+    },
+    "14": {
+      "hint": "American Society of Hematology | American Society of Hematology | Clinical Case-",
+      "note": "好，我們回到剛才的臨床案例。這位 64 歲的病人接受了 VRD 治療 4 個 cycles，達到了 CR，但沒有做 MRD 檢測。之後他順利進行了 ASCT。\n\n現在的問題是，接下來 post-transplant 的 maintenance therapy 要怎麼選擇？這是我們每天臨床上都要面對的決策。"
+    },
+    "15": {
+      "hint": "American Society of Hematology | American Society of Hematology | 64 year-old ma",
+      "note": "所以問題來了。這位 64 歲的 standard risk MM 病人，VRD induction 後達到 CR，做完了 ASCT，但 MRD status 不確定。你會選擇什麼 maintenance therapy？\n\n選項有：A. Lenalidomide 加減 dexamethasone；B. Daratumumab 加 lenalidomide 加減 dexamethasone；C. Carfilzomib 加 lenalidomide 加減 dexamethasone；D. Bortezomib 加減 dexamethasone。\n\n大家先想一想，我們接下來會看相關的證據。"
+    },
+    "16": {
+      "hint": "American Society of Hematology | CASSIOPEIA Trial • Daratumumab in both the indu",
+      "note": "先來看 CASSIOPEIA 試驗在 maintenance 方面的數據。這個試驗的第二次隨機分配，是比較 daratumumab maintenance 和觀察。\n\n重要的發現是，在 induction 和 consolidation 階段都使用 daratumumab 的病人，如果繼續使用 daratumumab maintenance，會有更好的 PFS。Daratumumab maintenance 對比觀察組，median PFS 尚未達到對比 45.8 個月。72 個月的 PFS 率，daratumumab 組是 57.1%，觀察組是 36.5%。\n\n大家看右邊的圖，四條曲線很清楚地分開了。最好的是 D-VTd 加上 DARA maintenance，最差的是 VTd 加上 observation。特別注意 D-VTd/DARA 對比 D-VTd/OBS 的 HR 是 0.76，而 VTd/DARA 對比 VTd/OBS 的 HR 是 0.34，差異非常顯著。"
+    },
+    "17": {
+      "hint": "American Society of Hematology | Key evidence on maintenance therapy Lisa K. Hic",
+      "note": "這張投影片整理了 maintenance therapy 的關鍵證據，同樣來自 ASCO-Ontario Health 的 Living Guideline。\n\n大家看表格中列了三個重要試驗：ATLAS 試驗比較 carfilzomib、lenalidomide、dexamethasone 對上 lenalidomide alone，PFS 的 HR 是 0.51，有 moderate certainty。FORTE 試驗的 maintenance 部分，carfilzomib 加 lenalidomide 對比 lenalidomide，PFS HR 0.64。第三個是 AURIGA 試驗，daratumumab 加 lenalidomide 對比 lenalidomide，PFS HR 0.53。\n\n這些數據一致地顯示，在 lenalidomide 的基礎上再加上另一個藥物作為 maintenance，可以進一步改善 PFS。"
+    },
+    "18": {
+      "hint": "American Society of Hematology | ATLAS Multicenter, randomized, open-label, phas",
+      "note": "讓我們仔細看 ATLAS 試驗的設計。這是一個 multicenter、randomized、open-label 的 phase 3 試驗。收案對象是新診斷 multiple myeloma、post-ASCT 的病人，必須在 ASCT 後 100 天內，且 ECOG 0-2。\n\n病人 1:1 隨機分配，一組接受 KRd，先做 8 個 cycles，然後根據 MRD status 決定後續是繼續 KRd 還是轉為 lenalidomide，最後所有人都用 lenalidomide maintenance。對照組就是單純的 lenalidomide 28 天一個 cycle，共 36 個 cycles。\n\n主要的 endpoints 是 PFS，次要 endpoints 包括 MRD、OS 和 safety。"
+    },
+    "19": {
+      "hint": "American Society of Hematology | Updated results- ATLAS • Median follow-up of 69",
+      "note": "這是 ATLAS 試驗的最新更新結果，已經發表在 Lancet Haematology 2026。Median follow-up 69 個月。\n\n看左邊的 PFS 圖，4 年的 PFS 率在 KRd 組是 67.5%，而 lenalidomide 組只有 38.0%，HR 0.45，p 值小於 0.0001，非常顯著。Time to second progression 也更長，KRd 組 median 未達到，對比 lenalidomide 組的 77 個月。\n\n右邊是 OS 的結果，KRd 組的 median OS 未達到，lenalidomide 組是 82.2 個月，HR 0.49，p 值 0.020。這是一個非常重要的發現 -- maintenance 加入 carfilzomib 不僅改善了 PFS，還看到了 OS 的改善。"
+    },
+    "20": {
+      "hint": "American Society of Hematology | AURIGA study D-R vs R maintenance in NDMM patie",
+      "note": "接下來是 AURIGA 研究。這個試驗比較了 D-R，也就是 daratumumab 加 lenalidomide，和單獨 lenalidomide 作為 NDMM post-AHSCT 的 maintenance。\n\n左邊可以看到 MRD negativity conversion rate，在 ITT 族群中，D-R 組 10 的負五次方的 MRD negative conversion 率是 50.5%，R 組只有 18.8%，OR 4.51，差異非常顯著。在達到 CR 或以上的病人中，D-R 是 61.3% 對比 R 的 25.8%。\n\n右邊的 PFS 圖也顯示 D-R 有優勢，HR 0.53，p 值 0.0361。下面的圖更有趣，按照 MRD status 分層來看，達到 MRD negative 的病人，不管在哪一組，PFS 都明顯更好。這驗證了 MRD negativity 作為治療目標的重要性。"
+    },
+    "21": {
+      "hint": "https://www.congresshub.com/Oncology/ASH2025/ Daratumumab/Chung The QR code is i",
+      "note": "這張投影片是 Alfred Chung 等人在 ASH 2025 年會上報告的 AURIGA 研究的 MRD dynamics 分析。這是一個非常重要的二次分析，深入探討了在 maintenance 治療期間 MRD 狀態的動態變化，以及它對長期預後的影響。\n\n大家可以掃描 QR code 取得更多詳細的資訊。"
+    },
+    "22": {
+      "hint": "American Society of Hematology | American Society of Hematology | AURIGA: Study",
+      "note": "看一下 AURIGA 的 study design。研究目的是要更了解 maintenance 治療期間 MRD status 的演變，以及它對長期預後的影響。\n\n收案條件包括 18-79 歲，新診斷 multiple myeloma 且至少完成 4 個 cycles induction 並接受過 ASCT，ASCT 後達到 VGPR 或以上，而且 MRD positive（10 的負五次方），之前沒有使用過 anti-CD38 antibody，在 ASCT 後 6 個月內隨機分配。共 200 位病人 1:1 分配。\n\n重要的是，MRD 在 12、18、24 和 36 個 cycles 後都會做檢測，這讓我們能分析 MRD dynamics，也就是 MRD 的動態變化。Primary endpoint 是從 baseline 到 maintenance 12 個月後的 MRD negative conversion rate。"
+    },
+    "23": {
+      "hint": "American Society of Hematology | American Society of Hematology | • D-R maintena",
+      "note": "這張投影片說明了為什麼 MRD dynamics 很重要。首先，sustained MRD negativity 比單一時間點的 MRD 檢測更能預測長期的生存結果。MRD dynamics，包括 MRD-positive recurrence，可以幫助我們評估病人是否對治療產生抗藥性。\n\n中間這個方塊提到，MRD-positive recurrence 之後到疾病進展的時間通常會縮短，所以 MRD-positive recurrence 是一個預後不良的早期信號。\n\n右邊的重點是，在 AURIGA 中，D-R maintenance 讓 MRD positive、之前沒有用過 DARA 的病人達到了很高的 MRD negative conversion 率。那麼問題是，D-R maintenance 能不能在沒有接受過 DARA induction 的病人中維持 MRD negativity？這是這個分析要回答的關鍵問題。"
+    },
+    "24": {
+      "hint": "American Society of Hematology | American Society of Hematology | D-R R 100 80 6",
+      "note": "這是 AURIGA 的 MRD negative conversion rate 數據，在 median follow-up 40.3 個月時的更新結果。\n\n左邊是 10 的負五次方的 threshold，D-R 組達到 60.6%，R 組是 29.7%，OR 3.74，p 值小於 0.0001。右邊是更嚴格的 10 的負六次方的 threshold，D-R 組達到 36.4%，R 組只有 13.9%，OR 3.59，p 值 0.0003。\n\n所以不管用哪個閾值來看，D-R maintenance 的 MRD negative conversion rate 都是 R alone 的兩倍以上。這是非常有臨床意義的數據。"
+    },
+    "25": {
+      "hint": "American Society of Hematology | American Society of Hematology | D-R R 50 40 30",
+      "note": "接著看 sustained MRD negativity 的結果，也就是維持 MRD negative 至少 12 個月。\n\n左邊是 10 的負五次方的 threshold，D-R 組是 29.3%，R 組只有 7.9%，OR 4.88，p 值 0.0001。右邊是 10 的負六次方，D-R 組 19.2%，R 組只有 2.0%，OR 高達 11.75，p 值小於 0.0001。\n\n這個數據非常驚人。在 10 的負六次方的深度 MRD 上，D-R maintenance 的 sustained MRD negativity 率是 R alone 的將近十倍。這清楚地說明了加入 daratumumab 能夠幫助病人達到並維持更深層的治療反應。"
+    },
+    "26": {
+      "hint": "American Society of Hematology | American Society of Hematology | AURIGA: MRD-Po",
+      "note": "這張投影片看的是 MRD-positive recurrence 的情況。左邊的表格顯示，在達到 MRD negativity（10 的負五次方 only）的病人中，D-R 組有 24/99 人達到 MRD negative，R 組有 16/101 人。\n\n右邊的圖非常關鍵。在 standard risk 的病人中，D-R 組 MRD-positive recurrence 率是 38.9%，R 組是 46.2%。但在 high risk 的病人中，兩組都是 100% 的 MRD-positive recurrence。\n\n底下的重要結論是：只達到 10 的負五次方的 MRD negativity 而沒有達到 10 的負六次方的病人，更容易出現 MRD-positive recurrence。這凸顯了達到 10 的負六次方 MRD negativity 的重要性。"
+    },
+    "27": {
+      "hint": "American Society of Hematology | AURIGA: PFS by Investigator Assessment 28 HR, h",
+      "note": "看 AURIGA 的 PFS 結果。在 median follow-up 40.3 個月時，D-R 組的 PFS 明顯優於 R 組，HR 0.55，95% CI 0.33-0.91，p 值 0.0183。D-R 組 median PFS 未達到，36 個月時 PFS 率是 76.8%；R 組 median PFS 是 47.2 個月，36 個月 PFS 率是 61.4%。\n\n底下的結論很清楚：PFS favored D-R versus R maintenance，disease progression or death 的風險降低了 45%。這是一個非常有臨床意義的改善。"
+    },
+    "28": {
+      "hint": "American Society of Hematology | AURIGA: PFS per Investigator Assessment by MRD",
+      "note": "更有趣的是按照 MRD（10 的負六次方）status 來看 PFS。大家看這張圖，四條曲線分得很開。最上面的是 D-R MRD negative，PFS 最好；接著是 R MRD negative；然後是 D-R MRD positive 和 R MRD positive，這兩組的 PFS 就明顯差很多了。\n\n這告訴我們一個重要的訊息：不管在哪一個治療組，達到 MRD negative 10 的負六次方 conversion 的病人，PFS 都明顯優於維持 MRD positive 的病人。MRD negativity 是一個非常強的預後預測因子。"
+    },
+    "29": {
+      "hint": "American Society of Hematology | American Society of Hematology | AURIGA: Conclu",
+      "note": "總結 AURIGA 的結論。在 DARA-naive、MRD positive、post-ASCT 的病人中，D-R maintenance 優於 R alone。\n\n幾個重點：第一，deeper MRD negativity -- D-R 在 10 的負五次方和 10 的負六次方都優於 R alone，尤其在 10 的負六次方的差異更大，36% 對比 14%。第二，sustained MRD negativity -- 10 的負五次方持續 12 個月以上，D-R 是 29% 對比 R 的 8%；10 的負六次方更是 19% 對比 2%。第三，較低的 MRD-positive recurrence 率。第四，D-R 組在 PFS 和 sustained MRD negativity 方面都有更好的結果。\n\n整體而言，這些數據支持使用 D-R maintenance 來達到、加深並維持 MRD negativity，最終轉化為更持久的緩解和更好的長期預後。"
+    },
+    "30": {
+      "hint": "American Society of Hematology | Treatment Guidelines for NDMM • Eligibility for",
+      "note": "好，我們來看一下最新的 NDMM 治療指引。大家看右邊的流程圖，首先要判斷病人是否 eligible for ASCT。重要的是，這個判斷要基於 frailty、器官功能，而不是單純看年齡。也要儘早轉介到移植中心評估。\n\n對於 transplant eligible 的病人，建議用 4 個月的 induction therapy，可以選擇 daratumumab 加 bortezomib、lenalidomide、dexamethasone，或者 isatuximab 加 VRd。接著收集足夠的 stem cells，然後 high-dose melphalan 加 ASCT。如果 induction 用了 daratumumab，可以考慮 2 個 cycles 的 consolidation。Maintenance 方面，可以用 lenalidomide alone，或加上 carfilzomib 加減 dexamethasone，或加上 daratumumab 加減 dexamethasone。\n\n對於 transplant ineligible 的病人，如果適合 quadruplet therapy，可以用類似的組合；如果不適合，則考慮 doublet 或 triplet 方案。"
+    },
+    "31": {
+      "hint": "American Society of Hematology | American Society of Hematology | Patient scenar",
+      "note": "現在讓我們來看另一個臨床案例。這是一位 82 歲的女性，有 well-controlled 的高血壓和糖尿病。她因為疲倦就診，檢查發現有貧血。\n\n實驗室數據：hemoglobin 10.9 g/dL，serum creatinine 1.4 mg/dL，calcium 9.2 mg/dL，LDH 191 IU/dL，beta-2 microglobulin 5.1 mg/dL，albumin 4.1 g/dL。SPEP 顯示 IgA kappa monoclonal protein 3.4 g/dL。\n\n骨髓檢查顯示 50% 的 plasma cells，cytogenetics 有 t(4;14) translocation 和 monosomy 13。Whole body low-dose CT 顯示幾個散在的 lytic lesions。\n\n這是一個典型的 transplant ineligible、high risk 的老年 myeloma 病人。"
+    },
+    "32": {
+      "hint": "American Society of Hematology | American Society of Hematology | Patient scenar",
+      "note": "針對這位 82 歲的病人，哪一個治療最適合？\n\n選項包括：melphalan、bortezomib、prednisone；bortezomib、lenalidomide、dexamethasone；daratumumab、lenalidomide、dexamethasone；daratumumab、bortezomib、dexamethasone；還有 isatuximab、bortezomib、lenalidomide、dexamethasone。\n\n大家思考一下，我們接下來會看相關的數據。"
+    },
+    "33": {
+      "hint": "American Society of Hematology | American Society of Hematology | Why is age an",
+      "note": "在回答這個問題之前，我們先來討論一下為什麼年齡是一個重要的考量因素。\n\n首先是 co-morbidities，老年病人常有高血壓、缺血性心臟病、糖尿病、腎功能不全、骨質疏鬆，甚至心理問題。第二是 frailty，老年病人更容易衰弱。第三是 altered drug metabolism，藥物代謝在老年人中會改變。第四是 limited social support 和經濟問題。第五是 limited independence 和行動能力。\n\n所以在治療老年 myeloma 病人時，我們需要在療效和毒性之間取得平衡，個別化的治療策略非常重要。"
+    },
+    "34": {
+      "hint": "American Society of Hematology | RVD lite – dose adapted regimen British Journal",
+      "note": "對於老年或體能較差的病人，RVD lite 是一個選擇。這是一個劑量調整的方案，發表在 British Journal of Haematology 2018。\n\nInduction 階段共 9 個 cycles，每 35 天一個 cycle，lenalidomide 15 mg D1-21，bortezomib 1.3 mg/m2 皮下注射，dexamethasone 針對 75 歲以下和 75 歲以上有不同的劑量安排。之後是 consolidation 6 個 cycles。\n\n在 50 位病人中，overall response rate 達到 86%，VGPR or better 是 66%，complete response 32%，stringent CR 12%。這個方案證明了即使降低劑量，仍然可以達到不錯的療效，同時改善耐受性。"
+    },
+    "35": {
+      "hint": "American Society of Hematology | Facon et al, Lancet Oncol 2021; 22: 1582–96; Fa",
+      "note": "對於 transplant ineligible 的病人，MAIA 試驗是一個里程碑式的研究。這個試驗比較了 DRd，也就是 daratumumab 加 lenalidomide、dexamethasone，和 Rd。\n\n左邊的 PFS 圖顯示，DRd 組的 HR 是 0.53，p 值小於 0.0001，非常顯著的改善。右邊的 OS 數據也非常好，7 年的 OS rate DRd 是 53.1%，median OS 90.3 個月；Rd 組是 39.3%，median OS 64.1 個月。HR 0.67，p 值小於 0.0001。\n\n這些長期追蹤的數據確認了 DRd 在 transplant ineligible 病人中的重要地位。"
+    },
+    "36": {
+      "hint": "American Society of Hematology | IMROZ – Isatuximab + VRd Facon et al, ASCO 2024",
+      "note": "IMROZ 試驗帶來了另一個重要的選擇 -- Isa-VRd 組合用於 transplant ineligible 的病人。\n\n左上的圖顯示 best overall response，Isa-VRd 的 ORR 是 91.3%，CR 率 74.7%；VRd 的 ORR 是 92.3%，CR 率 64.1%。在 MRD rate 方面，Isa-VRd 在 ITT 族群的 MRD negativity 率是 58.1% 對比 VRd 的 43.6%。Sustained MRD 12 個月以上更是 46.8% 對比 24.3%，OR 2.729。\n\n右邊的 PFS 曲線也非常漂亮，60 個月 PFS rate Isa-VRd 是 63.2%，median 未達到；VRd 是 45.2%，median 54.34 個月。HR 0.596，p 值 0.0005。\n\n這個數據支持了 isatuximab 加上 VRd 作為 transplant ineligible 病人的一線治療選擇。"
+    },
+    "37": {
+      "hint": "American Society of Hematology | CEPHEUS – Daratumumab + VRd Usmani et al, Natur",
+      "note": "CEPHEUS 試驗則是看 daratumumab 加上 VRd 在非 transplant 病人中的效果。發表在 Usmani 等人 Nature Medicine 2025。\n\n左上圖顯示 best response，D-VRd 的 sCR 率 65.0%，CR 率合計 81.2%，明顯高於 VRd 的 61.6%。sCR 的 odds ratio 是 2.73，p 值小於 0.0001。MRD negativity 10 的負五次方，D-VRd 是 60.9%，VRd 是 39.4%，也是顯著差異。\n\n右邊的 PFS 圖，HR 0.57，p 值 0.0005。54 個月的 PFS rate D-VRd 是 68.1%，VRd 是 49.5%。\n\n這些數據和 IMROZ 是一致的，再次確認了在 transplant ineligible 的病人中，quadruplet therapy 能帶來更好的療效。"
+    },
+    "38": {
+      "hint": "American Society of Hematology | Sustained minimal residual disease in BENEFIT p",
+      "note": "接下來是一個很有意思的試驗 -- BENEFIT 試驗，全名是 IFM 2020-05。這個試驗比較了 Isa-VRd 和 Isa-Rd 在 transplant ineligible 的新診斷多發性骨髓瘤中的療效。\n\n主要想回答的問題是，在含有 isatuximab 的組合中，加上 bortezomib（四藥組合）是否比三藥組合更好？而且特別關注的是 sustained MRD negativity 的情況。這是由 Arthur Bobin 等人在 ASH 2025 年會上報告的。"
+    },
+    "39": {
+      "hint": "American Society of Hematology | Study design: Isa-VRd vs Isa-Rd in TI NDMM • †",
+      "note": "來看 BENEFIT 的試驗設計。共收 270 位病人，1:1 randomization，stratified by 年齡（小於 75 和大於等於 75 歲）、cytogenetic risk（modified Perrot score）和中心。\n\nArm A 是 Isa-VRd：cycle 1-12 用 isatuximab、lenalidomide、dexamethasone 加 bortezomib，cycle 13-18 改為 IsaVR（去掉 dexamethasone），cycle 19 之後是 IsaR maintenance。Arm B 是 Isa-Rd：cycle 1-12 用 IsaRd，cycle 13-18 改為 IsaR，cycle 19 之後也是 IsaR maintenance。\n\nPrimary endpoint 是 18 個月時的 MRD negativity（NGS 10 的負五次方）。MRD 檢測在 12、18、24 個月和之後每年進行。"
+    },
+    "40": {
+      "hint": "MRD was performed on bone marrow aspiration in patients at least in ≥PR for the",
+      "note": "這張投影片呈現了 BENEFIT 試驗的 MRD 結果。大家看表格和右邊的圖。\n\n在 12 個月時，Isa-VRd 組 MRD negativity 10 的負五次方是 51%，Isa-Rd 組是 21%，OR 3.88，p 值小於 0.0001。到了 18 個月，Isa-VRd 是 53%，Isa-Rd 是 26%。24 個月時，Isa-VRd 是 44%，Isa-Rd 是 26%。\n\n在更深的 10 的負六次方，差異同樣顯著。12 個月 Isa-VRd 32% 對比 Isa-Rd 13%；18 個月 36% 對比 17%；24 個月 34% 對比 18%。\n\n結論是 Isa-VRd 在各個時間點都顯著改善了 MRD negativity 率。"
+    },
+    "41": {
+      "hint": "MRD was performed on bone marrow aspiration in patients at least in ≥PR for the",
+      "note": "再看 sustained MRD negativity 的結果。在 sMRD 18-24 個月的分析中，Isa-VRd 組 10 的負五次方是 39%，Isa-Rd 是 20%，OR 2.55，p 值 0.0009。10 的負六次方是 28% 對比 10%，OR 3.37。\n\n在 sMRD 12-24 個月的分析中，Isa-VRd 10 的負五次方是 34%，Isa-Rd 是 16%。10 的負六次方是 21% 對比 7%，OR 3.19。\n\n大家看右邊的圖表，黑色的柱子是 Isa-VRd，灰色的是 Isa-Rd，在每個分析中 Isa-VRd 都明顯更好。結論是 Isa-VRd 顯著改善了 sustained MRD negativity，不管是 12 個月以上的持續時間，在 10 的負五次方和 10 的負六次方都是如此。"
+    },
+    "42": {
+      "hint": "American Society of Hematology | American Society of Hematology | Conclusions •",
+      "note": "對於 transplant ineligible 病人的治療，我們可以做一個小結。\n\n第一，包含 anti-CD38 monoclonal antibody、proteasome inhibitor 和 immunomodulatory drug 的四藥組合，能帶來很高的反應率和很深的反應深度。第二，高 MRD negativity 率轉化為更好的 PFS，很可能也會改善 OS。第三，隨著更長的追蹤，MRD negativity 是可以持續維持的。第四，考量到療效和安全性的整體表現，quadruplet induction 是 80 歲以下、體能狀態良好的老年病人的首選治療方式。\n\n當然，對於更年邁或更衰弱的病人，我們需要其他的策略。"
+    },
+    "43": {
+      "hint": "American Society of Hematology | A phase 2 study of teclistamab in combination w",
+      "note": "接下來是一個非常前瞻性的試驗 -- IFM 2021-01 TecLille trial。這是一個 phase 2 研究，探討 teclistamab 合併 daratumumab 在老年新診斷 multiple myeloma 病人中的療效。這是一個 all-antibody regimen，不含傳統的化療藥物，由 Manier 等人在 ASH 2025 報告。\n\n這個概念非常新穎，也就是用 bispecific antibody 加上 anti-CD38 antibody 來治療新診斷的老年病人，完全不需要 proteasome inhibitor 或 IMiD。"
+    },
+    "44": {
+      "hint": "American Society of Hematology | IFM 2021- 01 TecLille - Study design NCT0557222",
+      "note": "TecLille 的試驗設計。這是一個 phase 2 研究，針對大於 65 歲、transplant ineligible、ECOG 0-2 的 NDMM 病人，總共 74 人分成兩個 cohort。\n\nCohort A 有 37 人，用 Tec-Dara 組合：teclistamab 用 step-up dosing，之後 1.5 mg/kg D8 和 D15，然後 3 mg/kg 每四週。Daratumumab 1800 mg 皮下注射。Cohort B 也是 37 人，用 Tec-Len 組合。\n\nPrimary endpoint 是 4 個 cycles 後 VGPR or better 的比率。MRD 評估在 6、18、30、42 個月進行。值得注意的是有一個 amendment，允許在 C13 後如果達到 CR or better 且 sustained MRD negative 2 年，可以改為 Q8W dosing 或中斷治療。"
+    },
+    "45": {
+      "hint": "American Society of Hematology | American Society of Hematology | IFM 2021- 01 T",
+      "note": "Cohort A 也就是 Tec-Dara 的反應率結果非常令人驚豔。\n\n4 個 cycles 後的 ORR 是 95%，VGPR or better 是 79%。到了最佳反應的時候，ORR 達到 100%，而且 VGPR or better 也是 100%！其中 sCR 達到 59%。\n\n更驚人的是 MRD 結果，在 6 個月時做 NGS 10 的負六次方的 MRD 檢測，27 個可評估的病人中，100% 都達到了 MRD negative。\n\n一個全抗體的治療方案，不含任何傳統的 PI 或 IMiD，居然能達到這樣的反應率和 MRD negativity 率，這真的是非常突破性的結果。"
+    },
+    "46": {
+      "hint": "American Society of Hematology | American Society of Hematology | Median follow",
+      "note": "再看 PFS 和 OS 的結果。Median follow-up 時間是 10.3 個月。\n\n大家看這兩張 Kaplan-Meier 曲線，不管是 PFS 還是 OS，曲線都是一條平線在 100%，完全沒有事件發生。沒有任何疾病進展或死亡的事件。\n\n雖然追蹤時間還比較短，但在老年、transplant ineligible 的新診斷病人中達到這樣的結果，確實非常令人鼓舞。當然，我們需要更長期的追蹤來確認這個療效是否能持續。"
+    },
+    "47": {
+      "hint": "American Society of Hematology | American Society of Hematology | AEs, n(%) Tec-",
+      "note": "看一下安全性的數據。Grade 3 以上的不良事件發生在 78% 的病人中，主要是血液學毒性。Lymphopenia 佔 57%，neutropenia 43%，這在使用 bispecific antibody 時是預期的。\n\n右邊的表格列出了 adverse events of special interest。感染是最常見的，所有等級 65%，grade 3 以上 14%。CRS 發生在 59% 的病人中，但都是 grade 1-2，沒有 grade 3 以上的 CRS。值得注意的是，完全沒有 ICANS 的案例。\n\n注射部位反應 19%，second primary malignancy 有 1 例（3%）。只有 1 位病人因為不良事件停止治療。\n\n整體來看，這個 all-antibody regimen 的安全性是可以接受的，特別是沒有嚴重的 CRS 或 ICANS。"
+    },
+    "48": {
+      "hint": "American Society of Hematology | American Society of Hematology | Conclusions •",
+      "note": "TecLille 試驗的結論。Teclistamab 加 daratumumab 這個 all-antibody regimen 在 transplant ineligible 的 NDMM 老年病人中是高度有效且耐受性良好的。\n\n在 median follow-up 10.3 個月時：100% 的病人達到 VGPR or better；所有可評估的 MRD 樣本在 6 個月時都是 10 的負六次方 MRD negative；PFS 和 OS 都是 100%；沒有 grade 3 以上的 CRS，也沒有 ICANS；在系統性 IVIG prophylaxis 下，grade 3 以上的感染率是 14%。\n\n這些早期結果為未來無化療的 myeloma 治療開闢了新的方向，期待更長期的追蹤數據。"
+    },
+    "49": {
+      "hint": "American Society of Hematology | Is IMWG frailty-score-adjusted dosing the right",
+      "note": "接下來討論一個非常實際的臨床問題：對於 frail 的病人，根據 IMWG frailty score 來調整劑量，是不是正確的做法？\n\n這是來自英國 UK Myeloma Research Alliance 的 FiTNEss 試驗，也叫做 Myeloma XIV。由 Charlotte Pawlyn 等人主持，探討在新診斷、不適合 ASCT 的 myeloma 病人中，frailty-score-adjusted dosing 是否能改善毒性和預後。"
+    },
+    "50": {
+      "hint": "American Society of Hematology | American Society of Hematology | Frailty – Meas",
+      "note": "首先我們來了解 frailty 的測量方式。IMWG frailty score 是根據四個維度來評分的：年齡（75 歲以下 0 分，76-80 歲 1 分，大於 80 歲 2 分）、Charlson Comorbidity Index、ADL 日常生活活動能力、以及 IADL 工具性日常生活活動能力。\n\n總分加起來，0 分是 FIT，1 分是 UNFIT，大於等於 2 分是 FRAIL。\n\nFrail 病人的問題是，他們經歷更多的毒性和更差的存活結果。所以我們需要考慮是否要調整治療策略，是選擇不同的藥物組合，還是調整現有藥物的劑量？"
+    },
+    "51": {
+      "hint": "American Society of Hematology | Induction (12 cycles) Maintenance Standard dosi",
+      "note": "FiTNEss 試驗的設計非常聰明。總共 733 位新診斷、不適合 ASCT 的 myeloma 病人，第一次隨機分配分為 standard dosing 和 frailty-adjusted dosing。\n\nStandard dosing 組用標準劑量的 ixazomib 4 mg weekly、lenalidomide 25 mg D1-21、dexamethasone 40/20 mg weekly，遇到毒性時才調整劑量。Frailty-adjusted dosing 組則是一開始就根據 FIT、UNFIT、FRAIL 的分類來給不同的劑量，FRAIL 的病人 lenalidomide 只給 10 mg，dexamethasone 只給 10 mg。\n\n第二次隨機分配在 maintenance 階段，分為 placebo 加 lenalidomide 和 ixazomib 加 lenalidomide。"
+    },
+    "52": {
+      "hint": "American Society of Hematology | American Society of Hematology | Primary endpoi",
+      "note": "Primary endpoint 是 early treatment cessation，定義為在隨機分配後 60 天內停止治療。\n\n在 UNFIT 加 FRAIL 的族群中（n=535），standard dosing 組 ETC 率是 23%，frailty-adjusted dosing 組是 20%，OR 0.83，p 值 0.3678，沒有達到統計顯著差異。\n\n但右邊的 forest plot 非常有趣。在 frailty index category 這個亞組分析中，UNFIT 和 FRAIL 的病人表現完全不同。UNFIT 病人中，frailty-adjusted dosing 的 OR 是 0.34，明顯有利；但在 FRAIL 病人中，OR 是 1.33，反而是 standard dosing 稍微好一些。這個 heterogeneity 的 p 值是 0.0036，非常顯著。"
+    },
+    "53": {
+      "hint": "American Society of Hematology | Survival Outcomes",
+      "note": "來看 survival outcomes。左邊是 PFS，右邊是 OS，上排是 UNFIT 族群，下排是 FRAIL 族群。\n\n在 UNFIT 族群中，PFS 的 HR 是 1.09，兩組差不多。但 OS 的 HR 是 0.54，frailty-adjusted dosing 有較好的趨勢，雖然信賴區間剛好跨過 1。\n\n在 FRAIL 族群中，PFS 的 HR 是 1.09，OS 的 HR 是 1.04，兩組都沒有差別。\n\n所以 frailty-adjusted dosing 在 UNFIT 的病人中可能有 OS 的改善，但在 FRAIL 的病人中沒有明顯的好處。"
+    },
+    "54": {
+      "hint": "American Society of Hematology | American Society of Hematology | Conclusions •",
+      "note": "FiTNEss 試驗的結論。Early treatment cessation 和 PFS/OS 在 UNFIT 的病人中，透過 frailty-adjusted dosing 有改善，而且沒有降低療效。但是對於 FRAIL 的病人，管理仍然是一個挑戰。\n\n未來的研究需要探索其他的治療調整方式，包括交替使用不同的 regimen，或者使用耐受性更好的藥物組合。\n\n這個試驗給我們的啟示是，UNFIT 和 FRAIL 是不同的族群，不能用同一套策略來處理。對於 UNFIT 的病人，proactive 的劑量調整是有幫助的；但對於 FRAIL 的病人，可能需要完全不同的治療思路。"
+    },
+    "55": {
+      "hint": "American Society of Hematology | Individualizing the treatment approach How long",
+      "note": "這張投影片非常好地總結了如何個別化治療方案。大家看這個示意圖，左邊有兩個軸，紅色的是 RISK，下面是 FRAILTY。\n\n對於 high risk、fit 的病人，首選 quadruplet therapy，可以接 ASCT，然後 doublet maintenance。對於 standard risk、fit 的病人，triplet 或 quadruplet 都可以，有移植條件的就做，之後單藥或雙藥 maintenance。對於 frail 的病人，先從 doublet 開始，如果耐受的話再加第三個藥。\n\n右邊一個很重要的問題是「How long?」-- maintenance 要做多久？目前這仍然是一個未解的問題，但 MRD-guided 的治療策略可能是未來的方向。"
+    },
+    "56": {
+      "hint": "American Society of Hematology | Case Scenario Mr JD, age 72 years with relapse",
+      "note": "好，現在讓我們進入第三個部分，也就是 relapsed/refractory multiple myeloma 的治療。由 Hang Quach 教授為大家報告。\n\n這個臨床案例是 Mr. JD，72 歲，有 relapsed/refractory IgG Kappa 型的 multiple myeloma。他是一位退休會計師，ex-smoker，有適度飲酒，跟太太住在一起。ECOG 0，平時活動包括園藝、騎腳踏車和參加讀書會，體能狀態很好。Co-morbidity 只有高血壓，用 telmisartan 控制。\n\n他之前的 myeloma 治療是 first-line VRd，接著 MEL200 ASCT，然後 lenalidomide maintenance。最佳反應是 VGPR，M protein 從 32 降到 3 g/L。但在 ASCT 後 17 個月就復發了。"
+    },
+    "57": {
+      "hint": "American Society of Hematology | American Society of Hematology | Case Scenario",
+      "note": "看一下他復發時的表現。他有 mid-thoracic 的背痛和右腹部 2 公分的皮下結節。MRI 和 whole body PET-CT 顯示 T7 有一個 paraspinal plasmacytoma，大小 4.5 乘 3.2 乘 3.8 公分，沒有脊髓壓迫。\n\n大家看右邊的影像，可以清楚看到 MRI 上的 paraspinal mass 和 PET-CT 上的高攝取。實驗室檢查 IgG kappa paraprotein 18 g/L，hemoglobin 105 g/L，creatinine 正常。骨髓顯示 13% 的 clonal plasma cells。\n\n特別重要的是 cytogenetics，他有 t(11;14)，這是 CCND1-IGH，另外還有 del(17p) 和 1q21 gain。所以這是一個有 extramedullary disease 和 high-risk cytogenetics 的復發病人。"
+    },
+    "58": {
+      "hint": "American Society of Hematology | American Society of Hematology | Multiple Choic",
+      "note": "針對這位 72 歲、有 extramedullary disease、high-risk cytogenetics 包括 t(11;14)，之前用過 first-line VRd 的 RRMM 病人，你會選擇什麼下一線治療？\n\n選項有：A. Anti-CD38 mAb-based approach，像是 DaraKd、IsaKd、DaraPd、DaraVd；B. Pomalidomide 加 bortezomib 加 dexamethasone（PVd）；C. BCMA-directed therapy，像是 cilta-cel、belantamab mafodotin；D. BCL-2 inhibitor-based approach in a clinical trial；E. Other。\n\n大家思考一下，等等我們會看相關的證據。"
+    },
+    "59": {
+      "hint": "American Society of Hematology | General guideline for the treatment of relapse",
+      "note": "這張投影片整理了復發性骨髓瘤的治療指引。右邊列了幾個重要的原則。\n\n第一，relapsed multiple myeloma 沒有單一的標準治療順序，治療必須個別化。要考慮的因素包括：之前用過的治療和相關的毒性、之前反應的深度和持續時間、疾病進展的速度、病人目前的體能狀態和整體狀況。\n\n一個非常重要的原則是：use the most effective available therapy early，把最有效的治療用在前面，而不是留到後面。\n\n左邊的流程圖根據之前是否用過 anti-CD38 antibody，以及對 lenalidomide 和 bortezomib 是 sensitive 還是 refractory，列出了不同情況下的首選和備選方案。在最後幾線，cilta-cel 和 BelaPd 是主要的選擇。"
+    },
+    "60": {
+      "hint": "American Society of Hematology |",
+      "note": "接下來我們要介紹幾個在 relapsed/refractory myeloma 領域的重要新試驗結果，首先是 MajesTEC-3。這是一個非常重要的 phase 3 試驗，在今年的 ASH 上有非常精彩的報告。"
+    },
+    "61": {
+      "hint": "American Society of Hematology |",
+      "note": "MajesTEC-3 是由 Maria-Victoria Mateos 等人報告的 phase 3 randomized trial。這個試驗比較了 teclistamab 加 daratumumab，也就是 Tec-Dara 組合，和 investigator's choice 的 daratumumab 加 pomalidomide 或 bortezomib（DPd 或 DVd），用於 1-3 線前治療的 RRMM 病人。\n\n這是 bispecific antibody 在 relapsed myeloma 中第一個 positive 的 phase 3 試驗，結果非常令人矚目。"
+    },
+    "62": {
+      "hint": "American Society of Hematology | Population (n=587) : 1–3 prior lines of therapy",
+      "note": "來看 MajesTEC-3 的試驗設計。收案條件是 RRMM，1-3 線前治療，必須用過 PI 和 lenalidomide，如果只有一線前治療必須是 lenalidomide refractory。ECOG 0-2，排除之前用過 BCMA-directed therapy 和 anti-CD38 refractory 的病人。\n\n共 587 位病人 1:1 隨機分配。Tec-Dara 組（N=291）用皮下注射，teclistamab step-up dosing 後每週給藥，cycles 3-6 改為 Q2W，cycle 7 以後 Q4W。DPd/DVd 組（N=296）91% 選了 DPd。\n\nPrimary endpoint 是 IRC 評估的 PFS。重要的是，皮下注射 dosing 跟 dara 的 schedule 對齊，而且在 cycle 1 day 8 之後就不用 steroid pre-medication 了。"
+    },
+    "63": {
+      "hint": "American Society of Hematology |",
+      "note": "MajesTEC-3 的 key results 非常令人印象深刻。在 median follow-up 34.5 個月時：\n\n療效方面，Tec-Dara 對比 DPd/DVd：ORR 89.0% 對比 75.3%；CR or better 81.8% 對比 32.1%；MRD negativity 10 的負五次方 58.4% 對比 17.1%。\n\n生存方面：36 個月 PFS rate Tec-Dara 是 83.4%，DPd/DVd 只有 29.7%，HR 0.17，p 值小於 0.0001。36 個月 OS rate Tec-Dara 83.3%，DPd/DVd 65.0%，HR 0.46，也是非常顯著。\n\n大家看右邊的 PFS 曲線，兩組分得非常開，Tec-Dara 的 median PFS 未達到，而 DPd/DVd 只有 18.1 個月。這是一個 game-changing 的結果。\n\n安全性方面，CRS 發生率 60.1%，但 grade 3 以上是 0%。ICANS 1.1%，只有一個 grade 4 的事件。"
+    },
+    "64": {
+      "hint": "https://www.congresshub.com/Oncology/ASH2025/ Daratumumab/Chung The QR code is i",
+      "note": "大家可以掃描投影片上的 QR code 取得更多 MajesTEC-3 試驗的詳細資訊。"
+    },
+    "65": {
+      "hint": "Add QR code here on slide master 0.75\" x 0.75\" Presented by S Usmani at the 67th",
+      "note": "這張投影片顯示了 MajesTEC-3 的 PFS subgroup analysis。大家看 forest plot，非常重要的是，Tec-Dara 在幾乎所有的亞組中都一致地優於 DPd/DVd。\n\n不管是按年齡分（小於 65、65-75、大於等於 75），不管之前有沒有用過 anti-CD38，不管是不是 lenalidomide refractory，不管前治療線數是 1 線還是 2-3 線，HR 都在 0.13 到 0.35 之間。\n\n特別值得注意的是，high risk cytogenetics 的 HR 是 0.15，standard risk 是 0.16，效果一致。有 soft-tissue plasmacytoma 的病人 HR 0.33，也是顯著有效。\n\n這個結果非常令人鼓舞，Tec-Dara 的優勢是跨越所有亞組的。"
+    },
+    "66": {
+      "hint": "American Society of Hematology | RedirecTT-1 Phase 2: Talquetamab + Teclistamab",
+      "note": "對於有 extramedullary disease 的病人，RedirecTT-1 試驗提供了重要的數據。\n\n首先要了解，extramedullary disease 在 myeloma 中預後很差。True EMD，也就是跟骨骼不相連的軟組織/器官相關的 plasmacytoma，對傳統治療的反應率低很多，ORR 只有約 25%，median PFS 和 OS 都很短。\n\nRedirecTT-1 試驗用 talquetamab 加 teclistamab 雙 bispecific antibody 的組合，針對 90 位有 true EMD 的 triple-class exposed RRMM 病人。結果非常好：ORR 78.9%，CR or better 53.3%。12 個月 DOR 62.1%，median PFS 15.0 個月，12 個月 OS 73.8%。\n\nCRS 發生率 77.8% 但 grade 2 以上很少見，沒有 grade 3 以上的 CRS。這對 EMD 病人是一個很有希望的治療選擇。"
+    },
+    "67": {
+      "hint": "Phase 2 Study of Cevostamab Consolidation Following BCMA CAR T Cell Therapy: Pre",
+      "note": "接下來是 STEM trial，來自 University of Pennsylvania 的 Adam Cohen 等人。這是一個 phase 2 研究，探討在 BCMA CAR-T cell therapy 之後用 cevostamab 做 consolidation。\n\nCevostamab 是一個 bispecific antibody，靶向 FcRH5，這是一個與 BCMA 不同的 target。在 CAR-T 之後使用它的理論基礎是：可以 re-invigorate 殘存的 CAR-T cells、清除 BCMA low/negative 的殘存骨髓瘤細胞、以及改善 sustained MRD negativity 率。"
+    },
+    "68": {
+      "hint": "American Society of Hematology | American Society of Hematology | Sequential T-C",
+      "note": "STEM trial 的設計如下。病人在接受 ide-cel 或 cilta-cel 作為標準治療後 10-12 週，開始接受 cevostamab consolidation，每 3 週一次，共 8 個 cycles。\n\n如果達到 MRD-negative CR，就進入觀察期；如果沒有達到，就再做 8 個 cycles 的 cevostamab。\n\nPrimary endpoint 是 CAR-T 後 12 個月的 MRD-negative CR rate，使用 Adaptive Clonoseq NGS 在 10 的負五次方的敏感度。計畫收案 30 人。"
+    },
+    "69": {
+      "hint": "American Society of Hematology | STEM Trial: Cevostamab Consolidation After BCMA",
+      "note": "STEM trial 的初步結果。27 位可評估的病人，median 4 線前治療，約 3/4 是 triple-class refractory，19% 有 EMD。\n\n療效方面，CR rate 在 cevostamab 前是 63%，C8D1 時增加到 81%，CAR-T 後 1 年達到 93%。1 年的 MRD-negative CR rate 是 93%，非常高。\n\n安全性也令人欣慰：grade 3-4 感染 15%；CRS 所有等級 15%，grade 3 以上 0%；沒有 ICANS。\n\n大家看右邊的 PFS 和 OS 曲線，在 median follow-up 12 個月時，曲線都很平坦，大部分病人維持在緩解狀態。\n\n這個 sequential T-cell engagement 的策略 -- 先 CAR-T 再 bispecific antibody consolidation -- 是一個非常有前景的方向。"
+    },
+    "70": {
+      "hint": "American Society of Hematology | Initial Results of the first-in-human Phase 1 s",
+      "note": "接下來介紹一個全新的分子 -- IBI3003。這是一個 trispecific antibody，同時靶向 GPRC5D、BCMA 和 CD3 三個 target。由 Jing Li 等人在 ASH 2025 報告了 first-in-human phase 1 的初步結果。\n\n同時靶向兩個腫瘤抗原的設計理念，是為了防止 antigen escape，也就是當骨髓瘤細胞失去一個 target 時，另一個 target 仍然可以起作用，從而增強療效。"
+    },
+    "71": {
+      "hint": "American Society of Hematology | Phase 1 Study Design (NCT06083207) • The Part 1",
+      "note": "IBI3003 的 phase 1 study design。收案對象是 R/R MM 病人，至少 2 線前治療失敗，必須用過 PI、IMiD 和 anti-CD38 antibody。允許之前用過 BCMA 和/或 GPRC5D 靶向的治療。\n\n藥物以皮下注射方式給予，每週一次。治療 6 個月以上且達到 PR or better 持續 2 個月以上的病人，可以改為每兩週一次。用 1-3 個 priming doses 來降低 CRS 的風險。\n\n目前報告的是 Part 1 dose escalation 的數據，來自中國 23 個中心和澳洲 3 個中心的病人。"
+    },
+    "72": {
+      "hint": "American Society of Hematology | IBI3003 is a trispecific antibody targeting BCM",
+      "note": "來看 IBI3003 的 key results。共 39 位病人，median 4 線前治療，100% triple-class exposed，51% penta-class exposed，46% 有 EMD，64% 是 mSMART high risk。\n\n療效方面，在 120 ug/kg 以上的劑量組中，ORR 達到 83.3%，其中 sCR 37.5%，VGPR 29.2%。即使在有 EMD 的病人中 ORR 也有 80%，在之前用過 BCMA/GPRC5D 治療的病人中 ORR 77.8%。在達到 CR or better 的可評估病人中，100% 都是 MRD negative。\n\n安全性方面，grade 3 以上感染 28.2%，nail/skin toxicity 64.1%（都是輕度），CRS 64.1% 但沒有 grade 3 以上，ICANS 6.1% 都是 grade 1-2。\n\n這個 trispecific antibody 的早期數據非常有前景，特別是在重度前治療的病人中仍然有這麼高的反應率。"
+    },
+    "73": {
+      "hint": "American Society of Hematology | Interim analysis of efficacy and safety for Vib",
+      "note": "最後我們要介紹一個針對 t(11;14) myeloma 的特殊治療策略。Viber-M 試驗，也叫 ALLG MM25，是一個 phase Ib/II 的研究，用 venetoclax 加 iberdomide 加 dexamethasone 來治療 first or second relapse 的 t(11;14) multiple myeloma。\n\n大家知道，t(11;14) 的 myeloma 是 BCL-2 dependent 的，對 venetoclax 特別敏感。而 iberdomide 是新一代的 CELMoD，能增強腫瘤殺傷和免疫活性。這個組合的理論基礎非常合理。"
+    },
+    "74": {
+      "hint": "American Society of Hematology | Viber-M: Study design CrCl=creatinine clearance",
+      "note": "Viber-M 的試驗設計。收案條件是大於等於 18 歲，有 t(11;14) 的 RRMM，1-2 線前治療，ECOG 小於等於 2，腎功能和肝功能要足夠。\n\n治療是 28 天為一個 cycle：venetoclax 口服 D1-28，iberdomide 口服 D1-21，dexamethasone 口服 D1、8、15、22。\n\nPrimary endpoints 是 tolerability、safety 和 VGPR or better 的比率。Secondary endpoints 包括 ORR、CR rate、MRD negativity rate、PFS、OS 和 QOL。"
+    },
+    "75": {
+      "hint": "American Society of Hematology | Viber-M (ALLG MM25) –Key Points Phase Ib/II tri",
+      "note": "Viber-M 的初步結果。這是前 20 位病人在 3 個 cycles 後的 planned interim analysis，其中 65% 是 lenalidomide refractory，20% 是 daratumumab refractory。\n\n療效方面，overall ORR 達到 80%，VGPR or better 25%，CR or better 5%。反應非常快速，median time to first response 只有 41.5 天。\n\n大家看右邊的圖，兩個劑量組的結果，iberdomide 1.6 mg 加 venetoclax 400 mg 的 ORR 是 75%，iberdomide 1.0 mg 加 venetoclax 400 mg 的 ORR 是 87.5%。\n\n在 lenalidomide refractory 的病人中 ORR 85%，VGPR or better 23%。在 daratumumab refractory 的病人中 ORR 75%，VGPR 25%。\n\n安全性方面，neutropenia 50%，感染 35%（grade 3-4 10%）。整體來看是可以接受的。這個口服為主的方案對於 t(11;14) 的復發病人是一個很好的選擇。"
+    },
+    "76": {
+      "hint": "American Society of Hematology | American Society of Hematology | Discussion 72",
+      "note": "最後我們回到一開始的臨床案例來做討論。這位 72 歲的 RRMM 病人，有 functional、clinical（extramedullary disease）和 cytogenetic risk features（包括 t(11;14)），之前用過 first-line VRd-based therapy。\n\n你會選擇什麼下一線治療？A. Anti-CD38 mAb-based approach；B. PVd；C. BCMA-directed therapy；D. BCL-2 inhibitor-based approach in a clinical trial；E. Other。\n\n根據我們今天討論的證據，這位病人有幾個特點需要考慮：他有 extramedullary disease，MajesTEC-3 和 RedirecTT-1 的數據都支持 bispecific antibody 在這類病人中的療效；他有 t(11;14)，venetoclax-based 的方案也值得考慮；他有 del(17p) 和 1q21 gain 這些 high-risk features。在現有的證據下，BCMA-directed therapy 或含有 bispecific antibody 的方案可能是比較好的選擇。\n\n謝謝大家今天的參與，希望這些最新的數據能幫助大家在臨床實踐中做出更好的治療決策。"
+    }
+  }
+}

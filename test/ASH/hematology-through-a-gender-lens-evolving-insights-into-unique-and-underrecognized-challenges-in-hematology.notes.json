@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "pdf": "hematology-through-a-gender-lens-evolving-insights-into-unique-and-underrecognized-challenges-in-hematology.pdf",
+    "totalSlides": 39,
+    "generatedAt": "2026-04-12T19:14:44.032Z",
+    "generator": "pdf-presenter"
+  },
+  "notes": {
+    "1": {
+      "hint": "American Society of Hematology | Hematology Through a Gender Lens: Evolving Insi",
+      "note": "各位好，歡迎來到今天的 Highlights of ASH 講座。我是 Sarah O'Brien，來自 Nationwide Children's Hospital 以及 The Ohio State University College of Medicine，位於 Columbus, Ohio。\n\n今天我要跟大家分享的主題是 \"Hematology Through a Gender Lens: Evolving Insights into Unique and Underrecognized Challenges in Hematology\"，也就是從性別的角度來看血液學中那些獨特且經常被忽略的挑戰。\n\n這個主題非常重要，因為在血液學領域中，有許多疾病和臨床情境對女性患者有著不同的影響，但這些議題在過去並沒有得到足夠的重視。今天我們會從三個主要面向來探討：Immune Thrombocytopenia、Hemophilia，以及 Iron Deficiency，特別著重在女性生殖健康和懷孕期間的相關問題。"
+    },
+    "2": {
+      "hint": "American Society of Hematology | Disclosures In compliance with ACCME policy, AS",
+      "note": "在開始之前，依照 ACCME 的規定，我需要揭露我的利益關係。我有收取 Petauri Health, LLC 的 honoraria，同時也是 Avana、iECURE 以及 Petauri Health, LLC 的 advisory committee 成員。本次演講不涉及 off-label drug use 的討論。"
+    },
+    "3": {
+      "hint": "American Society of Hematology | American Society of Hematology | Objectives • A",
+      "note": "今天的學習目標有三個。第一，我們要分析來自 ASH 2025 Annual Meeting 的最新數據，找出可以改善女性患者照護的 evidence-based strategies。\n\n第二，我們會評估血液學疾病的診斷和治療在不同生殖階段的考量，以及可能預期的醫療併發症，特別聚焦在 ITP 和 hemophilia。\n\n第三，我們要探討在月經期女性和孕婦中，iron deficiency 的診斷挑戰和治療選項。這三個目標將貫穿我們今天整場演講。"
+    },
+    "4": {
+      "hint": "American Society of Hematology | Immune Thrombocytopenia",
+      "note": "好的，讓我們進入今天的第一個主題：Immune Thrombocytopenia，也就是 ITP。ITP 是一個自體免疫疾病，會導致血小板破壞增加和生成減少，而且在女性中的發生率比男性高。接下來我們會討論 ITP 在懷孕期間的處理，以及一些跟女性生殖健康相關的新研究數據。"
+    },
+    "5": {
+      "hint": "American Society of Hematology | American Society of Hematology | A practical ap",
+      "note": "首先來看這篇由 Donald M Arnold、Kinga A Malinowski 和 Kristine Matusiak 發表的文章，探討懷孕期間 ITP 的實務處理方法。\n\n大家看左邊這張圓餅圖，顯示的是懷孕期間血小板低下的原因分布。最常見的是 gestational thrombocytopenia，也就是生理性的妊娠血小板低下，佔了 75%。其次是 hypertensive disorders of pregnancy 佔 20%，immune disorders 佔 4%，其他原因只有 1%。\n\n右邊列出了在懷孕期間診斷 ITP 的線索：第一，使用 IVIG 或 steroids 後血小板計數上升；第二，任何時候出現嚴重的血小板低下，也就是小於 20 x 10^9/L；第三，在懷孕早期就出現或在懷孕前就存在的血小板低下；第四，血小板計數隨時間有波動。\n\n值得注意的是，懷孕期間的出血風險其實和非懷孕 ITP 患者相似。產後出血的風險大約在 10-15%，嚴重的新生兒血小板低下也大約是 10-15%。而且母親的血小板計數不一定能預測新生兒的風險。"
+    },
+    "6": {
+      "hint": "American Society of Hematology | American Society of Hematology | Summary of ITP",
+      "note": "這張投影片幫我們整理了懷孕期間 ITP 處理的重點。首先，gestational thrombocytopenia 是最常見的原因，這是生理性的。但 ITP 可以造成嚴重的血小板低下，這點我們要特別注意。\n\n好消息是，大多數情況下懷孕和新生兒的 outcomes 都是好的。當需要治療時，第一線治療是 prednisone 和 IVIG。\n\n第二線治療通常會限制在懷孕後期才使用。目前已經有不少使用 rituximab 的經驗，但要注意它的反應時間比較慢。另外也有使用 thrombopoietin receptor agonists 的經驗，不過要考慮到它們可能增加 VTE 的風險，這在本身就處於高凝狀態的孕婦中需要特別留意。"
+    },
+    "7": {
+      "hint": "American Society of Hematology | Patient TS • 31-year-old female, with history o",
+      "note": "現在讓我們來看一個臨床案例。Patient TS 是一位 31 歲的女性，有 chronic ITP 的病史。她來門診的主要原因是擔心她的月經出血問題，她的月經出血會持續長達 10 天，而且伴隨嚴重的經痛。\n\n更讓她擔心的是，她想要考慮懷孕，但她擔心如果停掉目前使用的口服避孕藥，她會無法忍受月經出血的情況。\n\n所以問題來了：我們該如何諮詢和幫助這位患者？這是一個非常實際的臨床情境，在我們的門診中經常會遇到。ITP 女性患者面臨的不只是出血風險，還有生活品質和生殖規劃的考量。"
+    },
+    "8": {
+      "hint": "American Society of Hematology | American Society of Hematology | Reproductive H",
+      "note": "接下來這個研究非常重要。這是 Michelle P. Lambert 等人發表的一個 subgroup analysis，來自 Phase 3 的 LUNA3 Multicenter Study，探討接受 rilzabrutinib 治療的 ITP 患者的生殖健康。\n\n背景資料告訴我們，ITP 女性患者中，大量或延長的月經出血是非常普遍的問題，會嚴重影響她們的 health-related quality of life，也就是 HRQoL。研究顯示，heavy menstrual bleeding 的影響程度與低血小板計數和更高程度的疲勞相關，即使在沒有貧血的情況下也是如此。\n\n在停經前的 ITP 女性中，高達 55% 在診斷時就有 heavy menstrual bleeding，在疾病過程中更高達 79%。這個比例非常驚人，也說明了為什麼我們需要關注這個問題。"
+    },
+    "9": {
+      "hint": "American Society of Hematology | Drug: Rilzabrutinib • Rilzabrutinib is an oral",
+      "note": "先來認識一下這個藥物。Rilzabrutinib 是一個口服的 Bruton tyrosine kinase，也就是 BTK inhibitor，它透過調節多個免疫標靶來影響複雜的免疫失調。在 ITP 中，它已經展現出持久的血小板反應，可以減少出血，在疲勞方面有臨床意義的改善，而且安全性良好。這些結果來自 LUNA3 study。\n\n大家看右邊的研究設計。Persistent 或 chronic ITP 的患者被以 2:1 的比例隨機分配到 rilzabrutinib 400 mg 一天兩次（n=133）或 placebo（n=69），治療期間長達 24 週。如果患者到第 12 週沒有達到預設的血小板反應，可以選擇停藥或進入 28 週的 open-label period。\n\n這個 subgroup analysis 特別評估了女性的生殖健康相關項目，使用的是 ITP-PAQ 問卷在 double-blind period 中的數據。"
+    },
+    "10": {
+      "hint": "American Society of Hematology | Baseline Characteristics & Drug Response Durabl",
+      "note": "來看結果。大家看右邊這張柱狀圖，這裡呈現的是 durable response 的比率。Durable response 的定義是血小板計數達到 50 x 10^9/L 以上，在 24 週 double-blind period 的最後 12 週中至少有三分之二的時間（也就是至少 8 週）維持在這個水平，而且不需要 rescue therapy。\n\nRilzabrutinib 組的 durable response rate 是 33%，而 placebo 組是 0%。這個差異非常顯著，顯示 rilzabrutinib 確實能帶來持久的血小板反應。"
+    },
+    "11": {
+      "hint": "American Society of Hematology | American Society of Hematology | Tranexamic Aci",
+      "note": "這張投影片非常有趣。Tranexamic acid 是一種 antifibrinolytic agent，臨床上常用來治療 heavy menstrual bleeding。\n\n大家看右邊的圖表，在 double-blind period 中使用 tranexamic acid 的比例，rilzabrutinib 的 durable responders 只有 7%，整體 rilzabrutinib 組是 14%，rilzabrutinib 的 non-durable responders 是 17%，而 placebo 組最高，達到 25%。\n\n這個結果說明什麼呢？對 rilzabrutinib 有持久反應的患者，她們對 tranexamic acid 的需求大幅降低。換句話說，當我們能有效控制 ITP，提升血小板計數，就能同時改善月經出血的問題，減少額外用藥的需要。"
+    },
+    "12": {
+      "hint": "American Society of Hematology | ITP-PAQ Women's Reproductive Health Domains All",
+      "note": "這張投影片的數據比較豐富，讓我們仔細看。左邊的表格顯示的是所有 rilzabrutinib 受試者的 ITP-PAQ 女性生殖健康各個項目的分數變化。\n\n整體 women's reproductive health domain 的 MID 參考值是 8-12 分。在第 13 週平均改善 3.5 分，到第 25 週改善 6.6 分。個別項目中，Item 35 heavy menstrual bleeding 和 Item 36 bleeding duration 的改善幅度最大，到第 25 週分別改善 9.1 和 10.2 分，都超過了 MID 的 3.3 分，具有統計顯著性。\n\n大家再看右邊的圖，這是只看 durable responder 的數據，在第 25 週的改善更加明顯。幾乎所有項目都達到了有臨床意義的改善，包括 heavy menstrual bleeding、bleeding duration、懷孕和生育的可能性等等。特別值得注意的是 bleeding duration 的改善達到 14.3 分，非常顯著。\n\n唯一沒有明顯改善的是 pain 項目，在 durable responder 中反而顯示 -3.1 的變化。但整體來看，rilzabrutinib 對 ITP 女性的生殖健康有著全面性的正面影響。"
+    },
+    "13": {
+      "hint": "American Society of Hematology | American Society of Hematology | Conclusions •",
+      "note": "來做一個 ITP 部分的總結。使用 rilzabrutinib 治療後，女性的生殖健康相對於 baseline 有了有意義的改善，特別是在 heavy and prolonged menstrual bleeding 方面。\n\nRilzabrutinib 的 durable responders 表現最好，在第 25 週時所有六個個別項目（Item 35-40）都達到了超過 MID 的改善。她們也維持了穩定的 hemoglobin 水平，而且比 non-durable responders 使用更少的 tranexamic acid。\n\n這些探索性的發現突顯了 rilzabrutinib 透過 multi-immune modulation 改善 ITP 患者 HRQoL 和出血結局的潛力。當然，我們還需要更大規模的研究來進一步確認 ITP 治療對女性健康結局的影響。"
+    },
+    "14": {
+      "hint": "American Society of Hematology | Hemophilia",
+      "note": "好的，接下來我們進入第二個主題：Hemophilia。傳統上我們認為 hemophilia 是一個主要影響男性的疾病，但事實上女性也可以受到影響，而且這個問題長期以來被嚴重低估。讓我們來看看最新的研究數據告訴我們什麼。"
+    },
+    "15": {
+      "hint": "American Society of Hematology | Patient KH • 29-year-old pregnant female, with",
+      "note": "先來看這個案例。Patient KH 是一位 29 歲的懷孕女性，她的家族中有 hemophilia 的病史，但 subtype 不明，她的舅舅和曾祖父都受到影響。她在懷孕 10 週時來到產科門診。\n\n她過去有 heavy menstrual bleeding 的病史，拔智齒後出血了四天，沒有其他手術史。她的 Factor VIII 是 97%，Factor IX 是 94%，都在正常範圍內。\n\n懷孕過程沒有明顯併發症，計畫按照標準照護進行自然產。\n\n但是大家想一想，這個就醫過程中出了什麼問題？這裡有幾個重要的 red flags 被忽略了：她有明確的 hemophilia 家族史，有出血症狀，但因為 factor levels 正常就被認為沒有問題。我們後面會看到為什麼這樣的判斷可能是錯誤的。"
+    },
+    "16": {
+      "hint": "American Society of Hematology | American Society of Hematology | Females Affect",
+      "note": "這個研究來自 J Johnson、SN Fletcher、L Aires、C Sandoval 和 BA Konkle，報告的是美國 8CHECK Program 的數據，探討受 Hemophilia A 影響的女性。\n\n研究收錄的對象包括 FVIII level 低於 40% 的 hemophilia A 患者，或者有 hemophilia A 一等親（偶爾更遠的）家族史的女性。從 2024 年 3 月到 2025 年 7 月，共有 531 個樣本被送去做基因檢測。\n\n大家看右邊的圓餅圖，結果非常重要：62%，也就是 329 位女性被發現帶有 F8 gene variant，而 38%（202 位）沒有發現 variant。這告訴我們，在有家族史的女性中，超過六成實際上是帶因者。\n\n受試者的年齡範圍從 0.04 歲到 83.1 歲，平均檢測年齡是 25.1 歲。這個數據強調了基因檢測在這個族群中的重要性。"
+    },
+    "17": {
+      "hint": "American Society of Hematology | F8 Variants Most Commonly Missense or Inversion",
+      "note": "進一步看 F8 variant 的類型分布。大家看左邊這個圓餅圖，最常見的是 missense mutation，佔 47.1%，其次是 intron 1 or 22 inversion，佔 28.6%。其他還包括 stop-gain 6.7%、frameshift 4.9%、large structural variant 4.6%、synonymous 4.6%、splice 2.7%，以及 compound variant 0.9%。\n\n右邊的數據也很重要。88.1%，也就是 468 位受試者報告有 hemophilia A 的家族史。而且有家族史的女性，基因檢測的陽性率遠高於沒有家族史的：67.5% 對比 18.6%。\n\n這個數據告訴我們，家族史是非常重要的預測因子。如果一個女性有 hemophilia A 的家族史，她有將近七成的機率帶有 F8 variant，我們一定要主動幫她做基因檢測。"
+    },
+    "18": {
+      "hint": "American Society of Hematology | Females with F8 Gene Variants Had overall lower",
+      "note": "這張投影片呈現了非常關鍵的發現。大家看左邊的圖，帶有 F8 gene variant 的女性整體 FVIII level 確實比較低，genotype-positive 平均是 50.4%，genotype-negative 是 66.4%，p 值為 0.004，有統計顯著性。但是請注意，兩組之間有很大的重疊！\n\n再看右邊的圖，更重要的發現是：49.3% 的帶因者報告了 excessive bleeding。而且出血的發生與 factor activity 的高低並不完全相關 -- 52% 有出血症狀的女性，她們的 FVIII 其實大於等於 40%！有出血的平均 FVIII 是 44.6%，沒有出血的是 59.3%，p 值是 0.02。\n\n這個發現非常重要。它告訴我們，正常的 factor level 並不能排除帶因者狀態，也不能排除出血風險。我們不能只靠 factor activity 來判斷一位有家族史的女性是否需要進一步評估。"
+    },
+    "19": {
+      "hint": "American Society of Hematology | American Society of Hematology | Poll Question",
+      "note": "好，來一個 poll question 考考大家。題目是：正常的 factor activity 是否是一個好的指標，來判斷一位有 hemophilia 家族史的女性沒有 F8/F9 gene mutation？\n\n選項有三個：第一，是的，不管 factor activity 多少都是好的指標；第二，只有在 factor activity 大於等於 100 IU/dL 的時候才是；第三，不是。\n\n根據我們剛才看到的 8CHECK Program 數據，答案應該是第三個選項：False。因為我們看到有超過一半的出血患者 FVIII 大於等於 40%，而且 genotype-positive 和 genotype-negative 的 factor level 有很大的重疊。所以正常的 factor activity 絕對不能用來排除基因突變的可能性。"
+    },
+    "20": {
+      "hint": "American Society of Hematology | Iron Deficiency",
+      "note": "接下來我們進入今天的第三個也是最後一個主題：Iron Deficiency。缺鐵是全世界最常見的營養缺乏，對女性的影響尤其顯著，特別是在月經期和懷孕期間。這也是一個經常被低估和延遲診斷的問題。讓我們來看看最新的研究數據。"
+    },
+    "21": {
+      "hint": "American Society of Hematology | American Society of Hematology | Iron as critic",
+      "note": "首先讓我們回顧一下鐵為什麼這麼重要。大家看這張圖，鐵在人體中扮演多個關鍵角色。它對 erythropoiesis 也就是紅血球生成至關重要，也是 DNA synthesis 所必需的，對 immune function 免疫功能有重要影響，而且對各個 organs and tissues 包括肝臟和心臟的功能都不可或缺。\n\n圖片下方強調了一個重要訊息：Iron deficiency 會增加貧血的風險，並且影響個人整體的健康和身心狀態。所以缺鐵不只是一個血液學的問題，它影響的是全身的健康。"
+    },
+    "22": {
+      "hint": "American Society of Hematology | American Society of Hematology | Health Equity",
+      "note": "這張投影片把 iron deficiency 放在 health equity 的框架下來討論，這個角度很重要。\n\n大家看這四個方塊。Health equity 意味著所有人都應該有公平的機會達到最高的健康水準。而 iron deficiency 是全世界最普遍的營養缺乏。Iron deficiency anemia 帶來的負面後果包括慢性疲勞、認知功能障礙、體能下降、發育受損，以及 HRQoL 降低。\n\n因此，辨識風險因子和找出照護的差距，以便設計適當的介入措施，是非常重要的。從 health equity 的角度來看，缺鐵的篩檢和治療不應該存在種族、社經地位或性別的差異。"
+    },
+    "23": {
+      "hint": "American Society of Hematology | Patient SM • 16-year-old female patient SM pres",
+      "note": "來看另一個案例。Patient SM 是一位 16 歲的女性，因為疲勞來看她的兒科醫師。她在課堂上很難集中注意力，而且放學後常常立刻就睡著了。\n\n醫師問了她的睡眠習慣和月經情況。SM 說她的月經出血比朋友重，但她從不覺得有問題，因為她姐姐和媽媽的出血量也差不多。\n\n她之前的 lab results 顯示 Hgb 12.7 gm/dl，MCV 85%，看起來都在正常範圍。所以醫師告訴她，症狀可能是青少年常見的睡眠不良造成的，她的檢驗結果沒有 anemia 或 iron deficiency 的證據。\n\n這裡出了什麼問題呢？問題在於醫師只看了 CBC，沒有檢測 ferritin。在月經量大的青少女中，即使 hemoglobin 和 MCV 正常，也可能存在嚴重的缺鐵。我們接下來會看到數據證實這一點。"
+    },
+    "24": {
+      "hint": "American Society of Hematology | American Society of Hematology | Methods • Retr",
+      "note": "這個研究由 Lam Duc 和 Kristina Haley 發表，探討的是有 iron deficiency 和 heavy menstrual bleeding 的青少女的 red cell indices。\n\n研究方法是回溯性的 chart review，收錄了 2015 年 1 月到 2023 年 1 月間，年齡 14 到 21 歲的患者。收案條件是在評估後三個月內有做 CBC 和 ferritin。排除條件是三個月內有接受輸血的。收集的資料包括人口統計學、共病、出血性疾病、CBC、ferritin 和 iron studies。\n\n他們使用 Pearson correlation 來評估 MCV 和 ferritin 之間的關係。這個研究設計很聰明，因為它正好可以回答：在這個族群中，我們能不能單靠 MCV 來判斷有沒有缺鐵？"
+    },
+    "25": {
+      "hint": "American Society of Hematology | Results ● Weak correlation: MCV and ferritin sh",
+      "note": "結果出來了，大家看這張散佈圖。MCV 和 ferritin 之間只有很弱的正相關，r 值只有 0.3。這代表 MCV 單獨來看是一個不可靠的 iron deficiency marker。\n\n更重要的發現是，normocytosis 非常普遍。77.2% 的患者是 normocytic 的，也就是 MCV 正常。而在這些 MCV 正常的患者中，44.9% 的 ferritin 低於 15 ng/ml，這是明確的缺鐵！\n\n圖片下方的紅色框框總結了最關鍵的訊息：Under-Recognition of Risk -- 依賴 CBC morphology 可能會遺漏青少年的 iron deficiency。這就是為什麼我們剛才那位 Patient SM 的醫師犯了錯：只看 CBC 而不查 ferritin，可能讓近一半的缺鐵青少女被漏診。"
+    },
+    "26": {
+      "hint": "American Society of Hematology | Patient SM • SM's mother calls the pediatrician",
+      "note": "回到 Patient SM 的故事。三個月後，SM 的媽媽打電話給醫師，說女兒按照建議改善了睡眠習慣，但症狀完全沒有改善。媽媽堅持認為女兒一定有什麼問題，想知道還能做些什麼。\n\n這次醫師決定送 iron studies 的檢驗。結果 ferritin level 只有 6 ng/ml，嚴重缺鐵。於是醫師開始了口服鐵劑治療。\n\n這裡帶出了下一個重要問題：口服鐵劑成功治療這位患者 iron deficiency 的可能性有多高？我們知道在青少年族群中，口服鐵劑的順從性和有效性都存在很大的挑戰。"
+    },
+    "27": {
+      "hint": "American Society of Hematology | American Society of Hematology | Adherence to o",
+      "note": "這個研究由 Kennedy Sheedy 和 Lauren Amos 發表，探討的正是因 heavy menstrual bleeding 導致 iron deficiency 的青少女口服鐵劑的 adherence。\n\n大家看這張圖，上方描繪了口服鐵劑的困境：副作用導致順從性差，進而影響治療效果。研究結果相當令人擔憂：68% 的患者在研究結束時仍然是缺鐵狀態，58% 報告有 barriers to compliance，36% 報告有副作用，而 20% 被開了口服鐵劑卻從來沒有服用過。\n\n更有趣的是，隨著年齡增長，缺鐵恢復的機率降低了 57%。這代表年紀越大的青少年可能更需要考慮其他治療方式。\n\n下方是 IV iron 的資料。靜脈鐵劑有更快的 resolution rate，而且很大比例的患者最終還是需要 IV iron。所以對於年齡較大的青少年和口服鐵劑耐受性差的患者，我們應該更早考慮 IV iron。"
+    },
+    "28": {
+      "hint": "American Society of Hematology | Patient AK • 28-year-old G1P0 female patient AK",
+      "note": "讓我們看另一個案例。Patient AK 是一位 28 歲的 G1P0 女性，在懷孕 12 週時來做例行產檢。她告訴產科醫師，她在社群媒體上看到很多關於 iron deficiency 的資訊，知道缺鐵在懷孕中很常見，而且 ferritin 是最好的檢測方式。\n\n隔天 ferritin 結果出來是 18 ng/ml，而實驗室的參考範圍是 16-154 ng/ml。產科醫師告訴 AK 她的 ferritin 正常。\n\n這裡又出了什麼問題呢？問題在於使用了一般實驗室的參考範圍，而不是針對孕婦的標準。根據 ASH guidelines，孕婦的 ferritin threshold 應該是 30 ng/ml 以下就算缺鐵。所以 18 ng/ml 其實已經是缺鐵了，需要介入治療。"
+    },
+    "29": {
+      "hint": "American Society of Hematology | Iron Deficiency In Pregnancy Guidelines do not",
+      "note": "這張投影片很全面地呈現了懷孕期間 iron deficiency 的問題。大家看左邊，隨著懷孕進展，鐵的需求量持續增加，但目前的 guidelines 並沒有特別建議在沒有 anemia 的情況下檢測 iron studies。篩檢時機通常是在第一次產檢以及 24-28 週，主要看 hemoglobin 是否低於 11 g/dl。\n\n右邊列出了懷孕期間 iron deficiency 和 iron deficiency anemia 的相關併發症，包括 low birth weight、fetal growth restriction、neurodevelopmental disorders、preterm birth、mood disorders 和疲勞，以及 post partum hemorrhage 和需要輸血。\n\n下方紅色框框的重點是：目前的 guidelines 並沒有特別建議在沒有貧血的情況下檢測 iron studies。但就像我們在 Patient AK 的案例中看到的，很多孕婦在還沒有貧血之前就已經嚴重缺鐵了。還有一個問題是，一般的 prenatal vitamins 含鐵量只有 27 mg，可能不足以應付懷孕期間增加的鐵需求。"
+    },
+    "30": {
+      "hint": "American Society of Hematology | American Society of Hematology | Prediction and",
+      "note": "這個研究由 Sarah Detlefs、Chirag Patel、Jacquelyn Powers 和 Senthil Sukumar 發表，探討的是早期懷孕中 non-anemic iron deficiency，也就是 NAID 的預測和盛行率。\n\n研究收錄了 200 位懷孕 13 週以下的女性。Iron deficiency 的定義是 ferritin 小於 30 ng/mL，或是 ferritin 小於 50 ng/ml 且 transferrin saturation 小於 20%。Anemia 定義為 hemoglobin 小於 11 g/dl。\n\n大家看右邊的表格，IDA 加上 NAID 組和正常組之間，ferritin 的差異非常大：20.1 對比 71.5 ng/ml，p 值小於 0.0001。在臨床特徵方面，IDA/NAID 組中 Latinx ancestry、heavy menses、pagophagia、先前鐵劑使用、先前貧血診斷等都顯著較高。\n\n在 multivariable logistic regression 中，pagophagia（p=0.006）、prior iron supplement use（p=0.03）和 BMI（p=0.007）可以預測 iron deficiency。\n\n最下方的重點是：超過半數在第一次產檢的女性已經是缺鐵的，數據支持對所有孕婦在第一次產檢時進行 universal screening。"
+    },
+    "31": {
+      "hint": "American Society of Hematology | American Society of Hematology | ASH Recommenda",
+      "note": "這張投影片列出了 ASH 對 iron deficiency 診斷的建議。對於孕婦，ASH Guideline Panel 建議使用 serum ferritin 30 ng/ml 以下作為門檻值，這是一個 conditional recommendation，基於 low certainty 的證據。同時建議不要使用 15 ng/ml 以下的門檻值，因為那太低了，會遺漏很多缺鐵的患者。\n\n其他建議的 threshold 還包括：有月經的女性是 30 ng/ml 以下，一般成年人也是 30 ng/ml 以下，9 個月到 4 歲的兒童是 20 ng/ml 以下。\n\n回到剛才 Patient AK 的案例，她的 ferritin 18 ng/ml 按照 ASH 的標準明確是缺鐵的。這個案例提醒我們，一定要用正確的 threshold 來判讀結果，而不是依賴實驗室自動列出的參考範圍。"
+    },
+    "32": {
+      "hint": "American Society of Hematology | Implementation of a multidisciplinary quality i",
+      "note": "接下來這個研究非常令人興奮。這是由 Richard Godby 等人在 Mayo Clinic 進行的一個 multidisciplinary quality improvement project，目標是建立標準化的方法來篩檢和治療懷孕期間的 iron deficiency。這個計畫獲得了 ASH Quality Improvement Training Institute 的支持。\n\n他們組成了一個跨領域團隊，包括 obstetrics、hematology 和 patient blood management。Iron deficiency 定義為 ferritin 小於 50 ng/ml，anemia 定義為 hemoglobin 小於 11 g/dl。\n\n處理方式很直觀：如果在懷孕早期發現缺鐵，先給口服鐵劑補充。如果在懷孕後期發現缺鐵，不管有沒有貧血，都直接給 IV iron infusion，使用的是 low molecular weight iron dextran，劑量 1 gram。這個策略很務實，因為在懷孕後期，時間有限，口服鐵劑可能來不及發揮作用。"
+    },
+    "33": {
+      "hint": "American Society of Hematology | Flowchart: Post-Interventions 8-12 Weeks 24-28",
+      "note": "大家看這張流程圖，這就是他們介入後的標準化篩檢和處理流程。\n\n左邊是懷孕 8-12 週的早期流程：在早期產檢時抽血做 CBC 加上 ferritin，同時進行衛教。如果 Hgb 大於等於 11 且 ferritin 大於 50，就按正常產檢追蹤。如果 ferritin 小於 50，就開始口服鐵劑治療。如果 Hgb 低但 ferritin 正常，就轉介 hematology。\n\n右邊是懷孕 24-28 週的晚期流程：同樣再做一次 CBC 和 ferritin。如果數值正常，繼續標準產檢。如果 ferritin 小於 50，這時候就直接給 IV Iron Dextran 1 gram，不再等口服鐵劑慢慢補。如果數值異常但不是單純缺鐵，一樣轉介血液科。\n\n這個雙時間點的篩檢策略確保了早期和晚期的缺鐵都不會被遺漏。"
+    },
+    "34": {
+      "hint": "American Society of Hematology | Pre- Interventions (1/2023 - 2/2024) Post- Inte",
+      "note": "來看成果。大家看左邊的折線圖，在計畫實施前（2023 年 1 月到 2024 年 2 月），ferritin 篩檢率非常低，大約在 10-20% 左右。但從 2024 年 3 月計畫實施後，篩檢率穩定上升，最近已經達到超過 60%。\n\n右邊的表格比較了介入前後的輸血情況。介入前的 2097 個懷孕中有 65 個需要輸血，佔 3.1%。介入後的 2429 個懷孕中同樣有 65 個需要輸血，但其中 33 個沒有檢查過 ferritin，46 個沒有接受 IV iron。所以如果排除這些沒有完整執行流程的案例，輸血比例降到了 2.7%。\n\n雖然降幅看起來不大，但考慮到這個計畫才剛開始，而且篩檢率還在持續上升中，預期隨著更多人完整執行流程，輸血率會進一步降低。"
+    },
+    "35": {
+      "hint": "American Society of Hematology | Treating Iron Deficiency Pre-Interventions (1/2",
+      "note": "這張表格更清楚地呈現了治療面的改變。在介入前（2023年1月到2024年2月），只有 18 次 iron dextran infusions，涵蓋 18 個懷孕，佔所有懷孕的 0.9%。\n\n介入後呢？529 次 iron dextran infusions，涵蓋 507 個懷孕，佔 21%。這是超過 20 倍的增長！\n\n在 hemoglobin 方面也看到了改善：介入前 IV iron 治療前的中位 Hgb 是 10.5 g/dl，治療後升到 11.4 g/dl。介入後則是從 10.7 升到 11.8 g/dl，改善超過 1 g/dl。\n\n這些數據證明，只要建立標準化的篩檢和治療流程，就能大幅增加缺鐵孕婦被識別和治療的比例。"
+    },
+    "36": {
+      "hint": "American Society of Hematology | American Society of Hematology | Conclusions •",
+      "note": "Iron deficiency 部分的結論。第一，懷孕期間的 iron deficiency 被低估和治療不足。\n\n第二，自從計畫啟動以來，篩檢率從不到 10% 提升到超過 60%，IV iron 的使用增加了超過 20 倍。\n\n第三，接受 IV iron 治療的患者，整體中位 hemoglobin 提升超過 1 g/dl，同時也看到了輸血需求減少的趨勢。\n\n第四，即使在 ferritin 大於 30 ng/mL 或 hemoglobin 大於 11 g/dl 的患者中，IV iron 後 hemoglobin 也有所提升。這暗示我們可能需要用更積極的 threshold 來定義和治療缺鐵。\n\n最後，這個標準化的篩檢和治療方法可以在不同的臨床模式中推廣實施。這是一個非常有價值的 QI initiative，值得各個醫療機構參考。"
+    },
+    "37": {
+      "hint": "American Society of Hematology | American Society of Hematology | Poll Question",
+      "note": "最後一個 poll question。根據 ASH Guidelines for the Diagnosis of Iron Deficiency，對於一般成年人，包括有月經的女性和孕婦，建議的 ferritin threshold 是多少？\n\n選項有四個：第一，serum ferritin 50 ng/ml 以下；第二，serum ferritin 30 ng/ml 以下；第三，serum ferritin 20 ng/ml 以下；第四，serum ferritin 15 ng/ml 以下。\n\n根據我們剛才討論的 ASH recommendations，正確答案是第二個選項：serum ferritin 30 ng/ml 以下。記住，ASH 特別建議不要使用 15 ng/ml 這個太低的門檻值。30 ng/ml 是目前建議的統一標準，適用於一般成人、有月經的女性和孕婦。"
+    },
+    "38": {
+      "hint": "American Society of Hematology | Iron Deficiency Iron Deficiency Iron Deficiency",
+      "note": "這張最後的總結圖非常有視覺衝擊力。大家看這個無限符號的圖案，圍繞著它的是我們今天討論的所有議題：Iron Deficiency、Anemia、Pregnancy、Heavy Menstrual Bleeding、Sickle Cell Disease、Post-Partum Hemorrhage、ITP、Lactation。\n\n這張圖完美地呈現了一個核心概念：這些問題在女性的一生中是交織在一起的，形成一個持續循環。缺鐵會加重月經出血的影響，月經出血會加重缺鐵，懷孕會增加鐵的需求，產後出血又會讓情況更糟，ITP 會讓出血更嚴重，出血又會導致更多的缺鐵。這些問題不能被單獨看待，需要一個整合性的、以性別為導向的照護方式。\n\n這張圖改編自 Michelle Sholzberg 的原創，非常感謝她的啟發。"
+    },
+    "39": {
+      "hint": "American Society of Hematology | Q&A Thank you! SARAH O'BRIEN, MD, MSc NATIONWID",
+      "note": "好的，今天的演講就到這裡。非常感謝大家的聆聽。讓我們快速回顧今天的重點：在 ITP 方面，rilzabrutinib 對女性生殖健康有正面的影響；在 hemophilia 方面，正常的 factor activity 不能排除帶因者狀態，基因檢測非常重要；在 iron deficiency 方面，我們需要用 ferritin 而非單靠 CBC 來篩檢，而且要用 30 ng/ml 的正確門檻值。\n\n如果各位有任何問題，我很樂意回答。我是 Sarah O'Brien，來自 Nationwide Children's Hospital 和 The Ohio State University College of Medicine。謝謝大家！"
+    }
+  }
+}

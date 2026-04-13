@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "pdf": "2_Designing an Observational Study.pdf",
+    "totalSlides": 44,
+    "generatedAt": "2026-04-12T19:14:47.448Z",
+    "generator": "pdf-presenter"
+  },
+  "notes": {
+    "1": {
+      "hint": "American Society of Hematology | Designing an Observational Study Payal Desai, M",
+      "note": "大家好，歡迎來到今天的 Clinical Research Trainee Day in Asia Pacific。我是 Payal Desai，來自 Atrium Health Levine Cancer Institute，今天非常高興有機會跟大家分享關於 observational study 的設計。\n\n這個主題對我們做臨床研究的人來說非常重要，因為不是所有的研究問題都能透過 randomized controlled trial 來回答。很多時候我們需要依賴 observational study 來獲取重要的臨床證據。接下來我會帶大家從基本概念開始，一步一步了解如何設計一個好的 observational study。"
+    },
+    "2": {
+      "hint": "American Society of Hematology | American Society of Hematology | Speaker Disclo",
+      "note": "在開始之前，按照 ASH 的規定，我需要先做利益衝突的揭露。我擔任 Bluebird Bio 的 consultancy，是 Cheisi 的 advisory committee 成員，同時有接受 Novartis 的 research funding。好，那我們就正式開始今天的內容。"
+    },
+    "3": {
+      "hint": "American Society of Hematology | American Society of Hematology | Introduction •",
+      "note": "首先來看一下今天的大綱。Observational study，簡單來說就是 interventional study 的相反面。在 observational study 裡面，我們不會去操控任何的介入措施，而是去觀察自然發生的情況。\n\n今天我們會涵蓋幾種主要的 study design，包括 case-control、cohort、case-cohort、nested case cohort，還有一些比較複雜的設計。我們也會討論 retrospective 跟 prospective 的差別，以及不同類型的 observational research 各自適合什麼樣的研究問題。"
+    },
+    "4": {
+      "hint": "American Society of Hematology | Yetley EA et al 2016 Am J Clin Nutr doi: 10.394",
+      "note": "大家看這張經典的 evidence pyramid。這是我們在醫學研究中非常熟悉的證據等級金字塔，出自 Yetley 等人 2016 年發表在 American Journal of Clinical Nutrition 的文章。\n\n最頂端是 systematic reviews 和 meta-analyses of RCTs，接下來是 randomized controlled trials，然後往下依序是 cohort studies、case-control studies、cross-sectional studies、case reports，再到 mechanistic studies 和 editorials、expert opinion。大家可以注意到，左邊標示的是 quality of evidence 由下往上遞增，右邊則是 risk of bias 由上往下遞增。\n\n雖然 observational study 在金字塔中的位置不如 RCT 那麼高，但這不代表它們不重要。在很多臨床情境下，observational study 是我們唯一能獲得證據的方式。"
+    },
+    "5": {
+      "hint": "American Society of Hematology | American Society of Hematology | Observational",
+      "note": "接下來我要用一個非常有趣的例子來說明為什麼我們不能忽視 observational study。這是 Smith 和 Pell 在 2003 年發表在 BMJ 的一篇經典文章，標題是「Parachute use to prevent death and major trauma related to gravitational challenge: systemic review of RCTs」。\n\n大家看右邊這張跳傘的照片。這篇文章的重點是什麼呢？它說：「It is a truth universally acknowledged that a medical intervention justified by observational data must be in want of verification through a randomized controlled trial.」換句話說，有些人認為所有的醫療介入都必須經過 RCT 驗證。但降落傘能防止跳下飛機時的死亡，這個效果從來沒有被 RCT 驗證過，難道我們就不用降落傘嗎？"
+    },
+    "6": {
+      "hint": "American Society of Hematology | Observational Studies – Ignore at your own risk",
+      "note": "繼續看這篇文章的重點。大家看左邊這個摘要框，在「What is already known about this topic」裡面提到，降落傘被廣泛用於預防重力挑戰後的死亡和重傷，但使用降落傘也可能因為設備故障或醫源性損傷而產生副作用。而且自由落體的研究並沒有顯示百分之百的死亡率。\n\n在「What this study adds」的部分，他們指出從來沒有任何 RCT 研究過降落傘的使用。降落傘的效果完全是基於 observational data，而且它的療效可能可以被「healthy cohort effect」來解釋。\n\n最後這篇文章用了一句非常有趣的話：「We think that everyone might benefit if the most radical protagonists of evidence based medicine organized and participated in a double blind, randomized, placebo controlled, crossover trial of the parachute.」這當然是一個幽默的說法，但它要傳達的訊息很清楚：不是所有的事情都需要 RCT 來驗證，observational study 有它不可取代的價值。"
+    },
+    "7": {
+      "hint": "American Society of Hematology | American Society of Hematology | Reasons to Do",
+      "note": "那麼我們為什麼要做 observational study 呢？有幾個很重要的理由。\n\n第一，是為了了解疾病的 epidemiology，也就是疾病的 prevalence 和 incidence。第二，是為了找出潛在的 risk factors 和 etiologies，去 identify 和 mitigate 風險。第三，是為了評估 interventions 的效果，特別是在沒有 randomized trial 存在的情況下，或者是在真實世界的臨床環境中，RCT 的條件很難被滿足的時候。\n\n此外還有一些實際的考量，像是 resource constraints，做 RCT 需要大量的經費和人力。還有 ethical constraints，有些研究問題不能用 RCT 來回答，因為不符合倫理。最後是時間和效率的考量，observational study 通常可以更快速地完成，特別是 retrospective 的設計。"
+    },
+    "8": {
+      "hint": "American Society of Hematology | American Society of Hematology | Reasons to Do",
+      "note": "還有一些情況是我們根本沒辦法做 RCT 的。第一種是 intervention 本身不符合倫理或缺乏 clinical equipoise。就像剛才降落傘的例子，你不可能讓一組人不帶降落傘跳下飛機來做對照。\n\n第二種是 intervention 在實務上不可行。舉個例子，如果你想研究素食飲食是否能降低癌症發生率，你很難讓一組人長期嚴格遵循素食飲食。第三種是根本不存在可以介入的方式。比如說 sickle cell trait 是否會導致 kidney disease，這個 trait 是先天的，你沒有辦法去改變它。\n\n最後一個很重要的理由是，observational study 可以幫助我們規劃未來的 RCT。透過觀察性研究的 preliminary data，我們可以估算 incidence rate 和 effect size，幫助我們 right-size 未來的臨床試驗。"
+    },
+    "9": {
+      "hint": "American Society of Hematology | American Society of Hematology | Steps to Desig",
+      "note": "那麼設計和執行一個 observational study 有哪些步驟呢？大家看這張投影片列出了完整的流程。\n\n首先是 refine research question，把你的研究問題明確化。接著要 engage epidemiologist 或 statistician，在研究早期就把統計專家納入團隊是非常重要的。然後是 determine study design 和撰寫 protocol。再來要開發資料收集的 forms 和建立 database 的結構。\n\n別忘了要完成所有的 regulatory steps，包括 IRB 審查等等。之後就是 data entry、data analysis 和結果的解讀。最後是撰寫論文、投稿、修改、再投稿，直到發表。這個過程聽起來很簡單，但每一步都有很多細節需要注意。"
+    },
+    "10": {
+      "hint": "American Society of Hematology | American Society of Hematology | Observational",
+      "note": "在進入各種 study design 之前，我們先來釐清一些常用的術語。\n\n首先是 prospective versus retrospective。這兩個詞的定義其實不是很一致，容易造成混淆。Retrospective 的意思是，過去的 risk factors 是在研究 enrollment 的時候才去評估的，可能是透過回憶，比如 smoking status，或者是透過儲存的血液樣本來測量，比如 factor VIII levels，又或者是透過 chart review。而 prospective 則是有一個標準的 protocol，先 enroll 參與者，然後系統性地追蹤他們一段時間。\n\n另一個重要的概念是 matched versus unmatched。在 matched study 中，non-cases 是根據 cases 的特徵來挑選的，比如年齡、性別、種族、follow-up 時間等等。在 matched study 裡，每一個 non-case 應該直接對應到一個 case。而在一些複雜的 sampling design 中，matched 和 unmatched 之間的界線就沒有那麼清楚了。"
+    },
+    "11": {
+      "hint": "American Society of Hematology | Observtional Study Designs • Case-Control • Coh",
+      "note": "這張投影片給大家一個 observational study design 的全貌。左邊列出了主要的設計類型：case-control、cohort，包括 cross-sectional、longitudinal、case-cohort，還有 survey methodology。\n\n右邊則是兩個很重要的面向。第一個是如何減少 error，包括提高 measurement precision、增加 sample size、優化 sample design。第二個是如何處理 confounding 的問題，方法包括 matching、multivariable adjustment、propensity scores，以及 case-crossover 設計。\n\n最後投影片底部有一句很重要的話：「In the end, there is only so much you can and should do with statistics.」統計方法固然重要，但研究設計才是最根本的。如果設計本身有問題，再好的統計方法也無法彌補。"
+    },
+    "12": {
+      "hint": "American Society of Hematology | Observational Studies – Pitfalls Confounding Bi",
+      "note": "現在來談 observational study 最常遇到的陷阱。大家看這張投影片有三個流程圖，分別說明了三個重要的概念。\n\n第一個是 confounding。以左邊的例子來說，birth order 跟 Down syndrome 之間看似有關聯，但其實是 maternal age 這個 confounder 在作用。年齡較大的母親往往是生較多胎的，同時年齡也是 Down syndrome 的 risk factor。\n\n中間的例子是 effect modification。Alcohol use 會影響一個人是否 smoke，而 smoker 跟 non-smoker 得到 laryngeal cancer 的風險不同。在這個情況下，alcohol 修飾了 smoking 跟 cancer 之間的關係。\n\n右邊的例子是 mediation。HIV infection 會導致 reduced CD4 count，進而導致 opportunistic infection。CD4 count 在這裡是一個 mediator，它位於 exposure 和 outcome 之間的因果路徑上。理解這三個概念對於正確分析 observational data 非常關鍵。"
+    },
+    "13": {
+      "hint": "American Society of Hematology | American Society of Hematology | Observational",
+      "note": "好，現在我們正式進入各種 study design 的介紹。首先來看 case-control study。\n\n在 case-control study 中，個體是根據他們的 outcome 來挑選的。Cases 就是有我們感興趣的 outcome 的人，比如 CVD 或 cancer。Controls 則是沒有這個 outcome 的人。\n\n大家看下面的表格，這是 case-control study 的基本架構。我們有 exposure 的 yes 或 no，對應到 outcome 的 yes 或 no。重要的是，exposure 是往回追溯的，也就是 assessed backwards in time。我們是先確認了 outcome，然後回頭去看之前的 exposure 狀況。這跟 cohort study 從 exposure 往前追蹤到 outcome 的方向是相反的。"
+    },
+    "14": {
+      "hint": "American Society of Hematology | American Society of Hematology | Observational",
+      "note": "在 case-control study 中，case selection 通常比較直接，就是根據明確定義的醫學狀況來選擇，比如 lung cancer。但 control selection 就複雜多了，而且其中的 nuances 常常被低估。\n\n讓我舉幾個例子來說明。第一個例子：如果你要研究 lung cancer 的 risk factors，你選了住院的 lung cancer 病人當 cases，然後選了同一個 oncology service 住院的其他病人當 controls。這會怎樣？結果會有 bias towards null，因為很多 cancer 都有 smoking 這個 risk factor，所以你的 controls 也可能有很高的 smoking rate。\n\n第二個例子：venous thrombosis 的 case-control study 用 partner controls。問題是 partners 通常年齡相近、ethnicity 相同、但性別相反。Environmental exposure 可能類似，但性別特異的 risk factors，比如 oral contraceptives，就會被扭曲。\n\n第三個例子：AML 的 case-control study 如果 match on age、sex 和 race，那你就不能再去評估這三個因素是否是 AML 的 risk factors 了。所以 control selection 和 matching 的策略需要非常謹慎地考量。"
+    },
+    "15": {
+      "hint": "American Society of Hematology | Observational – Case Control • Association of s",
+      "note": "我們來看一個經典的 case-control study 範例。這是 Doll 在 1950 年發表在 BMJ 的研究，探討 smoking 跟 lung cancer 的關聯。\n\n大家看右邊的圖表，上面是男性，下面是女性。黑色的柱子代表 lung carcinoma 的病人，白色的柱子代表 control patients。X 軸是每天抽的菸量。很明顯可以看到，lung cancer 的病人抽菸量遠高於 controls。\n\n這個研究的 cases 是住院診斷為 lung cancer 的病人，control group 則是同一個病房住院的其他病人，按照 age、sex 和 admission date 來 match。但這裡有一個 unmeasured confounding 的問題：同病房的病人可能暴露在二手菸的環境中，而且 smoking 本身可能就是住院的 risk factor，所以 controls 的 smoking rate 可能也偏高。這就是為什麼 control selection 如此重要。"
+    },
+    "16": {
+      "hint": "American Society of Hematology | Observational – Case Control Strengths • Relati",
+      "note": "我們來總結一下 case-control study 的優缺點。\n\n左邊是 strengths。Case-control study 相對快速而且便宜，不需要像 cohort study 那樣追蹤很長時間。它可以 minimize sample size，不需要太大的樣本量就能有足夠的統計檢力。對於 rare outcomes 和需要 long latency 的疾病特別有效率。\n\n右邊是 weaknesses。Case-control study 沒有辦法估算疾病的 incidence 或 prevalence，因為 cases 和 controls 的比例是研究者決定的，不反映真實人群的狀況。由於 sampling 的方式，每次只能研究一個 outcome。而且 case-control study 特別容易受到 bias 的影響，尤其是 sampling bias 和 recall bias。Recall bias 是指 cases 可能比 controls 更傾向於回憶起過去的 exposure。"
+    },
+    "17": {
+      "hint": "American Society of Hematology | American Society of Hematology | Observational",
+      "note": "接下來我們來看 cohort study。首先釐清一些定義。\n\n在 follow-up 的部分，有兩種類型。Cross-sectional 是對個體做單次評估，只看一個時間點的資料。Longitudinal 則是追蹤一段時間，持續收集資料。\n\n在 risk factor ascertainment 的部分也有兩種方式。Retrospective 是在 recruit 的時候回頭詢問過去的 risk factor 或 outcome 狀態。Prospective 則是在 recruit 的時候先評估 baseline risk factors，然後往前追蹤 outcomes，可能還會重複評估 risk factors。\n\n一般來說，prospective cohort study 的證據等級比較高，因為 risk factors 是在 outcome 發生之前就被測量的，比較不會有 recall bias 的問題。"
+    },
+    "18": {
+      "hint": "American Society of Hematology | American Society of Hematology | Observational",
+      "note": "這張投影片提到一個很實用的觀念：descriptions can be deceptive，所以最好就直接描述你做了什麼。\n\n讓我們看幾個例子。第一個：在一個追蹤 20 年、有 30,000 人的 longitudinal cohort study 中，研究者詢問參與者小時候住在哪裡，而 BMI 是在 baseline 的時候測量的。如果要評估地理位置跟未來肥胖的關聯，這算什麼類型的 cohort study 呢？這其實是 retrospective ascertainment of risk factor 在一個 prospective cohort 裡面。\n\n第二個例子：在一個 longitudinal cohort study 中，研究者測量儲存的 baseline 血液樣本中的 factor VIII，然後計算 factor VIII 跟 cardiovascular disease risk 的關聯。這是用 stored samples 做的 retrospective 分析。\n\n第三個例子：2020 年研究者收集了在 local primary care clinics 追蹤的病人資料，研究 2010 年記錄的 obesity 跟後來 venous thrombosis risk 的關聯。這些例子告訴我們，光看 prospective 或 retrospective 這個標籤是不夠的，要仔細描述資料收集的方式。"
+    },
+    "19": {
+      "hint": "American Society of Hematology | American Society of Hematology | Observational",
+      "note": "這是一個 cohort study 的實際範例。研究問題是：hemoglobin concentration 是否跟老年人的死亡率有關？這個研究的 population 來自 Cardiovascular Health Study，納入的是 65 歲以上的成年人。\n\n大家看這張表格，這是 Zakai 在 2005 年發表在 Archives of Internal Medicine 的資料。表格顯示了按 hemoglobin quintiles 分層的 mortality hazard ratio。可以注意到，不管是哪個 model，最低的 hemoglobin quintile 和符合 WHO 定義的 anemia 都跟較高的死亡風險有關。\n\nModel A 只調整了 hemoglobin，Model B 加入了 age、sex 和 race 的調整，Model C 則進一步調整了 baseline cardiovascular disease、congestive heart failure、diabetes 等等。即使在最完整的調整模型中，低 hemoglobin 仍然跟死亡率顯著相關。這是一個 cohort study 提供重要臨床證據的好例子。"
+    },
+    "20": {
+      "hint": "American Society of Hematology | Observational Studies - Cohort Advantages • Tem",
+      "note": "我們來看 cohort study 的優缺點。\n\n左邊是 advantages。最重要的是我們可以確立 exposure 和 outcome 之間的時序關係，因為 exposure 是在 outcome 之前被評估的。我們可以估算 outcome 的 incidence。我們可以同時評估多個 outcomes。另外，標準化的 risk factor 評估方式可以減少 recall bias。\n\n右邊是 disadvantages。Cohort study 通常很花錢也很花時間，特別是 prospective design。會有 loss to follow-up 的問題，有些病人追蹤不到，就會 miss outcomes。對於 rare outcomes 來說效率很差，因為你需要追蹤大量的人才能看到足夠多的 events。最後，如果 risk factors 隨時間改變，可能會產生 misclassification，因為你可能只在 baseline 測量了一次。"
+    },
+    "21": {
+      "hint": "American Society of Hematology | Observational: Cross- sectional Cohort Subjects",
+      "note": "接下來我們來看 cross-sectional cohort。這種設計的特點是受試者不是根據 exposure 或 outcome 來挑選的，而是從一個定義好的 population 中取樣。所有的 measurements 都是在同一個時間點取得的。\n\n大家看右邊這個大表格，這是 Zakai 在 2009 年發表在 American Journal of Epidemiology 的資料，來自 REGARDS study 的 renal ancillary study。這個表格用 race-stratified multivariable logistic regression 來分析 anemia 的 correlates。可以看到 Black 和 White 受試者的結果分開呈現。\n\nREGARDS 本身是一個 prospective cohort，但這個分析只使用了 cross-sectional 的資料。這是 cross-sectional 設計的一個重要限制：我們無法確定時序關係，沒辦法說是 A 導致了 B，還是 B 導致了 A，或者是兩者同時受到第三個因素的影響。"
+    },
+    "22": {
+      "hint": "American Society of Hematology | American Society of Hematology | Observational",
+      "note": "現在來介紹 case-cohort study。這是一種結合了 cohort study 的優點和 case-control study 的效率的設計。\n\n在 case-cohort study 中，cases 是一個 population 中所有發生某種疾病的個體，也可以使用 subsample，但必須清楚 sample 跟 source population 之間的關係。\n\n另一個關鍵組成是 cohort random sample，也就是從 source population 中隨機抽取的一個樣本，這個樣本可能包含一些 cases。可以使用 stratified random sample 來在特定的人群中 maximize power，例如按照 age、sex 或 race 來分層抽樣。重要的是必須清楚 sample 跟 source population 之間的關係。"
+    },
+    "23": {
+      "hint": "American Society of Hematology | Observational Studies – Case Cohort",
+      "note": "大家看這張示意圖，可以幫助我們更直觀地理解 case-cohort 的設計。\n\n左邊的大橢圓代表整個 cohort，裡面有不同顏色的人形圖示。紅色代表 Case Group 1，藍色代表 Case Group 2，黑色代表 non-cases。中間的淺藍色區域就是我們隨機抽取的 sub-cohort。\n\n右邊可以看到，sub-cohort 加上所有的 case groups，就構成了我們的 case-cohort data。這個設計的巧妙之處在於，我們不需要對整個 cohort 的所有人都做昂貴的檢測，只需要對 sub-cohort 和 cases 做檢測就好，大幅節省了成本，同時又能保留 cohort study 的很多優點。"
+    },
+    "24": {
+      "hint": "American Society of Hematology | Observational Studies – Case Cohort Questions D",
+      "note": "我們來看一個 case-cohort study 的實際例子。這是來自 REGARDS study 的資料，大家看右邊的地圖，這個研究 recruit 了 30,229 位 Black 和 White 的參與者，追蹤了 5 年的 outcomes。\n\n研究要回答兩個問題：第一，blood type 是否會影響 stroke 的風險？第二，factor VIII level 是否跟 coronary heart disease 的風險有關？\n\n為了回答這些問題，研究者在一個 1,104 人的 cohort random sample 中測量了 blood type 和 factor VIII levels。然後在 656 位發生 stroke 的參與者中評估了 blood type，在 654 位發生 CHD 的參與者中測量了 factor VIII。\n\n結果呢？每增加一個 standard deviation 的 factor VIII，CHD 的 HR 是 1.52，95% CI 1.29 到 1.79。Blood type AB 相對於 O 型，stroke 的 HR 是 1.83，95% CI 1.01 到 3.30。這些結果分別發表在 Zakai JTH 2014 和 Zakai TH 2018。"
+    },
+    "25": {
+      "hint": "American Society of Hematology | American Society of Hematology | Observational",
+      "note": "Case-cohort design 的另一個重大優勢是成本效益。在這個例子中，在大約 1,700 個人身上測量 blood type 和 factor VIII levels，跟在整個 30,000 人的 cohort 上做同樣的測量比起來，statistical power 只有很小的下降，但卻省了 20 倍的費用。\n\n如果假設每個 sample 的檢測費用是 10 美元，case-cohort 的費用大約是 17,000 美元，而整個 cohort 做下來就要 300,000 美元。這個差距是非常可觀的。\n\n另外一個很大的優勢是，同一個 sub-cohort 可以作為多個不同 outcomes 的 control group 來重複使用。不過需要注意的是，如果你是在做 laboratory assays，要考慮到 laboratory drift 的問題，也就是說不同時間點做的檢測可能會有系統性的差異。"
+    },
+    "26": {
+      "hint": "American Society of Hematology | Observational Studies – Case Cohort Advantages",
+      "note": "來總結一下 case-cohort study 的優缺點。\n\n左邊是 advantages。它是一個很有效率的設計，可以嵌入在已有的 cohort study 中。可以報告 incidence rates。可以做 time-to-event analyses。而且可以透過分層抽樣來 maximize 特定人群的 power。\n\n右邊是 disadvantages。分析比較複雜，需要考慮 sample weights。Time-to-event analyses 的處理方式比較 counterintuitive，跟一般的 cohort study 不太一樣。另外就是我剛才提到的 laboratory drift 問題，如果你是在不同時間點對不同樣本做 assays，需要特別注意這個問題。"
+    },
+    "27": {
+      "hint": "American Society of Hematology | American Society of Hematology | Observational",
+      "note": "接下來介紹 survey methodology。這種方法常用於 population surveys，也就是全國性或區域性的調查研究。\n\n Survey methodology 的特點是，你知道 source population 中被評估的比例是多少，也就是 known fraction。但在分析的時候需要考慮 sampling weights，因為不同的 subgroup 可能被 oversampled 或 undersampled。\n\n它的優缺點跟 case-cohort study 類似。一個大家很熟悉的例子就是美國的 NHANES，也就是 National Health and Nutrition Examination Survey。NHANES 是一個非常重要的資料來源，提供了美國人口健康和營養狀況的代表性資料。"
+    },
+    "28": {
+      "hint": "American Society of Hematology | Observational Studies: Case-Crossover Individua",
+      "note": "現在來介紹一個非常有趣的設計：case-crossover study。這個設計最大的特點是，每個人同時扮演自己的 case 和 control。怎麼做呢？\n\n我們比較同一個人在 case period（發生事件前的一段時間）跟 control period（更早之前的一段時間）的 exposure 情況。大家看右邊的示意圖。圖 A 是 main analysis，在 incident VTE 發生之前的 0-6 個月是 case period，6-12 個月是 control period。研究者分別看 1 個月、3 個月和 6 個月的窗口。圖 B 是 exploratory analysis，設計類似但 control period 的時間有所調整。\n\n這個設計的精妙之處在於，因為每個人是自己的 control，所有不隨時間變化的 confounders，比如 genetics、sex、race 等等，都自動被控制住了。我們只需要調整那些可能在 case 和 control period 之間會改變的 risk factors。"
+    },
+    "29": {
+      "hint": "American Society of Hematology | American Society of Hematology | Observational",
+      "note": "這是一個 case-crossover study 的實際範例。研究問題是：testosterone therapy 在男性中是否跟 venous thrombosis 有關？這是 Walker 在 2020 年發表在 JAMA Internal Medicine 的資料，使用的是 MarketScan Database 2011 到 2017 年的資料，共有 36,512 位沒有 hypogonadism 的男性。\n\n大家看這個表格。在 main analysis 中，6 個月的 case period 有 294 人（0.8%）在使用 testosterone therapy，而 control period 只有 177 人（0.5%）。Crude odds ratio 是 2.46，調整後是 2.02。3 個月和 1 個月窗口的結果也類似。\n\n在 exploratory analysis 中，3-6 個月的窗口顯示 odds ratio 接近 1，表示在離 VTE 事件較遠的時間，testosterone 使用跟 VTE 的關聯就消失了。這進一步支持了 testosterone therapy 跟近期 VTE 風險之間的因果關聯。"
+    },
+    "30": {
+      "hint": "American Society of Hematology | Observational Studies: Case-Crossover Advantage",
+      "note": "Case-crossover study 的優缺點。\n\n左邊是 advantages。它是一個非常強大的工具來處理 confounding，因為每個人是自己的 control。如果 outcome 是 rare 的，odds ratio 可以近似 relative risk。而且它可以處理 risk factors 隨時間變化的問題。\n\n右邊是 disadvantages。分析雖然看起來直觀，但實際上需要很仔細的規劃，包括 case period 和 control period 的定義。Incidence rates 無法被估算。而且只能研究你感興趣的那個特定 exposure，不能像 cohort study 那樣同時看多個 exposure。\n\n總的來說，case-crossover 是一個在適當情境下非常有力的設計，特別是當你想研究短期 exposure 跟 acute outcome 之間的關係時。"
+    },
+    "31": {
+      "hint": "American Society of Hematology | Types of Observational Research Research Type P",
+      "note": "好，現在我們已經介紹了各種 study design。接下來讓我們從另一個角度來看 observational research，也就是根據研究目的來分類。\n\n大家看這個表格，有四種主要的類型。第一是 epidemiological research，目的是 define incidence、prevalence 和 risk factors for disease。第二是 predictive modeling，目的是 predict future outcomes。第三是 comparative effectiveness，目的是 identify intervention associated with superior outcomes。第四是 pharmacovigilance，目的是 detect rare drug adverse events over the long-term。\n\n每一種類型的研究目的不同，適合的 study design 也不同。接下來的幾張投影片我會逐一介紹。"
+    },
+    "32": {
+      "hint": "American Society of Hematology | Types of Observational Research Research Type S",
+      "note": "這張投影片把 research type 跟適合的 study type 做了對應。\n\nEpidemiological research 適合用 cohort、case-cohort 或 case-control 來做。Predictive modeling 適合用 cohort 或 case-cohort。Comparative effectiveness 適合用 cohort study。而 pharmacovigilance 主要依賴 adverse event reports。\n\n大家可以注意到，cohort study 幾乎在每一種研究類型中都會出現，這就是為什麼 cohort study 是 observational research 中最基礎也最重要的設計之一。"
+    },
+    "33": {
+      "hint": "American Society of Hematology | American Society of Hematology | Epidemiologica",
+      "note": "先來看 epidemiological studies。如果你要研究 incidence，需要用 longitudinal cohort。如果要研究 prevalence，cross-sectional cohort 就夠了。如果要找 risk factors for disease，可以用 longitudinal cohort 或 case-control。\n\n在設計上有幾個重要的考量。首先，要在 baseline 和後續追蹤中收集適當的 risk factors。其次，根據你的研究問題和資料特性，選擇最佳的方法來處理 confounding。常用的方法包括 multivariable modeling、competing risks 也就是 survival analyses、propensity scores，以及 matching。\n\n選擇哪種方法取決於你的研究問題和資料的特性，沒有一個方法是萬能的。"
+    },
+    "34": {
+      "hint": "American Society of Hematology | American Society of Hematology | Predictive Mod",
+      "note": "接下來是 predictive modeling，這本身就可以是一門完整的課程了，所以我今天只能做一個概覽。\n\n首先，predictive modeling 最適合用 longitudinal cohort 或 case-cohort，而且理想上是 prospective 的。Case-control study 通常不適合做 predictive modeling，因為 outcome 的 incidence 是被研究設計人為決定的，不是自然發生的。\n\n一個重要的觀念是，predictive model 中的 risk factors 不一定是 causal 的，也不需要是 causal 的。只要它們能幫助預測 outcome 就夠了。\n\n在 model building 的部分，有多種有效的技術，而 model building 本身可以說是藝術也是科學。要注意的是，model building 的過程常常會 overfit，導致在 validation 的時候表現不好。最終，如果一個 model 能通過 validation，那建構它的方法就沒那麼重要了。另外，face validity 也很重要，model 的結果要在臨床上說得通。"
+    },
+    "35": {
+      "hint": "American Society of Hematology | American Society of Hematology | Predictive Mod",
+      "note": "評估一個 predictive model 的好壞有多種指標。\n\n第一個是 discrimination，也就是 model 能多好地對風險進行排序。通常用 AUC，也就是 area under the curve 來評估。AUC 越高，代表 model 區分高風險和低風險個體的能力越好。\n\n第二個是 calibration，也就是 model 預測的風險跟實際觀察到的風險有多接近。一個 model 可能 discrimination 很好，但 calibration 很差。\n\n第三個是 sensitivity，也就是 model 辨別哪些人 at risk、哪些人 not at risk 的能力。值得注意的是，一個 model 可以有很好的 discrimination 和 calibration，但是在實際分類風險的時候卻表現不好。\n\n最後，predictive model 的 gold standard 是 external validation，也就是在一個完全不同的 population 中驗證 model 的表現。Validation 的定義取決於 model 將會如何被使用。"
+    },
+    "36": {
+      "hint": "American Society of Hematology | American Society of Hematology | Comparative Ef",
+      "note": "再來看 comparative effectiveness。Pharmacoepidemiology 是 comparative effectiveness 的一種。它的核心概念是嘗試用 real-world data 來重現 RCT 的效果。\n\n使用的 study type 通常是 longitudinal cohort。在方法上，有幾種常見的方式來處理 confounding。第一是 multivariable modeling，在模型中調整已知的 confounders。第二是 matching，直接把兩組人按照重要的特徵配對起來。第三是 propensity weighting 或 propensity matching。Propensity score 的概念是用一個模型來預測一個人接受某種 intervention 的機率，然後用這個分數來做 weighting 或 matching，讓兩組人在 baseline characteristics 上盡可能相似。"
+    },
+    "37": {
+      "hint": "American Society of Hematology | American Society of Hematology | Comparative Ef",
+      "note": "這是一個 comparative effectiveness 的實際例子，來自 Zakai JTH 2018。研究問題是：對於 cancer-associated VTE，不同 anticoagulant 的選擇如何影響 hospitalized bleeding 的風險？\n\n大家看這張表格。研究比較了 warfarin、DOAC、rivaroxaban 和 LMWH 這幾種藥物。研究者用了四個不同的 model。Model 1 是 unadjusted。Model 2 調整了 age、sex 和 calendar year。Model 3 進一步加入了 propensity score。Model 4 再加入了 frailty 的調整。\n\n可以看到，DOAC 相對於 warfarin，在各個 model 中的 hazard ratio 都在 0.86 到 0.91 之間，也就是有可能降低 bleeding 風險，但 confidence interval 都跨越 1。隨著調整變數的增加，effect estimate 會有所變化，這就是為什麼在 comparative effectiveness 研究中，選擇適當的調整策略非常關鍵。"
+    },
+    "38": {
+      "hint": "American Society of Hematology | American Society of Hematology | Pharmacovigila",
+      "note": "最後來談 pharmacovigilance，也就是藥物安全監測。\n\n最常見的方式是 spontaneous reporting，就是醫療人員或病人自發性地通報藥物不良反應。但這個方法最大的問題就是 underreporting，實際發生的不良事件可能是被報告的 10 到 20 倍。不過反過來說，如果通過 spontaneous reporting 偵測到了一個 signal，那實際上在臨床中可能更為常見。\n\n另一種方式是 active surveillance，也就是主動去監測不良事件。但這在 community settings 中很難做到，通常只能在 vaccines 和 reportable diseases 的情境下才比較可行。\n\n此外還有其他方法可以用來做 pharmacovigilance，包括 longitudinal cohorts、case-control studies 和 case-crossover designs。"
+    },
+    "39": {
+      "hint": "American Society of Hematology | American Society of Hematology | Efforts To Red",
+      "note": "現在讓我們來談談如何減少 error 和 confounding，這是做好 observational study 最關鍵的部分之一。\n\n首先是提高 risk factor ascertainment 的 precision。測量越精確，結果就越可靠。第二是選擇適當的 study design，不同的研究問題適合不同的設計。\n\n第三是進行適當的 multivariable adjustment。這裡要強調的是，不是隨便把一堆變數丟進模型就好。你應該刻意地把每個變數放入模型，並且標明它們是 potential confounders、mediators 還是 effect modifiers。建議使用 directed acyclic graphs，也就是 DAGs，來幫助你思考變數之間的關係。\n\n第四是在適當的時候使用 matching。第五是在適當的時候使用 propensity scores，可以用來 matching 或 adjusting。第六是使用 case-crossover analyses，讓每個人做自己的 control。"
+    },
+    "40": {
+      "hint": "American Society of Hematology | Observational Studies – a Cautionary Tale • In",
+      "note": "最後我要分享一個非常重要的 cautionary tale，關於 estrogen therapy 和 cardiovascular disease prevention。\n\n在 1990 年代，大量的 observational studies 顯示 estrogen 的使用可以降低女性的 cardiovascular disease 風險。大家看右邊的圖表，來自 Grodstein 1995 年發表在 Progress in Cardiovascular Diseases 的文章。不管是 population-based case-control、cross-sectional、prospective internal control 還是所有研究合起來看，relative risk 都在 0.5 左右，也就是風險減半。\n\n而且這個發現有很好的 biological plausibility。Estrogen 可以改善 lipid parameters，對 blood flow 和 vascular tone 有正面的影響。此外，menopause 後 CVD 風險會增加，所以補充 estrogen 似乎很合理。"
+    },
+    "41": {
+      "hint": "American Society of Hematology | Observational Studies – a Cautionary Tale • Hor",
+      "note": "但是當 randomized controlled trial 真正做出來的時候，結果卻完全相反。這是 Manson 在 2003 年發表在 NEJM 的 Women's Health Initiative 的結果。\n\n大家看右邊的圖，橘色的線是 estrogen plus progestin 組，藍色的線是 placebo 組。可以看到 estrogen plus progestin 組的 cumulative hazard rate of CHD 反而比較高。Nominal HR 是 1.24，95% CI 1.00 到 1.54。\n\n也就是說，hormone replacement therapy 不但沒有降低 CHD 風險，反而增加了風險。雖然 hormone replacement 確實降低了 LDL cholesterol 並增加了 HDL cholesterol，但最終的臨床 outcome 卻是有害的。這是 observational study 被 RCT 推翻的一個經典案例。"
+    },
+    "42": {
+      "hint": "American Society of Hematology | American Society of Hematology | Observational",
+      "note": "那到底發生了什麼事呢？答案很可能是 confounding by indication。\n\n使用 HRT 的女性整體上比較健康，而且更有可能定期看醫生。這代表她們有一個 healthier lifestyle，這個 healthy user bias 才是真正降低她們 cardiovascular disease 風險的原因，而不是 estrogen 本身。\n\n單純調整傳統的 CVD risk factors 並沒有辦法完全解釋這個現象。而且當時的研究也沒有使用更進階的設計方法，比如 case-crossover 或 pharmaco-epidemiologic 的方法。\n\n這個案例告訴我們，即使有很好的 biological plausibility，即使多個 observational studies 都得到一致的結果，如果沒有適當地處理 confounding，我們的結論仍然可能是錯誤的。這就是為什麼研究設計如此重要。"
+    },
+    "43": {
+      "hint": "American Society of Hematology | Observational Studies – Bottom Line • Uses • Un",
+      "note": "最後讓我們來做一個總結。\n\nObservational study 的用途包括：了解 epidemiology、risk factors 和 incidence；hypothesis generation；幫助規劃 RCT；在 RCT 不可行、不符合倫理或不存在的時候提供證據；以及監測 real-world 中 interventions 的影響。\n\n但也有一些需要注意的地方。最重要的就是 design is key，研究設計是一切的基礎。\n\n最後的 bottom line 是：不是每個臨床情境都有 RCT，但你還是需要治療病人。在沒有 RCT 的情況下，well-designed observational study 就是我們最好的證據來源。當然，common sense 也很重要，就像降落傘的例子一樣，有些事情不需要 RCT 也知道答案。\n\n希望今天的演講能幫助大家在未來設計 observational study 的時候，有更清楚的思路和更好的方法。"
+    },
+    "44": {
+      "hint": "American Society of Hematology | Questions?",
+      "note": "以上就是今天的內容。非常感謝大家的聆聽。不知道大家有沒有任何問題？歡迎提問，我很樂意跟大家討論。"
+    }
+  }
+}

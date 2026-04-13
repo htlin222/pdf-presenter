@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "pdf": "1_Developing the Research Question.pdf",
+    "totalSlides": 31,
+    "generatedAt": "2026-04-12T19:14:47.011Z",
+    "generator": "pdf-presenter"
+  },
+  "notes": {
+    "1": {
+      "hint": "American Society of Hematology | Developing the Research Question Alison R. Walk",
+      "note": "大家好，歡迎來到今天的 Clinical Research Trainee Day in Asia Pacific，這是由 American Society of Hematology 所主辦的課程。\n\n我是 Alison R. Walker，我是 MD, MPH, MBA，目前任職於美國 Florida 州 Tampa 的 Moffitt Cancer Center & Research Institute。今天非常高興能夠跟大家分享的主題是 Developing the Research Question，也就是如何發展一個好的研究問題。\n\n這個題目聽起來好像很基本，但其實它是整個臨床研究最關鍵、也最困難的一步。希望今天的內容能幫助各位在研究生涯中打下扎實的基礎。"
+    },
+    "2": {
+      "hint": "American Society of Hematology | American Society of Hematology | Speaker Disclo",
+      "note": "在開始之前，先跟大家做一個利益揭露的聲明。我沒有任何需要揭露的利益衝突。好，那我們就直接進入今天的主題。"
+    },
+    "3": {
+      "hint": "American Society of Hematology | American Society of Hematology | Primary Object",
+      "note": "今天這堂課有兩個主要的學習目標。\n\n第一，希望大家能夠了解 research question 的重要性，為什麼花時間在研究問題上是值得的。\n\n第二，我會教大家一個系統性的方法來發展一個好的研究問題，主要會用到兩個框架，就是大家看到的 PICOT 和 FINER。這兩個工具非常實用，等一下我們會一一詳細說明。"
+    },
+    "4": {
+      "hint": "American Society of Hematology | What do you need to ask a focused and well - bu",
+      "note": "那我想先問大家一個問題：要提出一個 focused and well-built question，一個聚焦而且結構完整的問題，你需要什麼？\n\n這是一個很重要的起點。很多時候我們急著想做研究、想收 data，但如果問題本身不夠清楚、不夠聚焦，後面的一切努力可能都會白費。所以讓我們先從這個根本的問題開始思考。"
+    },
+    "5": {
+      "hint": "American Society of Hematology | American Society of Hematology | Getting starte",
+      "note": "好，那要怎麼開始呢？這裡有幾個很重要的觀念。\n\n首先是 challenge current assumptions，挑戰現有的假設。我們要鼓勵所謂的 naive questioning，就是那種看起來很基本、很天真的提問。有時候最好的研究問題反而是來自於這些看似簡單的疑問。同時要注意別人忽略的事情，notice what others miss。\n\n第二個是 be curious，保持好奇心。現在有太多的數據和資料了，關鍵是你能從這些知識當中發現什麼、做出什麼。\n\n第三點非常重要，就是要給自己 time to think，思考的時間。新的研究想法是需要時間醞釀的，不要急。\n\n最後，你的問題必須是 clinically important and answerable，既有臨床重要性，又是可以回答的。如果問題太大、太模糊，就沒辦法設計研究來回答它。"
+    },
+    "6": {
+      "hint": "American Society of Hematology | Why is it important to spend time developing th",
+      "note": "接下來我要請大家思考一下，為什麼花時間去好好發展研究問題這麼重要？\n\n很多年輕的研究者會覺得，趕快開始做實驗、收資料才是重點。但事實上，如果研究問題沒有想清楚，後面整個研究的方向、設計、統計分析都可能出問題。所以這個前期的投資是絕對值得的。"
+    },
+    "7": {
+      "hint": "American Society of Hematology | Image Credit: Edward Jenner House and Museum; h",
+      "note": "大家看這張投影片上的圖片，這是 Edward Jenner，也就是疫苗之父。左邊是他的肖像畫，中間是 cowpox 牛痘的病灶圖，右邊是一張描繪 Doctor Jenner 正在為一位小孩接種疫苗的歷史畫作。\n\n為什麼要提到 Jenner 呢？因為他的故事就是一個完美的例子，展示了一個好的觀察和好的問題如何改變了整個醫學史。他觀察到擠牛奶的女工們似乎不會得天花，這個觀察引發了他的好奇心，最終促成了疫苗的發明。這就是研究問題的力量。"
+    },
+    "8": {
+      "hint": "American Society of Hematology | The Research Question • Patients who had not de",
+      "note": "我們用 Jenner 的例子來看看一個研究問題的結構。大家看左邊列出了 PICOT 的五個元素。\n\nPopulation，也就是 P，是那些還沒有得過 smallpox 天花的病人。Intervention，也就是 I，是把另一位牛痘患者病灶的膿液塗抹在健康受試者身上。然後觀察一週的症狀變化。\n\n六週之後，再用真正的 smallpox 天花患者的結痂物去接種這些健康受試者，然後觀察他們是否會發展出天花。\n\n雖然在 Jenner 的年代還沒有 PICOT 這個框架，但你可以看到他的實驗其實已經包含了這些關鍵要素。這就是為什麼他的研究如此成功。"
+    },
+    "9": {
+      "hint": "American Society of Hematology | American Society of Hematology | Where do resea",
+      "note": "那研究問題到底從哪裡來呢？這裡列出了幾個常見的來源。\n\n第一個是 clinical practice，就是你在臨床上照顧病人的時候，會想要改善病人生活品質、治療效果的那個渴望。第二個是跟同事的討論，包括教學和聽取那些看似天真的問題，有時候學生問的問題反而會激發你的靈感。\n\n第三個是 reviewing literature，回顧文獻，找出那些 knowledge gaps，也就是目前還不清楚的問題。第四個是跟病人和照護者的 focus groups，直接聽取他們的需求和經驗。第五個是 new technologies，新科技的出現也會帶來新的研究機會。\n\n其實答案就是 all of the above，以上皆是。好的研究問題可以從任何地方來。"
+    },
+    "10": {
+      "hint": "American Society of Hematology | Categories of Clinical Research Questions Thera",
+      "note": "大家看這張表格，這裡把臨床研究問題分成四大類。\n\n第一類是 Therapy，評估不同治療方式對結果的影響，通常使用 randomized controlled trials。第二類是 Harm，評估不同治療可能造成的有害效果，用的是 observational studies。\n\n第三類是 Diagnosis，評估一個檢查或介入措施區分有病和沒病的能力，適合用 cohort studies。第四類是 Prognosis，評估可能影響疾病風險或預後的因子，可以用 cohort studies 或 case-control studies。\n\n這個分類很重要，因為你的研究問題屬於哪一類，會直接決定你應該用什麼樣的研究設計。這張表格出自 Heddle 在 Transfusion 期刊 2007 年的文章。"
+    },
+    "11": {
+      "hint": "American Society of Hematology | American Society of Hematology | Problem/Purpos",
+      "note": "好，在正式提出研究問題之前，你需要先寫一個 Problem/Purpose Statement，也就是問題陳述。\n\n這個陳述要做三件事。第一，把問題放在 context 脈絡裡面，也就是我們目前已經知道了什麼。第二，描述這個研究要處理的具體問題，也就是我們還需要知道什麼。第三，說明這個問題的 relevance，為什麼我們需要知道這個答案。最後，設定研究的 objectives，你打算怎麼去找到答案。\n\n這個步驟看起來簡單，但它能幫助你把思路理清楚，也讓別人能夠快速理解你的研究動機。"
+    },
+    "12": {
+      "hint": "American Society of Hematology | American Society of Hematology | Problem/Purpos",
+      "note": "讓我用一個具體的例子來說明。假設我們要研究 iron deficiency anemia，缺鐵性貧血。\n\n我們的 problem statement 可以這樣寫：Iron deficiency anemia 在亞洲是一個常見的問題，而且跟顯著的 morbidity 有關，特別是在懷孕婦女當中。目前的治療方式差異很大，沒有一致的標準。在資源有限的地區，我們需要一個既符合成本效益、又有臨床效果的治療方式。\n\n所以這個研究的目的就是要找出治療 iron deficiency anemia 最理想的方法。大家看到了嗎？從大的背景，慢慢聚焦到具體的研究目的，這就是一個好的 problem statement 的結構。"
+    },
+    "13": {
+      "hint": "American Society of Hematology | American Society of Hematology | Example of a r",
+      "note": "有了 problem statement 之後，我們就可以來擬定研究問題了。以這個 iron deficiency anemia 的例子來說，一個初步的研究問題可能是：Is there an optimal treatment for iron deficiency anemia?\n\n大家覺得這個問題怎麼樣？聽起來好像是一個合理的問題，對不對？但其實這個問題有一些問題，它太廣了、太模糊了。讓我們接下來看看怎麼改進它。"
+    },
+    "14": {
+      "hint": "American Society of Hematology | American Society of Hematology | Example of a r",
+      "note": "大家注意到這張投影片跟前一張的差別了嗎？標題從 research question 改成了 research idea，把 question 這個字劃掉了。\n\n這是一個很重要的觀念。\"Is there an optimal treatment for iron deficiency anemia?\" 這其實只是一個 research idea，一個研究想法，還不是一個真正的 research question。一個好的研究問題需要更具體、更聚焦。接下來我們就用 PICOT 框架來把這個想法轉化成一個真正的研究問題。"
+    },
+    "15": {
+      "hint": "American Society of Hematology | American Society of Hematology | What are the E",
+      "note": "那什麼是一個好的研究問題的要素呢？答案就是 PICOT。\n\n大家看這張圖，P-I-C-O-T 五個字母，每一個代表一個要素。P 是 Population，你要研究的對象是誰。I 是 Intervention，你要測試的介入措施是什麼。C 是 Comparison 或 Control，你的對照組是什麼。O 是 Outcome，你要測量的結果是什麼。T 是 Timing，你在什麼時間點去測量這個結果。\n\n把這五個要素都想清楚，你的研究問題就會變得非常具體和明確。"
+    },
+    "16": {
+      "hint": "American Society of Hematology | American Society of Hematology | Elements of a",
+      "note": "讓我再詳細說明一下 PICOT 的每個元素。\n\n首先，Who is your population? 你的研究對象到底是誰？要定義清楚。第二，What is the intervention under investigation? 你要研究的介入措施是什麼？第三，Specify the comparison，如果有相關的話，你的對照組或比較組是什麼？\n\n第四，Specify the primary outcome of interest，你最主要關心的結果指標是什麼？注意這裡說的是 primary outcome，不是所有的 outcome。第五，Timing，你在什麼時間點去測量這個 outcome？\n\n每一個問題都要有明確的答案，這樣你的研究才能夠被精準地執行。"
+    },
+    "17": {
+      "hint": "American Society of Hematology | American Society of Hematology | Why is a PICOT",
+      "note": "那為什麼用 PICOT 格式來寫研究問題這麼重要呢？\n\n首先，一個好的 PICOT question 會提供足夠的資訊，讓你可以選擇合適的研究設計。它會迫使你去思考研究的每一個面向，不會遺漏重要的部分。而且你的讀者和聽眾也能夠清楚地理解你的研究內容。\n\n還有一個很好的特點，你可以從任何一個 starting point 開始建構你的 PICOT question。不一定要照順序，有的人可能先想到 outcome，有的人先想到 population，都沒關係，重要的是最後五個元素都要完整。"
+    },
+    "18": {
+      "hint": "American Society of Hematology | American Society of Hematology | Research Quest",
+      "note": "好，讓我們回到剛才的例子。原本的問題是：What is the optimal treatment for iron deficiency anemia?\n\n這個問題太廣了。我們現在要用 PICOT 的框架，一步一步把它改成一個好的研究問題。讓我們從第一個元素開始。"
+    },
+    "19": {
+      "hint": "American Society of Hematology | American Society of Hematology | Revised Resear",
+      "note": "首先是 P，Population。我們原來的問題沒有指定是哪一群人。Iron deficiency anemia 可以發生在很多不同的族群，小孩、老人、孕婦、慢性病患者等等。\n\n所以我們把問題修改成：What is the optimal treatment for iron deficiency anemia in pregnant women? 在懷孕婦女中，缺鐵性貧血的最佳治療是什麼？\n\n這樣就把研究對象聚焦了，變得更具體。"
+    },
+    "20": {
+      "hint": "American Society of Hematology | American Society of Hematology | Revised Resear",
+      "note": "接下來是 I，Intervention。什麼是我們要研究的介入措施？\n\n問題現在變成：What is the optimal treatment for iron deficiency anemia in pregnant women, oral or intravenous iron replacement? 我們把介入措施明確定義為 oral 口服或 intravenous 靜脈注射的鐵劑補充。\n\n大家看到紅色字的部分，oral or intravenous iron replacement，這就是新加入的 intervention 元素。問題又更具體了一步。"
+    },
+    "21": {
+      "hint": "American Society of Hematology | American Society of Hematology | Revised Resear",
+      "note": "現在來看 C，Comparison/Control。我們需不需要一個對照組或比較組呢？\n\n在這個例子裡面，其實我們的 comparison 已經內建在問題裡了，就是 oral versus intravenous iron replacement。我們是在比較口服鐵劑跟靜脈注射鐵劑這兩種治療方式。\n\n所以這個問題本身就已經包含了比較的元素，是一個 head-to-head comparison 的設計。"
+    },
+    "22": {
+      "hint": "American Society of Hematology | American Society of Hematology | Revised Resear",
+      "note": "接下來是 O，Outcome。你要用什麼指標來判斷哪一種治療比較好？\n\n這裡有幾個選項。我們可以看 hemoglobin 上升的絕對值，也可以看 hemoglobin 上升的速度。\n\n所以最終修改後的問題變成：Does oral iron replacement therapy result in as high and as fast of a hemoglobin increment as IV iron replacement in the treatment of iron deficiency anemia in pregnant women? 口服鐵劑能不能讓懷孕婦女的 hemoglobin 上升得跟靜脈注射鐵劑一樣高、一樣快？\n\n大家看，這個問題已經比原來的版本具體太多了。"
+    },
+    "23": {
+      "hint": "American Society of Hematology | American Society of Hematology | Revised Resear",
+      "note": "最後是 T，Timing。我們要在什麼時間點來測量這個結果？\n\n這裡投影片上問的是：What is the best time point for determining the effectiveness of the intervention? 判斷介入效果的最佳時間點是什麼？\n\n最終我們決定加上 after 4 weeks of treatment，治療四週之後。所以完整的研究問題變成：Does oral iron replacement therapy result in as high and as fast of a hemoglobin increment as IV iron replacement in the treatment of iron deficiency anemia in pregnant women after 4 weeks of treatment?\n\n大家看，從一開始模糊的 idea，到現在這個完整的 PICOT question，每一個元素都被清楚地定義了。"
+    },
+    "24": {
+      "hint": "American Society of Hematology | American Society of Hematology | Any additional",
+      "note": "有了這個 PICOT question 之後，我們還可以進一步思考是否有需要改進的地方。\n\n例如：Is the population adequately defined? Population 定義得夠清楚嗎？懷孕婦女這個定義，需不需要再限縮？比如說是不是只看某個孕期的婦女？\n\nIs the intervention clearly defined? Intervention 定義得夠明確嗎？口服鐵劑的劑量、種類、頻率需不需要更具體？\n\nShould any other time points be considered? 除了四週之外，需不需要在其他時間點也做測量？\n\n這些都是可以繼續精煉的方向。一個好的研究問題是經過反覆修改和討論才成形的。"
+    },
+    "25": {
+      "hint": "American Society of Hematology | American Society of Hematology | Pitfalls of no",
+      "note": "如果沒有花足夠的時間在研究問題上，會有什麼後果呢？\n\n最常見的問題就是，你最後得到的答案並不是你當初以為你在問的問題的答案。這聽起來很荒謬，但其實非常常見。可能是因為你沒有收集到所有必要的數據，或者統計方法選擇不當，或者在研究過程中改變了 outcome 的定義。\n\n另外還有倫理方面的考量。如果你的問題本身就無法被回答，那你就是在讓病人暴露在一個 experimental intervention 的風險之下，卻沒有辦法得到有意義的結果。這是不道德的。\n\n所以花時間在研究問題上，不只是為了科學的嚴謹，也是對病人的責任。"
+    },
+    "26": {
+      "hint": "American Society of Hematology | You Have a Good Question and Hypothesis! Now is",
+      "note": "好，恭喜你！假設你已經有了一個好的 question 和 hypothesis。那接下來呢？\n\n接下來你需要問自己：Now is it FINER? 你的問題符合 FINER 的標準嗎？FINER 是另一個評估研究問題品質的重要框架，讓我們來看看它包含哪些元素。"
+    },
+    "27": {
+      "hint": "American Society of Hematology | FINER Explanation F easible Adequate # of patie",
+      "note": "大家看這張表格，FINER 的五個字母各代表一個評估標準。\n\nF 是 Feasible，可行性。你有足夠的病人數嗎？有足夠的專業知識嗎？經費和時間夠嗎？研究範圍是否可控？\n\nI 是 Interesting，有趣。研究的答案是否能夠引起研究者、同事、病人的興趣？如果沒有人在乎答案，那這個研究就沒有太大的價值。\n\nN 是 Novel，新穎性。你的研究是否能夠 confirm、refute 或 extend 之前的發現？是否能提供新的東西？\n\nE 是 Ethical，倫理。你能不能取得 IRB 的批准？是否存在 equipoise，也就是對兩種治療方式的效果確實存在不確定性？\n\nR 是 Relevant，相關性。對科學知識、臨床實踐、健康政策、未來研究是否有貢獻？\n\n這個框架出自 Hulley & Cummings 的經典教科書 Designing Clinical Research。"
+    },
+    "28": {
+      "hint": "American Society of Hematology | American Society of Hematology | Do you have cl",
+      "note": "這裡特別要提一下 clinical equipoise 的概念。\n\nClinical equipoise 指的是對於一個臨床試驗中各治療組的優劣，存在 true uncertainty，真正的不確定性。目標是確保沒有任何參與者被分配到一個已知較差的治療組。\n\n那哪裡可能會有衝突呢？一方面，我們需要 RCT 來提供 evidence-based guidelines。但另一方面，equipoise 有時候很難界定。Expert opinion 通常是基於小型研究或缺乏證據的情況下形成的，多少比例的專家同意才算有 equipoise？專家意見有沒有 bias？如果 preliminary results 改變了 equipoise，要不要提前結束試驗？\n\n這些都是非常複雜的問題，出自 Miller and Joffe 在 2011 年 NEJM 上的討論。"
+    },
+    "29": {
+      "hint": "American Society of Hematology | What about Qualitative and Mixed Methods Resear",
+      "note": "剛才我們談的主要是 quantitative research 的問題，那 qualitative 和 mixed methods 的研究呢？\n\n其實這些研究方法也是非常重要的，尤其在血液學的領域裡面，有很多問題是 quantitative methods 無法完全回答的。讓我們來看看 qualitative research 的問題有什麼不同。"
+    },
+    "30": {
+      "hint": "American Society of Hematology | American Society of Hematology | Qualitative Re",
+      "note": "Qualitative research questions 有幾個特點。\n\n首先，它們聚焦在 meaning and understanding，也就是理解事物的意義。研究者自己去收集和分析資料。它是一個 inductive process，歸納式的過程，由資料來建構假設，而不是去驗證假設。\n\n舉個例子：How do patients with thalassemia make sense of their illness journey? Thalassemia 的病人如何理解和詮釋他們的疾病歷程？這就是一個典型的 qualitative research question。\n\n它的特色是 richly descriptive，提供豐富的描述性資料。這種研究方法能幫助我們理解病人的經驗、感受和需求，是量化研究無法取代的。"
+    },
+    "31": {
+      "hint": "American Society of Hematology | American Society of Hematology | Summary • Your",
+      "note": "好，我們來做一個總結。\n\n第一，你的 research question 是整個研究過程中最重要、也最困難的一步。不要小看它，一定要花足夠的時間。\n\n第二，你需要確保問題既重要又可以回答，用 PICOT 和 FINER 這兩個框架來檢視你的問題。\n\n第三，一旦你有了好的研究問題，後面的研究設計其實就相對直觀了。問題決定了設計，而不是反過來。\n\n最後，一定要依靠你的 mentors 和 colleagues，跟他們討論你的研究問題，聽取他們的意見和建議。研究不是一個人的事，團隊合作非常重要。\n\n謝謝大家的聆聽，希望今天的內容對各位有幫助。"
+    }
+  }
+}

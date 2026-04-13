@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "pdf": "novel-insights-and-emerging-therapies-in-immune-mediated-cytopenias-from-pf4-biology-to-precision-b-cell-targeting.pdf",
+    "totalSlides": 51,
+    "generatedAt": "2026-04-12T19:14:45.222Z",
+    "generator": "pdf-presenter"
+  },
+  "notes": {
+    "1": {
+      "hint": "American Society of Hematology | Novel Insights and Emerging Therapies in Immune",
+      "note": "各位好，歡迎來到今天的 Highlights of ASH 專題演講。我是 Michael Cole，來自 Johns Hopkins School of Medicine，位於 Baltimore, Maryland。\n今天的主題是 Novel Insights and Emerging Therapies in Immune-Mediated Cytopenias: From PF4 Biology to Precision B-Cell Targeting。我們會從 PF4 的基礎生物學開始，一路談到最前沿的 precision CAR-T 治療策略。\n這個領域在過去一年有非常多令人興奮的進展，我會透過六個臨床案例，帶大家一起回顧今年 ASH 年會中最重要的幾篇 abstract。"
+    },
+    "2": {
+      "hint": "American Society of Hematology | Disclosures In compliance with ACCME policy, AS",
+      "note": "在開始之前，依照 ACCME 的規定，我需要揭露相關的利益關係。我擔任 Alexion/Astra Zeneca 的 advisory committee 成員，持有 Machaon Diagnostics 的 patents and royalties，也持有包括 Alexion/Astra Zeneca、Annexon、Eli Lily、Novo Nordisk 和 Omeros 的 stock options。\n另外，今天的演講會涉及一些 off-label drug use，包括 rituximab、fostamatinib、danazol、azathioprine、cyclophosphamide、mycophenolate 和 cyclosporine。請大家留意。"
+    },
+    "3": {
+      "hint": "American Society of Hematology | American Society of Hematology | Learning Objec",
+      "note": "我們先來看今天的 learning objectives。第一，我們要了解 PF4 在多種 immunothrombotic disorders 中的機制角色，包括 HIT，並將這些理解應用到 HIT 和 antiphospholipid antibody syndrome 之間的臨床重疊。\n第二，我們要學習如何運用 evidence-based 的方法來處理 immune checkpoint inhibitor-induced thrombocytopenia，特別是如何根據復發風險和恢復模式來選擇適合 rechallenge 的病人。\n第三，我們要評估針對 refractory immune cytopenias 的新興標靶治療，包括 BTK inhibitors、BAFF-R antagonists，以及 precision CAR-T 策略，並根據作用機制、療效數據和長期安全性來選擇適合的病人。"
+    },
+    "4": {
+      "hint": "American Society of Hematology | American Society of Hematology | Session Roadma",
+      "note": "大家看這張 session roadmap，今天我們一共會討論六個案例。左邊三個：Case 1 是 PF4 immunothrombosis，會涉及 APS 和 TTP，來自 Abstract 1773；Case 2 是 ICI-induced ITP，討論發生率和 rechallenge 的問題，來自 Abstract 2343；Case 3 是 rilzabrutinib 在 warm AIHA 的應用，會看 BTK inhibitor 的 74 週數據和 phase 3 試驗設計，來自 Abstracts 2459 和 8126。\n右邊三個：Case 4 是 ianalumab 在 refractory ITP 的應用，討論 BAFF-R antagonist，來自 Abstract 8745；Case 5 比較 rituximab 和 TPO-RA 的 5 年真實世界數據，來自 Abstract 12848；最後 Case 6 是最前沿的 precision CAR-T，針對 IGHV1-69 在 iTTP 的應用，來自 Abstract 14087。\n內容非常豐富，我們就開始吧。"
+    },
+    "5": {
+      "hint": "American Society of Hematology | Highlights of ASH® Case 1: Triple-Positive APS",
+      "note": "第一個案例是一位 34 歲的女性，已確診 triple-positive APS，也就是同時有 lupus anticoagulant、high-titer aCL 和 anti-beta2GPI IgG。她在使用 therapeutic warfarin 的情況下，仍然發生了新的 small-vessel ischemic stroke。ANA 是弱陽性，但不符合 SLE 的診斷標準。\n這個案例帶出一個很重要的問題：anticoagulation 針對的是 clotting cascade，但並沒有處理上游驅動血栓形成的免疫機制。為什麼有些 APS 病人即使在最佳的抗凝治療下仍然會發生血栓？\n這篇來自 Sarkar et al. 的 Abstract 1773 告訴我們，APS 可能是 PF4 immunothrombotic family 的最新成員，讓我們來看看這個概念背後的機制和治療意義。"
+    },
+    "6": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "大家看這張圖，這是目前 HIT 和 VITT 的致病機制概覽。左邊是 HIT，由 heparin 暴露觸發；右邊是 VITT，由疫苗接種觸發。中間的共同路徑是關鍵。\n在 HIT 中，heparin 與 PF4 形成 complex，透過 natural IgM 和 complement 經由 CR2 即 CD21 活化 polyclonal B cells。在 VITT 中，PF4 與 vaccine constituents 結合，同樣透過類似的路徑活化 B cells，但通常是少數 clones 進行 clonal expansion 和 isotype switching。\n兩者最終都會產生 high-titer IgG anti-PF4 antibodies，觸發所謂的 immune activation and amplification。這些抗體透過 FcgammaRIIA receptor 活化血小板，形成 procoagulant platelets 和 platelet/neutrophil aggregates，同時引發 NETosis，DNA 被釋放後進一步放大免疫損傷、活化 complement，最終導致所謂的 downstream prothrombotic firestorm。"
+    },
+    "7": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "這張投影片展示了 PF4 在 APS 致病中的實驗證據，分成三大部分。\n首先是左邊的 biophysical foundation，用 dynamic light scattering 技術證實 PF4 可以與 beta2GPI、DNA 和 APS IgG 形成巨大的 synergistic complex。也就是說，APS IgG 能把 DNA-PF4-beta2GPI 的 scaffold 轉化成 ultra-large pathogenic complexes。\n中間是 microfluidic models 的 in vitro 驗證。NET recruitment assay 顯示加入 PF4 後，beta2GPI 與 NETs 的結合增加了 5 到 10 倍。在 thrombosis induction assay 中，當移除 PF4 時就無法形成血栓，證實血栓形成是 PF4-dependent 的。\n右邊是 in vivo 的小鼠模型驗證。野生型小鼠注射 APS IgG 後會產生 massive thrombus，但 PF4-knockout 小鼠注射同樣的 APS IgG 後，血流正常、沒有血栓形成。更重要的是，使用 anti-PF4 monoclonal antibodies 如 G4KKO、R10、1E12 進行治療後，可以抑制血栓形成。這提供了非常強的 therapeutic reversal 證據。"
+    },
+    "8": {
+      "hint": "American Society of Hematology | American Society of Hematology | Anti-PF4 Antib",
+      "note": "那麼如何將這些發現轉化為治療呢？大家看左邊的說明。標準的 IgG antibodies，像 unmodified KKO，它們確實會結合到 PF4/NET scaffold 上，但問題是它們的 Fc regions 是活性的，會在 scaffold 表面聚集，然後插入血小板上的 FcgammaRIIA receptor，觸發大量 thrombin 釋放，就像火上加油一樣。\n解決方案是所謂的 block without burning 策略，使用 Fc-modified antibodies。像 G4KKO 這類抗體被修改為 IgG4 isotype，使 Fc tail 被 silenced。這些抗體仍然能高親和力地結合到 PF4 scaffold 上，透過 steric hindrance 阻擋致病性的自體抗體結合，但因為 Fc tail 是沉默的，不會活化血小板的 receptor。\n大家看右邊的示意圖，PF4 tetramers 上有不同的結合位點，包括 heparin-binding/VITT site 和 HIT site。Fc modified 的 1E12 和 RTO 抗體可以結合上去，促進 disaggregation to monomers，從而阻斷致病過程。這代表了 APS 的第一個 mechanism-based therapeutic approach。"
+    },
+    "9": {
+      "hint": "American Society of Hematology | American Society of Hematology | Case 1 Teachin",
+      "note": "來總結一下 Case 1 的 teaching points。第一，將 APS 定位為 PF4-dependent disorder，暗示標準的 anticoagulation 可能是不夠的，因為它只針對 thrombin generation，並沒有打斷上游的 immunothrombotic firestorm。\n第二，Fc modified anti-PF4 antibodies 代表了 APS 的第一個 mechanism-based 治療方法，可以與 anticoagulation 互補。\n第三，APS 很可能和 HIT、VITT 一樣，屬於 PF4 immunothrombotic disease spectrum 的一員。這個概念如果成立，將會從根本改變我們對這類疾病的治療思維。\n好，接下來我們進入第二個案例。"
+    },
+    "10": {
+      "hint": "American Society of Hematology | Highlights of ASH® Case 2: Thrombocytopenia on",
+      "note": "Case 2 是一位 67 歲的男性，轉移性 melanoma 正在接受 ipilimumab/nivolumab 合併治療。在第三個 cycle 之後，血小板掉到 28 乘以 10 的 9 次方每升，而 baseline 是 210。病人沒有症狀，周邊血液抹片顯示是 isolated thrombocytopenia。用 prednisone 治療後，血小板恢復到 120，而且 melanoma 對免疫治療有反應。\n臨床上最關鍵的問題是：我們能不能 rechallenge？這對腫瘤科和血液科醫師來說是一個非常常見、也非常困難的決策。\n這篇 Leaf et al. 的大型多中心研究，也就是 Abstract 2343，幫助我們回答了 ICI-induced thrombocytopenia 的發生率、典型的發病模式、恢復時間、rechallenge 的適當性，以及一個出人意料的死亡率結果。我們先來問問在座各位。"
+    },
+    "11": {
+      "hint": "American Society of Hematology | American Society of Hematology | AUDIENCE RESPO",
+      "note": "好，第一個 audience response question。Immune checkpoint inhibitor induced thrombocytopenia 的發生率大概是多少？選項有 A 是 0.01%，B 是 0.25%，C 是 2%，D 是 4.7%，E 是 8%。\n大家可以先想一下，這是一個臨床上很重要的數字。"
+    },
+    "12": {
+      "hint": "American Society of Hematology | American Society of Hematology | AUDIENCE RESPO",
+      "note": "答案是 B，0.25%，大約是 400 個接受 ICI 治療的病人中會有 1 個。所以 ICI-ITP 並不常見，但也絕不罕見。在這項研究中，這個發生率是經過嚴格定義和大規模數據庫驗證的。\n雖然比例看起來不高，但考慮到目前全球有多少癌症病人在接受免疫治療，累積下來的絕對人數是很可觀的。而且等一下我們會看到，它的嚴重程度和對死亡率的影響，遠比我們想像的更大。"
+    },
+    "13": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "大家看這兩張圖，顯示 ICI-ITP 的發病時間模式。左邊的圖是從 ICI 開始用藥到 ICI-ITP 發生的時間，中位數是 8 週，四分位距是 4 到 18 週。可以看到最常見的是在治療開始後 2 到 10 週之間發生，但也有病人到 40 到 50 週才出現。\n右邊的圖是從最後一次 ICI 給藥到 ICI-ITP 發生的時間，中位數只有 3 週，四分位距是 2 到 4 週。這告訴我們 ICI-ITP 通常在給藥後很快就出現，最常見的是在 0 到 5 週之間。\n所以臨床上，我們在每次 ICI 給藥後的前幾週都要特別注意監測血小板。"
+    },
+    "14": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "再來看嚴重度的分布。大家看左邊的長條圖，最常見的是 mild，也就是血小板在 50 到 99 之間，佔了大約 43%。其次是 moderate，血小板 20 到 49，佔 27%。Severe 是 10 到 19，佔約 14%。Very severe 是 1 到 9，也佔了大約 15%。\n整體的 median platelet nadir 是 41 乘以 10 的 9 次方每升。所以雖然多數病人是輕到中度，但將近三成的病人會掉到 20 以下，這在臨床上是需要積極處理的。"
+    },
+    "15": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "這張圖呈現了 ICI-ITP 的獨立危險因子分析。大家看右邊的 forest plot 和左邊的表格。\n在校正後的多變量分析中，幾個顯著的獨立危險因子包括：combination ICI therapy，adjusted OR 是 1.83；有其他 irAEs 的存在，adjusted OR 是 2.07；stage 4 cancer，adjusted OR 是 2.15；以及 baseline platelet count 低於 150，adjusted OR 高達 2.96，是最強的危險因子。\n相反地，年齡和性別則沒有顯著影響。Prior autoimmune disease 在 unadjusted 分析中有意義，但校正後就不顯著了。\n所以臨床上，如果你的病人正在用 combination ICI、有其他 irAEs、是 stage 4，又有 baseline 血小板偏低，你就要特別警覺 ICI-ITP 的可能。"
+    },
+    "16": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "這張 Venn diagram 呈現了 ICI-ITP 最常用的治療組合。Glucocorticoids 是最常使用的，有 106 例。IVIG 有 39 例，TPO-RA 有 29 例，其中主要是 romiplostim。\n可以看到有 70 個病人只用了類固醇，15 個同時用了類固醇和 IVIG，13 個三種都用了，8 個用了 IVIG 加類固醇但沒有用 TPO-RA。基本上，治療策略跟我們處理一般 ITP 是類似的，以類固醇為第一線，IVIG 和 TPO-RA 作為輔助。"
+    },
+    "17": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "來看恢復的情況。左邊的圖顯示在 ICI-ITP 發生後 180 天，整體恢復率是 75.2%。按嚴重度來看，mild 的恢復率最高，達 87.1%；moderate 是 74.1%；severe 只有 56.7%；very severe 是 60.6%。\n右邊的圖看恢復的時間分布，大多數病人在 1 到 3 週內就恢復了，中位恢復時間是 2.3 週。\n所以好消息是大部分 ICI-ITP 病人都能恢復，而且恢復得相當快。但嚴重的病人恢復率明顯較低，大約只有六成左右。\n那接下來一個關鍵問題是：恢復之後，我們能不能繼續使用 ICI？"
+    },
+    "18": {
+      "hint": "American Society of Hematology | American Society of Hematology | AUDIENCE RESPO",
+      "note": "第二個 audience response question。Case 2 的病人從 ICI-ITP 恢復了，melanoma 對 combination ipi/nivo 有反應。你的下一步是什麼？\nA 是永久停止所有免疫治療；B 是繼續用 combination ipilimumab/nivolumab rechallenge；C 是用 single-agent nivolumab rechallenge；D 是 single-agent nivolumab 加上 prophylactic eltrombopag；E 是換成完全不同的癌症治療。\n大家想想看，在兼顧腫瘤療效和安全性的前提下，你會怎麼選？"
+    },
+    "19": {
+      "hint": "American Society of Hematology | American Society of Hematology | AUDIENCE RESPO",
+      "note": "答案是 C，用 single-agent nivolumab 進行 rechallenge。為什麼不是繼續 combination 呢？讓我們看下一張投影片的數據。"
+    },
+    "20": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "大家看這張 rechallenge 的數據。在 76 位接受 rechallenge 的病人中，23 位，也就是 30%，再次發生了 ICI-ITP。\n關鍵在右邊的表格。大家注意看紅色標示的那一行：從 combination ICI 改為 single-agent 的病人中，只有 2/15 即 13.3% 出現復發。而維持 combination therapy 的病人中，有 5/11 即 45.5% 復發。沒有復發的那組，改用 single-agent 的比例高達 86.7%。\n所以從 combination 降階到 single-agent 是一個明確能降低復發風險的策略。而且即使復發了，整體恢復率仍有 73.9%，復發的嚴重度也通常是 mild to moderate。這就是為什麼 single-agent rechallenge 是最佳選擇。"
+    },
+    "21": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "這張投影片展示了一個非常重要但出人意料的發現：ICI-ITP 的嚴重度與全因死亡率之間的關聯。\n左邊的 Kaplan-Meier 曲線非常清楚。一年的累積死亡率：沒有 ICI-ITP 的病人是 36%，mild ICI-ITP 是 41%，moderate 跳到 65%，severe 更高達 77%。Log-rank test 的 p 值小於 0.001。\n右邊的 forest plot 顯示，在三個不同的校正模型中，severe ICI-ITP 的 hazard ratio 都維持在 2.8 到 3.0 左右。而 mild ICI-ITP 的 HR 大約只有 1.2，沒有統計學意義。\n整體 ICI-ITP vs no ICI-ITP 的 HR 是 1.65。這個發現告訴我們，ICI-ITP 不只是一個「血小板低一下」的問題，嚴重的 ICI-ITP 是一個獨立的死亡率預測因子。"
+    },
+    "22": {
+      "hint": "American Society of Hematology | American Society of Hematology | Case 2 Teachin",
+      "note": "Case 2 的 teaching points。第一，ICI-ITP 的發生率大約是四百分之一，雖不常見但有臨床意義，而且嚴重度與死亡率獨立相關，HR 達 2.96。\n第二，標準的 ITP 治療，包括 steroids、IVIG 和 TPO-RAs，在 ICI-ITP 中是有效的，反應率大約 75%。\n第三，約 70% 的病人可以耐受 ICI rechallenge。對於那些復發的病人，發作通常是 mild to moderate。\n第四，也是最具臨床價值的一點：de-escalation strategy，也就是從 combination 改為 single-agent，可以顯著降低復發風險。\n好，讓我們進入第三個案例。"
+    },
+    "23": {
+      "hint": "American Society of Hematology | Case 3: Refractory Warm Autoimmune Hemolytic An",
+      "note": "Case 3 是一位 68 歲的女性，有 7 年的 primary warm AIHA 病史。目前血紅素 8.2 g/dL，正在使用 prednisone 15 mg/day。LDH 升高，reticulocytes 8%，DAT 強陽性 IgG。\n她之前用過 rituximab 但在 18 個月後復發，mycophenolate 因為耐受不良而停藥，cyclosporine 療效不夠。因為太多共病，不適合做脾臟切除。骨髓切片是陰性的。過去六個月已經輸了三次血。\n這是一個非常典型的 refractory wAIHA 病人，我們需要新的治療選擇。今天要討論的數據來自 LUMINA Phase 2b 的 74 週追蹤和 LUMINA-3 phase 3 的試驗設計，分別是 Abstracts 2459 和 8126。"
+    },
+    "24": {
+      "hint": "American Society of Hematology | American Society of Hematology | Refractory War",
+      "note": "在談新藥之前，我們先回顧一下目前 refractory warm AIHA 有哪些治療選擇。大家看這張表格。\nRituximab 是標準的二線用藥，anti-CD20 機制，整體反應率 70-90%，大約 2 週見效，中位持續時間 20 個月，but 起效比較慢。\nFostamatinib 是 SYK inhibitor，反應率大約 45-50%，2-4 週見效，但持續時間還待確定，腸胃道副作用常見，而且在美國是 orphan drug。\nDanazol 是 anabolic steroid，反應率 60-80%，可以 steroid-sparing，但起效較慢。Azathioprine 反應率 50-70%，但停藥後 60% 會復發。Cyclophosphamide 反應率最高可達 100%，但毒性也最高。Mycophenolate 反應率只有 25-70%，起效非常慢。\n所以我們在這個領域迫切需要新的、更有效的選擇。"
+    },
+    "25": {
+      "hint": "American Society of Hematology | American Society of Hematology | Rilzabrutinib:",
+      "note": "Rilzabrutinib 是一個口服的 BTK inhibitor，但它跟治療 B 細胞惡性腫瘤的 BTK inhibitor 不同，它具有 multi-immune modulatory 的特性。\n大家看左邊 panel A，這是 wAIHA 的病理生理學。從免疫活化、B 細胞活化、自體抗體產生、紅血球 opsonization，到最後的溶血途徑，包括脾臟內的 extravascular hemolysis 和循環中的 intravascular hemolysis。\n右邊 panel B 比較了 SYK inhibitors 和 rilzabrutinib 的作用機制。SYK inhibitors 主要是在 splenic macrophage 層面抑制 FcgammaR-dependent 的吞噬作用。但 rilzabrutinib 有雙重機制：一方面在 B 細胞端透過 BTK 抑制 B cell receptor signaling，減少致病性自體抗體的產生；另一方面在 macrophage 端同樣透過 BTK 抑制 FcgammaR-dependent 的吞噬作用。\n這個 dual mechanism，B-cell and macrophage modulation，是 rilzabrutinib 的獨特優勢。"
+    },
+    "26": {
+      "hint": "American Society of Hematology | American Society of Hematology | LUMINA-2b: 74-",
+      "note": "這張是 LUMINA Phase 2b 的試驗設計。收案對象是 primary wAIHA 或 SLE-associated wAIHA 的成人，年齡 18 歲以上，對 corticosteroids 復發、難治或依賴的病人，血紅素低於 10 g/dL，至少有一項異常的溶血指標和 DAT 陽性。\nPart A 是 primary treatment，22 位病人使用 rilzabrutinib 400 mg BID 口服，治療 24 週。結果顯示 64% 的反應率。這些病人的特徵是 60% 用過三線以上治療，60% 還在用類固醇，27% 過去一年有輸血。\nPart A 的 15 位 responders 繼續進入 Part B 的 long-term extension，再治療 52 週到第 74 週。7 位 non-responders 則進入 7 天追蹤。Primary endpoint 是 Part B 中第 24 到 50 週的 durable response。"
+    },
+    "27": {
+      "hint": "American Society of Hematology | American Society of Hematology | LUMINA-2b: 74-",
+      "note": "來看血紅素的反應。Median baseline hemoglobin 是 8.2 g/dL，範圍 5.8 到 11.4。\n大家看右邊這張圖，紫色線是 Week 24 的 responders，灰色線是 non-responders。可以清楚看到，responders 的血紅素從大約 9 到 10 穩定上升，到 Part B 階段維持在 12 左右。\n到第 74 週，median hemoglobin 達到 11.7 g/dL，範圍 6.6 到 14.7。非常重要的是，這個血紅素的提升是持續維持的，從 Part A 一直到 Part B 結束都沒有下降的趨勢。"
+    },
+    "28": {
+      "hint": "American Society of Hematology | American Society of Hematology | LUMINA-2b: 74-",
+      "note": "除了血紅素，溶血指標也有顯著改善。到第 74 週，median LDH 下降了 37%，reticulocytes 下降了 63%，total bilirubin 下降了 62%。\n大家看這三張柱狀圖，從 baseline 到 Week 26、50、74，三個指標都呈現持續下降的趨勢。LDH 從大約 350 降到 200，reticulocytes 從 330 降到大約 130，total bilirubin 從 2.5 降到大約 1.0。\n這些數據告訴我們，rilzabrutinib 不只是改善血紅素，它確實在抑制溶血反應本身。"
+    },
+    "29": {
+      "hint": "American Society of Hematology | American Society of Hematology | LUMINA-2b: 74-",
+      "note": "最後看生活品質的改善。FACIT-Fatigue 是一個衡量疲勞程度的量表，baseline median 是 34 分，範圍 17 到 46。在 Core Part B 的第 74 週，中位數提升到 44.4 分，median change from baseline 是增加 5.0 分，四分位距 2 到 11。\n大家看這張圖，responders 的改善在 Part A 早期就出現了，在整個 Part B 期間維持穩定，甚至有些時間點改善超過 10 分。這是 clinically meaningful 的改善。\n對 wAIHA 病人來說，fatigue 是最困擾的症狀之一，能夠改善疲勞對病人的意義非常大。"
+    },
+    "30": {
+      "hint": "American Society of Hematology | LUMINA-3: phase 3 study design in primary wAIHA",
+      "note": "基於 Phase 2b 的正面結果，LUMINA-3 phase 3 試驗已經啟動了。這是一個 oral rilzabrutinib versus placebo 的試驗，大約收 90 位成人，2:1 隨機分組，全球收案包括日本。\n試驗設計分成四個階段：第一階段是 4 週的 screening，進行 Hb stabilization 和資格確認；第二階段是 24 週的 double-blind，rilzabrutinib vs placebo，primary endpoint 是 durable response；第三階段是 28 週的 open-label，所有人都接受 active rilzabrutinib；第四階段是 52 週以上的 long-term extension。\n值得注意的是，rilzabrutinib 已經獲得 FDA Breakthrough Therapy designation，在美國和日本都有 orphan drug designation。它是目前唯一在 wAIHA 有 FDA Breakthrough 地位的 BTK inhibitor。目前正在全球積極招募中，日本也有 10 個試驗中心。"
+    },
+    "31": {
+      "hint": "American Society of Hematology | Case 4: Heavily Pretreated Refractory ITP Highl",
+      "note": "進入 Case 4，這是一位 55 歲的女性，慢性 ITP，血小板只有 18，目前同時在用 eltrombopag 75 mg 加上 prednisone 10 mg。她對 steroids 難治，rituximab 用了 6 個月後復發，romiplostim 也失去反應。她拒絕脾臟切除，已經接受過 6 線治療，今年因為出血住院三次。\n這裡帶出一個很重要的問題：為什麼要考慮 BAFF？當 B cells 被 rituximab 清除後，BAFF levels 會飆升，這會驅動 autoreactive B-cell reconstitution。Belimumab 只是中和 soluble BAFF ligand，不直接清除 B 細胞。但 ianalumab 不同，它直接清除表達 BAFF-R 的 B cells，同時透過 enhanced ADCC 加上阻斷 repopulation signal 來達到效果。\n數據來自 VAYHIT3 試驗，Abstract 8745，Choi et al.。"
+    },
+    "32": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "大家看這張 refractory ITP 的管理流程圖，來自 Panch et al. 發表在 Hematology Am Soc Hematol Educ Program 2025。\n中間的核心概念是：面對 refractory primary ITP，第一步是 revisit additional testing，包括 infectious markers、autoimmune panels、immunoglobulins、imaging 和 bone marrow biopsy 等，要排除 secondary ITP。\n左邊從上到下列出了各種治療策略的升級路徑：從 CS and IVIG refractory 開始，可以加上 TPO-RA、rituximab、MMF，一路到考慮脾臟切除和更新的藥物。右邊則列出各種 secondary ITP 的原因和對應治療。\n下方列出了正在 Phase III 和 Phase I/II 研究中的新藥，包括 FcRn inhibitors、anti-CD38 mAb、BAFF inhibitors、Syk inhibitors、BTK inhibitors、complement inhibitors、CD19 mAb 等等。"
+    },
+    "33": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "這張投影片重點強調了流程圖中 BAFF-R inhibitors 的位置，大家可以看到紅色框標示的地方。在 TPO-RA refractory 之後，可以考慮 combine with BAFF-R inhibitors。\n為什麼 BAFF 這個靶點這麼重要呢？讓我們深入看一下 BAFF/APRIL 的生物學。"
+    },
+    "34": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "這張投影片非常重要，說明了 BAFF 和 APRIL 的 receptor biology。左邊是 ligand-receptor 的示意圖。BAFF 以 trimer 和 60-mer 的形式結合 BAFF-R 和 TACI。APRIL 則主要透過 HSPG 定位到細胞表面，結合 TACI 和 BCMA。\n右邊展示了不同 B 細胞發育階段的 receptor 表現模式。Transitional B cells 高表現 BAFF-R，低表現 TACI 和 BCMA，BAFF-R 在這裡扮演 selective survival checkpoint 的角色。Mature B cells 也是高 BAFF-R，TACI 開始上升，負責 pool maintenance。到了 activated B cells，TACI 變高、BAFF-R 仍高，負責 activation control 和 class switching。最後到 plasma cells，BCMA 變成主要的 receptor，BAFF-R 低或消失，負責 long-term antibody secretion。\n簡單來說：BAFF-R 維持 mature B-cell pool，TACI 調控活化和抗體品質，BCMA 維持 long-lived plasma cells。這就是為什麼針對 BAFF-R 可以精準地清除產生自體抗體的 B 細胞。"
+    },
+    "35": {
+      "hint": "American Society of Hematology | American Society of Hematology | VAYHIT3: Ianal",
+      "note": "來看 VAYHIT3 的試驗設計。收案條件是 primary ITP 成人，之前至少用過一種 CS 加或不加 IVIG，以及一種 TPO-RA，沒有做過脾臟切除。必須是對最近的 ITP 治療失去反應、反應不足或不耐受，而且血小板低於 30。\n治療方案是 ianalumab 9 mg/kg IV，每四週一次，共四個劑量，到第 17 週結束。Primary endpoint assessment 在這個期間進行。\n從第 25 週開始，符合條件的病人可以接受 optional second course。Safety follow-up 持續到最後一劑後 24 個月。Data cut-off 是 2025 年 2 月 5 日。"
+    },
+    "36": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "來看 baseline characteristics。這群病人真的是 heavily pretreated。N 等於 41，median age 55 歲，49% 是男性。\n最關鍵的數字：median baseline platelet count 只有 8，範圍是 0 到 29。Median ITP duration 是 4 年。Median 接受過 6 線治療，範圍 2 到 13。其中 59% 接受過 6 線以上。\n右邊看之前和合併的治療：100% 用過 corticosteroid 和 TPO-RA，81% 用過 IVIG 或 anti-D，46% 用過 rituximab，51% 用過其他 immunosuppressants。\n合併治療方面，29% 是 ianalumab monotherapy，20% 只加 corticosteroid，37% 只加 TPO-RA，15% 兩者都加。所以這是一群非常難治的病人。"
+    },
+    "37": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "來看 VAYHIT3 的主要分析結果，這是最令人期待的部分。\n左邊的圓餅圖顯示 confirmed response rate 是 44%，也就是 18/41。中間的圖顯示 stable response at 6 months 是 24%，即 10/41。右邊可以看到這 10 個穩定反應者中，9 個是 response，1 個是 complete response，質量比是 90% 和 10%。\n在 confirmed responders 中，median time to confirmed response 是 1.3 個月。8 個病人在第一個月就達到了 confirmed response，5 個在第二個月，5 個在第 3 到 5 個月之間。\n44% 的 confirmed response rate 在 median 6 線治療的病人中，這是一個非常有意義的結果。"
+    },
+    "38": {
+      "hint": "American Society of Hematology | American Society of Hematology | Highlights of",
+      "note": "安全性方面的結果也很值得注意。在 41 位病人中，15 位即 36.6% 有至少一個 treatment-emergent adverse event。Grade 3 以上的只有 1 位，也就是 2.4%。\n最常見的是 upper respiratory tract infection，12.2%。Oral herpes 和 urinary tract infection 各佔 7.3%。COVID-19 和 nasopharyngitis 各佔 4.9%。唯一一個 grade 3 以上的事件是 Clostridium difficile infection。\n最重要的一點：沒有觀察到任何 opportunistic infections。這對於一個會清除 B 細胞的藥物來說，是非常好的安全性信號。這個安全性 profile 跟我們在 rituximab 使用中擔心的長期免疫抑制風險形成了對比。"
+    },
+    "39": {
+      "hint": "American Society of Hematology | American Society of Hematology | Case 4 Teachin",
+      "note": "Case 4 的 teaching points。第一，post-rituximab relapse 很可能是由 BAFF-mediated autoreactive B-cell reconstitution 驅動的。Rituximab 清除了 B cells，但 BAFF 水平飆升，促進了自體反應性 B 細胞的重建。\n第二，ianalumab 的雙重機制，既清除 B cells 又阻斷 repopulation，直接解決了 rituximab 失敗的關鍵機制。\n第三，在 median 6 prior lines 的病人中，44% 的 confirmed response 是有臨床意義的，而且有 deepening CRs 的趨勢，暗示可能有 sustained benefit。\n第四，要關注正在進行的 VAYHIT-1，是 first-line ITP with CS；還有 VAYHIT-2，已經在 NEJM 2025 年 12 月發表，跟 TPO-RA overlap 的研究，FFTF 30% placebo vs 51-54% ianalumab。這些結果將決定 ianalumab 在治療算法中的定位。"
+    },
+    "40": {
+      "hint": "American Society of Hematology | Case 5: Second-Line ITP — Rituximab or TPO-RA?",
+      "note": "Case 5 討論的是一個在臨床上非常實際的問題。病人是 45 歲男性，在 resource-constrained setting，慢性 ITP，血小板 22，兩次 steroid 療程都失敗了。他的醫院 formulary 有 rituximab 和 eltrombopag。Cost 和 long-term sustainability 是主要考量。\n目前 TPO-RAs 並非全球都能取得，也沒有 randomized head-to-head trial 來比較 rituximab 和 TPO-RA。ASH guidelines 對兩者都是 conditional recommendation。所以這個來自 Zahid et al. 的 real-world comparison，Abstract 12848，提供了目前最好的比較數據。"
+    },
+    "41": {
+      "hint": "American Society of Hematology | American Society of Hematology | 5-Year Rituxim",
+      "note": "這是一個使用 TriNetX 資料庫的 5 年真實世界分析，matched 了 1,439 位病人每組。結果相當引人注目。\n首先是 survival：rituximab 組 76.8% vs TPO-RA 組 69.7%，HR 0.735，p 小於 0.001，rituximab 明顯更好。\n血小板低於 10K 的發生率：rituximab 22.0% vs TPO-RA 34.5%，HR 0.585，也是 rituximab 更好。GI bleeding：rituximab 5.3% vs TPO-RA 6.1%，OR 0.855，ICH 兩組相當。\nPE 和 DVT 方面，rituximab 也較低。沒有 major bleeding 的差異。住院率 rituximab 稍高，59.6% vs 55.1%。\n當然要注意，這是 retrospective 的研究，依賴 coding，有 residual confounding 的可能。但整體來看，rituximab 在 5 年的 outcomes 表現出色，特別是在 resource-constrained 的環境中，rituximab 的一次性療程成本優勢是很明顯的。"
+    },
+    "42": {
+      "hint": "American Society of Hematology | Case 6: Relapsing Immune TTP Despite Rituximab",
+      "note": "最後一個案例是最前沿的。一位 42 歲女性，6 年內有 4 次 iTTP 發作。ADAMTS13 持續偵測不到，即使接受了 3 個療程的 rituximab，但緩解期越來越短。目前用 mycophenolate 維持治療，仍有持續的低度溶血。上次發作用了 14 天的 TPE 加 caplacizumab。她問了一個很好的問題：CAR-T 有沒有可能幫到她？\n我們知道 CD19 CAR-T 在 SLE、myositis、MS 等自體免疫疾病中有非常驚人的效果，但問題是它會造成 complete B-cell aplasia 和 cytokine release。對一個需要管理數十年的疾病來說，這是一個重大的顧慮。\n這篇來自 Ruella Lab at Penn 的 Abstract 14087 提出了一個全新的 precision targeting 概念。"
+    },
+    "43": {
+      "hint": "American Society of Hematology | American Society of Hematology | Rationale for",
+      "note": "為什麼要開發 B cell receptor IGH variable region targeted 的 CAR-T 呢？\n大家看左邊的文字說明。問題在於：B cell antigen 表現範圍越廣，B cell 和 IgG 的清除就越徹底、越持久，感染風險也越高。右邊的圖表就是最好的證據：淋巴瘤病人在 CD19 CAR-T 達到 CR 後的 B cell aplasia 追蹤，可以看到 B cells 在治療後降到幾乎偵測不到的程度，即使到 5 年後，很多病人的 CD19+ B cells 仍然在正常值以下。\n另外，更廣泛的 antigen expression 也意味著更多的 T cell engagement 和更大的 cytokine release，也就是更多的 CRS 和 ICANS。\n關鍵的洞察是：不同於 CD19，B cell receptor 即 BcR 對大多數 mature B cell lymphomas 和 leukemias 的存活是必要的。那如果我們能只針對產生致病抗體的特定 B cell clone 呢？"
+    },
+    "44": {
+      "hint": "American Society of Hematology | American Society of Hematology | The B Cell Rec",
+      "note": "大家看這張圖，B Cell Receptor 是高度多樣性的。左邊是抗體的結構，IGHV 就是 Immunoglobulin Heavy chain Variable region，位於抗體的頂端，是決定抗原專一性的關鍵區域。\n中間的圓餅圖顯示健康捐贈者的 IGHV region frequency 分布。可以看到 IGHV 有數十個不同的亞型，每個亞型在正常 B cell repertoire 中都只佔一小部分。\n那麼在 iTTP 中，產生致病性 anti-ADAMTS13 抗體的 B cells 用的是哪個 IGHV 呢？"
+    },
+    "45": {
+      "hint": "American Society of Hematology | American Society of Hematology | Previously sho",
+      "note": "在之前的研究中，Cohen et al. 已經展示了針對 IGHV4-34，也叫 9G4 idiotype，的 B cell receptor directed CAR-T cells 可以選擇性地清除 SLE 中的致病 B cells。\n大家看左上方的 immunohistochemistry 染色，在 lupus nephritis 的腎臟中可以看到大量 IGHV4-34 陽性的免疫球蛋白沉積，但正常腎臟則沒有。\n右邊的功能實驗顯示，CART4-34 可以選擇性地清除 IGHV4-34 陽性的 B cells，對總體 B cells 的殺傷較小。同時也能減少 IGHV4-34 陽性 IgG 的分泌，但保留了總體 IgG 的產生。\n這個概念被發表在 Science Translational Medicine 2026，證明了 idiotype-specific CAR-T 在自體免疫疾病中的可行性。"
+    },
+    "46": {
+      "hint": "American Society of Hematology | Anti-ADAMTS13 neutralizing autoantibodies displ",
+      "note": "那在 iTTP 中呢？這張圖展示了一個關鍵發現。研究者從 4 位 iTTP 病人中 clone 了一系列 anti-ADAMTS13 autoantibody clones，並測量它們的 inhibitory activity。\n大家看紅色框標示的區域，這些是具有 neutralizing 能力的 anti-ADAMTS13 inhibitory autoantibodies。32/33 個 inhibitory clones 都使用了 IGHV1-69。這是非常高度 restricted 的 IGHV usage。\n也就是說，在 iTTP 中，造成疾病的致病性抗體幾乎都來自使用 IGHV1-69 的 B cell clones。這就提供了一個精準打擊的靶點。"
+    },
+    "47": {
+      "hint": "American Society of Hematology | vWF Multimers + Shiga Toxin (Post Developing a",
+      "note": "接下來是動物模型的驗證。研究者開發了一個 ADAMTS13-deficiency driven iTTP 的 NSG 小鼠模型。他們用表達 IGHV1-69 BCR 的 Nalm6 細胞系來模擬產生 anti-ADAMTS13 抗體的 B cells。\n左邊的圖顯示，未治療組的 anti-ADAMTS13 IgG 水平很高。CART19 和 CART1-69 都能顯著降低 anti-ADAMTS13 IgG 到接近零。\n中間和右邊分別看血小板和血紅素的變化，也支持 CART1-69 有治療效果。重要的是，CART1-69 在清除致病 B cells 方面的效果跟 CART19 相當，但理論上它應該保留了大部分正常的 B cell repertoire。"
+    },
+    "48": {
+      "hint": "American Society of Hematology | CART1-69 are safe against normal B cells Live B",
+      "note": "安全性是 precision CAR-T 最關鍵的問題之一。這張投影片證明了 CART1-69 對正常 B cells 是安全的。\n實驗設計很精妙：從 iTTP 病人的 PBMCs 分離 B cells，先在 activation media 中培養 4 天，再在 plasmablast differentiation media 中培養，第 5 天加入 CAR-T cells，72 小時後收集上清液做 ELISA 和 flow cytometry。\n下面的結果顯示，CART1-69 不會顯著減少 live B cells 的總數，也不會影響 total IgG 的分泌。這跟 CART19 形成鮮明對比，CART19 會大幅清除所有 B cells。\n這個結果支持了 precision CAR-T 的核心假設：你可以精準地消滅產生致病抗體的 B cells，同時保留正常的 B cell repertoire 和免疫功能。"
+    },
+    "49": {
+      "hint": "American Society of Hematology | American Society of Hematology | Precision CAR-",
+      "note": "當然，我們也要誠實地討論 precision CAR-T 目前的限制。\n第一，IGHV1-69 targeting 保留了大約 97% 的 B-cell repertoire，在 co-culture 研究中沒有 B-cell aplasia，這是非常好的。\n但是，第二，IGHV1-69 dominance 的基礎數據來自有限的病人系列，evidence base 還比較窄。第三，所有數據都是 preclinical 的，小鼠模型用的是工程化的 cell line，不是真正的 polyclonal autoimmune response。\n第四，IGHV1-69 也被一些保護性抗體使用，例如 influenza broadly neutralizing antibodies，所以清除這些 B cells 可能會有一些 off-target 效應。\n第五，也是最重要的，目前還沒有任何病人接受過 idiotype-specific CAR-T 治療任何 autoimmune disease。這仍然是一個概念驗證階段的研究。但概念本身是非常令人興奮的。"
+    },
+    "50": {
+      "hint": "American Society of Hematology | American Society of Hematology | Key Takeaways",
+      "note": "好，讓我們用 key takeaways 來做總結。\n第一，PF4 是一個 unifying mechanism，橫跨 APS、HIT 和 VITT。Anti-PF4 antibodies 是一個全新的治療靶點。\n第二，ICI-ITP 的發生率大約四百分之一，70% 可以耐受 rechallenge。重要的策略是從 combo 降階到 single-agent。而且 severity 可以預測死亡率。\n第三，rilzabrutinib 在 wAIHA 中展現了 74 週的持續 Hb response，有 drug-free remission 的信號，Phase 3 LUMINA-3 正在進行中。\n第四，ianalumab 透過雙重機制 deplete plus block repopulation，在 median 6 prior lines 的 ITP 病人中達到 44% 的反應率。\n第五，rituximab 在 5 年的真實世界數據中，不論是 survival 還是血小板穩定性都優於 TPO-RAs，對 resource-constrained settings 特別重要。\n第六，precision CAR-T targeting IGHV1-69 是一個令人振奮的概念，但目前仍處於 preclinical 階段，evidence base 有限。\n這些進展讓我們對 immune-mediated cytopenias 的治療前景充滿期待。"
+    },
+    "51": {
+      "hint": "American Society of Hematology | American Society of Hematology | QUESTIONS High",
+      "note": "好，以上就是今天的全部內容。非常感謝各位的聆聽。現在歡迎大家提問，我很樂意跟大家一起討論。"
+    }
+  }
+}
