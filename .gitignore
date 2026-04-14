@@ -9,3 +9,7 @@ coverage/
 # Local test/dev artifacts
 test/**/recordings/
 **/*.tmp-*
+
+# Local test PDFs (not committed — test/fixtures/ holds the canonical sample)
+test/ASH/
+test/Sunday_Trainee_Day/
