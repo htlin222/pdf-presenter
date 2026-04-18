@@ -13,3 +13,4 @@ test/**/recordings/
 # Local test PDFs (not committed — test/fixtures/ holds the canonical sample)
 test/ASH/
 test/Sunday_Trainee_Day/
+test/it-mtx/

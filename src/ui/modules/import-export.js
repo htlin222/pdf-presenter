@@ -84,7 +84,12 @@ export function wireImportExport({
       for (const key of Object.keys(notesCache)) delete notesCache[key];
       for (const [k, v] of Object.entries(newNotes)) notesCache[k] = v;
       onLoaded();
-      setStatus(`Loaded (${Object.keys(newNotes).length} slides)`, "ok");
+      const total = Object.keys(newNotes).length;
+      const filled = Object.values(newNotes).filter(
+        (e) => e && typeof e.note === "string" && e.note.trim() !== "",
+      ).length;
+      const level = total > 0 && filled === 0 ? "error" : "ok";
+      setStatus(`Loaded ${filled}/${total} slides with notes`, level);
     } catch (err) {
       setStatus(`Load failed: ${err.message || err}`, "error");
     } finally {
